@@ -1,0 +1,18 @@
+= 
+:allow-uri-read: 
+
+
+A visualização de BlueXP disaster recovery é um serviço de recuperação de desastres baseado em nuvem que automatiza os fluxos de trabalho de recuperação de desastres.  Inicialmente, com a visualização de BlueXP disaster recovery , você pode proteger suas cargas de trabalho VMware locais baseadas em NFS executando armazenamento NetApp no ​​VMware Cloud (VMC) na AWS com o Amazon FSx para ONTAP.
+
+
+NOTE: Com esta oferta de pré-visualização, a NetApp reserva-se o direito de modificar os detalhes, o conteúdo e o cronograma da oferta antes da disponibilidade geral.
+
+https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html["Saiba mais sobre a BlueXP disaster recovery"] .
+
+Esta versão inclui as seguintes atualizações:
+
+* *Atualização de grupos de recursos para ordem de inicialização*: Ao criar um plano de recuperação de desastres ou replicação, você pode adicionar máquinas virtuais em grupos de recursos funcionais.  Grupos de recursos permitem que você coloque um conjunto de máquinas virtuais dependentes em grupos lógicos que atendem aos seus requisitos.  Por exemplo, grupos podem conter ordens de inicialização que podem ser executadas na recuperação.  Com esta versão, cada grupo de recursos pode incluir uma ou mais máquinas virtuais.  As máquinas virtuais serão ligadas com base na sequência em que você as incluir no plano. Consulte https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html#select-applications-to-replicate-and-assign-resource-groups["Selecione aplicativos para replicar e atribuir grupos de recursos"] .
+* *Verificação de replicação*: Depois de criar o plano de recuperação de desastres ou replicação, identificar a recorrência no assistente e iniciar uma replicação para um site de recuperação de desastres, a cada 30 minutos a BlueXP disaster recovery verifica se a replicação está realmente ocorrendo de acordo com o plano.  Você pode monitorar o progresso na página Job Monitor. Consulte  https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/replicate.html["Replicar aplicativos para outro site"] .
+* *O plano de replicação mostra os cronogramas de transferência do objetivo do ponto de recuperação (RPO)*: Ao criar um plano de replicação ou recuperação de desastres, você seleciona as VMs.  Nesta versão, agora você pode visualizar o SnapMirror associado a cada um dos volumes associados ao armazenamento de dados ou à VM.  Você também pode ver os cronogramas de transferência de RPO associados ao cronograma do SnapMirror .  O RPO ajuda você a determinar se seu cronograma de backup é suficiente para recuperação após um desastre. Consulte https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Crie um plano de replicação"] .
+* *Atualização do Job Monitor*: A página Job Monitor agora inclui uma opção Atualizar para que você possa obter um status atualizado das operações. Consulte  https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/monitor-jobs.html["Monitorar trabalhos de recuperação de desastres"] .
+

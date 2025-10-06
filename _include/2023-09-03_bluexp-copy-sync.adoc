@@ -1,0 +1,19 @@
+= Excluir arquivos por regex
+:allow-uri-read: 
+
+
+
+
+=== Excluir arquivos por regex
+
+Os usuários agora têm a opção de excluir arquivos usando regex.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-creating-relationships.html#create-other-types-of-sync-relationships["Saiba mais sobre o recurso *Excluir extensões de arquivo*."]
+
+
+
+=== Adicionar chaves S3 ao criar o Azure Data Broker
+
+Os usuários agora podem adicionar chaves de acesso e chaves secretas do AWS S3 ao criar um corretor de dados do Azure.
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html#creating-the-data-broker["Saiba mais sobre como criar um data broker no Azure."]

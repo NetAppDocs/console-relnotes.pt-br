@@ -1,0 +1,23 @@
+---
+settings:
+  name: Release Notes
+  internal:
+    pdf_enabled: true
+  prod:
+    pdf_enabled: true
+    harmony_enabled: false
+  rss_page: whats-new.html
+  langs: pt-br,us-en,de-de,es-es,fr-fr,it-it,ja-jp,ko-kr,zh-cn,zh-tw
+sidebar:
+  entries:
+  - title: Notas de versão do NetApp Console
+    url: "/index.html"
+  - title: Mudanças recentes
+    url: "/whats-new.html"
+  - title: Índice de notas de lançamento
+    url: "/release-notes-index.html"
+  - title: Avisos legais
+    url: "/legal-notices.html"
+product-family:
+  name: NetApp Console
+  repo: console-family

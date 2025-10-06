@@ -1,0 +1,563 @@
+---
+sidebar: sidebar 
+permalink: whats-new.html 
+keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, bluexp, cloud volumes ontap, licenses, digital wallet, subscriptions, cloud backup, cloud tiering, data sense, ransomware, connector, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, ontap clusters, alerts, identity and access management, iam, recovery, netapp console, console' 
+summary: Saiba mais sobre as alterações mais recentes nos recursos e serviços de dados que fazem parte do NetApp Console. 
+---
+= Alterações recentes no NetApp Console
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Saiba mais sobre as alterações mais recentes nos recursos e serviços de dados que fazem parte do NetApp Console.  Para um histórico completo de lançamentos, acesse olink:release-notes-index.html["conjunto completo de notas de lançamento"] para cada serviço individual.
+
+
+
+== Características administrativas
+
+Esta seção descreve novos recursos relacionados aos recursos de administração do NetApp Console: organizações, identificação e acesso, agentes do Console, credenciais do provedor de nuvem e muito mais.
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/console-setup-admin/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Alertas
+
+
+
+=== 06 de outubro de 2025
+
+
+
+==== Os BlueXP alerts agora são alertas ONTAP
+
+Os BlueXP alerts foram renomeados para alertas ONTAP .
+
+Você pode acessá-lo na barra de navegação esquerda do NetApp Console selecionando *Armazenamento* > *Alertas*.
+
+
+
+==== BlueXP agora é NetApp Console
+
+O NetApp Console, criado com base na base aprimorada e reestruturada do BlueXP , fornece gerenciamento centralizado do armazenamento NetApp e do NetApp Data Services em ambientes locais e na nuvem em nível empresarial, fornecendo insights em tempo real, fluxos de trabalho mais rápidos e administração simplificada, de forma altamente segura e compatível.
+
+Para obter detalhes sobre o que mudou, consulte olink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de versão do NetApp Console"] .
+
+
+
+=== 07 de outubro de 2024
+
+
+
+==== Página da lista de BlueXP alerts
+
+Você pode identificar rapidamente clusters ONTAP com baixa capacidade ou baixo desempenho, avaliar a extensão da disponibilidade e identificar riscos de segurança. Você pode visualizar alertas relacionados à capacidade, desempenho, proteção, disponibilidade, segurança e configuração.
+
+
+
+==== Detalhes dos alertas
+
+Você pode detalhar os alertas e encontrar recomendações.
+
+
+
+==== Exibir detalhes do cluster vinculados ao ONTAP System Manager
+
+Com os BlueXP alerts, você pode visualizar alertas associados ao seu ambiente de armazenamento ONTAP e detalhar os links vinculados ao ONTAP System Manager.
+
+https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["Saiba mais sobre os BlueXP alerts"] .
+
+
+
+== Amazon FSx para ONTAP
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/console-fsx-ontap/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Armazenamento Amazon S3
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/storage-managment-s3-storage/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Armazenamento de Blobs do Azure
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/storage-management-blob-storage/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Azure NetApp Files
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/storage-management-azure-netapp-files/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Backup e Recuperação
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/data-services-backup-recovery/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Classificação de Dados
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/data-services-data-classification/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Cloud Volumes ONTAP
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/storage-management-cloud-volumes-ontap/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Copiar e sincronizar
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/data-services-copy-sync/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Consultor digital
+
+
+
+=== 06 de outubro de 2025
+
+
+
+==== BlueXP agora é NetApp Console
+
+O NetApp Console, criado com base na base aprimorada e reestruturada do BlueXP , fornece gerenciamento centralizado do armazenamento NetApp e do NetApp Data Services em ambientes locais e na nuvem em nível empresarial, fornecendo insights em tempo real, fluxos de trabalho mais rápidos e administração simplificada, de forma altamente segura e compatível.
+
+Para obter detalhes sobre o que mudou, consulte o https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de versão do NetApp Console"] .
+
+
+
+=== 06 de agosto de 2025
+
+
+
+==== Suporte a interruptores autorizados
+
+Agora você pode visualizar informações sobre os switches SAN Fibre Channel Brocade que têm direito a suporte. Isso inclui detalhes sobre o modelo do switch, número de série e status de suporte. link:https://docs.netapp.com/us-en/active-iq/task_view_inventory_details.html["Aprenda como visualizar o suporte intitulado switches"] .
+
+
+
+==== Limite para dados de AutoSupport RSS
+
+O limite de Envios Interrompidos Recentemente (RSS), no widget AutoSupport , foi estendido de 48 horas (2 dias) para 216 horas (9 dias) antes que um sistema seja sinalizado como RSS. Isso é feito para acomodar plataformas como o StorageGRID , que enviam apenas dados semanais do AutoSupport .
+
+
+
+==== Seção de API obsoleta no catálogo de API do Digital Advisor
+
+Uma nova seção de API obsoleta está disponível no catálogo de API do Digital Advisor . Ele lista as APIs que estão programadas para descontinuação, juntamente com cronogramas de descontinuação e APIs alternativas.
+
+
+
+==== Previsão de capacidade V2 e descontinuação dos módulos da API End of Support
+
+Os módulos de previsão de capacidade V2 e API de fim de suporte estão programados para descontinuação. Para acessar as APIs obsoletas ou saber sobre os cronogramas de obsolescência e APIs alternativas, navegue até *Serviços de API -> Procurar -> APIs obsoletas*.
+
+
+
+=== 09 Julho 2025
+
+
+
+==== Consultor de atualização
+
+* Uma opção de download multiformato foi incluída nos planos do Upgrade Advisor para simplificar o planejamento de atualização do ONTAP e abordar possíveis bloqueadores ou avisos.  Agora você pode baixar os planos do Upgrade Advisor nos formatos Excel, PDF e JSON.
+* No formato Excel do plano Upgrade Advisor, as seguintes melhorias foram feitas:
++
+** Você pode visualizar as pré-verificações realizadas no cluster, sinalizando os resultados com indicadores como “Aprovado”, “Falha” ou “Ignorado”.  Isso garante que o cluster esteja em condições ideais para concluir a atualização do ONTAP .
+** Você pode visualizar as atualizações de firmware mais recentes recomendadas aplicáveis ​​ao cluster, juntamente com a versão enviada com a versão de destino do ONTAP .
+** Foi incluída uma nova guia que oferece verificações de interoperabilidade para clusters SAN.  Ele fornece uma visão das versões do sistema operacional host suportadas para a versão do ONTAP de destino selecionada.
+
+
+
+
+
+
+== Licenças e assinaturas
+
+
+
+=== 06 de outubro de 2025
+
+
+
+==== BlueXP agora é NetApp Console
+
+O NetApp Console, criado com base na base aprimorada e reestruturada do BlueXP , fornece gerenciamento centralizado do armazenamento NetApp e do NetApp Data Services em ambientes locais e na nuvem em nível empresarial, fornecendo insights em tempo real, fluxos de trabalho mais rápidos e administração simplificada, de forma altamente segura e compatível.
+
+Para obter detalhes sobre o que mudou, consulte olink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de versão do NetApp Console"] .
+
+
+
+=== 10 de março de 2025
+
+
+
+==== Capacidade de remover assinaturas
+
+Agora você pode remover assinaturas da carteira digital caso tenha cancelado a assinatura delas.
+
+
+
+==== Exibir capacidade consumida para assinaturas do Marketplace
+
+Ao visualizar assinaturas PAYGO, agora você pode visualizar a capacidade consumida da assinatura.
+
+
+
+=== 10 de fevereiro de 2025
+
+A BlueXP digital wallet foi redesenhada para facilitar o uso e agora oferece gerenciamento adicional de assinaturas e licenças.
+
+
+
+==== Novo painel de visão geral
+
+A página inicial da carteira digital tem um painel atualizado de suas licenças NetApp e assinaturas do Marketplace, com a capacidade de detalhar serviços específicos, tipos de licença e ações necessárias.
+
+
+
+==== Configurando assinaturas para credenciais
+
+A BlueXP digital wallet agora permite que você configure suas assinaturas para credenciais de provedores. Normalmente, você faz isso quando assina pela primeira vez uma assinatura do Marketplace ou um contrato anual. Anteriormente, a alteração das credenciais da assinatura só podia ser feita na página Credenciais.
+
+
+
+==== Associando assinaturas a organizações
+
+Agora você pode atualizar a organização à qual uma assinatura está associada diretamente da carteira digital.
+
+
+
+==== Gerenciando licenças do Cloud Volume ONTAP
+
+Agora você gerencia as licenças do Cloud Volumes ONTAP por meio da página inicial ou da aba *Licenças diretas*. Use a aba *Assinaturas do Marketplace* para visualizar as informações da sua assinatura.
+
+
+
+=== 5 de março de 2024
+
+
+
+==== BlueXP disaster recovery
+
+A BlueXP digital wallet agora permite que você gerencie licenças para BlueXP disaster recovery. Você pode adicionar licenças, atualizar licenças e visualizar detalhes sobre a capacidade licenciada.
+
+https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-data-services-licenses.html["Aprenda a gerenciar licenças para serviços de dados BlueXP"]
+
+
+
+=== 30 Julho 2023
+
+
+
+==== Melhorias nos relatórios de uso
+
+Várias melhorias nos relatórios de uso do Cloud Volumes ONTAP já estão disponíveis:
+
+* A unidade TiB agora está incluída no nome das colunas.
+* Um novo campo _nó(s)_ para números de série agora está incluído.
+* Uma nova coluna _Tipo de carga de trabalho_ agora está incluída no relatório de uso de VMs de armazenamento.
+* Os nomes do ambiente de trabalho agora estão incluídos nos relatórios de uso de volumes e VMs de armazenamento.
+* O tipo de volume _arquivo_ agora é rotulado como _Primário (Leitura/Gravação)_.
+* O tipo de volume _secundário_ agora é rotulado como _Secundário (DP)_.
+
+
+Para obter mais informações sobre os relatórios de uso, consulte https://docs.netapp.com/us-en/bluexp-digital-wallet/task-manage-capacity-licenses.html#download-usage-reports["Baixar relatórios de uso"] .
+
+
+
+== Recuperação de desastres
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/storage-management-disaster-recovery/main/release-notes/dr-whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Sistemas da série E
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/storage-management-e-series/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Planejamento do ciclo de vida
+
+
+
+=== 06 de outubro de 2025
+
+
+
+==== A BlueXP economic efficiency agora é planejamento do ciclo de vida
+
+A BlueXP economic efficiency foi renomeada para Planejamento do ciclo de vida.
+
+Você pode acessá-lo na barra de navegação esquerda do NetApp Console selecionando *Armazenamento* > *Planejamento do ciclo de vida*.
+
+
+
+==== BlueXP agora é NetApp Console
+
+O NetApp Console, criado com base na base aprimorada e reestruturada do BlueXP , fornece gerenciamento centralizado do armazenamento NetApp e do NetApp Data Services em ambientes locais e na nuvem em nível empresarial, fornecendo insights em tempo real, fluxos de trabalho mais rápidos e administração simplificada, de forma altamente segura e compatível.
+
+Para obter detalhes sobre o que mudou, consulte olink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de versão do NetApp Console"] .
+
+
+
+=== 15 de maio de 2024
+
+
+
+==== Recursos desabilitados
+
+Alguns recursos de BlueXP economic efficiency foram temporariamente desativados:
+
+* Atualização tecnológica
+* Adicionar capacidade
+
+
+
+
+=== 14 de março de 2024
+
+
+
+==== Opções de atualização de tecnologia
+
+Se você já possui ativos e deseja determinar se uma tecnologia precisa ser atualizada, você pode usar as opções de atualização de tecnologia de eficiência econômica do BlueXP . Você pode revisar uma breve avaliação de suas cargas de trabalho atuais e obter recomendações ou, se você enviou logs do AutoSupport para a NetApp nos últimos 90 dias, o serviço agora pode fornecer uma simulação de carga de trabalho para ver o desempenho de suas cargas de trabalho no novo hardware.
+
+Você também pode adicionar uma carga de trabalho e excluir cargas de trabalho existentes da simulação.
+
+Anteriormente, você só podia fazer uma avaliação dos seus ativos e identificar se uma atualização tecnológica era recomendada.
+
+O recurso agora faz parte da opção Atualização de tecnologia na navegação à esquerda.
+
+Saiba mais sobre o https://docs.netapp.com/us-en/bluexp-economic-efficiency/use/tech-refresh.html["Avalie uma atualização tecnológica"] .
+
+
+
+== Cache de borda
+
+O serviço de cache de borda foi removido em 7 de agosto de 2024.
+
+
+
+== Google Cloud NetApp Volumes
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/storage-management-google-cloud-netapp-volumes/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Armazenamento em nuvem do Google
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/storage-management-google-cloud-storage/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Keystone
+
+
+
+=== 06 de outubro de 2025
+
+
+
+==== BlueXP agora é NetApp Console
+
+O NetApp Console, criado com base na base aprimorada e reestruturada do BlueXP , fornece gerenciamento centralizado do armazenamento NetApp e do NetApp Data Services em ambientes locais e na nuvem em nível empresarial, fornecendo insights em tempo real, fluxos de trabalho mais rápidos e administração simplificada, de forma altamente segura e compatível.
+
+2ef72cc8a56fc5999e258b450b9fca24
+
+
+
+=== 22 de setembro de 2025
+
+
+
+==== Adição de monitoramento de alertas
+
+O painel do Keystone no BlueXP agora inclui uma aba *Monitoramento* para gerenciar alertas e monitores em suas assinaturas. Esta nova aba permite que você:
+
+* Visualize e resolva alertas ativos, incluindo alertas gerados pelo sistema e definidos pelo usuário para uso de capacidade e expiração de assinatura.
+* Crie monitores de alerta para rastrear o uso da capacidade e eventos de expiração de assinatura.
+
+
+Para saber mais, consultelink:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alerts.html["Visualizar e gerenciar alertas e monitores"] .
+
+
+
+==== Visualização simplificada dos níveis de serviço de desempenho
+
+Você pode visualizar as informações sobre os níveis de serviço de desempenho, agora movidas de uma guia separada para uma visualização expansível, na guia *Assinaturas*. Clique na seta para baixo ao lado da coluna *Data de validade* para visualizá-las para cada assinatura. Para saber mais, consultelink:https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["Veja detalhes sobre suas assinaturas Keystone"] .
+
+
+
+=== 28 de agosto de 2025
+
+
+
+==== Rastreamento de uso lógico aprimorado com uma nova coluna
+
+Uma nova coluna, Total footprint, foi adicionada para melhorar o rastreamento do consumo do Keystone para volumes do FabricPool :
+
+* * Painel do Keystone no BlueXP*: Você pode ver a coluna *Pegada total* na aba *Volumes em clusters* dentro da aba *Ativos*.
+* * Digital Advisor*: Você pode ver a coluna *Pegada Total* na aba *Detalhes do Volume* dentro da aba *Volumes e Objetos*.
+
+
+Esta coluna exibe a pegada lógica total para volumes que usam a divisão em camadas do FabricPool , incluindo dados de camadas de desempenho e frias, para que você possa calcular com precisão o consumo do Keystone .
+
+
+
+== Kubernetes
+
+O suporte para descoberta e gerenciamento de clusters do Kubernetes foi removido em 7 de agosto de 2024.
+
+
+
+== Relatórios de migração
+
+O serviço de relatórios de migração foi removido em 7 de agosto de 2024.
+
+
+
+== Clusters ONTAP locais
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/storage-management-ontap-onprem/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Resiliência operacional
+
+Os recursos de resiliência operacional foram removidos em 22 de agosto de 2025.
+
+
+
+== Resiliência ao Ransomware
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/data-services-ransomware-resilience/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Remediação
+
+O serviço de correção foi removido em 22 de abril de 2024.
+
+
+
+== Replicação
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/data-services-replication/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Atualizações de software
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/console-software-updates/main/release-notes/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== StorageGRID
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/storage-managment-storagegrid/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Camadas de nuvem
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/data-service-cloud-tiering/main/whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Cache de volume
+
+Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/console-volume-caching/main/release-notes/cache-whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+
+== Fábrica de carga de trabalho
+
+
+
+=== 29 de junho de 2025
+
+
+
+==== Atualização de permissões para bancos de dados
+
+A seguinte permissão agora está disponível no modo _somente leitura_ para bancos de dados: `cloudwatch:GetMetricData` .
+
+https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Registro de alterações de referência de permissões"]
+
+
+
+==== Suporte ao serviço de notificação de BlueXP workload factory
+
+O serviço de notificação do BlueXP workload factory permite que o Workload Factory envie notificações ao serviço de BlueXP alerts ou a um tópico do Amazon SNS.  As notificações enviadas aos BlueXP alerts aparecem no painel de BlueXP alerts .  Quando a fábrica de carga de trabalho publica notificações em um tópico do Amazon SNS, os assinantes do tópico (como pessoas ou outros aplicativos) recebem as notificações nos endpoints configurados para o tópico (como e-mail ou mensagens SMS).
+
+https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurar notificações de BlueXP workload factory"]
+
+
+
+=== 04 de maio de 2025
+
+
+
+==== Suporte para preenchimento automático do CloudShell
+
+Ao usar o CloudShell do BlueXP workload factory , você pode começar a digitar um comando e pressionar a tecla Tab para visualizar as opções disponíveis.  Se houver várias possibilidades, a CLI exibirá uma lista de sugestões.  Esse recurso aumenta a produtividade minimizando erros e acelerando a execução de comandos.
+
+
+
+==== Terminologia de permissões atualizada
+
+A interface do usuário e a documentação do Workload Factory agora usam "somente leitura" para se referir às permissões de leitura e "leitura/gravação" para se referir às permissões de automação.
+
+
+
+=== 30 de março de 2025
+
+
+
+==== O CloudShell relata respostas de erro geradas por IA para comandos ONTAP CLI
+
+Ao usar o CloudShell, sempre que você emitir um comando ONTAP CLI e ocorrer um erro, você poderá obter respostas de erro geradas pela IA que incluem uma descrição da falha, a causa da falha e uma resolução detalhada.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Usar CloudShell"]
+
+
+
+==== iam:Atualização de permissão SimulatePermissionPolicy
+
+Agora você pode gerenciar o `iam:SimulatePrincipalPolicy` permissão do console do workload factory quando você adiciona credenciais de conta adicionais da AWS ou adiciona um novo recurso de carga de trabalho, como a carga de trabalho GenAI.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Registro de alterações de referência de permissões"]
+
+
+
+=== 02 de fevereiro de 2025
+
+
+
+==== CloudShell disponível no console de BlueXP workload factory
+
+O CloudShell está disponível em qualquer lugar no console da BlueXP workload factory .  O CloudShell permite que você use as credenciais da AWS e do ONTAP que você forneceu na sua conta do BlueXP e execute comandos da AWS CLI ou comandos da ONTAP CLI em um ambiente semelhante a um shell.
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/use-cloudshell.html["Usar CloudShell"]
+
+
+
+==== Atualização de permissões para bancos de dados
+
+A seguinte permissão agora está disponível no modo _leitura_ para bancos de dados: `iam:SimulatePrincipalPolicy` .
+
+link:https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Registro de alterações de referência de permissões"]

@@ -1,0 +1,38 @@
+= 
+:allow-uri-read: 
+
+
+Esta versão prévia da BlueXP disaster recovery inclui as seguintes atualizações:
+
+* *Atualizações do painel*: Agora você pode clicar nas opções do painel, facilitando a revisão rápida das informações.  Além disso, o Painel agora mostra o status de failovers e migrações.
++
+Consulte https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/dashboard-view.html["Veja a integridade dos seus planos de recuperação de desastres no Painel"] .
+
+* *Atualizações do plano de replicação*:
++
+** *RPO*: Agora você pode inserir o Objetivo de Ponto de Recuperação (RPO) e a contagem de Retenção na seção Datastores do plano de Replicação.  Isso indica a quantidade de dados que deve existir e que não seja mais antiga que o tempo definido.  Se, por exemplo, você definir 5 minutos, o sistema poderá perder até 5 minutos de dados se ocorrer um desastre, sem afetar as necessidades críticas dos negócios.
++
+Consulte https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Crie um plano de replicação"] .
+
+** *Melhorias de rede*: Ao mapear a rede entre os locais de origem e destino na seção de máquinas virtuais do plano de replicação, a BlueXP disaster recovery agora oferece duas opções: DHCP ou IP estático.  Anteriormente, apenas DHCP era suportado.  Para IPs estáticos, você configura a sub-rede, o gateway e os servidores DNS.  Além disso, agora você pode inserir credenciais para máquinas virtuais.
++
+Consulte https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Crie um plano de replicação"] .
+
+** *Editar agendamentos*: Agora você pode atualizar agendamentos de planos de replicação.
++
+Consulte https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/manage.html["Gerenciar recursos"] .
+
+** * Automação do SnapMirror *: Ao criar o plano de replicação nesta versão, você pode definir o relacionamento do SnapMirror entre os volumes de origem e de destino em uma das seguintes configurações:
++
+*** 1 a 1
+*** 1 para muitos em uma arquitetura fanout
+*** Muitos para 1 como um grupo de consistência
+*** Muitos para muitos
++
+Consulte https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Crie um plano de replicação"] .
+
+
+
+
+
+

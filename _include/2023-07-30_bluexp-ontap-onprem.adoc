@@ -1,0 +1,13 @@
+= Criar volumes FlexGroup
+:allow-uri-read: 
+
+
+
+
+=== Criar volumes FlexGroup
+
+Se você estiver gerenciando um cluster com um conector, agora poderá criar volumes FlexGroup usando a API BlueXP .
+
+* https://docs.netapp.com/us-en/bluexp-automation/cm/wf_onprem_flexgroup_ontap_create_vol.html["Aprenda a criar um volume FlexGroup"^]
+* https://docs.netapp.com/us-en/ontap/flexgroup/definition-concept.html["Aprenda o que é um volume FlexGroup"^]
+

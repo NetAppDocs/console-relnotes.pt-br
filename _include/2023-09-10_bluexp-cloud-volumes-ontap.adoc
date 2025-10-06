@@ -1,0 +1,13 @@
+= Suporte para VMs da série Lsv3 no Azure
+:allow-uri-read: 
+
+
+As seguintes alterações foram introduzidas com a versão 3.9.33 do Connector.
+
+
+
+=== Suporte para VMs da série Lsv3 no Azure
+
+Os tipos de instância L48s_v3 e L64s_v3 agora são suportados com o Cloud Volumes ONTAP no Azure para implantações de nó único e par de alta disponibilidade com discos gerenciados compartilhados em zonas de disponibilidade únicas e múltiplas, a partir da versão 9.13.1.  Esses tipos de instância oferecem suporte ao Flash Cache.
+
+link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["Exibir configurações compatíveis com o Cloud Volumes ONTAP no Azure"^] link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-limits-azure.html["Exibir limites de armazenamento para Cloud Volumes ONTAP no Azure"^]

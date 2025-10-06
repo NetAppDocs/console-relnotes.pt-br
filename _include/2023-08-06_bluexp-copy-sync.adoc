@@ -1,0 +1,31 @@
+= Use grupos de segurança existentes do Azure ao criar um corretor de dados
+:allow-uri-read: 
+
+
+
+
+=== Use grupos de segurança existentes do Azure ao criar um corretor de dados
+
+Os usuários agora têm a opção de usar grupos de segurança existentes do Azure ao criar um corretor de dados.
+
+A conta de serviço usada ao criar o data broker deve ter estas permissões:
+
+* "Microsoft.Network/networkSecurityGroups/securityRules/leitura"
+* "Microsoft.Network/networkSecurityGroups/leitura"
+
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-azure.html["Saiba mais sobre como criar um data broker no Azure."]
+
+
+
+=== Criptografar dados ao sincronizar com o Google Storage
+
+Os usuários agora têm a opção de especificar uma chave de criptografia gerenciada pelo cliente ao criar um relacionamento de sincronização com um bucket do Google Storage como destino.  Você pode inserir sua chave manualmente ou escolher em uma lista de chaves em uma única região.
+
+A conta de serviço usada ao criar o data broker deve ter estas permissões:
+
+* cloudkms.cryptoKeys.lista
+* cloudkms.keyRings.lista
+
+
+https://docs.netapp.com/us-en/bluexp-copy-sync/reference-requirements.html#google-cloud-storage-bucket-requirements["Saiba mais sobre os requisitos do bucket do Google Cloud Storage."]
