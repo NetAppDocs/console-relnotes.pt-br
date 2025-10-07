@@ -216,8 +216,6 @@
   <block id="2352c4e1f4d0024ade0869e00e6243f4" category="paragraph"><block ref="2352c4e1f4d0024ade0869e00e6243f4" category="inline-link-macro-rx"></block></block>
   <block id="c0227cef6f07a8cd2ac72f2945b031aa" category="section-title">Código aberto</block>
   <block id="9b73989307c1975dfa4d5e1581e4afe8" category="paragraph">Os arquivos de aviso fornecem informações sobre direitos autorais e licenças de terceiros usados no software NetApp .</block>
-  <block id="c95623cd0395d5a6bb6105b9d32f197b" category="inline-link">Aviso para BlueXP</block>
-  <block id="abaec7963eb8222ed14431be024401a4" category="paragraph"><block ref="abaec7963eb8222ed14431be024401a4" category="inline-link-rx"></block></block>
   <block id="b29a85c15005651c48574fb5545ac642" category="summary">Veja o conjunto completo de notas de versão para recursos de administração e armazenamento do NetApp Console e serviços de dados do NetApp .</block>
   <block id="ad49677f8bac8ede065e8839632b6f38" category="doc">Índice de notas de lançamento</block>
   <block id="dbcccb2147a9d40ab6fc69fe3c89deb4" category="paragraph">Veja o conjunto completo de notas de versão para recursos do NetApp Console e serviços de dados do NetApp .</block>
@@ -233,7 +231,6 @@
   <block id="723ffd15eb7b4453afd0fa0af42c04c3" category="inline-link">Eficiência econômica</block>
   <block id="b727cbb596aac54508c1419e8e2a577d" category="list-text"><block ref="b727cbb596aac54508c1419e8e2a577d" category="inline-link-rx"></block></block>
   <block id="0e83ec1135d78041291977ef91f42a52" category="inline-link">Licenças e assinaturas</block>
-  <block id="46eb0ca8fc6ca304030e265c5e244b62" category="list-text"><block ref="46eb0ca8fc6ca304030e265c5e244b62" category="inline-link-rx"></block></block>
   <block id="5009e1070e5138d1308165bc75e5706b" category="inline-link">Atualizações de software</block>
   <block id="d6e02c1660722659bb2e7d72c644568f" category="list-text"><block ref="d6e02c1660722659bb2e7d72c644568f" category="inline-link-rx"></block></block>
   <block id="8c4aa541ee911e8d80451ef8cc304806" category="section-title">Armazenar</block>
@@ -266,7 +263,6 @@
   <block id="f05ea9e0c9ccffc58a546b5b7a0d8608" category="inline-link">Backup e Recuperação</block>
   <block id="7a07c5a1c722a3ac42eb82b2ec878373" category="list-text"><block ref="7a07c5a1c722a3ac42eb82b2ec878373" category="inline-link-rx"></block></block>
   <block id="604880f6f585767eee17ec85b3c76533" category="inline-link">Classificação de Dados</block>
-  <block id="ba1a666817c95438c9395ea7cd7a5a86" category="list-text"><block ref="ba1a666817c95438c9395ea7cd7a5a86" category="inline-link-rx"></block></block>
   <block id="e216b7a924341f796bca310d1d812baf" category="inline-link">Copiar e sincronizar</block>
   <block id="04ea90fa4ce52ced6ae4f5b48b533a78" category="list-text"><block ref="04ea90fa4ce52ced6ae4f5b48b533a78" category="inline-link-rx"></block></block>
   <block id="e413eba49b15917b0c9dbf2620f3e66e" category="inline-link">Recuperação de desastres</block>
@@ -281,12 +277,6 @@
   <block id="7e03f9bb7153d5b3040df4bfd7a48686" category="list-text"><block ref="7e03f9bb7153d5b3040df4bfd7a48686" category="inline-link-rx"></block></block>
   <block id="35ccbae2ce9b9594b9af9196a3bed361" category="inline-link">Fábrica de carga de trabalho</block>
   <block id="0b672c7e4b6adbcc5d61df4659dfc304" category="list-text"><block ref="0b672c7e4b6adbcc5d61df4659dfc304" category="inline-link-rx"></block></block>
-  <block id="b56253bf92505bda20b38657c778bccf" category="doc">Título da página vai aqui</block>
-  <block id="5d9328ee3f628e51f1a4f871ccff7313" category="paragraph">Use este modelo para artigos, tópicos, seja qual for o nome que você dê a eles. O arquivo index.adoc não tem as palavras-chave corretas para uma página de artigo e usá-lo como modelo pode causar problemas de publicação mais tarde.</block>
-  <block id="26739de98ff2a207a5c145caf27c2508" category="admonition">Exclua este arquivo antes da publicação inicial, pois o arquivo será publicado mesmo que não esteja vinculado à barra lateral. Depois de criar alguns artigos, você pode usá-los como ponto de partida.</block>
-  <block id="38b255c5af258b1f086fb7c9aa4f252c" category="paragraph">Se seus artigos estiverem em uma subpasta de conteúdo, você precisará fazer dois ajustes na notação mostrada acima:</block>
-  <block id="df25e29acec650a07b41041946158355" category="list-text"><block ref="abc9d0bfc8d5688ddd4babf6a5402ee4" prefix="" category="inline-code"></block></block>
-  <block id="97df5ffadc97296dc727ffddf2d2e1fe" category="list-text"><block ref="ff695bd1637208b4929c7ae2085cd551" prefix="" category="inline-code"></block></block>
   <block id="408e61facc1c13aa7e65b38dc1640383" category="summary">Saiba mais sobre as alterações mais recentes nos recursos e serviços de dados que fazem parte do NetApp Console.</block>
   <block id="d993253a036cc611c31d10230987c4bf" category="doc">Alterações recentes no NetApp Console</block>
   <block id="06ec635aca479394e3f10f59b57ce807" category="inline-link-macro">conjunto completo de notas de lançamento</block>
@@ -310,8 +300,6 @@
   <block id="a81101241f6ae4b53dda6f72078e1a84" category="paragraph">Com os BlueXP alerts, você pode visualizar alertas associados ao seu ambiente de armazenamento ONTAP e detalhar os links vinculados ao ONTAP System Manager.</block>
   <block id="d0f2765e5de3103a5c432ec160dff29f" category="inline-link">Saiba mais sobre os BlueXP alerts</block>
   <block id="52db2fc7f4de1af0e1245bc3f891ce57" category="paragraph"><block ref="094e829cc75a913d98050fa15a3d0c12" category="inline-link-rx"></block> .</block>
-  <block id="b1f6aa5cd3cf83ad821c79fe598931fd" category="paragraph">Diretiva não resolvida em &lt;stdin&gt; - include:: https://raw.githubusercontent.com/NetAppDocs/console-fsx-ontap/main/whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
-  <block id="bed0d14e17dcfaaeaea51dce2d7189fc" category="paragraph">Diretiva não resolvida em &lt;stdin&gt; - include:: https://raw.githubusercontent.com/NetAppDocs/storage-managment-s3-storage/main/whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
   <block id="6fe4264e25ab7d4538e3cd8b851adfcf" category="section-title">Copiar e sincronizar</block>
   <block id="377c338b114283d24b3f1ef1a73bd1a9" category="paragraph">Para obter detalhes sobre o que mudou, consulte o<block ref="857ac87b6d807bceb0af9d0ff774da69" category="inline-link-rx"></block> .</block>
   <block id="e8b6643d4bda95ae4c2dacb6a8e40cac" category="section-title">06 de agosto de 2025</block>
@@ -396,8 +384,6 @@
   <block id="5f2e609dafef66bdac17d517b701b5cd" category="paragraph">Os recursos de resiliência operacional foram removidos em 22 de agosto de 2025.</block>
   <block id="282baca6aef56652f503adce6afa9f07" category="section-title">Remediação</block>
   <block id="d80d66faf1506d2c22d481620ab133ea" category="paragraph">O serviço de correção foi removido em 22 de abril de 2024.</block>
-  <block id="b5a69118f32e3db146c29d98f8baf80d" category="paragraph">Diretiva não resolvida em &lt;stdin&gt; - include:: https://raw.githubusercontent.com/NetAppDocs/storage-managment-storagegrid/main/whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
-  <block id="ec5be73f5b6f32ab0f879db6114d6b44" category="paragraph">Diretiva não resolvida em &lt;stdin&gt; - include:: https://raw.githubusercontent.com/NetAppDocs/data-service-cloud-tiering/main/whats-new.adoc [tag=whats-new,leveloffset=+1]</block>
   <block id="7454fc4c14df2a987637928e569efe3a" category="section-title">29 de junho de 2025</block>
   <block id="f3a98886e89c22ab1a8df16ff87d5b3c" category="section-title">Atualização de permissões para bancos de dados</block>
   <block id="cb30bdb55bb8a7a0530a31a5e6cdd0bb" category="paragraph">A seguinte permissão agora está disponível no modo _somente leitura_ para bancos de dados:<block ref="f63e0d20057299c9c16bd0c2c9e92a5c" prefix=" " category="inline-code"></block> .</block>
@@ -602,8 +588,6 @@
   <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">Modelos de volume não são mais suportados</block>
   <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">Não é mais possível criar um volume a partir de um modelo. Esta ação foi associada ao serviço de correção BlueXP , que não está mais disponível.</block>
   <block id="b3f4950f8261377915f43d28700ec58c" category="paragraph">Esta versão do NetApp Backup and Recovery inclui as seguintes atualizações.</block>
-  <block id="fc93653f0e9d2392483e6d5d49522050" category="section-title">O NetApp Backup and Recovery agora é NetApp Backup and Recovery</block>
-  <block id="380fa8333654730810eec55ed85c680c" category="paragraph">O NetApp Backup and Recovery foi renomeado para NetApp Backup and Recovery.</block>
   <block id="387c71fcb2fb7fdf9038db9d12137530" category="inline-link-macro">Notas de versão do NetApp Console.</block>
   <block id="3a1e37eecca95e81d9e509646022ffda" category="paragraph">Para obter detalhes sobre o que mudou, consulte o<block ref="019a5c722618673de9fa5ca0cf2abddb" category="inline-link-macro-rx"></block></block>
   <block id="86df852f08da7feceb910d31327e83d7" category="section-title">Suporte à carga de trabalho do Hyper-V como uma visualização privada</block>
@@ -1024,4 +1008,52 @@
   <block id="09ef633d09a9d5e5cf3ab27b167cac1b" category="paragraph">O serviço de notificação do NetApp Workload Factory inclui a notificação para problemas bem arquitetados para armazenamento.</block>
   <block id="a640a35e23fdb53d8114aafcadb8064c" category="inline-link-macro">Notificações para NetApp Workload Factory</block>
   <block id="cf1b0a0504b0d60ecb883c780228a1eb" category="paragraph"><block ref="cf1b0a0504b0d60ecb883c780228a1eb" category="inline-link-macro-rx"></block></block>
+  <block id="50dbf63cd0ab8144a287e5cd6a0f1de2" category="inline-link">Aviso para o NetApp Console</block>
+  <block id="c87093fc5ce0aab848deaeae14c761b9" category="paragraph"><block ref="c87093fc5ce0aab848deaeae14c761b9" category="inline-link-rx"></block></block>
+  <block id="a867f49218cc7725086e47bc5d9d2be6" category="list-text"><block ref="a867f49218cc7725086e47bc5d9d2be6" category="inline-link-rx"></block></block>
+  <block id="b31bd4d213bc7c73048e2663f45d0ad0" category="list-text"><block ref="b31bd4d213bc7c73048e2663f45d0ad0" category="inline-link-rx"></block></block>
+  <block id="50299f698a54426aba27448f16803e14" category="paragraph">Para obter detalhes sobre o que mudou, consulte o<block ref="e3255f3ec57d44ee455071e58df2778b" category="inline-link-macro-rx"></block></block>
+  <block id="613abd0d9da6f7ee37d283174e11fcaf" category="section-title">03 de agosto de 2025</block>
+  <block id="6a6ae8005c209a1567f9003ea9e5cebe" category="section-title">Melhorias na guia Relacionamentos de replicação</block>
+  <block id="c6a6fda1561189188099a8444886e4b7" category="paragraph">Adicionamos várias colunas novas à tabela de relacionamentos de replicação para fornecer mais informações sobre seus relacionamentos de replicação na guia *Relacionamentos de replicação*. A tabela agora inclui as seguintes colunas:</block>
+  <block id="932acf34d9bec3ecdd131ec5df85300a" category="list-text">Política do SnapMirror</block>
+  <block id="7d93b9eb1786d863bc7d27df5febb919" category="list-text">Sistema de arquivos de origem</block>
+  <block id="144b2facd92022aa813f8fba914dfa05" category="list-text">Sistema de arquivos de destino</block>
+  <block id="e56f83171e12921713ed939e1572ddaf" category="list-text">Estado do relacionamento</block>
+  <block id="f1b110a50dd5467d821019e318f363a2" category="list-text">Último horário de transferência</block>
+  <block id="374920fe25826b7adee398c37f9fc3ed" category="section-title">Suporte para replicação de dados entre dois sistemas de arquivos FSx para ONTAP</block>
+  <block id="26beedda3c932bb48fc93a722d410ff6" category="paragraph">A replicação de dados agora está disponível entre dois sistemas de arquivos FSx para ONTAP a partir da tela no console BlueXP .</block>
+  <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">Replicar dados</block>
+  <block id="12bcd6a565798d844427c95531c1c0ec" category="paragraph"><block ref="12bcd6a565798d844427c95531c1c0ec" category="inline-link-macro-rx"></block></block>
+  <block id="a1250c4ad86e23ad680ae47343ed64ad" category="paragraph">Para obter detalhes sobre o que mudou, consulte o<block ref="a3987562479f1a66db4eec298b79e00c" category="inline-link-macro-rx"></block> . == 05 de março de 2023</block>
+  <block id="912b3a604a5106bda5b0c99ddaaf1364" category="section-title">Capacidade de adicionar novos buckets do BlueXP</block>
+  <block id="c07c4e2e029d6d6eb829c29902cb63ff" category="inline-link">Veja como adicionar novos buckets do Amazon S3</block>
+  <block id="5e7b506ddcb37df2fdbf21f6eaed65d6" category="paragraph">Já faz algum tempo que você consegue visualizar os buckets do Amazon S3 no BlueXP Canvas. Agora você pode adicionar novos buckets e alterar propriedades de buckets existentes diretamente do BlueXP.<block ref="f0047d35a3b71c36a6aefb7ce54c7ec6" category="inline-link-rx"></block> .</block>
+  <block id="83b5525699223779088aa2e2c9ca5b1a" category="section-title">O BlueXP backup and recovery agora são NetApp Backup e Recovery</block>
+  <block id="6a119fc880b70d0e27bca4b7243a7a55" category="paragraph">O BlueXP backup and recovery foi renomeado para NetApp Backup and Recovery.</block>
+  <block id="2bef154766331bbaacbab995f24ef0c2" category="section-title">Funções de acesso BlueXP necessárias</block>
+  <block id="44a4a7c03393e00f4aeee3bd72474eea" category="paragraph">Agora você precisa de uma das seguintes funções de acesso para visualizar, descobrir ou gerenciar o StorageGRID no BlueXP: *Administrador da organização*, *Administrador de pasta ou projeto*, *Administrador de armazenamento* ou *Especialista em integridade de armazenamento*.<block ref="b792d0fe33393ff1eec4387f959ddd2c" category="inline-link-macro-rx"></block></block>
+  <block id="43371a1519dc6641cd8852962e536c3e" category="section-title">7 de agosto de 2024</block>
+  <block id="9e171afa6c3124020f16e21de1c7b2f4" category="section-title">Nova visualização avançada</block>
+  <block id="0f58e681c3f3ea59c830353dd632a86c" category="paragraph">A partir do StorageGRID 11.8, você pode usar a interface familiar do Grid Manager para gerenciar seu sistema StorageGRID a partir do BlueXP.</block>
+  <block id="af7b48fef3ac95547bce2972839785af" category="inline-link">Aprenda a administrar o StorageGRID usando a visualização avançada</block>
+  <block id="71bde38d3a1a0761ad0419a2db79d0c4" category="paragraph"><block ref="bcae03490ee8ad952aee993e2ae5e7eb" category="inline-link-rx"></block> .</block>
+  <block id="04862482c3a7e313dee1294875d76a61" category="section-title">Capacidade de revisar e aprovar o certificado da interface de gerenciamento do StorageGRID</block>
+  <block id="7ef5c031e9bd4c1394a8093c50afe4e2" category="paragraph">Agora você tem a capacidade de revisar e aprovar um certificado de interface de gerenciamento do StorageGRID ao descobrir o sistema StorageGRID do BlueXP. Você também pode revisar e aprovar o certificado mais recente da interface de gerenciamento do StorageGRID em uma grade descoberta.</block>
+  <block id="4a314d3b77101d6faf44fa4063c45276" category="inline-link">Aprenda como revisar e aprovar o certificado do servidor durante a descoberta do sistema.</block>
+  <block id="045269b1f12b0a8f2aee954f43a8daa6" category="paragraph"><block ref="045269b1f12b0a8f2aee954f43a8daa6" category="inline-link-rx"></block></block>
+  <block id="dc8bb8905a6984d0c45a4ada9e618ace" category="section-title">Suporte para StorageGRID</block>
+  <block id="0b17baeba205d071cc0142cf4aba9b76" category="paragraph">Agora você pode descobrir seus sistemas StorageGRID diretamente do BlueXP. Descobrir o StorageGRID fornece uma visão completa dos dados em sua multinuvem híbrida.</block>
+  <block id="82fbcd5d3aebaf503250e86ca86f08c0" category="section-title">O BlueXP tiering agora é NetApp Cloud Tiering</block>
+  <block id="407a90a9a0a27ef435e56fa89edb4d13" category="paragraph">O BlueXP tiering foi renomeado para NetApp Cloud Tiering.</block>
+  <block id="ba3d080bd22adb4c0f40fdd9d87f54f9" category="section-title">09 de agosto de 2023</block>
+  <block id="101e8e97885c05702335faecd0fb3f50" category="section-title">Use um prefixo personalizado para o nome do bucket</block>
+  <block id="eabccaf5903f0333d3eed3476908d4d8" category="paragraph">Se você estiver usando vários Conectores para gerenciar todos os sistemas de armazenamento em seu ambiente, alguns clusters nos quais você deseja implementar camadas podem estar em Conectores diferentes. Se não tiver certeza de qual conector está gerenciando um determinado cluster, você pode pesquisar em todos os conectores usando o Cloud Tiering.<block ref="017b0207cc8469b6ea246adade89f8e1" category="inline-link-rx"></block> .</block>
+  <block id="51276db22ab007bf8378ddc5150c089e" category="section-title">04 de julho de 2023</block>
+  <block id="a4e53922ceec159164a3765ff05e1458" category="section-title">Ajuste a largura de banda para transferir dados inativos</block>
+  <block id="dc1b912cd0c37ddd4298efd6e3a72009" category="paragraph">Quando você ativa o Cloud Tiering, o ONTAP pode usar uma quantidade ilimitada de largura de banda de rede para transferir os dados inativos dos volumes no cluster para o armazenamento de objetos. Se você perceber que o tráfego em camadas está afetando as cargas de trabalho normais dos usuários, você pode limitar a quantidade de largura de banda que pode ser usada durante a transferência.<block ref="bd661c8ba5ce12ee5a1adc1010618597" category="inline-link-rx"></block> .</block>
+  <block id="904ea3c3aba6edae61ba696b01808a11" category="section-title">Evento de hierarquização exibido no Centro de Notificações</block>
+  <block id="250f0923d20814211c14c5a6cd0e2643" category="paragraph">O evento de hierarquização "Adicionar dados adicionais do cluster &lt;nome&gt; ao armazenamento de objetos para aumentar sua eficiência de armazenamento" agora aparece como uma notificação quando um cluster está hierarquizando menos de 20% de seus dados inativos, incluindo clusters que não estão hierarquizando nenhum dado.</block>
+  <block id="4408342320f5d18ce7a02828ead033c1" category="inline-link">Calculadora de custo total de propriedade e economia de Cloud Tiering</block>
+  <block id="606ec28d49ad09441827c5c02151d01a" category="paragraph">Esta notificação é uma "Recomendação" para ajudar a tornar seus sistemas mais eficientes e economizar em custos de armazenamento. Ele fornece um link para o<block ref="c97ff6fcab33b77efc054e699ba69f9b" category="inline-link-rx"></block> para ajudar você a calcular sua economia de custos.</block>
 </blocks>
