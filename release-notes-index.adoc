@@ -25,7 +25,7 @@ Veja o conjunto completo de notas de versão para recursos do NetApp Console e s
 * https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["Hub de Automação"^]
 * https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["Consultor digital"^]
 * https://docs.netapp.com/us-en/console-lifecycle-planning/release-notes/whats-new.html["Eficiência econômica"^]
-* https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["Licenças e assinaturas"^]
+* https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["Licenses and subscriptions"^]
 * https://docs.netapp.com/us-en/console-software-updates/release-notes/whats-new.html["Atualizações de software"^]
 
 
