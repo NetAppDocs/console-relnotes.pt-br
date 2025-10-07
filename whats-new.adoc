@@ -1343,7 +1343,109 @@ Para obter mais informações sobre os relatórios de uso, consulte https://docs
 
 == Recuperação de desastres
 
-Diretiva não resolvida em <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/storage-management-disaster-recovery/main/release-notes/dr-whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 06 de outubro de 2025
+
+
+
+==== A BlueXP disaster recovery agora é NetApp Disaster Recovery
+
+A BlueXP disaster recovery foi renomeada para NetApp Disaster Recovery.
+
+
+
+==== BlueXP agora é NetApp Console
+
+O NetApp Console, criado com base na base aprimorada e reestruturada do BlueXP , fornece gerenciamento centralizado do armazenamento NetApp e do NetApp Data Services em ambientes locais e na nuvem em nível empresarial, fornecendo insights em tempo real, fluxos de trabalho mais rápidos e administração simplificada, de forma altamente segura e compatível.
+
+Para obter detalhes sobre o que mudou, consulte olink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de versão do NetApp Console"] .
+
+
+
+==== Outras atualizações
+
+* O suporte para o Amazon Elastic VMware Service (EVS) com o Amazon FSx for NetApp ONTAP estava em uma prévia pública. Com este lançamento, ele agora está disponível para o público em geral. Para mais detalhes, consultelink:../reference/evs-deploy-guide-introduction.html["Introdução ao NetApp Disaster Recovery usando o Amazon Elastic VMware Service e o Amazon FSx for NetApp ONTAP"] .
+* Melhorias na descoberta de armazenamento, incluindo tempos de descoberta reduzidos para implantações locais
+* Suporte ao Gerenciamento de Identidade e Acesso (IAM), incluindo controle de acesso baseado em função (RBAC) e permissões de usuário aprimoradas
+* Suporte de visualização privada para solução Azure VMware e Cloud Volumes ONTAP. Com esse suporte, agora você pode configurar a proteção de recuperação de desastres do local para a solução Azure VMware usando o armazenamento Cloud Volumes ONTAP .
+
+
+
+
+=== 04 de agosto de 2025
+
+Versão 4.2.5P2
+
+
+
+==== Atualizações do NetApp Disaster Recovery
+
+Esta versão inclui as seguintes atualizações:
+
+* Melhorou o suporte do VMFS para lidar com o mesmo LUN apresentado por várias máquinas virtuais de armazenamento.
+* Melhorou a limpeza de desmontagem do teste para lidar com o armazenamento de dados que já está sendo desmontado e/ou excluído.
+* Mapeamento de sub-rede aprimorado para que agora valide se o gateway inserido está contido na rede fornecida.
+* Foi corrigido um problema que poderia causar falha no plano de replicação se o nome da VM contivesse ".com".
+* Foi removida uma restrição que impedia que o volume de destino fosse o mesmo que o volume de origem ao criar o volume como parte da criação do plano de replicação.
+* Adicionou suporte para uma assinatura de pagamento conforme o uso (PAYGO) para o NetApp Intelligent Services no Azure Marketplace e adicionou um link para o Azure Marketplace na caixa de diálogo de teste gratuito.
++
+Para mais detalhes, veja https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html#licensing["Licenciamento de recuperação de desastres da NetApp"] e https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["Configurar licenciamento para recuperação de desastres da NetApp"] .
+
+
+
+
+
+=== 14 de julho de 2025
+
+Versão 4.2.5
+
+
+
+==== Funções de usuário no NetApp Disaster Recovery
+
+O NetApp Disaster Recovery agora emprega funções para controlar o acesso que cada usuário tem a recursos e ações específicos.
+
+O serviço usa as seguintes funções específicas do NetApp Disaster Recovery.
+
+* *Administrador de recuperação de desastres*: execute quaisquer ações no NetApp Disaster Recovery.
+* *Administrador de failover de recuperação de desastres*: execute ações de failover e migração no NetApp Disaster Recovery.
+* *Administrador do aplicativo de recuperação de desastres*: Crie e modifique planos de replicação e inicie failovers de teste.
+* *Visualizador de recuperação de desastres*: visualize informações no NetApp Disaster Recovery, mas não pode executar nenhuma ação.
+
+
+Se estiver clicando no serviço NetApp Disaster Recovery e configurando-o pela primeira vez, você deverá ter a permissão *SnapCenterAdmin* ou ter a função *Organization Admin*.
+
+Para obter detalhes, consulte  https://docs.netapp.com/us-en/bluexp-disaster-recovery/reference/dr-reference-roles.html["Funções e permissões do usuário no NetApp Disaster Recovery"] .
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Saiba mais sobre funções de acesso para todos os serviços"^] .
+
+
+
+==== Outras atualizações no NetApp Disaster Recovery
+
+* Descoberta de rede aprimorada
+* Melhorias de escalabilidade:
++
+** Filtragem dos metadados necessários em vez de todos os detalhes
+** Melhorias na descoberta para recuperar e atualizar recursos de VM mais rapidamente
+** Otimização de memória e otimização de desempenho para recuperação e atualização de dados
+** Melhorias na criação de clientes do vCenter SDK e no gerenciamento de pools
+
+
+* Gerenciamento de dados obsoletos na próxima descoberta agendada ou manual:
++
+** Quando uma VM é excluída no vCenter, o NetApp Disaster Recovery agora a remove automaticamente do plano de replicação.
+** Quando um armazenamento de dados ou rede é excluído no vCenter, o NetApp Disaster Recovery agora o exclui do plano de replicação e do grupo de recursos.
+** Quando um cluster, host ou datacenter é excluído do vCenter, o NetApp Disaster Recovery agora o exclui do plano de replicação e do grupo de recursos.
+
+
+* Agora você pode acessar a documentação do Swagger no modo anônimo do seu navegador. Você pode acessá-lo no NetApp Disaster Recovery na opção Configurações > Documentação da API ou diretamente no seguinte URL no modo anônimo do seu navegador: https://snapcenter.cloudmanager.cloud.netapp.com/api/api-doc/draas["Documentação do Swagger"^] .
+* Em algumas situações, após uma operação de failback, o iGroup foi deixado para trás após a conclusão da operação. Esta atualização remove o iGroup se ele estiver obsoleto.
+* Se o FQDN do NFS foi usado no plano de replicação, o NetApp Disaster Recovery agora o resolve para um endereço IP. Esta atualização é útil se o FQDN não puder ser resolvido no site de recuperação de desastres.
+* Melhorias no alinhamento da interface do usuário
+* Melhorias no log para capturar os detalhes de dimensionamento do vCenter após a descoberta bem-sucedida
+
 
 
 
