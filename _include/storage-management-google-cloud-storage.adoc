@@ -1,0 +1,7 @@
+= Armazenamento em nuvem do Google
+:allow-uri-read: 
+
+
+
+
+=== Armazenamento em nuvem do Google

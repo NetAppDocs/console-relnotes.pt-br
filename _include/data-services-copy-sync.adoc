@@ -1,0 +1,7 @@
+= Copiar e sincronizar
+:allow-uri-read: 
+
+
+
+
+=== Copiar e sincronizar
