@@ -430,7 +430,6 @@
   <block id="b3a4d40f62316bd15534c438b8057c89" category="inline-link">Protocolos de cliente suportados para Cloud Volumes ONTAP: NVMe-TCP</block>
   <block id="748f500c59212ec947a9dc03913e95cb" category="paragraph">Para obter mais informações, consulte<block ref="b12aae47ee00e2542df4c8a098a5e7ff" category="inline-link-rx"></block> .</block>
   <block id="fbbad2021b0a185cdad950acc088e8d4" category="doc">Suporte para replicação entre sistemas ONTAP locais e sistemas de arquivos FSx para ONTAP.</block>
-  <block id="6b3e3878a5fe9ddfda803127234f4a18" category="paragraph">A replicação de dados está disponível entre um sistema ONTAP local e um sistema de arquivos FSx for ONTAP a partir do FSx for ONTAP dentro do NetApp Console.</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">Estas notas de versão descrevem melhorias recentes no NetApp Console e nos serviços de dados que ele suporta. Links para o conjunto completo de notas de lançamento de cada serviço individual.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">Saiba mais sobre as alterações mais recentes nos recursos e serviços de dados que fazem parte do NetApp Console. Para obter um histórico completo de versões, acesse o conjunto completo de notas de versão de cada serviço individual.</block>
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">Serviços obsoletos</block>
@@ -444,4 +443,5 @@
   <block id="2c1993b83ed7d4c19e4b372af7179590" category="paragraph">Série E: deslocamento de nível: +1</block>
   <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">22 de setembro de 2025</block>
   <block id="0428e48e7f58929099e52febd0558232" category="section-title">25 de agosto de 2025</block>
+  <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">A replicação de dados está disponível entre um sistema ONTAP local e um sistema de arquivos FSx para ONTAP na página Sistemas do NetApp Console .</block>
 </blocks>
