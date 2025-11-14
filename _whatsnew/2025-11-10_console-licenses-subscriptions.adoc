@@ -1,0 +1,11 @@
+= Gerenciar preferências de faturamento
+:allow-uri-read: 
+
+
+
+
+=== Gerenciar preferências de faturamento
+
+Agora você pode configurar e gerenciar as *preferências de faturamento* diretamente no NetApp Console. Essa melhoria permite que os administradores definam e visualizem como o uso da capacidade, as renovações e os custos são cobrados em licenças diretas da NetApp , assinaturas do marketplace de nuvem e no contrato Keystone .
+
+Para obter mais informações, consulte o .link:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentação de preferências de faturamento"]
