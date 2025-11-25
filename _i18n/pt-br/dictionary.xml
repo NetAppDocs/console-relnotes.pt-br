@@ -124,21 +124,6 @@
   <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">Amazon FSX para ONTAP</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">Clusters ONTAP locais</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
-  <block id="f7919ff057187672b74306b219aadaa0" category="doc">Suporte para proteção de cargas de trabalho VMware na visualização</block>
-  <block id="5e8801556a1a15a279f09b79ad9c4141" category="paragraph">Esta versão adiciona suporte de pré-visualização para proteger cargas de trabalho do VMware. Faça backup de VMs e datastores VMware de sistemas ONTAP locais para Amazon Web Services e StorageGRID.</block>
-  <block id="b7aad0efced7f2a5664d2d5fcafeac91" category="admonition">A documentação sobre a proteção de cargas de trabalho do VMware é fornecida como uma prévia da tecnologia. Com esta oferta de visualização, a NetApp reserva-se o direito de modificar os detalhes, o conteúdo e o cronograma da oferta antes da disponibilidade geral.</block>
-  <block id="5b3ee7a2b0e2cc1719a9dc8c2b849352" category="inline-link-macro">Saiba mais sobre como proteger cargas de trabalho do VMware com o NetApp Backup and Recovery</block>
-  <block id="a4604657c4916d399ee4757122138b92" category="paragraph"><block ref="d36db2686cf22b4733dc580e6187e664" category="inline-link-macro-rx"></block>.</block>
-  <block id="e4fadb4a8e44a20b9cae72da5f43dd1c" category="section-title">A indexação de alto desempenho para AWS, Azure e GCP está geralmente disponível</block>
-  <block id="d2437297e3bf3cd7adfa86f57b8629f0" category="paragraph">Em fevereiro de 2025, anunciamos a prévia da indexação de alto desempenho (Indexed Catalog v2) para AWS, Azure e GCP. Este recurso agora está disponível para o público em geral (GA). Em junho de 2025, fornecemos isso a todos os _novos_ clientes por padrão. Com esta versão, o suporte está disponível para _todos_ os clientes. A indexação de alto desempenho melhora o desempenho das operações de backup e restauração para cargas de trabalho protegidas no armazenamento de objetos.</block>
-  <block id="5ced283cbe92781b3a48240fd1fde5cd" category="paragraph">Ativado por padrão:</block>
-  <block id="234f6b906c6e6adf3ab5f1a4906d5366" category="list-text">Se você for um novo cliente, a indexação de alto desempenho será habilitada por padrão.</block>
-  <block id="3b98c4910d4638f409d4421b51847611" category="list-text">Se você já for cliente, poderá habilitar a reindexação acessando a seção Restaurar da interface do usuário.</block>
-  <block id="7e8fe67b005603b496012796735f2d36" category="doc">Rastreamento de uso lógico aprimorado com uma nova coluna</block>
-  <block id="b79d3069a7b9ca9140a5c9b1bf2f8d81" category="paragraph">Uma nova coluna, Total footprint, foi adicionada para melhorar o rastreamento do consumo do Keystone para volumes do FabricPool :</block>
-  <block id="729a65ff91860ad65935d125d788f643" category="list-text">* Painel do Keystone no BlueXP*: Você pode ver a coluna *Pegada total* na aba *Volumes em clusters* dentro da aba *Ativos*.</block>
-  <block id="61f4e69294ec080e5cb7bce32f2f8b99" category="list-text">* Digital Advisor*: Você pode ver a coluna *Pegada Total* na aba *Detalhes do Volume* dentro da aba *Volumes e Objetos*.</block>
-  <block id="610355e82f0e7cf01bdfa1df13985f3f" category="paragraph">Esta coluna exibe a pegada lógica total para volumes que usam a divisão em camadas do FabricPool , incluindo dados de camadas de desempenho e frias, para que você possa calcular com precisão o consumo do Keystone .</block>
   <block id="e83b5a250e0912f549b3d3758e90e680" category="doc">Adição de monitoramento de alertas</block>
   <block id="eff9717b3e6b80befe3a05db7b3e6a1d" category="paragraph">O painel do Keystone no BlueXP agora inclui uma aba *Monitoramento* para gerenciar alertas e monitores em suas assinaturas. Esta nova aba permite que você:</block>
   <block id="d540a0a7aa0f09414e542ffabc6300c6" category="list-text">Visualize e resolva alertas ativos, incluindo alertas gerados pelo sistema e definidos pelo usuário para uso de capacidade e expiração de assinatura.</block>
@@ -440,7 +425,6 @@
   <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">Replicação: deslocamento de nível: +1</block>
   <block id="2c1993b83ed7d4c19e4b372af7179590" category="paragraph">Série E: deslocamento de nível: +1</block>
   <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">22 de setembro de 2025</block>
-  <block id="0428e48e7f58929099e52febd0558232" category="section-title">25 de agosto de 2025</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">A replicação de dados está disponível entre um sistema ONTAP local e um sistema de arquivos FSx para ONTAP na página Sistemas do NetApp Console .</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">Gerenciar preferências de faturamento</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">Agora você pode configurar e gerenciar as *preferências de faturamento* diretamente no NetApp Console. Essa melhoria permite que os administradores definam e visualizem como o uso da capacidade, as renovações e os custos são cobrados em licenças diretas da NetApp , assinaturas do marketplace de nuvem e no contrato Keystone .</block>
@@ -454,4 +438,7 @@
   <block id="b3df2aaed88f61f572a7284cb28844ec" category="inline-link-macro">Veja os requisitos do sistema operacional.</block>
   <block id="43a9602052a44f890e2bbc95a0205a46" category="paragraph">Ao instalar manualmente um agente de console, o agente agora é compatível com RHEL 9.6 e Podman 5.4.0. Além disso, ao usar o RHEL 9 e versões superiores, a NetApp oferece suporte ao podman-compose 1.5.0. <block ref="dd394ea917033ddbf269729b5d828637" category="inline-link-macro-rx"></block>.</block>
   <block id="11decf8e913c8fbeb5d947338d43e3b0" category="paragraph">Para mais informações, consulte <block ref="bf6dbdf786c7323ca961bfd2e12103c6" category="inline-link-macro-rx"></block>.</block>
+  <block id="18b429fb243989438d2e534cfa60ad10" category="doc">ID de rastreamento para assinaturas com período de cobertura limitado</block>
+  <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">Na caixa de notificação *Conclua sua cobertura* em *Monitoramento &gt; Monitores de alerta*, cada assinatura agora exibe seu ID de rastreamento ao lado do número da assinatura.</block>
+  <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">24 de novembro de 2025</block>
 </blocks>

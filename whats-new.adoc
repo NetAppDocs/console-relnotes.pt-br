@@ -52,6 +52,22 @@ O serviço de correção foi removido em 22 de abril de 2024.
 
 
 
+== 24 de novembro de 2025
+
+
+
+=== Keystone
+
+Novos aprimoramentos no painel do Keystone no NetApp Console:
+
+
+
+==== ID de rastreamento para assinaturas com período de cobertura limitado
+
+Na caixa de notificação *Conclua sua cobertura* em *Monitoramento > Monitores de alerta*, cada assinatura agora exibe seu ID de rastreamento ao lado do número da assinatura.
+
+
+
 == 17 de novembro de 2025
 
 
