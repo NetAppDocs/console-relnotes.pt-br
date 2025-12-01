@@ -441,4 +441,8 @@
   <block id="18b429fb243989438d2e534cfa60ad10" category="doc">ID de rastreamento para assinaturas com período de cobertura limitado</block>
   <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">Na caixa de notificação *Conclua sua cobertura* em *Monitoramento &gt; Monitores de alerta*, cada assinatura agora exibe seu ID de rastreamento ao lado do número da assinatura.</block>
   <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">24 de novembro de 2025</block>
+  <block id="f5263927d94a42a805785f1aed06a069" category="doc">Alterações nas credenciais do Google Cloud Platform</block>
+  <block id="790bec3007566d403b50931f866ace35" category="paragraph">À medida que os clientes configuram e autorizam mais sistemas Google Cloud NetApp Volumes , a forma como as credenciais são gerenciadas mudou.</block>
+  <block id="f681bf3d62438cc948e88b442cdda716" category="paragraph">As credenciais dos sistemas NetApp Volumes agora são armazenadas em um backend na nuvem do Google, como o serviço Cloud Key Management ou similar, e as credenciais de representação da conta de serviço são usadas ao criar um novo sistema.</block>
+  <block id="815e75619b370a1b845eccec6979ed74" category="section-title">27 de novembro de 2025</block>
 </blocks>

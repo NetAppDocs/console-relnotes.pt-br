@@ -52,6 +52,22 @@ O serviço de correção foi removido em 22 de abril de 2024.
 
 
 
+== 27 de novembro de 2025
+
+
+
+=== Google Cloud NetApp Volumes
+
+
+
+==== Alterações nas credenciais do Google Cloud Platform
+
+À medida que os clientes configuram e autorizam mais sistemas Google Cloud NetApp Volumes , a forma como as credenciais são gerenciadas mudou.
+
+As credenciais dos sistemas NetApp Volumes agora são armazenadas em um backend na nuvem do Google, como o serviço Cloud Key Management ou similar, e as credenciais de representação da conta de serviço são usadas ao criar um novo sistema.
+
+
+
 == 24 de novembro de 2025
 
 
