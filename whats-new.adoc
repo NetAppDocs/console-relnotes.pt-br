@@ -98,7 +98,7 @@ link:br-use-vmware-restore.html["Saiba mais sobre como restaurar cargas de traba
 
 
 
-=== Classificação de dados
+=== Classificação de Dados
 
 
 
@@ -275,7 +275,7 @@ O endereço de e-mail que envia notificações do NetApp Console foi alterado de
 
 
 
-=== Classificação de dados
+=== Classificação de Dados
 
 
 
@@ -825,7 +825,7 @@ A partir do ONTAP 9.17.1 e versões mais recentes, o DataLock agora é compatív
 
 
 
-=== Classificação de dados
+=== Classificação de Dados
 
 
 
