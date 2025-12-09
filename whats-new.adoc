@@ -90,6 +90,18 @@ O desempenho de carregamento de todas as páginas em Classificação de Dados fo
 
 
 
+=== Keystone
+
+Novos aprimoramentos no painel do Keystone no NetApp Console:
+
+
+
+==== Etiqueta de capacidade de explosão acumulada renomeada
+
+A etiqueta *Capacidade de rajada acumulada* foi renomeada para *Rajada acumulada*.
+
+
+
 == 01 de dezembro de 2025
 
 
