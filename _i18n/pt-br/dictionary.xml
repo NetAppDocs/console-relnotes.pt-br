@@ -469,8 +469,6 @@
   <block id="8a9b2764802b622f9894a669a606f74f" category="doc">O bloqueio de extensões está habilitado no nível da carga de trabalho.</block>
   <block id="ab47595f128d75b47b3449fcd4dfb523" category="paragraph">Ao ativar o bloqueio de extensão, ele passa a ser ativado no nível da carga de trabalho, e não no nível da máquina virtual de armazenamento.</block>
   <block id="a6493502d5fc22c0b3ccee818dc4a5a5" category="section-title">Editar o status de alerta de comportamento do usuário</block>
-  <block id="685b0f2db45e4fc09a06ccb4695806de" category="inline-xref-macro">Gerenciar alertas</block>
-  <block id="30acfc7aa0f5ff9593d73e769de766c0" category="paragraph">Para mais informações, consulte <block ref="32161c93f86d45672d8429d13ea78e6b" category="inline-xref-macro-rx"></block>.</block>
   <block id="d5214a8deea026de61af736ebf8697dd" category="section-title">Suporte para vários agentes de console</block>
   <block id="1a6a565def701385358a626d6728afd8" category="paragraph">O Ransomware Resilience agora suporta o uso de vários agentes de console para gerenciar os mesmos sistemas.</block>
   <block id="f3aee30a3a487c746572616e3f53dc9d" category="inline-link-macro">Criar um agente de console</block>
@@ -486,4 +484,6 @@
   <block id="8c3cfaa540744075b83a947ed57c6f60" category="paragraph">Para mais informações, consulte <block ref="0905281a07a8919c4c92242f0cf75d65" category="inline-link-macro-rx"></block>.</block>
   <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">09 de dezembro de 2025</block>
   <block id="4256b08931f8c14d28bbf33199e1b022" category="paragraph">O recurso Resiliência a Ransomware agora permite editar o status dos alertas de comportamento do usuário. Você pode descartar e resolver alertas manualmente.</block>
+  <block id="8fe404d4b8af36b9844eb288d2706bbe" category="inline-link-macro">Gerencie alertas em Resiliência a Ransomware</block>
+  <block id="869c8807275d576171cb34b892652da6" category="paragraph">Para mais informações, consulte <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>.</block>
 </blocks>
