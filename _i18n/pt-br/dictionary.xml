@@ -477,13 +477,13 @@
   <block id="c8d94434feabcd9486a228e1a7a02882" category="paragraph">Por padrão, a Recuperação de Desastres mantém a hierarquia de inventário da VM (estrutura de pastas) em caso de failover. Se o destino da recuperação não tiver a pasta necessária, a Recuperação de Desastres a criará.</block>
   <block id="5a54761f5d99470c8137218395b65ca5" category="paragraph">Agora você pode substituir essa configuração designando uma nova pasta principal para a máquina virtual ou desmarcando a opção **Manter a hierarquia de pastas original**.</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">Crie um plano de replicação</block>
-  <block id="4b4839446c123b0f7cbb37cc05973b41" category="paragraph">Para mais informações, consulte <block ref="8ed6b1ab912526d5ffcc717e1a39851e" category="inline-link-macro-rx"></block>.</block>
   <block id="c1bacabdbdc0d5e57b5ead85a617b4b0" category="section-title">Atualização simplificada do agente do console</block>
   <block id="1220fc49240c9d2c58d7490c6c40ac65" category="paragraph">A Recuperação de Desastres agora oferece suporte a um processo simplificado para o uso de vários agentes do Console em um ambiente de trabalho. Para alternar entre agentes do Console, você deve editar a configuração do vCenter, redescobrir as credenciais e atualizar os planos de replicação para usar o novo agente do Console.</block>
   <block id="d6155caa68c59478855dfa8342f87d18" category="inline-link-macro">Agentes do console de troca</block>
-  <block id="8c3cfaa540744075b83a947ed57c6f60" category="paragraph">Para mais informações, consulte <block ref="0905281a07a8919c4c92242f0cf75d65" category="inline-link-macro-rx"></block>.</block>
   <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">09 de dezembro de 2025</block>
   <block id="4256b08931f8c14d28bbf33199e1b022" category="paragraph">O recurso Resiliência a Ransomware agora permite editar o status dos alertas de comportamento do usuário. Você pode descartar e resolver alertas manualmente.</block>
   <block id="8fe404d4b8af36b9844eb288d2706bbe" category="inline-link-macro">Gerencie alertas em Resiliência a Ransomware</block>
   <block id="869c8807275d576171cb34b892652da6" category="paragraph">Para mais informações, consulte <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>.</block>
+  <block id="98ade846ffa73dc9c6bcd3e3e84c38b7" category="paragraph">Para mais informações, consulte <block ref="1762f821178ef43810c03e86465a946d" category="inline-link-macro-rx"></block>.</block>
+  <block id="1df351797bd2540f3ec41bc24e67bf1f" category="paragraph">Para mais informações, consulte <block ref="2631c62a2ac2ec2e6a0ebc0352319a2c" category="inline-link-macro-rx"></block>.</block>
 </blocks>
