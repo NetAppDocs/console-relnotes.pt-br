@@ -143,7 +143,6 @@
   <block id="0b0a6d9ce7462fc9a218e93ccbee32e7" category="section-title">Menus e páginas de navegação</block>
   <block id="7ceea4a6639fef28fae4477857f229e5" category="paragraph">A NetApp moveu a maioria das opções de menu para o painel de navegação esquerdo e reorganizou os menus para facilitar a navegação no NetApp Console.</block>
   <block id="4fa56c3d158c844dc75b2826ee4c98d0" category="section-title">A tela é substituída pela página Sistemas</block>
-  <block id="e98962c5bb7d0d1afd483518e730b4c8" category="paragraph">A NetApp renomeou o Canvas para a página *Sistemas*. Navegue até a página *Sistema* no menu *Armazenamento &gt; Gerenciamento*.</block>
   <block id="ddd56b1479dbec10cfb6fc0a3a8afe57" category="inline-image-macro">Uma captura de tela da página de sistemas.</block>
   <block id="028a5defa734a1e5527100ece8ea2e66" category="paragraph"><block ref="028a5defa734a1e5527100ece8ea2e66" category="inline-image-macro-rx" type="image"></block></block>
   <block id="e6ee78fd171283b1b449978ae0c73e06" category="section-title">Menu de armazenamento expandido</block>
@@ -383,11 +382,9 @@
   <block id="e32e1b9613d2e086e1fc46ae7489620c" category="paragraph">A versão 4.1.0 está disponível para modo padrão e modo restrito.</block>
   <block id="650940dddaeb353d547fc2674ba4d35b" category="paragraph-title">Indicadores de status do agente renomeados</block>
   <block id="9722491a4236a9be86f414fa5b3eebb8" category="paragraph">Renomeamos os indicadores de status do agente do Console de *Ativo* e *Inativo* para *Conectado* e *Desconectado* para tornar sua finalidade mais clara.</block>
-  <block id="d9e7da7d4b9cc9086a7ab3a5a270f7da" category="paragraph-title">Suporte para Red Hat Enterprise Linux (RHEL) 9.6 e Podman 5.4.0</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">Administração do NetApp Console</block>
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">Esta versão inclui o seguinte:</block>
   <block id="ac740509743c941164fb7e88fc8b768e" category="paragraph-title">Novo endereço de e-mail para notificações do NetApp Console</block>
-  <block id="3ded9fa2f8cf197bdf563d5509101e3a" category="paragraph">O endereço de e-mail que envia notificações do NetApp Console foi alterado de *service@console.netapp.com* para *service@console.netapp.com*. A NetApp recomenda atualizar todas as regras de e-mail para permitir *service@console.netapp.com* para garantir que você continue recebendo notificações por e-mail do NetApp Console .</block>
   <block id="73bb8d1c85014ba6981a002bd9fc9364" category="doc">Versão 1.48</block>
   <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">Esta versão do Data Classification inclui correções de erros, melhorias de segurança e otimizações de desempenho.</block>
   <block id="8905ad2fb9f028e6bd28666015b4b50a" category="paragraph-title">Clareza aprimorada no progresso da digitalização</block>
@@ -504,4 +501,31 @@
   <block id="d8beaaedd77c0be2c1275fe4d8a5685b" category="paragraph">A partir da versão 9.17.1 do Cloud Volumes ONTAP , você pode implantar VMs da série Azure Edsv6 por meio do NetApp Console para novas instâncias do Cloud Volumes ONTAP . O Cloud Volumes ONTAP 9.17.1 e versões posteriores suportarão apenas VMs de Geração 2 para novas implementações. Essas máquinas de segunda geração são compatíveis com as tecnologias mais recentes, como a Interface de Firmware Extensível Unificada (UEFI), sistemas Azure Boost e NVMe. São ideais para sistemas e aplicações que exigem muita memória e precisam de armazenamento local rápido, como servidores de banco de dados e mecanismos de análise.</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Configurações com suporte para Cloud Volumes ONTAP no Azure</block>
   <block id="500f1b766be55ca965db592552bfe05e" category="paragraph"><block ref="500f1b766be55ca965db592552bfe05e" category="inline-link-rx"></block></block>
+  <block id="ae41cdf98d6f24f84727785b0c41cda9" category="paragraph">A NetApp renomeou o Canvas para a página *Sistemas*. Acesse a página *Sistemas* no menu *Armazenamento &gt; Gerenciamento*.</block>
+  <block id="6f111d20190d5490668e3e0ac2cad5d2" category="paragraph-title">Suporte para Red Hat Enterprise Linux (RHEL) 9.6 e Podman 5.4.0</block>
+  <block id="db70fced03768e8735fbdebf7ea67e66" category="paragraph">O endereço de e-mail que envia notificações do NetApp Console foi alterado de *service@console.netapp.com* para *service@console.netapp.com*. A NetApp recomenda atualizar todas as regras de e-mail para permitir o endereço *service@console.netapp.com*, garantindo assim o recebimento contínuo de notificações por e-mail do NetApp Console .</block>
+  <block id="026970f0ac157044199489d6744c2491" category="doc">Agente de console 4.2.0</block>
+  <block id="7051fe17573689080a1f11b0e88a8603" category="paragraph">A versão 4.2.0 suporta tanto o modo padrão quanto o modo restrito.</block>
+  <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Suporte para o Google Cloud Infrastructure Manager</block>
+  <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">Gerenciador de Implantação na Nuvem</block>
+  <block id="e7858dcbf9687c88e071775eb4ee07ea" category="paragraph">A NetApp agora usa o Google Cloud Infrastructure Manager (IM) em vez do Google Cloud Deployment Manager para implantar e gerenciar agentes no Google Cloud. Essa alteração foi feita porque o Google irá descontinuar o recurso. <block ref="9574f21b6b64ac1c3366333a9bb489f6" category="inline-link-macro-rx"></block>.</block>
+  <block id="817a59a137d2f36b17e19b14b0e90545" category="inline-link-macro">Veja o registro de alterações de permissões.</block>
+  <block id="05345eddc0e94be562e27e8d53b608ae" category="list-text">Todos os novos agentes da versão 4.2.0 e superiores utilizam o Infrastructure Manager, e você deve atualizar as permissões da conta de usuário e da conta de serviço usadas para a implantação. <block ref="ca3a237b8d0ef6729093b3abe4bab2f0" category="inline-link-macro-rx"></block></block>
+  <block id="cc598dc1e413aff136dd2366a85faf46" category="list-text">Ao implantar um agente, o sistema também cria um bucket do Google Cloud para armazenar os arquivos de implantação.</block>
+  <block id="d9dfb1e70d9002b82990e5020a243087" category="list-title">Verificações de configuração aprimoradas para agentes do console.</block>
+  <block id="1c113e32e8394b861faad1f61a9626cb" category="inline-link-macro">Saiba mais sobre os endpoints necessários para os agentes do Console.</block>
+  <block id="675d71adc8a1b2329a23e817b7275840" category="list-text">O agente do Console agora verifica se há endpoints obsoletos ao realizar uma verificação de configuração. Caso você não tenha atualizado para a nova lista de endpoints da versão 4.0.0 ou superior, as instalações serão bem-sucedidas se o sistema conseguir acessar a lista de endpoints anterior. <block ref="4fa9d5f65f1179ca8dedab794aee5677" category="inline-link-macro-rx"></block></block>
+  <block id="5cf1eebafa9e566db5b16d2f75b10866" category="inline-link-macro">Aprenda como executar verificações de configuração em agentes do Console.</block>
+  <block id="532e2205eae250e20138ac0d4fb7670a" category="list-text">Execute verificações de configuração nos agentes do Console instalados a partir do Console ou do console de manutenção do Agente para verificar a conectividade e solucionar problemas. <block ref="2d14832e5c27ace253e7c4b1295d1814" category="inline-link-macro-rx"></block></block>
+  <block id="f1a69f998a4fd4d34f139b76d2b1cf5d" category="paragraph-title">Faça o download do software do agente diretamente do NetApp Console.</block>
+  <block id="ffb09157eddacde0f2ddbb27b8b5a58d" category="inline-link-macro">Aprenda como baixar o software do agente do Console diretamente do NetApp Console.</block>
+  <block id="0d8ee60431ecde7e8c0ca3d789c24bae" category="paragraph">Quando precisar instalar um agente manualmente, você pode acessar o software do agente diretamente do NetApp Console , além do site de suporte da NetApp . <block ref="3ce006bd909dc885369b2f86674a08a3" category="inline-link-macro-rx"></block></block>
+  <block id="f33a1c02aef9134dd317909d568855ae" category="paragraph-title">Possibilidade de configurar notificações para credenciais que expiram.</block>
+  <block id="eb85d454a2ba07f1bf0f8e315ae0b696" category="paragraph">Configure notificações para credenciais expiradas em contas de serviço e federações. Escolha entre sete ou 30 dias. O Console exibe notificações e envia e-mails aos usuários com a função apropriada. Os administradores da organização recebem notificações da conta de serviço. Administradores da organização, administradores da federação e visualizadores da federação recebem notificações da federação.</block>
+  <block id="c76ecba1e00b52577de6653acbf29014" category="paragraph-title">Logins locais não estão disponíveis após a ativação da federação.</block>
+  <block id="e713ec00d2b4c1f46099d8669c70bc4a" category="paragraph">Depois de ativar a federação para uma organização do Console, os usuários não poderão usar logins locais e serão redirecionados para logins de federação.</block>
+  <block id="37922d4b00cf704156c5276d88caa05c" category="paragraph-title">Melhorias de usabilidade para as páginas de gerenciamento de armazenamento.</block>
+  <block id="e8f9974435fe7b24ffa11827d0104693" category="paragraph">Agora é mais fácil visualizar e gerenciar informações detalhadas sobre seus sistemas ONTAP locais (e FSx para ONTAP) nas páginas de gerenciamento de armazenamento.</block>
+  <block id="c513928c0b95afec773bd29d135d4632" category="list-text">A página * Discoverable systems* separa as informações resumidas da exibição em abas dos sistemas disponíveis, facilitando a visualização de informações completas sobre os sistemas detectáveis.</block>
+  <block id="174dd97dd1f160583ac76fa482fa6a5e" category="section-title">10 de dezembro de 2025</block>
 </blocks>
