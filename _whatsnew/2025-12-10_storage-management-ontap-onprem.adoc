@@ -1,0 +1,19 @@
+= Melhorias na usabilidade ao visualizar sistemas ONTAP a partir do NetApp Console (somente no modo padrão)
+:allow-uri-read: 
+
+
+
+
+=== Melhorias na usabilidade ao visualizar sistemas ONTAP a partir do NetApp Console (somente no modo padrão)
+
+A página *Sistemas* no NetApp Console foi aprimorada para maior clareza e usabilidade no gerenciamento de volumes e clusters. Essas atualizações alinham a experiência mais estreitamente com o System Manager para versões mais recentes do ONTAP e simplificam a navegação.
+
+.Capacidade de cluster incluída para versões ONTAP 9.5 e superiores (somente no modo padrão do console).
+A página *Sistemas > Visão geral* exibe o tamanho do cluster juntamente com a versão do ONTAP para clusters que executam o ONTAP 9.5 e versões superiores.
+
+Para o NetApp Console em modo restrito ou versões do ONTAP 9.5 e anteriores, as informações de provisionamento de volume permanecem inalteradas.
+
+.A guia Volumes na página Sistemas exibe, por padrão, a visualização em grade se você tiver mais de 20 clusters ONTAP locais.
+Quando você tem mais de 20 clusters ONTAP locais gerenciados no NetApp Console, a guia *Volume* é exibida por padrão em formato de grade para facilitar a navegação. A visualização em cartões está desativada.
+
+Essa alteração se aplica somente ao modo padrão e às versões 9.6 e superiores do ONTAP .
