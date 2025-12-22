@@ -1232,29 +1232,3 @@ Para obter detalhes sobre as alterações, consulte o https://docs.netapp.com/us
 O NetApp Console, criado com base na base aprimorada e reestruturada do BlueXP , fornece gerenciamento centralizado do armazenamento NetApp e do NetApp Data Services em ambientes locais e na nuvem em nível empresarial, fornecendo insights em tempo real, fluxos de trabalho mais rápidos e administração simplificada, que é altamente segura e compatível.
 
 Para obter detalhes sobre o que mudou, consulte olink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notas de versão do NetApp Console"^] .
-
-
-
-== 22 de setembro de 2025
-
-
-
-=== Keystone
-
-
-
-==== Adição de monitoramento de alertas
-
-O painel do Keystone no BlueXP agora inclui uma aba *Monitoramento* para gerenciar alertas e monitores em suas assinaturas. Esta nova aba permite que você:
-
-* Visualize e resolva alertas ativos, incluindo alertas gerados pelo sistema e definidos pelo usuário para uso de capacidade e expiração de assinatura.
-* Crie monitores de alerta para rastrear o uso da capacidade e eventos de expiração de assinatura.
-
-
-Para saber mais, consulte link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alerts.html["Visualizar e gerenciar alertas e monitores"].
-
-
-
-==== Visualização simplificada dos níveis de serviço de desempenho
-
-Você pode visualizar as informações sobre os níveis de serviço de desempenho, agora movidas de uma guia separada para uma visualização expansível, na guia *Assinaturas*. Clique na seta para baixo ao lado da coluna *Data de validade* para visualizá-las para cada assinatura. Para saber mais, consulte link:https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["Veja detalhes sobre suas assinaturas Keystone"].
