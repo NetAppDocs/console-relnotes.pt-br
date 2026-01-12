@@ -116,13 +116,7 @@
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">Clusters ONTAP locais</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">A versão de pré-visualização das cargas de trabalho do VMware apresenta os seguintes recursos aprimorados:</block>
-  <block id="13f711a55db449e74aa63517fe680750" category="doc">Coluna de substituição de política de QoS na guia Ativos</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">Novos aprimoramentos no painel do Keystone no NetApp Console:</block>
-  <block id="c6276ebcdb23205ceaed5fbf4249ea31" category="paragraph">A guia *Volumes em clusters* dentro da guia *Ativos* agora inclui uma coluna *Substituição de política de QoS* que indica se as regras de QoS são ignoradas para volumes de backup e espelho, exibindo *verdadeiro* (regras ignoradas), *falso* (regras aplicadas) ou *N/D* (para volumes espelho).</block>
-  <block id="11a43b8d2f9eca6ac1fbd015814f99f3" category="admonition">Para assinaturas do Keystone v3, esta coluna exibe *N/A*, pois as políticas de QoS não são aplicáveis ​​na oferta v3.</block>
-  <block id="b953e2efb9e42549a0a1a0948af92e84" category="section-title">Visibilidade de alertas aprimorada na página Visão geral</block>
-  <block id="ccb709a27cabd8f47e223efe2e7e0976" category="inline-link-macro">Painel de controle do Keystone no NetApp Console</block>
-  <block id="2236517eb263ad0757df75dbb425c588" category="paragraph">A página *Visão geral* agora inclui duas novas seções de alerta denominadas *Alertas não resolvidos por gravidade* e *Alertas Keystone não resolvidos mais antigos*. Para saber mais, consulte <block ref="a7e79568e4aab3fed7388da5f153bdec" category="inline-link-macro-rx"></block>.</block>
   <block id="7b6830c2d647bfeae537b084a1bc4c97" category="doc">O Cloud Volumes ONTAP no Azure agora está limitado às versões mais recentes com suporte</block>
   <block id="0e627d1b98c5809f132bf109fa4041d3" category="paragraph">As implantações e atualizações do Cloud Volumes ONTAP no Azure por meio do NetApp Console agora estão restritas às versões mais recentes com suporte. Isso garante compatibilidade com o hardware de última geração suportado pela Microsoft e fornece os mais novos recursos e melhorias de segurança. O Console solicitará que você atualize para as versões suportadas.</block>
   <block id="9ca9f40464321b098a9b31a750f1e5ce" category="paragraph">Para mais detalhes, consulte:</block>
@@ -168,7 +162,6 @@
   <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">11 de novembro de 2025</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">10 de novembro de 2025</block>
   <block id="810ddecf604478d8ee317e1ac69d7971" category="section-title">17 de outubro de 2025</block>
-  <block id="44758d2951f923446ffff8310f8ac382" category="section-title">13 de outubro de 2025</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">A replicação de dados está disponível entre um sistema ONTAP local e um sistema de arquivos FSx para ONTAP na página Sistemas do NetApp Console .</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">Gerenciar preferências de faturamento</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">Agora você pode configurar e gerenciar as *preferências de faturamento* diretamente no NetApp Console. Essa melhoria permite que os administradores definam e visualizem como o uso da capacidade, as renovações e os custos são cobrados em licenças diretas da NetApp , assinaturas do marketplace de nuvem e no contrato Keystone .</block>
@@ -283,4 +276,28 @@
   <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">Essa alteração se aplica somente ao modo padrão e às versões 9.6 e superiores do ONTAP .</block>
   <block id="ad4891bd95428a3a61372e6cb7c1e8db" category="paragraph">Para mais informações, consulte <block ref="46afb87ea9ab52c50c55f4a3ee88e9ae" category="inline-link-macro-rx"></block>.</block>
   <block id="8b398f79cbc8bafdd3d60b15c90e7f01" category="paragraph">Para mais informações, consulte <block ref="9816d86fb07a6c2043bc508d566ad539" category="inline-link-macro-rx"></block>.</block>
+  <block id="6da53899225555a506524070f96e33df" category="doc">Suporte para vários agentes do Console em ambientes locais.</block>
+  <block id="8a702621d5f54ca1c7d25a86b7e3f774" category="paragraph">Se você utiliza a Recuperação de Desastres localmente, agora pode implantar um agente de console para cada instância do vCenter, melhorando a resiliência.</block>
+  <block id="4cb7bcc4077d7b471c915dace37d3111" category="paragraph">Por exemplo, se você tiver dois sites (Sites A e B), o Site A pode ter o agente de console A anexado ao vCenter 1, à implantação ONTAP 1 e à implantação ONTAP 2. O Site B pode ter o agente de console B anexado às implantações do vCenter 2 e do ONTAP 3 e 4.</block>
+  <block id="0382d445298ad46bfe9bb89d2b1bbc4a" category="inline-link-macro">Crie o agente do Console</block>
+  <block id="31f61ac5920cfdf4b1428392c106e013" category="paragraph">Para obter informações sobre o agente do Console na Recuperação de Desastres, consulte <block ref="c6314de739d0ca77819b65e8d83a54dc" category="inline-link-macro-rx"></block>.</block>
+  <block id="4de9da4a5acec3c25ad553d7f1a89484" category="section-title">Adicionar VMs após failover para planos de replicação usando proteção baseada em armazenamento de dados</block>
+  <block id="31c59621442d91b173b5c05f7fe7f5ba" category="paragraph">Quando o failover é acionado, qualquer plano de replicação que utilize proteção baseada em armazenamento de dados inclui as VMs que foram adicionadas ao armazenamento de dados, desde que tenham sido detectadas. Você deve fornecer os detalhes de mapeamento para as VMs adicionadas antes que o failover seja concluído.</block>
+  <block id="01808e57843d81464069fd6222b42dc5" category="inline-link-macro">Aplicativos de failover</block>
+  <block id="210c07d14f371d34616f90780c809d7d" category="paragraph">Para mais informações, consulte <block ref="10ad778ec26a5abb07ecd723807494c7" category="inline-link-macro-rx"></block>.</block>
+  <block id="0fdf1f7467d148d6f8e6edea53e3bba1" category="section-title">Novas notificações por e-mail</block>
+  <block id="f3815b37b633b3691ad8c2d3a2aeec1b" category="paragraph">A Recuperação de Desastres agora fornece notificações por e-mail para os seguintes eventos:</block>
+  <block id="92522c3fbfb92373bdaceab2b1ec2db4" category="list-text">Aproximando-se do limite de utilização da capacidade</block>
+  <block id="722ef45b415368a656fe90463206ae2e" category="list-text">Geração de relatório concluída</block>
+  <block id="3097f5b876f89e830b96175a17c6ee35" category="list-text">Fracassos no trabalho</block>
+  <block id="8d6a4ba10a10e8034a89ce1a5220c738" category="list-text">Vencimento da licença ou violações</block>
+  <block id="489ad675e0724931adc834fbc59bdeec" category="section-title">Melhorias no Swagger</block>
+  <block id="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-macro"><block ref="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-rx"></block></block>
+  <block id="0a476aea9bd42d70a5e646a38f779187" category="paragraph">Agora você pode acessar a documentação do Swagger diretamente do Disaster Recovery. Na seção Recuperação de Desastres, selecione **Configurações** e, em seguida, **Documentação da API** para acessar o Swagger, ou visite este URL no modo anônimo/privado do seu navegador: <block ref="dcecb9493ce135a9d2a96f8693efd425" category="inline-link-macro-rx"></block>.</block>
+  <block id="df6f21ef230478b0b817e1303ba53264" category="section-title">Interfaces de usuário aprimoradas</block>
+  <block id="ce620672d96c9599e9bfaa409968c7a6" category="paragraph">A Recuperação de Desastres agora oferece avisos aprimorados e soluções de erros. Esta versão corrige um erro que impedia a exibição de trabalhos cancelados na interface do usuário. Os trabalhos cancelados agora estão visíveis. Também há um novo aviso quando a mesma rede de destino é mapeada para várias redes de origem diferentes.</block>
+  <block id="edd2f7fa340d3324747878ea3a531288" category="section-title">Manter a estrutura de pastas da VM adicionada como padrão nos planos de replicação</block>
+  <block id="2295e48d8abb5539689fac23d785e1cd" category="paragraph">Ao criar uma réplica, a nova configuração padrão é manter a estrutura de pastas da máquina virtual. Se o destino da recuperação não tiver a hierarquia de pastas original, a Recuperação de Desastres a criará. Você pode desmarcar esta opção para ignorar a hierarquia de pastas original.</block>
+  <block id="2ab0f27f92b633596464651c85366a28" category="paragraph">Para mais informações, consulte <block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>.</block>
+  <block id="667dffcf5676fe0bd645082d2a512fef" category="section-title">12 de janeiro de 2026</block>
 </blocks>
