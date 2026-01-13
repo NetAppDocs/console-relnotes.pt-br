@@ -310,4 +310,17 @@
   <block id="cce6483b933a36b9eebb2ecf0d8f32a6" category="paragraph">Para mais informações, consulte <block ref="40a5b14292f3b3c1d42c8b093a2843e2" category="inline-link-macro-rx"></block>.</block>
   <block id="35308ce14b9ba8b4f632405b876f0cc3" category="section-title">Alertas de marcação como em revisão</block>
   <block id="ff4c9cd383a7fe5ae887d1ac68d7ba52" category="paragraph">A Resiliência contra Ransomware agora permite que você marque alertas como "Em análise". Use a etiqueta "Em análise" para melhorar a clareza em toda a sua equipe ao priorizar e gerenciar ameaças ativas de ransomware.</block>
+  <block id="79af92d05f2b214eab2c765e215beb6b" category="doc">Agente de console 4.3.0</block>
+  <block id="6f1b51eea64496510e6cf5a5a2d57d29" category="paragraph">A versão 4.3.0 suporta tanto o modo padrão quanto o modo restrito.</block>
+  <block id="664a9e1da962d9131b0a035da50bbcc7" category="paragraph-title">Capacidade de validar conexões de rede de agentes do Console</block>
+  <block id="81cc16a2354d8ec80802e2e4ac22f15a" category="paragraph">Agora você pode validar as conexões de rede dos agentes do Console conectados diretamente do NetApp Console. Este recurso ajuda a verificar a conectividade e a solucionar problemas com os agentes do Console.</block>
+  <block id="65ce32eae3a28c0b24f8cc33c345ab84" category="paragraph"><block ref="65ce32eae3a28c0b24f8cc33c345ab84" category="inline-link-macro-rx"></block></block>
+  <block id="8b71edf4fd7d99d72da1d37de5e154b7" category="paragraph-title">Suporte para federação quando o NetApp Console está em modo restrito.</block>
+  <block id="58bbe2cc0931c12594be1bafb70597fb" category="paragraph">Agora você pode habilitar a federação para uma organização do NetApp Console que esteja em modo restrito. Isso permite que os usuários façam login no Console usando suas credenciais corporativas, mantendo os benefícios de segurança do modo restrito.</block>
+  <block id="ac811c471ef716f9c8a3865d7f14caa3" category="paragraph-title">Modo somente leitura</block>
+  <block id="8fc5022358a80320244b4f909c4293cc" category="paragraph">Você pode definir uma organização do NetApp Console para o modo somente leitura. No modo somente leitura, os usuários podem visualizar recursos e configurações, mas não podem fazer alterações. Um administrador ou superadministrador da organização pode ativar o modo somente leitura para uma organização. Quando o modo somente leitura está ativado, os usuários com funções administrativas devem elevar manualmente suas permissões para fazer as alterações necessárias.</block>
+  <block id="c7c19a46289db74512cc747670442409" category="inline-link-macro">Aprenda como ativar o modo somente leitura para uma organização do Console.</block>
+  <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
+  <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">Aprenda como alavancar sua atuação quando sua organização estiver em modo somente leitura.</block>
+  <block id="b45238e19857e4059227131bbda630a6" category="paragraph"><block ref="b45238e19857e4059227131bbda630a6" category="inline-link-macro-rx"></block></block>
 </blocks>
