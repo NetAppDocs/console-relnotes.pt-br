@@ -179,7 +179,7 @@ Para mais informações, consulte link:https://docs.netapp.com/us-en/data-servic
 
 ==== Replicar snapshots para o ONTAP
 
-A Resiliência contra Ransomware agora suporta a adição de replicação de snapshots para um site ONTAP secundário. Você pode criar uma estratégia de proteção contra ransomware que inclua replicação ou usar a estratégia predefinida. Com grupos de proteção que utilizam uma política de replicação, você pode replicar para o mesmo destino ou para destinos diferentes para cada carga de trabalho.
+A Resiliência contra Ransomware agora suporta a adição de replicação de snapshots para um site ONTAP secundário. Você pode criar uma estratégia de proteção contra ransomware que inclua replicação ou usar a estratégia predefinida.
 
 Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["Proteja as cargas de trabalho com resiliência contra ransomware."^].
 
@@ -613,23 +613,3 @@ Novos aprimoramentos no painel do Keystone no NetApp Console:
 ==== Preencha o formulário de notificação de cobertura.
 
 A aba *Alertas de monitoramento* na página *Monitoramento* inclui uma caixa de notificação *Complete sua cobertura* que aparece quando existem lacunas de cobertura. Esta caixa lista as assinaturas que não possuem monitores de capacidade ou expiração, e os monitores sem assinaturas. Você pode solucionar as lacunas adicionando assinaturas a monitores existentes, criando novos monitores ou excluindo monitores não utilizados. Para saber mais, consulte link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html#manage-coverage-gaps["Gerenciar lacunas de cobertura para monitores de alerta"].
-
-
-
-== 17 de outubro de 2025
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== O Cloud Volumes ONTAP no Azure agora está limitado às versões mais recentes com suporte
-
-As implantações e atualizações do Cloud Volumes ONTAP no Azure por meio do NetApp Console agora estão restritas às versões mais recentes com suporte. Isso garante compatibilidade com o hardware de última geração suportado pela Microsoft e fornece os mais novos recursos e melhorias de segurança. O Console solicitará que você atualize para as versões suportadas.
-
-Para mais detalhes, consulte:
-
-* Implantação: https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/reference-versions.html#azure["Versões ONTAP suportadas para implantações do Cloud Volumes ONTAP"^]
-* Atualizar: https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-updating-ontap-cloud.html#supported-upgrade-paths["Caminhos de atualização com suporte para o Azure"^]
-
