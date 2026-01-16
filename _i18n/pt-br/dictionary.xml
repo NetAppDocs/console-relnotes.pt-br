@@ -329,4 +329,8 @@
   <block id="317bcae14c763efc48845c774a224df6" category="paragraph">Ao fazer o download de um relatório de investigação, a Classificação de Dados agora exibe o tempo estimado para a conclusão do download.</block>
   <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">14 de janeiro de 2026</block>
   <block id="1bfdea46bcdc184ecc395f7be984a97f" category="paragraph">A Resiliência contra Ransomware agora suporta a adição de replicação de snapshots para um site ONTAP secundário. Você pode criar uma estratégia de proteção contra ransomware que inclua replicação ou usar a estratégia predefinida.</block>
+  <block id="9f3261123c8a658e7b62dee5c17371f4" category="paragraph-title">Acesso baseado em funções para grupos federados no NetApp Console</block>
+  <block id="c4d7a3f544d6f76c7c70bcb232209dbf" category="paragraph">O NetApp Console permite atribuir funções a grupos federados (por exemplo, grupos do Active Directory), permitindo que os administradores automatizem a integração e a desvinculação de usuários com base na associação a grupos no provedor de identidade (IdP) da organização. Essa funcionalidade reduz a sobrecarga administrativa e garante acesso seguro e consistente, atualizando instantaneamente o acesso ao Console conforme as associações de grupo mudam.</block>
+  <block id="ac4ebbe533b328180ba7587ac3ed17ea" category="inline-link-macro">Aprenda como conceder acesso a um grupo federado à sua organização.</block>
+  <block id="bd8d483345dcb63c75668983c3887b87" category="paragraph"><block ref="bd8d483345dcb63c75668983c3887b87" category="inline-link-macro-rx"></block></block>
 </blocks>
