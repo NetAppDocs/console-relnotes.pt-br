@@ -108,6 +108,18 @@ Para obter detalhes sobre como proteger cargas de trabalho KVM, consulte https:/
 
 
 
+=== Resiliência ao Ransomware
+
+
+
+==== Volumes não suportados
+
+Os relatórios de Resiliência a Ransomware agora capturam informações sobre volumes suportados e não suportados no relatório **Resumo**. Utilize essas informações para diagnosticar por que os volumes de um sistema podem não ser elegíveis para proteção contra ransomware.
+
+Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-reports.html["Baixe relatórios em Resiliência a Ransomware"^].
+
+
+
 === Keystone
 
 Atualizações no painel do Keystone no NetApp Console:
@@ -252,7 +264,7 @@ Para mais informações, consulte link:https://docs.netapp.com/us-en/data-servic
 
 ==== Replicar snapshots para o ONTAP
 
-A Resiliência contra Ransomware agora suporta a adição de replicação de snapshots para um site ONTAP secundário. Você pode criar uma estratégia de proteção contra ransomware que inclua replicação ou usar a estratégia predefinida.
+A Resiliência contra Ransomware agora suporta a adição de replicação de snapshots para um site ONTAP secundário. Com grupos de proteção que utilizam uma política de replicação, você pode replicar para o mesmo destino ou para destinos diferentes para cada carga de trabalho. Você pode criar uma estratégia de proteção contra ransomware que inclua replicação ou usar a estratégia predefinida.
 
 Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["Proteja as cargas de trabalho com resiliência contra ransomware."^].
 
