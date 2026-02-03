@@ -52,6 +52,40 @@ O serviço de correção foi removido em 22 de abril de 2024.
 
 
 
+== 02 de fevereiro de 2026
+
+
+
+=== Keystone
+
+Novos aprimoramentos no painel do Keystone no NetApp Console:
+
+
+
+==== Filtragem interativa para dados de burst acumulados diariamente
+
+A tabela *Acúmulo de consumo por dias* na aba *Tendência de consumo* agora oferece suporte a filtros interativos. Selecione qualquer barra no gráfico de acúmulo de consumo para visualizar apenas os dias dentro desse período de faturamento. Para saber mais, consulte link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Visualizar o uso diário de dados acumulados em rajadas"].
+
+
+
+==== Exibição aprimorada do intervalo de datas no gráfico de burst acumulado
+
+O gráfico de faturamento acumulado na aba *Tendência de consumo* agora exibe intervalos de datas completos para cada período de faturamento, como Oct 01, 2025 a Oct 31, 2025, em vez de apenas o mês e o ano.
+
+
+
+==== Visualização expansível dos detalhes da assinatura
+
+A aba *Assinaturas* inclui uma opção para expandir todas as assinaturas e visualizar simultaneamente as informações sobre os níveis de serviço de desempenho de cada assinatura. Para saber mais, consulte link:./integrations/subscriptions-tab.html["Veja detalhes sobre suas assinaturas Keystone"].
+
+
+
+==== Nova coluna Usage type
+
+A aba *Assinaturas* inclui uma coluna *Tipo de uso* que exibe se a assinatura é cobrada com base no uso provisionado, físico ou lógico. Para saber mais, consulte link:./integrations/subscriptions-tab.html["Veja detalhes sobre suas assinaturas Keystone"].
+
+
+
 == 19 de janeiro de 2026
 
 
@@ -66,7 +100,7 @@ Esta versão das cargas de trabalho de volume ONTAP apresenta os seguintes recur
 
 *Suporte para múltiplos buckets*: (Prévia privada) A partir do ONTAP 9.17.1 e versões mais recentes, agora é possível proteger volumes dentro de um sistema com até 6 buckets por sistema em diferentes provedores de nuvem.
 
-link:prev-ontap-backup-manage.html["Saiba mais sobre como fazer backup de dados de volume do ONTAP usando o NetApp Backup and Recovery."].
+link:https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-backup-manage.html["Saiba mais sobre como fazer backup de dados de volume do ONTAP usando o NetApp Backup and Recovery."].
 
 
 
@@ -115,18 +149,6 @@ Para obter detalhes sobre como proteger cargas de trabalho KVM, consulte https:/
 Os relatórios de Resiliência a Ransomware agora capturam informações sobre volumes suportados e não suportados no relatório **Resumo**. Utilize essas informações para diagnosticar por que os volumes de um sistema podem não ser elegíveis para proteção contra ransomware.
 
 Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-reports.html["Baixe relatórios em Resiliência a Ransomware"^].
-
-
-
-=== Keystone
-
-Atualizações no painel do Keystone no NetApp Console:
-
-
-
-==== Modificar assinatura indisponível
-
-A opção de modificar a capacidade contratada para assinaturas Keystone está atualmente indisponível. Essa funcionalidade será reintroduzida em uma versão futura.
 
 
 
