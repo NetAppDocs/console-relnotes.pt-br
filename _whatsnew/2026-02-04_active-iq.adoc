@@ -1,0 +1,21 @@
+= Novo relatório de segurança para supervisão de segurança abrangente
+:allow-uri-read: 
+
+
+
+
+=== Novo relatório de segurança para supervisão de segurança abrangente
+
+Digital Advisor agora inclui um Relatório de Segurança que fornece uma visão unificada dos riscos de segurança do ONTAP em todo o seu ambiente de storage. Este relatório permite a detecção mais rápida de configurações incorretas, lacunas de conformidade e problemas de segurança em clusters, SVMs e volumes, ajudando você a manter uma infraestrutura de storage segura.
+
+
+
+=== Suporte aprimorado do Upgrade Advisor para níveis de patch mistos
+
+Upgrade Advisor agora gera relatórios de atualização para clusters onde os nós executam diferentes níveis de patch dentro da mesma versão principal do ONTAP. Essa melhoria garante que os clientes possam prosseguir com as atualizações sem problemas, desde que o cluster não esteja misturado entre versões principais, proporcionando maior flexibilidade no planejamento de atualizações.
+
+
+
+=== Suporte estendido para versões do ONTAP fora do suporte limitado
+
+Upgrade Advisor agora oferece suporte à geração de planos de atualização para versões do ONTAP que atingiram o fim do suporte limitado, com um período de carência de 9 meses. Esse recurso ajuda os clientes a tomarem medidas oportunas e a evitarem interrupções na atualização, fornecendo orientações claras durante o período de transição.
