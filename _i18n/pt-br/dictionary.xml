@@ -393,4 +393,11 @@
   <block id="c5db154b8366e71dcf87e4624b1a0112" category="paragraph">O suporte para cargas de trabalho do Microsoft Hyper-V agora está geralmente disponível (GA) em NetApp Backup and Recovery.</block>
   <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="section-title">Cargas de trabalho KVM suportadas na General Availability (GA)</block>
   <block id="1d30989467a5dda6a77c2158034a190b" category="paragraph">O suporte para cargas de trabalho KVM agora está geralmente disponível (GA) em NetApp Backup and Recovery.</block>
+  <block id="1076db915b54c5214ad7cd6d4bac394d" category="doc">Agente do Console 4.4.0</block>
+  <block id="19ddf31000061ed231618214ee45c8af" category="paragraph">A versão 4.4.0 suporta tanto o modo padrão quanto o modo restrito.</block>
+  <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">Esta versão do agente do Console inclui melhorias de segurança e correções de erros.</block>
+  <block id="83d800fe01b0b9d8ce89e835fc6accad" category="paragraph-title">Suporte para acesso baseado em funções para cargas de trabalho do NetApp Backup and Recovery (Oracle e Microsoft SQL Server)</block>
+  <block id="06ee57c0bd0d81d8eb2d33f86f1d8a97" category="paragraph">Você pode associar cargas de trabalho de Backup and Recovery (Oracle e Microsoft SQL Server) a projetos. Após a atribuição a um projeto, os usuários que tiverem uma função de Backup and Recovery atribuída ao projeto podem trabalhar com as cargas de trabalho. Outras cargas de trabalho não são compatíveis com acesso baseado em funções no momento.</block>
+  <block id="55791ddd61c5fe5bce016bba04360146" category="inline-link-macro">Saiba mais sobre como configurar o acesso baseado em funções para cargas de trabalho de Backup and Recovery.</block>
+  <block id="15346ab7cdfe10fa94df581d10043017" category="paragraph"><block ref="15346ab7cdfe10fa94df581d10043017" category="inline-link-macro-rx"></block></block>
 </blocks>
