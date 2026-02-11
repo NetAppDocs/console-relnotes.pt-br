@@ -140,7 +140,7 @@ Para obter detalhes sobre como proteger cargas de trabalho do Oracle Database, c
 
 
 
-==== Versão 1.50
+==== Versão 1.51
 
 Esta versão do Data Classification inclui correções de erros e as seguintes atualizações:
 

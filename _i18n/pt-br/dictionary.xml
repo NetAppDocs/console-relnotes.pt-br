@@ -404,4 +404,5 @@
   <block id="7736ebd5eab336ae9e7647e31955b0cc" category="paragraph">A replicação de dados agora está disponível entre um sistema Cloud Volumes ONTAP e um sistema de arquivos FSx for ONTAP a partir do NetApp Console.</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">Replicar dados</block>
   <block id="f319ee95d93a22851e4a5522d2273836" category="paragraph"><block ref="f319ee95d93a22851e4a5522d2273836" category="inline-link-macro-rx"></block></block>
+  <block id="0cd5c5ab4d8a458ece2a760f674c681e" category="doc">Versão 1.51</block>
 </blocks>
