@@ -391,8 +391,6 @@
   <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho do Oracle Database, consulte <block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>.</block>
   <block id="6108d5ad430f0631e5c6e10714ba980c" category="doc">Cargas de trabalho do Microsoft Hyper-V suportadas em General Availability (GA)</block>
   <block id="c5db154b8366e71dcf87e4624b1a0112" category="paragraph">O suporte para cargas de trabalho do Microsoft Hyper-V agora está geralmente disponível (GA) em NetApp Backup and Recovery.</block>
-  <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="section-title">Cargas de trabalho KVM suportadas na General Availability (GA)</block>
-  <block id="1d30989467a5dda6a77c2158034a190b" category="paragraph">O suporte para cargas de trabalho KVM agora está geralmente disponível (GA) em NetApp Backup and Recovery.</block>
   <block id="1076db915b54c5214ad7cd6d4bac394d" category="doc">Agente do Console 4.4.0</block>
   <block id="19ddf31000061ed231618214ee45c8af" category="paragraph">A versão 4.4.0 suporta tanto o modo padrão quanto o modo restrito.</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">Esta versão do agente do Console inclui melhorias de segurança e correções de erros.</block>
@@ -405,4 +403,5 @@
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">Replicar dados</block>
   <block id="f319ee95d93a22851e4a5522d2273836" category="paragraph"><block ref="f319ee95d93a22851e4a5522d2273836" category="inline-link-macro-rx"></block></block>
   <block id="0cd5c5ab4d8a458ece2a760f674c681e" category="doc">Versão 1.51</block>
+  <block id="dbeedec7ca35d125dd2a7ee8355c41f5" category="section-title">Cargas de trabalho VMware suportadas na General Availability (GA)</block>
 </blocks>
