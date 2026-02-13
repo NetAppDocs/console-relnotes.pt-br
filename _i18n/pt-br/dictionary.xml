@@ -404,4 +404,12 @@
   <block id="f319ee95d93a22851e4a5522d2273836" category="paragraph"><block ref="f319ee95d93a22851e4a5522d2273836" category="inline-link-macro-rx"></block></block>
   <block id="0cd5c5ab4d8a458ece2a760f674c681e" category="doc">Versão 1.51</block>
   <block id="dbeedec7ca35d125dd2a7ee8355c41f5" category="section-title">Cargas de trabalho VMware suportadas na General Availability (GA)</block>
+  <block id="dbf7cd788b00dca3348b80d3d3473bf6" category="doc">Suporte para Ebdsv5 e E104ids_v5 VMs no Azure</block>
+  <block id="4324be09b704ac1f5d63ff496d7ef1f4" category="paragraph">A partir do Cloud Volumes ONTAP 9.18.1, você pode implantar Ebdsv5 e E104ids_v5 VMs para implantações e atualizações de nó único e de alta disponibilidade (par de HA).</block>
+  <block id="9aa187942e09002cf25de4088980c393" category="paragraph">As VMs Ebdsv5 da família Eb de máquinas virtuais do Azure são otimizadas para oferecer maior desempenho de armazenamento remoto. Você pode usar essas VMs para cargas de trabalho corporativas com uso intensivo de memória e E/S, como bancos de dados relacionais, análises na memória e outros aplicativos críticos para negócios.</block>
+  <block id="3be6e88b099667951f102a7e72ef6b7e" category="paragraph">E104ids_v5 é uma instância de VM isolada que ajuda você a gerenciar melhor as janelas de manutenção programadas. Comparada à E80ids_v4, ela oferece uma taxa de transferência de disco e IOPS muito maiores, além de um desempenho geral de rede superior.</block>
+  <block id="374b69ed8baae6c10fc401a5f23dfabf" category="paragraph"><block ref="374b69ed8baae6c10fc401a5f23dfabf" category="inline-link-rx"></block></block>
+  <block id="12c608fc3ddf39360237ef081ed21d2f" category="inline-link">Documentação do Azure: série de tamanhos Edsv5</block>
+  <block id="2751c20dbb46ac4854ad2a690d71db85" category="paragraph"><block ref="2751c20dbb46ac4854ad2a690d71db85" category="inline-link-rx"></block></block>
+  <block id="70d92c1e2419b7500249e84f56bfda5d" category="section-title">12 de fevereiro de 2026</block>
 </blocks>
