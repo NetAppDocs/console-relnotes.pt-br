@@ -52,6 +52,32 @@ O serviço de correção foi removido em 22 de abril de 2024.
 
 
 
+== 23 de fevereiro de 2026
+
+
+
+=== Backup e Recuperação
+
+
+
+==== Cargas de trabalho KVM suportadas na General Availability (GA)
+
+O suporte para cargas de trabalho do Microsoft Hyper-V agora está geralmente disponível (GA) em NetApp Backup and Recovery.
+
+Para obter detalhes sobre como proteger cargas de trabalho KVM, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["Visão geral das cargas de trabalho de proteção do KVM"] .
+
+
+
+==== Kubernetes com suporte em General Availability (GA)
+
+O suporte para cargas de trabalho do Kubernetes agora está disponível para o público em geral (GA) no NetApp Backup and Recovery. Esta versão das cargas de trabalho do Kubernetes também introduz os seguintes recursos aprimorados:
+
+*Suporte a relatórios*: Agora você pode gerar relatórios de atividades de proteção para clusters Kubernetes e aplicativos protegidos pelo NetApp Backup and Recovery.
+
+Para obter detalhes sobre como proteger cargas de trabalho do Kubernetes, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Visão geral da proteção de workloads do Kubernetes"].
+
+
+
 == 19 de fevereiro de 2026
 
 
@@ -898,19 +924,3 @@ Certifique-se de revisar olink:https://docs.netapp.com/us-en/data-services-disas
 À medida que os clientes configuram e autorizam mais sistemas Google Cloud NetApp Volumes , a forma como as credenciais são gerenciadas mudou.
 
 As credenciais dos sistemas NetApp Volumes agora são armazenadas em um backend na nuvem do Google, como o serviço Cloud Key Management ou similar, e as credenciais de representação da conta de serviço são usadas ao criar um novo sistema.
-
-
-
-== 24 de novembro de 2025
-
-
-
-=== Keystone
-
-Novos aprimoramentos no painel do Keystone no NetApp Console:
-
-
-
-==== ID de rastreamento para assinaturas com período de cobertura limitado
-
-Na caixa de notificação *Conclua sua cobertura* em *Monitoramento > Monitores de alerta*, cada assinatura agora exibe seu ID de rastreamento ao lado do número da assinatura.
