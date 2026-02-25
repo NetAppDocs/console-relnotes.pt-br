@@ -62,13 +62,13 @@ O serviço de correção foi removido em 22 de abril de 2024.
 
 ==== Cargas de trabalho KVM suportadas na General Availability (GA)
 
-O suporte para cargas de trabalho do Microsoft Hyper-V agora está geralmente disponível (GA) em NetApp Backup and Recovery.
+O suporte para cargas de trabalho KVM agora está geralmente disponível (GA) em NetApp Backup and Recovery.
 
 Para obter detalhes sobre como proteger cargas de trabalho KVM, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["Visão geral das cargas de trabalho de proteção do KVM"] .
 
 
 
-==== Kubernetes com suporte em General Availability (GA)
+==== Cargas de trabalho do Kubernetes suportadas em General Availability (GA)
 
 O suporte para cargas de trabalho do Kubernetes agora está disponível para o público em geral (GA) no NetApp Backup and Recovery. Esta versão das cargas de trabalho do Kubernetes também introduz os seguintes recursos aprimorados:
 
@@ -908,19 +908,3 @@ A etiqueta *Capacidade de rajada acumulada* foi renomeada para *Rajada acumulada
 O NetApp Disaster Recovery agora oferece suporte ao Google Cloud VMware Engine, utilizando o Google Cloud NetApp Volumes para operações de migração, failover, failback e teste. Essa integração possibilita fluxos de trabalho de recuperação de desastres contínuos entre ambientes locais e o Google Cloud.
 
 Certifique-se de revisar olink:https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/dr-prerequisites.html["pré-requisitos"] elink:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.html["limitações"] para o Google Cloud.
-
-
-
-== 27 de novembro de 2025
-
-
-
-=== Google Cloud NetApp Volumes
-
-
-
-==== Alterações nas credenciais do Google Cloud Platform
-
-À medida que os clientes configuram e autorizam mais sistemas Google Cloud NetApp Volumes , a forma como as credenciais são gerenciadas mudou.
-
-As credenciais dos sistemas NetApp Volumes agora são armazenadas em um backend na nuvem do Google, como o serviço Cloud Key Management ou similar, e as credenciais de representação da conta de serviço são usadas ao criar um novo sistema.
