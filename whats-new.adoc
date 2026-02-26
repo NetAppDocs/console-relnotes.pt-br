@@ -16,40 +16,18 @@ summary: Saiba mais sobre as alterações mais recentes nos recursos e serviços
 [role="lead"]
 Saiba mais sobre as alterações mais recentes nos recursos e serviços de dados que fazem parte do NetApp Console.  Para um histórico completo de lançamentos, acesse olink:release-notes-index.html["conjunto completo de notas de lançamento"] para cada serviço individual.
 
+[NOTE]
+====
+Os seguintes serviços foram descontinuados:
+
+Cache de borda:: O serviço de cache de borda foi removido em 7 de agosto de 2024.
+Kubernetes:: O suporte para descoberta e gerenciamento de clusters do Kubernetes foi removido em 7 de agosto de 2024.
+Relatórios de migração:: O serviço de relatórios de migração foi removido em 7 de agosto de 2024.
+Resiliência operacional:: Os recursos de resiliência operacional foram removidos em 22 de agosto de 2025.
+Remediação:: O serviço de correção foi removido em 22 de abril de 2024.
 
 
-== Serviços obsoletos
-
-
-
-=== Cache de borda
-
-O serviço de cache de borda foi removido em 7 de agosto de 2024.
-
-
-
-=== Kubernetes
-
-O suporte para descoberta e gerenciamento de clusters do Kubernetes foi removido em 7 de agosto de 2024.
-
-
-
-=== Relatórios de migração
-
-O serviço de relatórios de migração foi removido em 7 de agosto de 2024.
-
-
-
-=== Resiliência operacional
-
-Os recursos de resiliência operacional foram removidos em 22 de agosto de 2025.
-
-
-
-=== Remediação
-
-O serviço de correção foi removido em 22 de abril de 2024.
-
+====
 
 
 == 26 fevereiro 2026
