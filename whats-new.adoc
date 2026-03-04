@@ -30,6 +30,40 @@ Remediação:: O serviço de correção foi removido em 22 de abril de 2024.
 ====
 
 
+== 02 de março de 2026
+
+
+
+=== Keystone
+
+Novos aprimoramentos no painel do Keystone no NetApp Console:
+
+
+
+==== Novas colunas na guia Volumes em clusters
+
+Três novas colunas, *Dados quentes*, *Camada fria (%)* e *Camada quente (%)*, foram adicionadas à guia *Volumes em clusters* em *Ativos*. Para saber mais, consulte link:./integrations/assets-tab.html["Veja os ativos associados a uma assinatura Keystone"] e link:./integrations/assets.html["Visualize os ativos em todas as suas assinaturas do Keystone"].
+
+
+
+==== Consumo faturado, não faturado e provisório em picos de demanda na tendência de consumo
+
+O gráfico de faturamento acumulado de picos na aba *Tendência de consumo* agora exibe o uso de picos faturados, não faturados e provisórios. Para saber mais, consulte link:./integrations/consumption-tab.html#view-accrued-burst["Visualizar pico acumulado"].
+
+
+
+==== Melhorias na visualização de monitoring
+
+A visualização *Monitoring* inclui as seguintes atualizações:
+
+* *Aba de alertas*: A coluna *Alerta* foi renomeada para *Tipo e condição do alerta*. Agora você também pode usar o ícone de reticências ao lado da coluna *Status* para editar um alerta, adicionar uma nota ou visualizar os detalhes do alerta.
+* *Aba Alert monitors*: A coluna *Condition* foi renomeada para *Monitor type & condition*.
+
+
+Para saber mais, consulte link:./integrations/monitoring-alerts.html["Visualize e gerencie alertas para assinaturas do Keystone"] e link:./integrations/monitoring-alert-monitors.html["Visualize e crie monitores de alerta para assinaturas do Keystone"].
+
+
+
 == 01 de março de 2026
 
 

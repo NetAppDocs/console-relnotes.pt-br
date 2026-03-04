@@ -520,4 +520,19 @@
   <block id="5088f4e07e6650891b34cd38ec19877b" category="paragraph">NetApp Console agora exibe o status do agente do Console para sistemas de arquivos FSx for ONTAP em Workloads. O status indica se o agente está em execução e se consegue se comunicar com o sistema de arquivos FSx for ONTAP. Essas informações podem ajudar você a solucionar problemas de conectividade.</block>
   <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">01 de março de 2026</block>
   <block id="68874f436c529f1931417d4bdfb1c183" category="cell">5.0.3 (2 de março de 2026)</block>
+  <block id="3006a02699b8df924e1d005be208a0d9" category="doc">Novas colunas na guia Volumes em clusters</block>
+  <block id="c270abc6d843162d4ce7721540f24540" category="inline-link-macro">Veja os ativos associados a uma assinatura Keystone</block>
+  <block id="56ba911e47b6675e519daaae8a0c4ab8" category="inline-link-macro">Visualize os ativos em todas as suas assinaturas do Keystone</block>
+  <block id="0d7094993a6b3f640bb98a53fea4c3fe" category="paragraph">Três novas colunas, *Dados quentes*, *Camada fria (%)* e *Camada quente (%)*, foram adicionadas à guia *Volumes em clusters* em *Ativos*. Para saber mais, consulte <block ref="7a83cbc726dfc64910620370804f995c" category="inline-link-macro-rx"></block> e <block ref="4baf769758bbb5f82afb8a6245e88ae4" category="inline-link-macro-rx"></block>.</block>
+  <block id="c9a8bf8065acc2e0c13bda0c7508bd25" category="section-title">Consumo faturado, não faturado e provisório em picos de demanda na tendência de consumo</block>
+  <block id="c64fb9a67c48390567fbdf3b620843a4" category="inline-link-macro">Visualizar pico acumulado</block>
+  <block id="d2de7b158906998c4520b48e1e885356" category="paragraph">O gráfico de faturamento acumulado de picos na aba *Tendência de consumo* agora exibe o uso de picos faturados, não faturados e provisórios. Para saber mais, consulte <block ref="ac1214b73681d020aa16f3f415bc4e23" category="inline-link-macro-rx"></block>.</block>
+  <block id="96d0cd446eb21b1af6c182f7aae637fc" category="section-title">Melhorias na visualização de monitoring</block>
+  <block id="4195f4a8e15a8ca8892e6bf2c9328dfc" category="paragraph">A visualização *Monitoring* inclui as seguintes atualizações:</block>
+  <block id="fdfe720b9ab3394f0dd5d8f33c28b35e" category="list-text">*Aba de alertas*: A coluna *Alerta* foi renomeada para *Tipo e condição do alerta*. Agora você também pode usar o ícone de reticências ao lado da coluna *Status* para editar um alerta, adicionar uma nota ou visualizar os detalhes do alerta.</block>
+  <block id="358e8af2cd36faf26c9af8949d13a966" category="list-text">*Aba Alert monitors*: A coluna *Condition* foi renomeada para *Monitor type &amp; condition*.</block>
+  <block id="0ebc03672fcf3b001eb123454c829481" category="inline-link-macro">Visualize e gerencie alertas para assinaturas do Keystone</block>
+  <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">Visualize e crie monitores de alerta para assinaturas do Keystone</block>
+  <block id="b9744367609c907fb529ab20aba9b41b" category="paragraph">Para saber mais, consulte <block ref="537df2748cf4cb2e4b656209c1a786f9" category="inline-link-macro-rx"></block> e <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>.</block>
+  <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">02 de março de 2026</block>
 </blocks>
