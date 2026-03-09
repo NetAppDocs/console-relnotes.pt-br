@@ -506,4 +506,17 @@
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">Visão geral da proteção de VMware workloads</block>
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho VMware, consulte<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>.</block>
   <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">09 de março de 2026</block>
+  <block id="b57381f68dbba13b31fa8aa68f6b0b91" category="doc">Excluir um datastore dos planos de replicação</block>
+  <block id="97a6d5c9da6b211dcdf5d581e247e960" category="paragraph">Ao criar um plano de replicação no Disaster, agora você pode excluir datastores específicos da replicação. Para situações em que uma VM está configurar para usar vários datastore, isso permite limitar quais serão replicados.</block>
+  <block id="1783ee76cf8532a6df415b4e239a23d9" category="paragraph">Para obter detalhes, consulte <block ref="c2741b2e4bc1013bb2e1908f9c4eb243" category="inline-link-macro-rx"></block>.</block>
+  <block id="ec6c483e852913b786ae872f19efd121" category="section-title">Validação de senha removida da senha do vCenter</block>
+  <block id="8cca1120916820e14384f393325831ff" category="paragraph">A Recuperação de Desastres removeu as restrições de senha no vCenter para permitir senhas que contenham espaços.</block>
+  <block id="c0b13507b7c62a7122f6d5ccf83fd444" category="inline-link-macro">Adicione clusters locais e do Amazon Exchange Virtual Server vCenter em NetApp Disaster Recovery</block>
+  <block id="32530c1a1edb0706f8c34b61bf263957" category="paragraph">Para obter mais informações, consulte <block ref="0d43ad8ffb310486762e1912aeac4ebc" category="inline-link-macro-rx"></block>.</block>
+  <block id="d7861bc1dada29d20aea81705aca4684" category="section-title">Novo submenu de plano de replicação</block>
+  <block id="92902e0b7c7f7c58edcfa55410a2eb18" category="paragraph">O recurso de Recuperação de Desastres agora inclui novas opções de menu para acionar atualizações do vCenter a partir do painel do plano de replicação. Você pode acessar o submenu no menu de ações do painel do plano de replicação: selecione **Integridade do Plano** e, em seguida, **Atualizar origem vCenter / Atualizar destino vCenter**.</block>
+  <block id="8bad83affac335130776761407726ea6" category="inline-link-macro">Modificar um plano de replicação</block>
+  <block id="95036acb74478cad3d04125e4993251b" category="paragraph">Para obter mais informações, consulte <block ref="ef769a112a3ec5265cbcfd525103b93a" category="inline-link-macro-rx"></block>.</block>
+  <block id="4c66a9dab829d794eb059ed24f6c0e5b" category="section-title">Descoberta de rede aprimorada</block>
+  <block id="b5cc90986d9652570eab368db96768d2" category="paragraph">Disaster Recovery agora inclui descoberta de rede aprimorada para oferecer suporte a uma gama mais ampla de configurações de rede.</block>
 </blocks>
