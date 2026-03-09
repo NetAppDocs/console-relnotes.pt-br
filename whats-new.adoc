@@ -30,6 +30,43 @@ Remediação:: O serviço de correção foi removido em 22 de abril de 2024.
 ====
 
 
+== 09 de março de 2026
+
+
+
+=== Backup e Recuperação
+
+
+
+==== Aprimoramentos nas cargas de trabalho do ONTAP Volumes
+
+Nesta versão, as cargas de trabalho de ONTAP Volumes introduzem os seguintes recursos aprimorados:
+
+* *Restaurar para o local de origem*: agora você pode restaurar arquivos de snapshots locais e snapshots replicados para o local de origem, bem como para um local alternativo.
+* *Detecção de volume por hora*: O Dashboard agora detecta e atualiza novos volumes mais rapidamente.
+* *Suporte para dark sites*: Agora você pode baixar o Backup and Recovery para dark sites do https://mysupport.netapp.com/site/products/all/details/netapp-console/downloads-tab/download/61906/4.4.0/downloads["NetApp site de suporte"]. No momento, NetApp Backup and Recovery para dark sites suporta apenas workloads de ONTAP Volumes.
+* *Melhorias na compatibilidade com Unicode*: a indexação do catálogo agora lida melhor com caracteres Unicode.
+* *Compatibilidade aprimorada do FlexGroup*: Ao converter um volume ONTAP FlexVol para um volume FlexGroup, agora você pode restaurar backups feitos antes da conversão.
+* *Suporte a múltiplos buckets*: agora você pode proteger os volumes dentro de um sistema com até 6 buckets por sistema em diferentes provedores de nuvem.
+
+
+Para obter detalhes sobre como proteger cargas de trabalho do ONTAP Volume, consulte  https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Visão geral da proteção de cargas de trabalho do ONTAP Volume"].
+
+
+
+==== Aprimoramentos de cargas de trabalho da VMware
+
+Nesta versão, VMware workloads introduz os seguintes recursos aprimorados:
+
+* *Restaurar dados de convidados do armazenamento de objetos*: Agora você pode restaurar arquivos e pastas de convidados do armazenamento de objetos.
+* *Restauração rápida para VMFS/NFS*: Agora você pode habilitar a opção de restauração rápida ao restaurar para um local alternativo. Quando habilitada, somente metadados (arquivos, LUNs e namespaces) são recuperados do armazenamento de objetos, disponibilizando os volumes mais rapidamente do que em uma restauração completa.
+* *Suporte para Amazon FSx for NetApp ONTAP*: As cargas de trabalho VMware agora suportam sistemas de armazenamento Amazon FSx for NetApp ONTAP executando a versão 9.13.1 ou posterior.
+
+
+Para obter detalhes sobre como proteger cargas de trabalho VMware, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Visão geral da proteção de VMware workloads"].
+
+
+
 == 02 de março de 2026
 
 
@@ -917,137 +954,3 @@ Para o NetApp Console em modo restrito ou versões do ONTAP 9.5 e anteriores, as
 Quando você tem mais de 20 clusters ONTAP locais gerenciados no NetApp Console, a guia *Volume* é exibida por padrão em formato de grade para facilitar a navegação. A visualização em cartões está desativada.
 
 Essa alteração se aplica somente ao modo padrão e às versões 9.6 e superiores do ONTAP .
-
-
-
-== 09 de dezembro de 2025
-
-
-
-=== Recuperação de desastres
-
-
-
-==== Retenção da hierarquia de pastas
-
-Por padrão, a Recuperação de Desastres mantém a hierarquia de inventário da VM (estrutura de pastas) em caso de failover. Se o destino da recuperação não tiver a pasta necessária, a Recuperação de Desastres a criará.
-
-Agora você pode substituir essa configuração designando uma nova pasta principal para a máquina virtual ou desmarcando a opção **Manter a hierarquia de pastas original**.
-
-Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html["Crie um plano de replicação"].
-
-
-
-==== Atualização simplificada do agente do console
-
-A Recuperação de Desastres agora oferece suporte a um processo simplificado para o uso de vários agentes do Console em um ambiente de trabalho. Para alternar entre agentes do Console, você deve editar a configuração do vCenter, redescobrir as credenciais e atualizar os planos de replicação para usar o novo agente do Console.
-
-Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-disaster-recovery/reference/switch-console-agent.html["Agentes do console de troca"].
-
-
-
-== 08 de dezembro de 2025
-
-
-
-=== Backup e Recuperação
-
-
-
-==== Melhorias de pré-visualização de cargas de trabalho da VMware
-
-A versão de pré-visualização das cargas de trabalho do VMware apresenta os seguintes recursos aprimorados:
-
-* Agora você pode restaurar backups e snapshots para um local alternativo. Isso é útil se você quiser gerenciar versões de uma máquina virtual em diferentes implementações do VMware vCenter, hosts VMware ESXi ou datastores VMware.
-
-
-link:br-use-vmware-restore.html["Saiba mais sobre como restaurar VMs do VMware com o NetApp Backup and Recovery."].
-
-* Agora você pode restaurar discos virtuais VMware específicos (imagens VMDK) a partir de um local primário ou secundário, permitindo um controle mais preciso sobre a restauração dos dados da máquina virtual.
-
-
-link:br-use-vmware-restore-vmdks-from-backups.html["Saiba mais sobre como restaurar discos virtuais do VMware com o NetApp Backup and Recovery."].
-
-
-
-=== Classificação de Dados
-
-
-
-==== Versão 1.49
-
-Esta versão do Data Classification inclui correções de erros e as seguintes atualizações:
-
-.Monitore as métricas e o desempenho no painel de monitoramento de integridade.
-O Data Classification agora oferece um painel de monitoramento de integridade, fornecendo monitoramento em tempo real de seus recursos e insights sobre uso de memória, uso de disco, utilização de disco e muito mais. Com as informações do painel de monitoramento de integridade, você pode analisar a infraestrutura da sua implementação e obter insights para otimizar o armazenamento e o desempenho.
-
-Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-data-classification/task-health-monitor.html["Monitore a integridade da Classificação de Dados."].
-
-.Desempenho de carregamento aprimorado
-O desempenho de carregamento de todas as páginas em Classificação de Dados foi aprimorado para criar uma experiência de usuário mais eficiente.
-
-
-
-=== Resiliência ao Ransomware
-
-
-
-==== O bloqueio de extensões está habilitado no nível da carga de trabalho.
-
-Ao ativar o bloqueio de extensão, ele passa a ser ativado no nível da carga de trabalho, e não no nível da máquina virtual de armazenamento.
-
-
-
-==== Editar o status de alerta de comportamento do usuário
-
-O recurso Resiliência a Ransomware agora permite editar o status dos alertas de comportamento do usuário. Você pode descartar e resolver alertas manualmente.
-
-Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-alert.html["Gerencie alertas em Resiliência a Ransomware"^].
-
-
-
-==== Suporte para vários agentes de console
-
-O Ransomware Resilience agora suporta o uso de vários agentes de console para gerenciar os mesmos sistemas.
-
-Para obter mais informações sobre agentes do Console, consultelink:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-setup.html["Criar um agente de console"] .
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== Capacidade de melhorar o desempenho dos discos Premium SSD v2 no Azure.
-
-Agora você pode melhorar o desempenho dos discos gerenciados Premium SSD v2 no Azure, modificando os parâmetros de IOPS e taxa de transferência. Utilizando essa funcionalidade, você pode otimizar o desempenho de armazenamento de seus sistemas com base nos requisitos de sua carga de trabalho.
-
-https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-perf-params-azure.html["Gerencie o desempenho de discos SSD v2 Premium para Cloud Volumes ONTAP no Azure."^].
-
-
-
-==== Simplificação da cobrança de excedentes de licenças Essentials
-
-Para contratos anuais/ofertas privadas do marketplace Cloud Volumes ONTAP , os cálculos de excedente para licenças Essentials agora estão alinhados com os pacotes Bring Your Own License (BYOL). Anteriormente, os excedentes eram cobrados de acordo com as tarifas horárias do mercado para o pacote Essentials exato. Agora, se o seu contrato anual no mercado incluir vários pacotes Essentials, o NetApp Console cobrará o excedente de um pacote Essentials com base na capacidade disponível de um pacote Essentials de preço mais elevado em sua assinatura. Isso simplifica os cálculos de excedente para os pacotes Essentials e garante uma transição tranquila do licenciamento BYOL para um modelo baseado em assinatura.
-
-https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing-charging.html#how-overages-are-charged-for-essentials-licenses["Como são cobradas as taxas adicionais para licenças Essentials"^]
-
-
-
-==== Suporte para séries de tamanhos do Azure Edsv6
-
-A partir da versão 9.17.1 do Cloud Volumes ONTAP , você pode implantar VMs da série Azure Edsv6 por meio do NetApp Console para novas instâncias do Cloud Volumes ONTAP . O Cloud Volumes ONTAP 9.17.1 e versões posteriores suportarão apenas VMs de Geração 2 para novas implementações. Essas máquinas de segunda geração são compatíveis com as tecnologias mais recentes, como a Interface de Firmware Extensível Unificada (UEFI), sistemas Azure Boost e NVMe. São ideais para sistemas e aplicações que exigem muita memória e precisam de armazenamento local rápido, como servidores de banco de dados e mecanismos de análise.
-
-https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html#supported-configurations-by-license["Configurações com suporte para Cloud Volumes ONTAP no Azure"^]
-
-
-
-=== Keystone
-
-Novos aprimoramentos no painel do Keystone no NetApp Console:
-
-
-
-==== Etiqueta de capacidade de explosão acumulada renomeada
-
-A etiqueta *Capacidade de rajada acumulada* foi renomeada para *Rajada acumulada*.
