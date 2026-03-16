@@ -30,6 +30,24 @@ Remediação:: O serviço de correção foi removido em 22 de abril de 2024.
 ====
 
 
+== 16 de março de 2026
+
+
+
+=== Backup e Recuperação
+
+
+
+==== Aprimoramentos de cargas de trabalho da VMware
+
+Nesta versão, VMware workloads apresenta as seguintes melhorias:
+
+*Suporte à consistência de VM por nível de agendamento*: Agora você pode habilitar backups consistentes com a VM e com o aplicativo para níveis de agendamento específicos ao configurar políticas de proteção para cargas de trabalho VMware. Os níveis anual, mensal e semanal são suportados.
+
+Para obter detalhes sobre como proteger cargas de trabalho VMware, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Visão geral da proteção de VMware workloads"].
+
+
+
 == 12 de março de 2026
 
 

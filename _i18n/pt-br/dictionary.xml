@@ -537,4 +537,7 @@
   <block id="cb4ae29d8762239c8dfdfc76bdb65d37" category="paragraph">O Ransomware Resilience agora oferece playbooks de orquestração, automação e resposta de segurança (SOAR) para <block ref="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="inline-link-macro-rx"></block> e <block ref="4655146bfbabab7fd679c2d1ca7a8d15" category="inline-link-macro-rx"></block>. Os playbooks facilitam o gerenciamento de resposta a ameaças, automatizando tarefas de teste e esforços essenciais de resposta a ransomware, incluindo a criação de snapshots e a desativação de um volume.</block>
   <block id="4ccc6bc65ccfbf776471461699df7790" category="inline-link-macro">Copiar, mover e excluir dados</block>
   <block id="26f19c45862fe8f967db0b3b7d289ad3" category="paragraph">Para mais informações, consulte <block ref="151ab796904ad3ebe669fb675d8fec0a" category="inline-link-macro-rx"></block>.</block>
+  <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">Nesta versão, VMware workloads apresenta as seguintes melhorias:</block>
+  <block id="c951c234678bc7ac8d60ec274364552c" category="paragraph">*Suporte à consistência de VM por nível de agendamento*: Agora você pode habilitar backups consistentes com a VM e com o aplicativo para níveis de agendamento específicos ao configurar políticas de proteção para cargas de trabalho VMware. Os níveis anual, mensal e semanal são suportados.</block>
+  <block id="69b1a964078d5301a2aa9822cb2304f2" category="section-title">16 de março de 2026</block>
 </blocks>
