@@ -551,4 +551,15 @@
   <block id="1336b537734375879229275580e44691" category="inline-link">Visão geral da proteção de workloads do Oracle Database</block>
   <block id="1862dacb480058987868f9ba0ecb7166" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho do Oracle Database, consulte <block ref="a1bc2d91e29f35544fc66a9a951bc0f5" category="inline-link-rx"></block>.</block>
   <block id="d8fdc2681cdec613a02ac551c44a6e8c" category="section-title">31 de março de 2026</block>
+  <block id="18515b3c335f09237bc0721c0cb72b94" category="doc">Acima da capacidade máxima no gráfico de consumo histórico</block>
+  <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">Veja as tendências de consumo das suas assinaturas Keystone</block>
+  <block id="ccb30c6d28628d4a2488596de7e2891b" category="paragraph">O gráfico de consumo histórico na aba *Tendência de consumo* agora destaca o uso que excede o limite de pico. Para saber mais, consulte <block ref="06dd3a9283773166a29e1b7ff4424218" category="inline-link-macro-rx"></block>.</block>
+  <block id="b3dc9240b9d14158cfa1e8c9f006c4cc" category="section-title">Previsão de utilização da capacidade</block>
+  <block id="d91e86bb82b2e269900865aa75c2f6b1" category="inline-link-macro">Veja os dados de previsão</block>
+  <block id="0794ebef867392ddd8fde9d8acc33d95" category="paragraph">Você pode usar a opção *Previsão* na visualização *Consumo histórico* da guia *Tendência de consumo* para projetar o uso da capacidade nos próximos 120 dias a partir da data atual. Para saber mais, consulte <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>.</block>
+  <block id="3cad4604b833d612cf60efacf78eba67" category="section-title">ID de rastreamento na exportação de assinaturas</block>
+  <block id="7c8889a3dbf6564af66cd90c8d50ab99" category="paragraph">O relatório de assinaturas baixado da página *Assinaturas* agora inclui o *ID de rastreamento* nos dados de nível de serviço de desempenho, tanto no formato Excel quanto no CSV.</block>
+  <block id="4f5116f256021abd73dfaa4f95b17237" category="section-title">Atualizações de visibilidade da coluna na página de assinaturas</block>
+  <block id="ff8ca3704c3bbdb74c1650666c3657bb" category="paragraph">Na página *Assinaturas*, a coluna *Keystone version* agora está oculta por padrão, e a coluna *Linked subscriptions* aparece somente quando assinaturas vinculadas estão disponíveis.</block>
+  <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">30 de março de 2026</block>
 </blocks>
