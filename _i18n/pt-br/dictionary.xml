@@ -562,4 +562,7 @@
   <block id="4f5116f256021abd73dfaa4f95b17237" category="section-title">Atualizações de visibilidade da coluna na página de assinaturas</block>
   <block id="ff8ca3704c3bbdb74c1650666c3657bb" category="paragraph">Na página *Assinaturas*, a coluna *Keystone version* agora está oculta por padrão, e a coluna *Linked subscriptions* aparece somente quando assinaturas vinculadas estão disponíveis.</block>
   <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">30 de março de 2026</block>
+  <block id="ed300adca180c1e33d800707367434a6" category="doc">Playbook SOAR para Google SecOps</block>
+  <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
+  <block id="6e9577ca2ef4afc51475afb9c4855a58" category="paragraph">O Ransomware Resilience agora oferece um playbook de orquestração, automação e resposta de segurança (SOAR) para <block ref="a0b16504c1687e5508c034346a32796a" category="inline-link-macro-rx"></block>. O playbook facilita o gerenciamento de respostas a ameaças, automatizando tarefas, testes e esforços essenciais de resposta a ransomware, incluindo a criação de snapshots e a desativação de um volume.</block>
 </blocks>
