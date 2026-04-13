@@ -554,4 +554,17 @@
   <block id="285f1521e0b74289afb804d0e992cf15" category="paragraph">Diretiva não resolvida em &lt;stdin&gt; - include::../_include/cloud-tiering-eol.adoc[]</block>
   <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Hierarquia na nuvem :deslocamento de nível: +1</block>
   <block id="1f5cc0c4f525a00feff5fb94ccd387c8" category="paragraph">Diretiva não resolvida em _whatsnew/2026-04-13_data-services-cloud-tiering.adoc - include::../_include/cloud-tiering-eol.adoc[]</block>
+  <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">Restauração limpa</block>
+  <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">O Ransomware Resilience agora oferece suporte a restaurações limpas, uma nova opção de recuperação que ajuda você a se recuperar de ataques de ransomware de forma rápida e fácil. As restaurações limpas oferecem fluxos de trabalho guiados que identificam os pontos de restauração ideais para colocar suas cargas de trabalho em funcionamento novamente, minimizando o tempo de inatividade. Os fluxos de trabalho na restauração limpa também fornecem informações detalhadas sobre seus dados em nível de arquivo, garantindo que você possa restaurar cargas de trabalho livres de malware, o que evita a reinfecção e minimiza perda de dados.</block>
+  <block id="86ef5018580452c81ea6cb2911275e90" category="inline-link-macro">Crie um ambiente de recuperação isolado</block>
+  <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">Recupere cargas de trabalho com uma restauração limpa</block>
+  <block id="a9e75b5aa64910e787dec413e103a858" category="paragraph">Para saber mais sobre as configurações suportadas e como configurar seu sistema para uma restauração limpa, consulte <block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>. Para saber como recuperar com uma restauração limpa, consulte <block ref="455be04ee07ce68cbcdf924300b59eba" category="inline-link-macro-rx"></block>.</block>
+  <block id="1268d987cbc2b2bc1be3c9ba04af7cd1" category="section-title">Suporte SIEM para Splunk Enterprise</block>
+  <block id="8d4e1592ef4f14add49e9860e8b367dc" category="paragraph">O Ransomware Resilience agora oferece suporte ao gerenciamento de informações e eventos de segurança (SIEM) para Splunk Enterprise, permitindo centralizar dados de log e eventos e simplificar a análise e detecção de ameaças.</block>
+  <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">Conecte Ransomware Resilience a um SIEM</block>
+  <block id="dbdca0e081ed0b247153e35ce9b1c298" category="paragraph">Para mais informações, consulte <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>.</block>
+  <block id="54dee0adf9652288315f3c7099d462be" category="section-title">Aprimoramento da atividade do usuário</block>
+  <block id="7ee4b3a8392885d95b1b7c9f5a6c99e5" category="paragraph">As informações sobre eventos de violação de dados agora são armazenadas por 13 meses após um incidente, permitindo um período mais longo de registro para suas necessidades de relatórios.</block>
+  <block id="f31838bfd1a4d7d1cc348bb0e79249aa" category="inline-link-macro">Saiba mais sobre detecção de atividade do usuário</block>
+  <block id="787e93d4c2f472a6434cd13d74f3f4d4" category="paragraph">Para mais informações, consulte <block ref="1a6935dbce91cdb72e61e2f8c1313b36" category="inline-link-macro-rx"></block>.</block>
 </blocks>
