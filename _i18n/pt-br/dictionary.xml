@@ -502,7 +502,7 @@
   <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
   <block id="d0c1ba6e120f697911d5bd92a51f0322" category="paragraph">O Ransomware Resilience agora oferece um playbook de orquestração, automação e resposta de segurança (SOAR) para <block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block>. O playbook facilita o gerenciamento de respostas a ameaças, automatiza tarefas e testes e oferece suporte a esforços essenciais de resposta a ransomware, incluindo a criação de snapshots e a desativação de um volume.</block>
   <block id="eddcacabf97ccd7e1dee4ec808dd25fd" category="paragraph-title">Suporte para verificação de configuração das portas necessárias</block>
-  <block id="cb33727456248b735e49b29eeb0872ab" category="paragraph">Você pode validar se as portas necessárias para o agente do Console estão abertas usando verificações de configuração. Você pode realizar verificações de configuração a partir do Console ou do console de manutenção do agente. <block ref="7af92084a09bd75adeb2599696166bd3" category="inline-link-macro-rx"></block></block>
+  <block id="cb33727456248b735e49b29eeb0872ab" category="paragraph">Você pode validar se as portas necessárias para o agente do Console estão abertas usando verificações de configuração. Você pode realizar verificações de configuração no Console ou no console de manutenção do agente.<block ref="7af92084a09bd75adeb2599696166bd3" category="inline-link-macro-rx"></block></block>
   <block id="ddce4978cfd5d98adb618dcf416c6735" category="paragraph">Você pode atribuir funções do Keystone a usuários parceiros para permitir que esses usuários gerenciem recursos do Keystone em uma organização parceira. <block ref="0cfd89aa5faa36e757947073b4868cee" category="inline-link-macro-rx"></block></block>
   <block id="15ddb6291e652b3c0316a7b15db5331f" category="doc">Agente do Console 4.6.0</block>
   <block id="fae382d7132035be0e5ef52e52a74b43" category="paragraph">A versão 4.6.0 suporta tanto o modo padrão quanto o modo restrito.</block>
@@ -551,4 +551,7 @@
   <block id="4a8a0c3493007142356e2bab5b977e96" category="inline-link-macro">Configurações suportadas para Disaster Recovery</block>
   <block id="fd6fb30ddd2582b6a9be2fbd297066cd" category="paragraph">Para obter mais informações sobre o suporte ao GCVE, consulte <block ref="e93ab8cb254bacf15604af8d15ae8da4" category="inline-link-macro-rx"></block>.</block>
   <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">13 de abril de 2026</block>
+  <block id="285f1521e0b74289afb804d0e992cf15" category="paragraph">Diretiva não resolvida em &lt;stdin&gt; - include::../_include/cloud-tiering-eol.adoc[]</block>
+  <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Hierarquia na nuvem :deslocamento de nível: +1</block>
+  <block id="1f5cc0c4f525a00feff5fb94ccd387c8" category="paragraph">Diretiva não resolvida em _whatsnew/2026-04-13_data-services-cloud-tiering.adoc - include::../_include/cloud-tiering-eol.adoc[]</block>
 </blocks>

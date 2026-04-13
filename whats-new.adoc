@@ -129,6 +129,10 @@ Para obter detalhes sobre como proteger cargas de trabalho VMware, consulte http
 
 Esta versão do Data Classification inclui correções de erros, melhorias de segurança e aprimoramentos de desempenho.
 
+Hierarquia na nuvem :deslocamento de nível: +1
+
+Diretiva não resolvida em _whatsnew/2026-04-13_data-services-cloud-tiering.adoc - include::../_include/cloud-tiering-eol.adoc[]
+
 
 
 === Recuperação de desastres
@@ -292,7 +296,7 @@ A versão 4.5.0 suporta tanto o modo padrão quanto o modo restrito.
 Esta versão do agente do Console inclui melhorias de segurança e correções de bugs, bem como o seguinte novo recurso.
 
 .Suporte para verificação de configuração das portas necessárias
-Você pode validar se as portas necessárias para o agente do Console estão abertas usando verificações de configuração. Você pode realizar verificações de configuração a partir do Console ou do console de manutenção do agente. link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["Saiba mais sobre como executar verificações de configuração no agente do Console."]
+Você pode validar se as portas necessárias para o agente do Console estão abertas usando verificações de configuração. Você pode realizar verificações de configuração no Console ou no console de manutenção do agente.link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["Saiba mais sobre como executar verificações de configuração no agente do Console."]
 
 
 
