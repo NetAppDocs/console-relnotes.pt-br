@@ -30,6 +30,125 @@ Remediação:: O serviço de correção foi removido em 22 de abril de 2024.
 ====
 
 
+== 13 de abril de 2026
+
+
+
+=== Configuração e administração do console
+
+
+
+==== Agente do Console 4.6.0
+
+A versão 4.6.0 suporta tanto o modo padrão quanto o modo restrito.
+
+Esta versão do agente do Console inclui melhorias de segurança e correções de bugs, bem como o seguinte novo recurso.
+
+.Suporte para verificações de configuração do espaço de disco necessário
+Você pode validar se o espaço de disco necessário para o agente do Console está disponível usando verificações de configuração. Você pode realizar verificações de configuração no Console ou no console de manutenção do agente.link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["Saiba mais sobre como executar verificações de configuração no agente do Console"^]
+
+.Atualize um agente de Console implantado pelo vCenter usando uma ISO
+Se você implantou um agente de Console no vCenter usando um OVA, agora pode atualizá-lo para uma nova versão montando uma ISO na VM e executando a atualização a partir do console de manutenção da VM. link:https://docs.netapp.com/us-en/console-setup-admin/task-upgrade-agent.html["Aprenda como atualizar um agente do Console implantado pelo vCenter"^]
+
+
+
+=== Backup e Recuperação
+
+
+
+==== Aprimoramentos nas cargas de trabalho do ONTAP Volumes
+
+Nesta versão, as cargas de trabalho do ONTAP Volumes introduzem a seguinte melhoria:
+
+*NetApp MetroCluster configurações ativo-ativo suportadas*: NetApp Backup and Recovery para cargas de trabalho de Volumes agora suporta MetroCluster na configuração ativo-ativo.
+
+Para obter detalhes sobre como proteger as cargas de trabalho do ONTAP Volumes, consulte  https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Visão geral das cargas de trabalho do Protect ONTAP Volumes"].
+
+
+
+==== Aprimoramentos de cargas de trabalho do Kubernetes
+
+Nesta versão, as cargas de trabalho do Kubernetes introduzem as seguintes melhorias na política de proteção:
+
+* *Editar políticas de proteção*: Agora você pode editar as políticas de proteção de cargas de trabalho do Kubernetes se precisar alterar
+* *Suporte a backup disco a disco*: Agora você pode configurar políticas de proteção do Kubernetes com uma arquitetura de backup disco a disco.
+* *Suporte a buckets de armazenamento do Google Cloud Platform*: Agora você pode configurar políticas de proteção do Kubernetes para fazer backup em buckets de armazenamento do Google Cloud Platform.
+
+
+Para obter mais informações sobre políticas de proteção, consulte  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-policies-create.html["Crie e gerencie políticas de proteção em NetApp Backup and Recovery"].
+
+Para obter detalhes sobre como proteger cargas de trabalho do Kubernetes, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Visão geral da proteção de workloads do Kubernetes"].
+
+
+
+==== Aprimoramentos nas cargas de trabalho do Hyper-V
+
+Nesta versão, as cargas de trabalho do Hyper-V introduzem as seguintes melhorias:
+
+* *Gerenciamento de tarefas aprimorado*: NetApp Backup and Recovery agora lida com várias tarefas simultâneas de forma mais eficiente.
+* *Suporte a SAN (prévia)*: NetApp Backup and Recovery agora oferece suporte à proteção de máquinas virtuais Hyper-V armazenadas em storage SAN.
+
+
+Para obter detalhes sobre como proteger cargas de trabalho do Hyper-V, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Visão geral da proteção de cargas de trabalho do Hyper-V"].
+
+
+
+==== Aprimoramentos nas cargas de trabalho do KVM
+
+Nesta versão, as cargas de trabalho KVM introduzem as seguintes melhorias:
+
+* *Gerenciamento de tarefas aprimorado*: NetApp Backup and Recovery agora lida com várias tarefas simultâneas de forma mais eficiente.
+* *Restaurar para local alternativo (prévia)*: agora você pode restaurar VMs KVM para um destino alternativo. Para obter mais informações, consulte  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-restore.html["Restaure máquinas virtuais KVM com NetApp Backup and Recovery"].
+
+
+Para obter detalhes sobre como proteger cargas de trabalho KVM, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["Visão geral das cargas de trabalho de proteção do KVM"] .
+
+
+
+==== Aprimoramentos de cargas de trabalho da VMware
+
+Nesta versão, VMware workloads apresenta as seguintes melhorias:
+
+* *Proteção baseada em tags*: O Backup and Recovery para cargas de trabalho VMware agora oferece suporte à proteção baseada em tags para VMs armazenadas em volumes NFS e VMFS, permitindo que você crie grupos de proteção a partir de tags do vCenter em vez de a partir de VMs ou datastores individuais. Ao adicionar tags a VMs e datastores no vCenter, o Backup and Recovery os descobre e inclui automaticamente em backups futuros, sem necessidade de manutenção manual do grupo. Para obter mais informações, consulte  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protection-groups.html["Criar e gerenciar grupos de proteção"].
+* *Restaurar para sistema de storage alternativo*: Agora você pode restaurar máquinas virtuais para um sistema de storage alternativo mesmo quando o sistema de storage original (primário) estiver completamente indisponível. Para obter mais informações, consulte  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["Restaurar cargas de trabalho do VMware"].
+* *Restaurar arquivos em VMs Linux*: Agora você pode restaurar arquivos e pastas de VMs para VMs Linux. Para obter mais informações, consulte  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["Restaurar arquivos e pastas"].
+* *Suporte a VMs proxy na restauração de arquivos e pastas* - Agora você pode restaurar arquivos e pastas para outras VMs hospedadas na origem vCenter. Para obter mais informações, consulte  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["Restaurar cargas de trabalho do VMware"].
+* *Pesquisa recursiva de arquivos e pastas* - Agora você pode pesquisar um arquivo ou pasta específico em todo o VMDK. Para obter mais informações, consulte  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["Restaurar cargas de trabalho do VMware"].
+* *Gerenciamento de tarefas aprimorado*: NetApp Backup and Recovery agora lida com várias tarefas simultâneas de forma mais eficiente.
+
+
+Para obter detalhes sobre como proteger cargas de trabalho VMware, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Visão geral da proteção de VMware workloads"].
+
+
+
+=== Classificação de Dados
+
+
+
+==== Versão 1.53
+
+Esta versão do Data Classification inclui correções de erros, melhorias de segurança e aprimoramentos de desempenho.
+
+
+
+=== Recuperação de desastres
+
+
+
+==== O suporte do Google Cloud VMware Engine (GCVE) agora está geralmente disponível (GA)
+
+NetApp Disaster Recovery para GCVE agora está disponível para o público em geral (GA). Com o suporte GA, Disaster Recovery para GCVE agora oferece suporte a:
+
+* *Snapshots gerenciados pela plataforma:* Gerencie backups e políticas de retenção de forma integrada por meio do ONTAP ou do Google Cloud Platform (GCP).
+* *Vários armazenamentos de dados por plano de replicação:* Simplifique seus planos de Disaster Recovery consolidando vários armazenamentos de dados em uma única estratégia de replicação.
+* *Forçar failover para sites de origem indisponíveis:* Alternar para um site de recuperação de desastres se a origem estiver indisponível.
+* *Adiar a resincronização do SnapMirror e restaurar a replicação sob demanda:* Adie as resincronizações do SnapMirror para evitar impacto nas cargas de trabalho de produção durante períodos de pico de operação usando a opção "ignorar proteção" e, posteriormente, restaure a replicação sob demanda com a opção de reproteção.
+
+
+Para obter mais informações sobre o suporte ao GCVE, consulte link:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.html["Configurações suportadas para Disaster Recovery"^].
+
+
+
 == 31 de março de 2026
 
 
@@ -172,14 +291,14 @@ A versão 4.5.0 suporta tanto o modo padrão quanto o modo restrito.
 
 Esta versão do agente do Console inclui melhorias de segurança e correções de bugs, bem como o seguinte novo recurso.
 
-.Suporte para verificações de configuração nas portas necessárias
-Você pode validar se as portas necessárias para o agente do Console estão abertas usando verificações de configuração. Você pode realizar verificações de configuração a partir do Console ou do console de manutenção do agente. link:https://docs.netapp.com/console-setup-admin/task-troubleshoot-agent.html["Saiba mais sobre como executar verificações de configuração no agente do Console."]
+.Suporte para verificação de configuração das portas necessárias
+Você pode validar se as portas necessárias para o agente do Console estão abertas usando verificações de configuração. Você pode realizar verificações de configuração a partir do Console ou do console de manutenção do agente. link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["Saiba mais sobre como executar verificações de configuração no agente do Console."]
 
 
 
 ==== Administração do console
 
-Você pode atribuir funções do Keystone a usuários parceiros para permitir que esses usuários gerenciem recursos do Keystone em uma organização parceira. link:https://docs.netapp.com/console-setup-admin/console-administration/task-partnerships-assign-users.html["Saiba mais sobre como atribuir funções do Keystone a usuários parceiros."]
+Você pode atribuir funções do Keystone a usuários parceiros para permitir que esses usuários gerenciem recursos do Keystone em uma organização parceira. link:https://docs.netapp.com/us-en/console-setup-admin/task-partnerships-assign-users.html["Saiba mais sobre como atribuir funções do Keystone a usuários parceiros."]
 
 
 
@@ -985,139 +1104,3 @@ Os tempos de carregamento de todas as páginas em Classificação de Dados, no r
 
 .Tempo estimado para relatórios de investigação
 Ao fazer o download de um relatório de investigação, a Classificação de Dados agora exibe o tempo estimado para a conclusão do download.
-
-
-
-== 12 de janeiro de 2026
-
-
-
-=== Configuração e administração do console
-
-
-
-==== Agente de console 4.3.0
-
-A versão 4.3.0 suporta tanto o modo padrão quanto o modo restrito.
-
-Esta versão do agente do Console inclui melhorias de segurança, correções de bugs e os seguintes recursos:
-
-.Capacidade de validar conexões de rede de agentes do Console
-Agora você pode validar as conexões de rede dos agentes do Console conectados diretamente do NetApp Console. Esse recurso ajuda a verificar a conectividade e solucionar problemas com os agentes do Console. Isso se soma à capacidade já existente de executar diagnósticos de rede a partir da interface de linha de comando do console de manutenção do agente do Console (CLI).
-
-link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html#verify-network-access["Aprenda como executar a configuração a partir do NetApp Console."]
-
-
-
-==== Administração do NetApp Console
-
-Esta versão inclui o seguinte:
-
-.Acesso baseado em funções para grupos federados no NetApp Console
-O NetApp Console permite atribuir funções a grupos federados (por exemplo, grupos do Active Directory), permitindo que os administradores automatizem a integração e a desvinculação de usuários com base na associação a grupos no provedor de identidade (IdP) da organização. Essa funcionalidade reduz a sobrecarga administrativa e garante acesso seguro e consistente, atualizando instantaneamente o acesso ao Console conforme as associações de grupo mudam.
-
-link:https://docs.netapp.com/us-en/console-setup-admin/task-iam-manage-members-permissions.html#add-a-federated-group-to-your-organization["Aprenda como conceder acesso a um grupo federado à sua organização."]
-
-.Suporte para federação quando o NetApp Console está em modo restrito.
-Agora você pode habilitar a federação para uma organização do NetApp Console que esteja em modo restrito. Isso permite que os usuários façam login no Console usando suas credenciais corporativas, mantendo os benefícios de segurança do modo restrito.
-
-.Modo somente leitura
-Você pode definir uma organização do NetApp Console para o modo somente leitura. No modo somente leitura, os usuários podem visualizar recursos e configurações, mas não podem fazer alterações. Um administrador ou superadministrador da organização pode ativar o modo somente leitura para uma organização. Quando o modo somente leitura está ativado, os usuários com funções administrativas devem elevar manualmente suas permissões para fazer as alterações necessárias.
-
-link:https://docs.netapp.com/us-en/console-setup-admin/task-enable-read-only-mode.html["Aprenda como ativar o modo somente leitura para uma organização do Console."]
-
-link:https://docs.netapp.com/us-en/console-setup-admin/task-user-settings.html["Aprenda como alavancar sua atuação quando sua organização estiver em modo somente leitura."]
-
-
-
-=== Recuperação de desastres
-
-
-
-==== Suporte para vários agentes do Console em ambientes locais.
-
-Se você utiliza a Recuperação de Desastres localmente, agora pode implantar um agente de console para cada instância do vCenter, melhorando a resiliência.
-
-Por exemplo, se você tiver dois sites (Sites A e B), o Site A pode ter o agente de console A anexado ao vCenter 1, à implantação ONTAP 1 e à implantação ONTAP 2. O Site B pode ter o agente de console B anexado às implantações do vCenter 2 e do ONTAP 3 e 4.
-
-Para obter informações sobre o agente do Console na Recuperação de Desastres, consulte link:https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/dr-prerequisites.html#netapp-console-prerequisites["Crie o agente do Console"^].
-
-
-
-==== Adicionar VMs após failover para planos de replicação usando proteção baseada em armazenamento de dados
-
-Quando o failover é acionado, qualquer plano de replicação que utilize proteção baseada em armazenamento de dados inclui as VMs que foram adicionadas ao armazenamento de dados, desde que tenham sido detectadas. Você deve fornecer os detalhes de mapeamento para as VMs adicionadas antes que o failover seja concluído.
-
-Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/failover.html["Aplicativos de failover"^].
-
-
-
-==== Novas notificações por e-mail
-
-A Recuperação de Desastres agora fornece notificações por e-mail para os seguintes eventos:
-
-* Aproximando-se do limite de utilização da capacidade
-* Geração de relatório concluída
-* Fracassos no trabalho
-* Vencimento da licença ou violações
-
-
-
-
-==== Melhorias no Swagger
-
-Agora você pode acessar a documentação do Swagger diretamente do Disaster Recovery. Na seção Recuperação de Desastres, selecione **Configurações** e, em seguida, **Documentação da API** para acessar o Swagger, ou visite este URL no modo anônimo/privado do seu navegador: link:https://snapcenter.cloudmanager.cloud.netapp.com/api/api-doc/draas["https://snapcenter.cloudmanager.cloud.netapp.com/api/api-doc/draas"^].
-
-
-
-==== Interfaces de usuário aprimoradas
-
-A Recuperação de Desastres agora oferece avisos aprimorados e soluções de erros. Esta versão corrige um erro que impedia a exibição de trabalhos cancelados na interface do usuário. Os trabalhos cancelados agora estão visíveis. Também há um novo aviso quando a mesma rede de destino é mapeada para várias redes de origem diferentes.
-
-
-
-==== Manter a estrutura de pastas da VM adicionada como padrão nos planos de replicação
-
-Ao criar uma réplica, a nova configuração padrão é manter a estrutura de pastas da máquina virtual. Se o destino da recuperação não tiver a hierarquia de pastas original, a Recuperação de Desastres a criará. Você pode desmarcar esta opção para ignorar a hierarquia de pastas original.
-
-Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html["Crie um plano de replicação"^].
-
-
-
-=== Resiliência ao Ransomware
-
-
-
-==== Replicar snapshots para o ONTAP
-
-Ransomware Resilience agora oferece suporte à adição de replicação de snapshots para um site ONTAP secundário. Com grupos de proteção que utilizam uma política de replicação, você pode replicar para o mesmo destino ou para destinos diferentes para cada carga de trabalho. Você pode criar uma estratégia de proteção contra ransomware que inclua replicação ou usar a estratégia predefinida.
-
-Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["Proteja as cargas de trabalho com resiliência contra ransomware."^].
-
-
-
-==== Excluir cargas de trabalho da resiliência a ransomware
-
-O Ransomware Resilience agora permite excluir cargas de trabalho específicas de um sistema da proteção, além de oferecer suporte ao painel de controle do Ransomware Resilience. Você pode excluir cargas de trabalho após a descoberta e incluí-las novamente se desejar adicionar proteção contra ransomware. Você não será cobrado por cargas de trabalho excluídas.
-
-Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-discover.html#exclude-workloads["Excluir cargas de trabalho"^].
-
-
-
-==== Alertas de marcação como em revisão
-
-A Resiliência contra Ransomware agora permite que você marque alertas como "Em análise". Use a etiqueta "Em análise" para melhorar a clareza em toda a sua equipe ao priorizar e gerenciar ameaças ativas de ransomware.
-
-Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-alert.html["Gerencie alertas em Resiliência a Ransomware"^].
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== Opção de faturamento preferencial para Cloud Volumes ONTAP
-
-Agora você pode selecionar a opção de faturamento de sua preferência para calcular o uso e os custos adicionais do Cloud Volumes ONTAP . Desde a disponibilidade limitada do modelo de licenciamento "Traga suas próprias licenças" (BYOL) em 25 de junho de 2025, a NetApp adicionou métodos de cobrança preferenciais na seção *Licenciamento e Assinaturas* do NetApp Console. Você pode usar sua assinatura anual do marketplace para faturamento e cobranças adicionais ou o modelo BYOL existente como opção preferencial. Isso oferece a flexibilidade de escolher o método de cobrança que melhor se adapta à estratégia financeira e aos padrões de uso da sua organização.
-
-https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing-charging.html#billing-preferences-and-overages["Preferências de faturamento e cobranças adicionais"^].
