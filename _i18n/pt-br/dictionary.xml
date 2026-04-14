@@ -123,20 +123,6 @@
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Configurações com suporte para Cloud Volumes ONTAP no Azure</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Suporte para o Google Cloud Infrastructure Manager</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">Gerenciador de Implantação na Nuvem</block>
-  <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">Versão 1.50</block>
-  <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">Melhorias na classificação personalizada</block>
-  <block id="3d1c64f6b833049963a84f1722911079" category="paragraph">A Classificação de Dados agora permite a criação de categorias personalizadas para seus dados. Você pode carregar arquivos para ajustar um modelo de IA que a Classificação de Dados usa para aplicar o marcador de categoria aos dados. A interface para todas as classificações personalizadas foi aprimorada.</block>
-  <block id="b3d4fb955e1630fd4184c8964a1f4fdb" category="inline-link-macro">Crie uma classificação personalizada</block>
-  <block id="1ea7cf77170c31be18fc52c7e9649923" category="paragraph">Para mais informações, consulte <block ref="c45381d223df5e8e5c4b98a60b8b65d3" category="inline-link-macro-rx"></block>.</block>
-  <block id="3e1e55a16c45f87e5a51189ca804eaf3" category="paragraph-title">Definição personalizada de dados obsoletos</block>
-  <block id="97b36bc8814884dc26bf5a568d08d691" category="paragraph">A Classificação de Dados agora permite personalizar a definição de dados obsoletos para que ela se adapte às necessidades da sua organização. Anteriormente, dados obsoletos eram definidos como quaisquer dados que tivessem sido modificados pela última vez há três anos. Agora, dados obsoletos podem ser identificados com base na data do último acesso _ou_ da última modificação; o período pode variar de 6 meses a 10 anos atrás.</block>
-  <block id="493a301aeed6d63ec61fcc12caab7b22" category="inline-link-macro">Personalize a definição de dados obsoletos</block>
-  <block id="14748686f892545cd3b61c5ed2221369" category="paragraph">Para mais informações, consulte <block ref="a0a0e231fdda706f469e0c838920ede3" category="inline-link-macro-rx"></block>.</block>
-  <block id="e887aed8f9c3dbecd37e8896d96b6637" category="paragraph-title">Desempenho aprimorado</block>
-  <block id="0106b64c8d04b65e1353d763ca518487" category="paragraph">Os tempos de carregamento de todas as páginas em Classificação de Dados, no relatório de mapeamento de dados e nos filtros da página de Investigação foram reduzidos.</block>
-  <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">Tempo estimado para relatórios de investigação</block>
-  <block id="317bcae14c763efc48845c774a224df6" category="paragraph">Ao fazer o download de um relatório de investigação, a Classificação de Dados agora exibe o tempo estimado para a conclusão do download.</block>
-  <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">14 de janeiro de 2026</block>
   <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">19 de janeiro de 2026</block>
   <block id="48ddddb06a7cca979a8b0eb4de198113" category="doc">Aprimoramentos nas cargas de trabalho de volume do ONTAP</block>
   <block id="70cc82710208295496c70c203368aaf9" category="paragraph">Esta versão das cargas de trabalho de volume ONTAP apresenta os seguintes recursos aprimorados:</block>
@@ -549,4 +535,31 @@
   <block id="19e7d45c6bedb302dc81dcad6024f1c3" category="list-text">*Restaurar arquivos em VMs Linux*: Agora você pode restaurar arquivos e pastas de VMs para VMs Linux. Para obter mais informações, consulte <block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>.</block>
   <block id="cbd6efe68945c4eed8277905a2c0fe44" category="list-text">*Suporte a VMs proxy na restauração de arquivos e pastas* - Agora você pode restaurar arquivos e pastas para outras VMs hospedadas na origem vCenter. Para obter mais informações, consulte <block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>.</block>
   <block id="b8f9bd73e7115f55039fdbc342c5bf1f" category="list-text">*Pesquisa recursiva de arquivos e pastas* - Agora você pode pesquisar um arquivo ou pasta específico em todo o VMDK. Para obter mais informações, consulte <block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>.</block>
+  <block id="285f1521e0b74289afb804d0e992cf15" category="paragraph">Diretiva não resolvida em &lt;stdin&gt; - include::../_include/cloud-tiering-eol.adoc[]</block>
+  <block id="9011586cd2cbb8095aa94a58c4af72fd" category="doc">Versão 1.53</block>
+  <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">Esta versão do Data Classification inclui correções de erros, melhorias de segurança e aprimoramentos de desempenho.</block>
+  <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">Restauração limpa</block>
+  <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">O Ransomware Resilience agora oferece suporte a restaurações limpas, uma nova opção de recuperação que ajuda você a se recuperar de ataques de ransomware de forma rápida e fácil. As restaurações limpas oferecem fluxos de trabalho guiados que identificam os pontos de restauração ideais para colocar suas cargas de trabalho em funcionamento novamente, minimizando o tempo de inatividade. Os fluxos de trabalho na restauração limpa também fornecem informações detalhadas sobre seus dados em nível de arquivo, garantindo que você possa restaurar cargas de trabalho livres de malware, o que evita a reinfecção e minimiza perda de dados.</block>
+  <block id="86ef5018580452c81ea6cb2911275e90" category="inline-link-macro">Crie um ambiente de recuperação isolado</block>
+  <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">Recupere cargas de trabalho com uma restauração limpa</block>
+  <block id="6ff288c704ac97afbc67708bc23dbc09" category="paragraph">Para saber mais sobre as configurações suportadas e como configurar seu sistema para uma restauração limpa, consulte <block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>. Para saber como recuperar com uma restauração limpa, consulte <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>.</block>
+  <block id="1268d987cbc2b2bc1be3c9ba04af7cd1" category="section-title">Suporte SIEM para Splunk Enterprise</block>
+  <block id="8d4e1592ef4f14add49e9860e8b367dc" category="paragraph">O Ransomware Resilience agora oferece suporte ao gerenciamento de informações e eventos de segurança (SIEM) para Splunk Enterprise, permitindo centralizar dados de log e eventos e simplificar a análise e detecção de ameaças.</block>
+  <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">Conecte Ransomware Resilience a um SIEM</block>
+  <block id="dbdca0e081ed0b247153e35ce9b1c298" category="paragraph">Para obter mais informações, consulte <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>.</block>
+  <block id="54dee0adf9652288315f3c7099d462be" category="section-title">Aprimoramento da atividade do usuário</block>
+  <block id="7ee4b3a8392885d95b1b7c9f5a6c99e5" category="paragraph">As informações sobre eventos de violação de dados agora são armazenadas por 13 meses após um incidente, permitindo um período mais longo de registro para suas necessidades de relatórios.</block>
+  <block id="f31838bfd1a4d7d1cc348bb0e79249aa" category="inline-link-macro">Saiba mais sobre detecção de atividade do usuário</block>
+  <block id="787e93d4c2f472a6434cd13d74f3f4d4" category="paragraph">Para obter mais informações, consulte <block ref="1a6935dbce91cdb72e61e2f8c1313b36" category="inline-link-macro-rx"></block>.</block>
+  <block id="d5affa88c9505737da2bd460b6fd43bb" category="doc">Suporte aprimorado do Cloud Volumes ONTAP com VMs do Google Cloud C3</block>
+  <block id="0c095222c728afb1d3c25c10e5f27e3c" category="paragraph">Cloud Volumes ONTAP agora oferece suporte aprimorado para as VMs da série C3 do Google Cloud, possibilitando os seguintes recursos adicionais:</block>
+  <block id="f0de228b367386d27d7b8cbf65c47859" category="list-text">Em suas implementações do Cloud Volumes ONTAP, você pode alternar entre diferentes tipos de instância dentro da família C3.</block>
+  <block id="b6d05c51f23a9bec9f5098e25088be1b" category="list-text">Ao alterar o tipo de instância, se você selecionar c3-standard-44 ou c3-standard-88 e suas variantes LSSD como a VM de destino, o serviço de rede de saída do Google, Tier-1, será aplicado automaticamente. Se você alternar para qualquer outra variante C3, a camada de rede de saída será definida como Standard.</block>
+  <block id="8c530a5dacbdac6ea799436763592a2b" category="admonition">Alterar o nível da rede de saída para Tier-1 acarreta custos adicionais. Planeje a implementação e a atualização de acordo.</block>
+  <block id="592c8c8f58ba9f6037877ba4f12bbd27" category="list-text">Se você selecionar as variantes de SSD local (LSSD) do C3, Flash Cache será ativado por padrão. Não é possível alternar entre as variantes de LSSD do C3 na sua implantação do Cloud Volumes ONTAP, mesmo que a variante de destino suporte Flash Cache.</block>
+  <block id="03fe422ae9ed1fe4cea49e5cfeeac9b8" category="list-text">Em suas VMs C3, agora você pode adicionar volumes a agregados novos e existentes.</block>
+  <block id="5aaea3e4d288404c9e29a557265127f4" category="list-text">Você pode alterar as configurações de IOPS e taxa de transferência ao adicionar volumes por meio do NetApp Console ou usando a <block ref="a27faf3e52367bc8d4429006be3dde82" prefix=" " category="inline-code"></block> API.</block>
+  <block id="79755a85cb08431038b7bbe13d99c64f" category="list-text"><block ref="79755a85cb08431038b7bbe13d99c64f" category="inline-link-rx"></block></block>
+  <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Hierarquia na nuvem :deslocamento de nível: +1</block>
+  <block id="1f5cc0c4f525a00feff5fb94ccd387c8" category="paragraph">Diretiva não resolvida em _whatsnew/2026-04-13_data-services-cloud-tiering.adoc - include::../_include/cloud-tiering-eol.adoc[]</block>
 </blocks>

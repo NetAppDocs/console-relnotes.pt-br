@@ -121,6 +121,20 @@ Para obter detalhes sobre como proteger cargas de trabalho VMware, consulte http
 
 
 
+=== Classificação de Dados
+
+
+
+==== Versão 1.53
+
+Esta versão do Data Classification inclui correções de erros, melhorias de segurança e aprimoramentos de desempenho.
+
+Hierarquia na nuvem :deslocamento de nível: +1
+
+Diretiva não resolvida em _whatsnew/2026-04-13_data-services-cloud-tiering.adoc - include::../_include/cloud-tiering-eol.adoc[]
+
+
+
 === Recuperação de desastres
 
 
@@ -136,6 +150,60 @@ NetApp Disaster Recovery para GCVE agora está disponível para o público em ge
 
 
 Para obter mais informações sobre o suporte ao GCVE, consulte link:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.html["Configurações suportadas para Disaster Recovery"^].
+
+
+
+=== Resiliência ao Ransomware
+
+
+
+==== Restauração limpa
+
+O Ransomware Resilience agora oferece suporte a restaurações limpas, uma nova opção de recuperação que ajuda você a se recuperar de ataques de ransomware de forma rápida e fácil. As restaurações limpas oferecem fluxos de trabalho guiados que identificam os pontos de restauração ideais para colocar suas cargas de trabalho em funcionamento novamente, minimizando o tempo de inatividade. Os fluxos de trabalho na restauração limpa também fornecem informações detalhadas sobre seus dados em nível de arquivo, garantindo que você possa restaurar cargas de trabalho livres de malware, o que evita a reinfecção e minimiza perda de dados.
+
+Para saber mais sobre as configurações suportadas e como configurar seu sistema para uma restauração limpa, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["Crie um ambiente de recuperação isolado"^]. Para saber como recuperar com uma restauração limpa, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore-recover.html["Recupere cargas de trabalho com uma restauração limpa"^].
+
+
+
+==== Suporte SIEM para Splunk Enterprise
+
+O Ransomware Resilience agora oferece suporte ao gerenciamento de informações e eventos de segurança (SIEM) para Splunk Enterprise, permitindo centralizar dados de log e eventos e simplificar a análise e detecção de ameaças.
+
+Para obter mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["Conecte Ransomware Resilience a um SIEM"^].
+
+
+
+==== Aprimoramento da atividade do usuário
+
+As informações sobre eventos de violação de dados agora são armazenadas por 13 meses após um incidente, permitindo um período mais longo de registro para suas necessidades de relatórios.
+
+Para obter mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-user-behavior.html["Saiba mais sobre detecção de atividade do usuário"^].
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== Suporte aprimorado do Cloud Volumes ONTAP com VMs do Google Cloud C3
+
+Cloud Volumes ONTAP agora oferece suporte aprimorado para as VMs da série C3 do Google Cloud, possibilitando os seguintes recursos adicionais:
+
+* Em suas implementações do Cloud Volumes ONTAP, você pode alternar entre diferentes tipos de instância dentro da família C3.
+* Ao alterar o tipo de instância, se você selecionar c3-standard-44 ou c3-standard-88 e suas variantes LSSD como a VM de destino, o serviço de rede de saída do Google, Tier-1, será aplicado automaticamente. Se você alternar para qualquer outra variante C3, a camada de rede de saída será definida como Standard.
++
+
+NOTE: Alterar o nível da rede de saída para Tier-1 acarreta custos adicionais. Planeje a implementação e a atualização de acordo.
+
+* Se você selecionar as variantes de SSD local (LSSD) do C3, Flash Cache será ativado por padrão. Não é possível alternar entre as variantes de LSSD do C3 na sua implantação do Cloud Volumes ONTAP, mesmo que a variante de destino suporte Flash Cache.
+* Em suas VMs C3, agora você pode adicionar volumes a agregados novos e existentes.
+* Você pode alterar as configurações de IOPS e taxa de transferência ao adicionar volumes por meio do NetApp Console ou usando a  `PUT /gcp/vsa/aggregates/{workingEnvironmentId}/{aggregateName}` API.
+
+
+.Links relacionados
+* https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-gcp.html["Configurações suportadas para Cloud Volumes ONTAP no Google Cloud"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#cloud-volumes-ontap-support-for-next-generation-google-cloud-vms["Suporte do Cloud Volumes ONTAP para VMs do Google Cloud de próxima geração"^]
+
 
 
 
@@ -1064,33 +1132,3 @@ Para obter detalhes sobre como proteger cargas de trabalho KVM, consulte https:/
 Os relatórios de Ransomware Resilience agora capturam informações sobre volumes suportados e não suportados no relatório **Summary**. Use essas informações para diagnosticar por que volumes em um sistema podem não ser elegíveis para ransomware protection.
 
 Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-reports.html["Baixe relatórios em Resiliência a Ransomware"^].
-
-
-
-== 14 de janeiro de 2026
-
-
-
-=== Classificação de Dados
-
-
-
-==== Versão 1.50
-
-Esta versão do Data Classification inclui correções de erros e as seguintes atualizações:
-
-.Melhorias na classificação personalizada
-A Classificação de Dados agora permite a criação de categorias personalizadas para seus dados. Você pode carregar arquivos para ajustar um modelo de IA que a Classificação de Dados usa para aplicar o marcador de categoria aos dados. A interface para todas as classificações personalizadas foi aprimorada.
-
-Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-data-classification/task-custom-classification.html["Crie uma classificação personalizada"^].
-
-.Definição personalizada de dados obsoletos
-A Classificação de Dados agora permite personalizar a definição de dados obsoletos para que ela se adapte às necessidades da sua organização. Anteriormente, dados obsoletos eram definidos como quaisquer dados que tivessem sido modificados pela última vez há três anos. Agora, dados obsoletos podem ser identificados com base na data do último acesso _ou_ da última modificação; o período pode variar de 6 meses a 10 anos atrás.
-
-Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-data-classification/task-stale-data.html["Personalize a definição de dados obsoletos"^].
-
-.Desempenho aprimorado
-Os tempos de carregamento de todas as páginas em Classificação de Dados, no relatório de mapeamento de dados e nos filtros da página de Investigação foram reduzidos.
-
-.Tempo estimado para relatórios de investigação
-Ao fazer o download de um relatório de investigação, a Classificação de Dados agora exibe o tempo estimado para a conclusão do download.
