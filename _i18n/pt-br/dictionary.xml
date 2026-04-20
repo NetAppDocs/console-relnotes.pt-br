@@ -509,7 +509,6 @@
   <block id="cab9c79c2324192af6049aa8cd78508d" category="list-text">*Restaurar para sistema de storage alternativo*: Agora você pode restaurar máquinas virtuais para um sistema de storage alternativo mesmo quando o sistema de storage original (primário) estiver completamente indisponível. Para obter mais informações, consulte <block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>.</block>
   <block id="9486b4129634e76f84d1e52fbd1b3326" category="inline-link">Restaurar arquivos e pastas</block>
   <block id="19e7d45c6bedb302dc81dcad6024f1c3" category="list-text">*Restaurar arquivos em VMs Linux*: Agora você pode restaurar arquivos e pastas de VMs para VMs Linux. Para obter mais informações, consulte <block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>.</block>
-  <block id="285f1521e0b74289afb804d0e992cf15" category="paragraph">Diretiva não resolvida em &lt;stdin&gt; - include::../_include/cloud-tiering-eol.adoc[]</block>
   <block id="9011586cd2cbb8095aa94a58c4af72fd" category="doc">Versão 1.53</block>
   <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">Esta versão do Data Classification inclui correções de erros, melhorias de segurança e aprimoramentos de desempenho.</block>
   <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">Restauração limpa</block>
@@ -535,10 +534,18 @@
   <block id="5aaea3e4d288404c9e29a557265127f4" category="list-text">Você pode alterar as configurações de IOPS e taxa de transferência ao adicionar volumes por meio do NetApp Console ou usando a <block ref="a27faf3e52367bc8d4429006be3dde82" prefix=" " category="inline-code"></block> API.</block>
   <block id="79755a85cb08431038b7bbe13d99c64f" category="list-text"><block ref="79755a85cb08431038b7bbe13d99c64f" category="inline-link-rx"></block></block>
   <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Hierarquia na nuvem :deslocamento de nível: +1</block>
-  <block id="1f5cc0c4f525a00feff5fb94ccd387c8" category="paragraph">Diretiva não resolvida em _whatsnew/2026-04-13_data-services-cloud-tiering.adoc - include::../_include/cloud-tiering-eol.adoc[]</block>
   <block id="12dc36f8332118bd4fe7f1b4633c0a17" category="list-text">*Suporte a VM proxy na restauração de arquivos e pastas* - Agora você pode restaurar arquivos e pastas de discos virtuais usando uma VM proxy quando preferir não conectar o disco virtual à VM original. Para obter mais informações, consulte <block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>.</block>
   <block id="ddd4881e88c799f792de41fafe0a11d7" category="list-text">*Pesquisa recursiva de arquivos e pastas* - Agora você pode pesquisar um arquivo ou pasta específico em todo um disco virtual. Para obter mais informações, consulte <block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>.</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">Nesta versão, VMware workloads apresenta a seguinte melhoria:</block>
   <block id="4f06e500210ecec059ecf486106df9e6" category="list-text">*ASA r2 suporte a SAN*: As cargas de trabalho do VMware agora oferecem suporte à proteção de VMs em datastores VMFS hospedados em ambientes NetApp ASA r2 somente SAN.</block>
   <block id="6dba6d956d3e495df0c0575cd1b23218" category="section-title">20 de abril de 2026</block>
+  <block id="6bf0d39aac020af955db8e54679a3173" category="doc">NetApp Cloud Tiering não está mais disponível</block>
+  <block id="bde6bbfbb596382f506558c6bab1343b" category="paragraph">NetApp Cloud Tiering não estará mais disponível para compra ou renovação de licença a partir de 26 de abril de 2026.</block>
+  <block id="bb94a9ffb3205557387f0b00f8e24dca" category="paragraph">Os clientes atuais podem continuar a usar e receber suporte para NetApp Cloud Tiering até que sua assinatura ou contrato de licença expire. Após a expiração da assinatura, os clientes não terão mais acesso aos recursos ou ao suporte do NetApp Cloud Tiering.</block>
+  <block id="f8a967869572457212675a5d470c728f" category="inline-link-macro">Instale uma licença FabricPool em um cluster ONTAP</block>
+  <block id="f1a805b989e2fd716c6ed52db78b4c09" category="paragraph">NetApp recomenda que os clientes trabalhem com seu representante NetApp para migrar suas licenças de tiering existentes para licenças ONTAP FabricPool, que fornecem a funcionalidade de tiering de dados no ONTAP. Consulte <block ref="ecd46e7261f4b06a38f69686168fad8b" category="inline-link-macro-rx"></block> para obter mais informações sobre como configurar o tiering de dados no ONTAP usando FabricPool.</block>
+  <block id="d5b1e29a38c69118ebb52ddd25078a82" category="inline-link-macro">NetApp Cloud Tiering Aviso de Fim de Disponibilidade</block>
+  <block id="3c1b98a4347b1e75ca57e51e43e141b2" category="list-text"><block ref="bc9f3746ee1a6c6e91093bc2b9ff13fb" category="inline-link-macro-rx"></block></block>
+  <block id="65afa52dc402fa4f804d1fad742f5b32" category="inline-link-macro">NetApp Cloud Tiering Perguntas frequentes sobre o fim da disponibilidade</block>
+  <block id="91140b6bf054d442adb9178830663a05" category="list-text"><block ref="317d9243bec15035f876da17dbcf900e" category="inline-link-macro-rx"></block></block>
 </blocks>
