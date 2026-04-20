@@ -148,11 +148,13 @@ Para obter detalhes sobre como proteger cargas de trabalho VMware, consulte http
 
 Esta versão do Data Classification inclui correções de erros, melhorias de segurança e aprimoramentos de desempenho.
 
-Hierarquia na nuvem :deslocamento de nível: +1
+
+
+=== Camadas de nuvem
 
 
 
-=== NetApp Cloud Tiering não está mais disponível
+==== NetApp Cloud Tiering não está mais disponível
 
 NetApp Cloud Tiering não estará mais disponível para compra ou renovação de licença a partir de 26 de abril de 2026.
 
