@@ -533,7 +533,6 @@
   <block id="03fe422ae9ed1fe4cea49e5cfeeac9b8" category="list-text">Em suas VMs C3, agora você pode adicionar volumes a agregados novos e existentes.</block>
   <block id="5aaea3e4d288404c9e29a557265127f4" category="list-text">Você pode alterar as configurações de IOPS e taxa de transferência ao adicionar volumes por meio do NetApp Console ou usando a <block ref="a27faf3e52367bc8d4429006be3dde82" prefix=" " category="inline-code"></block> API.</block>
   <block id="79755a85cb08431038b7bbe13d99c64f" category="list-text"><block ref="79755a85cb08431038b7bbe13d99c64f" category="inline-link-rx"></block></block>
-  <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Hierarquia na nuvem :deslocamento de nível: +1</block>
   <block id="12dc36f8332118bd4fe7f1b4633c0a17" category="list-text">*Suporte a VM proxy na restauração de arquivos e pastas* - Agora você pode restaurar arquivos e pastas de discos virtuais usando uma VM proxy quando preferir não conectar o disco virtual à VM original. Para obter mais informações, consulte <block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>.</block>
   <block id="ddd4881e88c799f792de41fafe0a11d7" category="list-text">*Pesquisa recursiva de arquivos e pastas* - Agora você pode pesquisar um arquivo ou pasta específico em todo um disco virtual. Para obter mais informações, consulte <block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>.</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">Nesta versão, VMware workloads apresenta a seguinte melhoria:</block>
@@ -548,4 +547,9 @@
   <block id="3c1b98a4347b1e75ca57e51e43e141b2" category="list-text"><block ref="bc9f3746ee1a6c6e91093bc2b9ff13fb" category="inline-link-macro-rx"></block></block>
   <block id="65afa52dc402fa4f804d1fad742f5b32" category="inline-link-macro">NetApp Cloud Tiering Perguntas frequentes sobre o fim da disponibilidade</block>
   <block id="91140b6bf054d442adb9178830663a05" category="list-text"><block ref="317d9243bec15035f876da17dbcf900e" category="inline-link-macro-rx"></block></block>
+  <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">Rótulo de capacidade provisionada renomeado</block>
+  <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">A etiqueta *Capacidade provisionada* foi renomeada para *Capacidade de volume provisionada*. A etiqueta atualizada também é refletida nos relatórios CSV e Excel relacionados.</block>
+  <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">Alternância de previsão para rajada acumulada</block>
+  <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">Agora você pode usar a opção *Previsão* na visualização *Consumo acumulado* da guia *Tendência de consumo* para projetar o uso acumulado de burst para os próximos 120 dias a partir da data atual. Para saber mais, consulte <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>.</block>
+  <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">27 de abril de 2026</block>
 </blocks>
