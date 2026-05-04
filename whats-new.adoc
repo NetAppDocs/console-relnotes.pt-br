@@ -1086,37 +1086,3 @@ Upgrade Advisor agora gera relatórios de atualização para clusters onde os n�
 ==== Suporte estendido para versões do ONTAP fora do suporte limitado
 
 Upgrade Advisor agora oferece suporte à geração de planos de atualização para versões do ONTAP que atingiram o fim do suporte limitado, com um período de carência de 9 meses. Esse recurso ajuda os clientes a tomarem medidas oportunas e a evitarem interrupções na atualização, fornecendo orientações claras durante o período de transição.
-
-
-
-== 02 de fevereiro de 2026
-
-
-
-=== Keystone
-
-Novos aprimoramentos no painel do Keystone no NetApp Console:
-
-
-
-==== Filtragem interativa para dados de burst acumulados diariamente
-
-A tabela *Acúmulo de consumo por dias* na aba *Tendência de consumo* agora oferece suporte a filtros interativos. Selecione qualquer barra no gráfico de acúmulo de consumo para visualizar apenas os dias dentro desse período de faturamento. Para saber mais, consulte link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Visualizar o uso diário de dados acumulados em rajadas"].
-
-
-
-==== Exibição aprimorada do intervalo de datas no gráfico de burst acumulado
-
-O gráfico de faturamento acumulado na aba *Tendência de consumo* agora exibe intervalos de datas completos para cada período de faturamento, como Oct 01, 2025 a Oct 31, 2025, em vez de apenas o mês e o ano.
-
-
-
-==== Visualização expansível dos detalhes da assinatura
-
-A aba *Assinaturas* inclui uma opção para expandir todas as assinaturas e visualizar simultaneamente as informações sobre os níveis de serviço de desempenho de cada assinatura. Para saber mais, consulte link:./integrations/subscriptions-tab.html["Veja detalhes sobre suas assinaturas Keystone"].
-
-
-
-==== Nova coluna Usage type
-
-A aba *Assinaturas* inclui uma coluna *Tipo de uso* que exibe se a assinatura é cobrada com base no uso provisionado, físico ou lógico. Para saber mais, consulte link:./integrations/subscriptions-tab.html["Veja detalhes sobre suas assinaturas Keystone"].
