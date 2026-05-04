@@ -118,7 +118,6 @@
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">Esta versão inclui o seguinte:</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">Estas notas de versão descrevem melhorias recentes no NetApp Console e nos serviços de dados que ele suporta. Links para o conjunto completo de notas de lançamento de cada serviço individual.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">Saiba mais sobre as alterações mais recentes nos recursos e serviços de dados que fazem parte do NetApp Console. Para obter um histórico completo de versões, acesse o conjunto completo de notas de versão de cada serviço individual.</block>
-  <block id="640602402999fbf572de482a35f449bc" category="paragraph">Esta versão do Data Classification inclui correções de erros e as seguintes atualizações:</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">Crie um plano de replicação</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Configurações com suporte para Cloud Volumes ONTAP no Azure</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Suporte para o Google Cloud Infrastructure Manager</block>
@@ -127,17 +126,6 @@
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">Visão geral das cargas de trabalho de proteção do KVM</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho KVM, consulte<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block> .</block>
   <block id="84e342f82fe0ee384175add283bd1f4e" category="list-text">O suporte para cargas de trabalho VMware agora está disponível para o público em geral (GA) em NetApp Backup and Recovery.</block>
-  <block id="990e7c9325408b6d830d12ba4c1afe88" category="doc">Filtragem interativa para dados de burst acumulados diariamente</block>
-  <block id="cb74be13d3a600957d1ee583265f537d" category="inline-link-macro">Visualizar o uso diário de dados acumulados em rajadas</block>
-  <block id="4b808a5ae06687042695057904b0b6bb" category="paragraph">A tabela *Acúmulo de consumo por dias* na aba *Tendência de consumo* agora oferece suporte a filtros interativos. Selecione qualquer barra no gráfico de acúmulo de consumo para visualizar apenas os dias dentro desse período de faturamento. Para saber mais, consulte <block ref="9340f3a90809d3af703998e25844252d" category="inline-link-macro-rx"></block>.</block>
-  <block id="a3b5a92602c2684cdca8198a8cfe1818" category="section-title">Exibição aprimorada do intervalo de datas no gráfico de burst acumulado</block>
-  <block id="1c9a58169acbfe805f644273387c3b52" category="paragraph">O gráfico de faturamento acumulado na aba *Tendência de consumo* agora exibe intervalos de datas completos para cada período de faturamento, como Oct 01, 2025 a Oct 31, 2025, em vez de apenas o mês e o ano.</block>
-  <block id="46b1adc980362ab6f320e3cdb4a469c1" category="section-title">Visualização expansível dos detalhes da assinatura</block>
-  <block id="6e665113a95f128bda94a45125d034c0" category="inline-link-macro">Veja detalhes sobre suas assinaturas Keystone</block>
-  <block id="f40d8051a9fd8153ddf9a5541a863887" category="paragraph">A aba *Assinaturas* inclui uma opção para expandir todas as assinaturas e visualizar simultaneamente as informações sobre os níveis de serviço de desempenho de cada assinatura. Para saber mais, consulte <block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>.</block>
-  <block id="f6c0ac19eddb9409767c72354ec3684d" category="section-title">Nova coluna Usage type</block>
-  <block id="7d6ad97dce95d7baa137f0f095070eb3" category="paragraph">A aba *Assinaturas* inclui uma coluna *Tipo de uso* que exibe se a assinatura é cobrada com base no uso provisionado, físico ou lógico. Para saber mais, consulte <block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>.</block>
-  <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">02 de fevereiro de 2026</block>
   <block id="a0d3399097b7cbf32ef14a3abf47c295" category="doc">Novo relatório de segurança para supervisão de segurança abrangente</block>
   <block id="9747281be2bd1fc01288f1691f51d2f4" category="paragraph">Digital Advisor agora inclui um Relatório de Segurança que fornece uma visão unificada dos riscos de segurança do ONTAP em todo o seu ambiente de storage. Este relatório permite a detecção mais rápida de configurações incorretas, lacunas de conformidade e problemas de segurança em clusters, SVMs e volumes, ajudando você a manter uma infraestrutura de storage segura.</block>
   <block id="fb4692a2354d5e0222d888a1c02dabeb" category="section-title">Suporte aprimorado do Upgrade Advisor para níveis de patch mistos</block>
@@ -208,7 +196,6 @@
   <block id="7736ebd5eab336ae9e7647e31955b0cc" category="paragraph">A replicação de dados agora está disponível entre um sistema Cloud Volumes ONTAP e um sistema de arquivos FSx for ONTAP a partir do NetApp Console.</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">Replicar dados</block>
   <block id="f319ee95d93a22851e4a5522d2273836" category="paragraph"><block ref="f319ee95d93a22851e4a5522d2273836" category="inline-link-macro-rx"></block></block>
-  <block id="0cd5c5ab4d8a458ece2a760f674c681e" category="doc">Versão 1.51</block>
   <block id="dbeedec7ca35d125dd2a7ee8355c41f5" category="section-title">Cargas de trabalho VMware suportadas na General Availability (GA)</block>
   <block id="dbf7cd788b00dca3348b80d3d3473bf6" category="doc">Suporte para Ebdsv5 e E104ids_v5 VMs no Azure</block>
   <block id="4324be09b704ac1f5d63ff496d7ef1f4" category="paragraph">A partir do Cloud Volumes ONTAP 9.18.1, você pode implantar Ebdsv5 e E104ids_v5 VMs para implantações e atualizações de nó único e de alta disponibilidade (par de HA).</block>
@@ -391,7 +378,6 @@
   <block id="4c66a9dab829d794eb059ed24f6c0e5b" category="section-title">Descoberta de rede aprimorada</block>
   <block id="b5cc90986d9652570eab368db96768d2" category="paragraph">Disaster Recovery agora inclui descoberta de rede aprimorada para oferecer suporte a uma gama mais ampla de configurações de rede.</block>
   <block id="59ff8a6991a0f51816a1d27ab0590821" category="paragraph-title">Aumento dos limites para copiar e mover</block>
-  <block id="5db4431afc8c4647c29360449ee80225" category="doc">Versão 1.52</block>
   <block id="1cc9fa7904bbb11e4569869878e58bbb" category="paragraph-title">Validação de recursos</block>
   <block id="19458db6dfda018080434d803401d712" category="paragraph">Para garantir a confiabilidade, Data Classification agora valida a memória e os recursos de disco disponíveis durante a verificação, geração de relatórios e ações. Quando o uso de memória excede 95% ou o espaço de disco cai abaixo de 6 GB, Data Classification pausa automaticamente as operações. As operações são retomadas assim que os recursos forem suficientes.</block>
   <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">Monitore a integridade do Data Classification</block>
@@ -508,7 +494,6 @@
   <block id="cab9c79c2324192af6049aa8cd78508d" category="list-text">*Restaurar para sistema de storage alternativo*: Agora você pode restaurar máquinas virtuais para um sistema de storage alternativo mesmo quando o sistema de storage original (primário) estiver completamente indisponível. Para obter mais informações, consulte <block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>.</block>
   <block id="9486b4129634e76f84d1e52fbd1b3326" category="inline-link">Restaurar arquivos e pastas</block>
   <block id="19e7d45c6bedb302dc81dcad6024f1c3" category="list-text">*Restaurar arquivos em VMs Linux*: Agora você pode restaurar arquivos e pastas de VMs para VMs Linux. Para obter mais informações, consulte <block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>.</block>
-  <block id="9011586cd2cbb8095aa94a58c4af72fd" category="doc">Versão 1.53</block>
   <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">Esta versão do Data Classification inclui correções de erros, melhorias de segurança e aprimoramentos de desempenho.</block>
   <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">Restauração limpa</block>
   <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">O Ransomware Resilience agora oferece suporte a restaurações limpas, uma nova opção de recuperação que ajuda você a se recuperar de ataques de ransomware de forma rápida e fácil. As restaurações limpas oferecem fluxos de trabalho guiados que identificam os pontos de restauração ideais para colocar suas cargas de trabalho em funcionamento novamente, minimizando o tempo de inatividade. Os fluxos de trabalho na restauração limpa também fornecem informações detalhadas sobre seus dados em nível de arquivo, garantindo que você possa restaurar cargas de trabalho livres de malware, o que evita a reinfecção e minimiza perda de dados.</block>
@@ -552,4 +537,9 @@
   <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">Agora você pode usar a opção *Previsão* na visualização *Consumo acumulado* da guia *Tendência de consumo* para projetar o uso acumulado de burst para os próximos 120 dias a partir da data atual. Para saber mais, consulte <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>.</block>
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">27 de abril de 2026</block>
   <block id="b8b08cc8479793cbf90cf90739d5d44a" category="list-text">*Editar políticas de proteção*: Agora você pode editar as políticas de proteção de cargas de trabalho do Kubernetes, caso precise alterá-las.</block>
+  <block id="e4c84482ee4555ae482d96b91322224c" category="doc">Melhorias gerais</block>
+  <block id="d939a4c3efbccb14bb6a8b8ec450f62d" category="doc">Implantar o NetApp Data Classification com OVA</block>
+  <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification agora oferece suporte à implantação com VMware Open Virtual Appliance (OVA), proporcionando uma estratégia de implantação simplificada para ambientes VMware vSphere locais.</block>
+  <block id="1a4ea23de9d17b2e28a82a012795f402" category="paragraph">Para obter mais informações, consulte <block ref="671ddfd34f6defdc139134bff6f63dc9" category="inline-link-macro-rx"></block>.</block>
+  <block id="e0b0747cd573746d9f139faffc729dd5" category="section-title">04 de maio de 2026</block>
 </blocks>
