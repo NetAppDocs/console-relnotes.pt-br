@@ -78,6 +78,93 @@ Por padrão, Digital Advisor exibe todas as contas NetApp associadas à sua empr
 
 
 
+=== Backup e Recuperação
+
+
+
+==== Aprimoramentos nas cargas de trabalho do Hyper-V
+
+Nesta versão, as cargas de trabalho do Hyper-V introduzem as seguintes melhorias:
+
+* *Proteja VMs em armazenamento SAN*: Agora você pode proteger VMs em armazenamento SAN de objetos.
+* *Aprimoramentos na restauração para local alternativo*: Agora você pode restaurar para um local alternativo a partir dos locais primário e secundário para VMs em storage SAN.
+* *Restaurar arquivos e pastas para uma VM convidada*: Agora você pode restaurar arquivos e pastas de um Snapshot no storage primário para uma VM Windows convidada. Essa funcionalidade é compatível apenas com VMs CIFS.
+
+
+Para obter detalhes sobre como proteger cargas de trabalho do Hyper-V, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Visão geral da proteção de cargas de trabalho do Hyper-V"].
+
+
+
+==== Aprimoramentos nas cargas de trabalho do KVM
+
+Nesta versão, as cargas de trabalho KVM introduzem a seguinte melhoria:
+
+*Restaurar para local alternativo*: Agora você pode restaurar VMs KVM para um destino alternativo (este recurso agora está disponível para todos).
+
+Para obter detalhes sobre como proteger cargas de trabalho KVM, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["Visão geral das cargas de trabalho de proteção do KVM"] .
+
+
+
+==== Aprimoramentos nas cargas de trabalho do Oracle Database
+
+Nesta versão, as cargas de trabalho do Oracle Database introduzem as seguintes melhorias:
+
+* *Suporte ao Oracle AI Database 26ai*: NetApp Backup and Recovery agora é compatível com o Oracle AI Database 26ai.
+* *Suporte para verificação de backup*: Agora você pode configurar políticas de backup para verificar automaticamente a integridade dos seus backups do banco de dados Oracle.
+
+
+Para obter detalhes sobre como proteger cargas de trabalho do Oracle Database, consulte  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["Visão geral da proteção de cargas de trabalho do Oracle Database"].
+
+
+
+==== Aprimoramentos de cargas de trabalho da VMware
+
+Nesta versão, VMware workloads apresenta as seguintes melhorias:
+
+* *Suporte a datastores abrangentes para grupos de proteção*: Agora você pode escolher o comportamento dos grupos de proteção ao proteger máquinas virtuais cujos discos virtuais abrangem vários datastores.
+* *Suporte a clonagem*: Agora você pode criar clones de snapshots de máquinas virtuais a partir do storage primário e secundário.
+
+
+Para obter detalhes sobre como proteger cargas de trabalho VMware, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Visão geral da proteção de VMware workloads"].
+
+
+
+=== Resiliência ao Ransomware
+
+
+
+==== Melhorias de restauração limpa
+
+A restauração completa agora oferece suporte à recuperação para clusters alternativos e à análise além de sete dias.
+
+link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["Recupere cargas de trabalho com uma restauração limpa"^].
+
+
+
+==== Suporte do Google SecOps SIEM
+
+O Ransomware Resilience agora oferece suporte ao gerenciamento de informações e eventos de segurança (SIEM) com o Google SecOps, permitindo que você envie dados automaticamente para o Google SecOps para uma análise e detecção de ameaças simplificadas.
+
+Para obter informações sobre a configuração, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["Conecte Ransomware Resilience a um SIEM"^].
+
+
+
+==== O suporte para Azure NetApp Files agora está geralmente disponível
+
+O Ransomware Resilience agora oferece suporte a sistemas Azure NetApp Files, permitindo que você detecte e responda a ameaças de ransomware no Azure NetApp Files com eficiência. Ao descobrir cargas de trabalho, o Ransomware Resilience agora apresenta Azure NetApp Files e as exibe no painel de proteção. O suporte do Ransomware Resilience para Azure NetApp Files inclui estratégias de detecção e proteção apenas com snapshots. O suporte para Azure NetApp Files já está disponível para o público em geral (GA).
+
+Para obter mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["Saiba mais sobre resiliência a ransomware"^].
+
+
+
+==== Suporte SOAR para bloqueio de usuários
+
+O Ransomware Resilience agora oferece suporte ao bloqueio de usuários individuais com Google SecOps e playbooks do Splunk SOAR. Com essa adição, você pode automatizar o bloqueio de usuários quando o Ransomware Resilience detectar atividades suspeitas de usuários, como uma violação de dados ou exclusão em massa de dados.
+
+link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference-soar.html["Integre um playbook SOAR"^].
+
+
+
 == 05 de maio de 2026
 
 
