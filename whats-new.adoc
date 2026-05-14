@@ -158,6 +158,26 @@ Para obter detalhes sobre como proteger cargas de trabalho VMware, consulte http
 
 
 
+=== Classificação de Dados
+
+
+
+==== Página de configuração aprimorada
+
+O Data Classification atualizou e aprimorou a página de Configuração, proporcionando uma experiência de usabilidade melhor para gerenciar configurações, sistemas, habilitar verificações e monitorar a integridade do sistema. A nova página de Configuração oferece as funcionalidades existentes em um formato mais fácil de usar, além da possibilidade de filtrar sistemas por tipo, status de erro e status da verificação. A nova página também fornece um resumo dos sistemas conectados e uma visão geral das verificações ativas e configuradas.
+
+Analise um link:https://youtu.be/_8YJ3KyZ7nI["vídeo tutorial"^]. Para obter mais informações, consulte link:https://docs.netapp.com/us-en/data-services-data-classification/task-scanning-overview.html["Analise fontes de dados com a Classificação de Dados"^].
+
+
+
+==== Implantar o NetApp Data Classification com OVA
+
+NetApp Data Classification agora oferece suporte à implantação com VMware Open Virtual Appliance (OVA), proporcionando uma estratégia de implantação simplificada para ambientes VMware vSphere locais.
+
+Para obter mais informações, consulte link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-ova.html["Implantar o NetApp Data Classification com OVA"^].
+
+
+
 === Recuperação de desastres
 
 
@@ -232,22 +252,6 @@ Nesta versão, as cargas de trabalho do Kubernetes introduzem as seguintes melho
 
 
 Para obter detalhes sobre como proteger cargas de trabalho do Kubernetes, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Visão geral da proteção de workloads do Kubernetes"].
-
-
-
-== 04 de maio de 2026
-
-
-
-=== Classificação de Dados
-
-
-
-==== Implantar o NetApp Data Classification com OVA
-
-NetApp Data Classification agora oferece suporte à implantação com VMware Open Virtual Appliance (OVA), proporcionando uma estratégia de implantação simplificada para ambientes VMware vSphere locais.
-
-Para obter mais informações, consulte link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-ova.html["Implantar o NetApp Data Classification com OVA"^].
 
 
 
