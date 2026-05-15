@@ -543,4 +543,10 @@
   <block id="61954fce0112801d61f7b3c9a9be1aab" category="inline-link-macro">vídeo tutorial</block>
   <block id="b33b61643ba242e5611e036a3f84f5e4" category="inline-link-macro">Analise fontes de dados com a Classificação de Dados</block>
   <block id="158f63c968216959ea1a95097bf65a32" category="paragraph">Analise um <block ref="f4430cc54a3d5439e19ef235cf426e49" category="inline-link-macro-rx"></block>. Para obter mais informações, consulte <block ref="0824748a0b636d5cbe5dcc20744a9dc6" category="inline-link-macro-rx"></block>.</block>
+  <block id="cf975b28ba57e8d6ba85ec36d74a06c3" category="section-title">Função de administrador de conformidade IAM</block>
+  <block id="7cd2bb6be419d190aa59909bb89ac3d8" category="paragraph">A Classificação de Dados agora oferece suporte a uma função de administrador de Conformidade para gerenciar permissões na Classificação de Dados. A função de administrador de Conformidade não tem acesso a recursos como agentes do Console e espaços de trabalho. Usuários com a função de administrador de Conformidade devem estar associados a pelo menos uma outra função.</block>
+  <block id="dc778a1e9a5cca347a8492c869a90dc5" category="paragraph">Ao instalar o Data Classification, você deve ter a função de administrador da plataforma Console ou a função de administrador de Compliance.</block>
+  <block id="0d1a008033e3d9d27f9dd95b4127ec91" category="paragraph">Se você já é um usuário, o acesso deve continuar normalmente. Por exemplo, uma função na plataforma que possui uma função de administrador de pasta ou projeto já tem acesso.</block>
+  <block id="eeeb9dcaeb66c431b51b12eff19105f3" category="inline-link-macro">Funções de classificação de dados</block>
+  <block id="31228a8fb4b495437a73c890178a5d10" category="paragraph">Para obter mais informações, consulte <block ref="2470dbb8f361be9555feba4c3093f332" category="inline-link-macro-rx"></block>.</block>
 </blocks>
