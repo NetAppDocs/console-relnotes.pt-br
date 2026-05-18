@@ -512,4 +512,11 @@
   <block id="ba0619dd0f47665766133e60320fb439" category="doc">Avaliação de bem-estar</block>
   <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">A partir de julho de 2026, o recurso de Wellness Review não estará mais disponível no Digital Advisor. Para qualquer dúvida, envie um e-mail para mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#].</block>
   <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">18 de maio de 2026</block>
+  <block id="a4ad56ab8baa8582d6dba6091a9bd877" category="doc">Implantação simplificada do Cloud Volumes ONTAP no Azure</block>
+  <block id="8bfd035a33aa401829a9de89b5e0c246" category="paragraph">Agora você pode usar a Criação Rápida para implantar Cloud Volumes ONTAP no Azure, tanto para configurações de nó único quanto para configurações de alta disponibilidade (HA). Esse processo simplificado reduz o número de etapas em comparação com o método avançado, define automaticamente os valores padrão em uma única página e minimiza a navegação, tornando a implantação mais rápida e fácil.</block>
+  <block id="22f179b38b6aab375d21adc5216a57da" category="admonition">Se você usar a opção Quick create para implantar um novo sistema Cloud Volumes ONTAP no Azure, o NetApp Console seleciona as credenciais do Azure por padrão. Você pode implantar todos os seus sistemas Cloud Volumes ONTAP usando as credenciais iniciais do Azure. Se quiser usar outra assinatura e/ou credenciais, é necessário alternar para a implantação no modo avançado. Essa limitação será resolvida em uma versão futura.</block>
+  <block id="da7aee176a6e0989fc4edf2b02e0af34" category="inline-link">Implante Cloud Volumes ONTAP no Azure com a criação rápida</block>
+  <block id="8928e512cc17b6dd2c97fcb7dff5a06a" category="list-text"><block ref="8928e512cc17b6dd2c97fcb7dff5a06a" category="inline-link-rx"></block></block>
+  <block id="6d1c2cdb212ea73452146a3edb82fe12" category="inline-link">Implante Cloud Volumes ONTAP usando opções avançadas no Azure</block>
+  <block id="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="list-text"><block ref="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="inline-link-rx"></block></block>
 </blocks>
