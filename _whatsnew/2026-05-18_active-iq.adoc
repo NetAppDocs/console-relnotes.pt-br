@@ -1,0 +1,9 @@
+= Avaliação de bem-estar
+:allow-uri-read: 
+
+
+
+
+=== Avaliação de bem-estar
+
+A partir de julho de 2026, o recurso de Wellness Review não estará mais disponível no Digital Advisor. Para qualquer dúvida, envie um e-mail para mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#].
