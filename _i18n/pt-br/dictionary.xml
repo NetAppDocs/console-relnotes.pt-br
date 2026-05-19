@@ -508,7 +508,6 @@
   <block id="dc778a1e9a5cca347a8492c869a90dc5" category="paragraph">Ao instalar o Data Classification, você deve ter a função de administrador da plataforma Console ou a função de administrador de Compliance.</block>
   <block id="0d1a008033e3d9d27f9dd95b4127ec91" category="paragraph">Se você já é um usuário, o acesso deve continuar normalmente. Por exemplo, uma função na plataforma que possui uma função de administrador de pasta ou projeto já tem acesso.</block>
   <block id="eeeb9dcaeb66c431b51b12eff19105f3" category="inline-link-macro">Funções de classificação de dados</block>
-  <block id="31228a8fb4b495437a73c890178a5d10" category="paragraph">Para obter mais informações, consulte <block ref="2470dbb8f361be9555feba4c3093f332" category="inline-link-macro-rx"></block>.</block>
   <block id="ba0619dd0f47665766133e60320fb439" category="doc">Avaliação de bem-estar</block>
   <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">A partir de julho de 2026, o recurso de Wellness Review não estará mais disponível no Digital Advisor. Para qualquer dúvida, envie um e-mail para mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#].</block>
   <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">18 de maio de 2026</block>
@@ -527,4 +526,5 @@
   <block id="b5be0bbdf1965d7e362ac1fcae7cb4bb" category="paragraph">A restauração limpa agora também permite interromper a análise. Se você interromper a análise, deverá iniciar a restauração limpa novamente.</block>
   <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">Baixe relatórios em Resiliência a Ransomware</block>
   <block id="4756b9491ac344d3e27adc7e34c8640b" category="paragraph">Para saber mais sobre relatórios, consulte <block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>. Para saber mais sobre recuperação, consulte <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>.</block>
+  <block id="c105c16486992d9ad71af50fd3100019" category="paragraph">Para obter mais informações, consulte <block ref="96736731356e89817dd51fb3ef396df7" category="inline-link-macro-rx"></block>.</block>
 </blocks>

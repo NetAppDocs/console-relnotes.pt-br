@@ -232,7 +232,7 @@ Ao instalar o Data Classification, você deve ter a função de administrador da
 
 Se você já é um usuário, o acesso deve continuar normalmente. Por exemplo, uma função na plataforma que possui uma função de administrador de pasta ou projeto já tem acesso.
 
-Para obter mais informações, consulte link:https://docs.netapp.com/us-en/console-setup-admin_classification-role/reference-iam-data-classification.html["Funções de classificação de dados"^].
+Para obter mais informações, consulte link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-data-classification.html["Funções de classificação de dados"^].
 
 
 
