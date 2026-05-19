@@ -280,9 +280,7 @@
   <block id="2bdd9842a1d8845c8d1b9f13695c4ac5" category="inline-link-macro">Saiba mais sobre como atribuir funções do Keystone a usuários parceiros.</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">Para obter mais informações, consulte <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>.</block>
   <block id="f1997d5dfd164e5a0380ec3b9fe07b89" category="doc">Excluir usuários em massa dos alertas de comportamento do usuário</block>
-  <block id="4de429b8f1b2702e94fc5d32dd614fa1" category="paragraph">Ransomware Resilience agora suporta o upload de uma lista JSON de usuários para excluir dos alertas de atividade de comportamento do usuário, além das opções existentes na UI e baseadas em CSV.</block>
   <block id="0255e4883b8e158de2dac4173dac190a" category="paragraph">Para obter mais informações, consulte <block ref="dfd47d5e016db97d5fa8c5e4a7bd25f8" category="inline-link-macro-rx"></block>.</block>
-  <block id="5d8e3a83bb9b2062983b23dd93a1a59a" category="section-title">Aprimoramentos na atividade de comportamento do usuário</block>
   <block id="fcd457ee097f566ef709e77f46015c87" category="paragraph">Ransomware Resilience aprimorou a compreensão do comportamento do usuário ao adicionar alertas por e-mail e incluir eventos de comportamento do usuário nos dados de eventos SIEM compatíveis (AWS Security Hub, Microsoft Sentinel e Splunk Cloud). Esses aprimoramentos fornecem informações mais precisas sobre o monitoramento de segurança e conformidade.</block>
   <block id="5d8eeee45929294781013d6d152aae8a" category="inline-link-macro">Conecte NetApp Ransomware Resilience a um SIEM</block>
   <block id="ffe0756ca1f78d7e15e127b325f96178" category="paragraph">Para obter mais informações, consulte <block ref="372c79e94d2824fc0323cc318a30717d" category="inline-link-macro-rx"></block>.</block>
@@ -385,7 +383,6 @@
   <block id="8d4e1592ef4f14add49e9860e8b367dc" category="paragraph">O Ransomware Resilience agora oferece suporte ao gerenciamento de informações e eventos de segurança (SIEM) para Splunk Enterprise, permitindo centralizar dados de log e eventos e simplificar a análise e detecção de ameaças.</block>
   <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">Conecte Ransomware Resilience a um SIEM</block>
   <block id="dbdca0e081ed0b247153e35ce9b1c298" category="paragraph">Para obter mais informações, consulte <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>.</block>
-  <block id="54dee0adf9652288315f3c7099d462be" category="section-title">Aprimoramento da atividade do usuário</block>
   <block id="7ee4b3a8392885d95b1b7c9f5a6c99e5" category="paragraph">As informações sobre eventos de violação de dados agora são armazenadas por 13 meses após um incidente, permitindo um período mais longo de registro para suas necessidades de relatórios.</block>
   <block id="f31838bfd1a4d7d1cc348bb0e79249aa" category="inline-link-macro">Saiba mais sobre detecção de atividade do usuário</block>
   <block id="787e93d4c2f472a6434cd13d74f3f4d4" category="paragraph">Para obter mais informações, consulte <block ref="1a6935dbce91cdb72e61e2f8c1313b36" category="inline-link-macro-rx"></block>.</block>
@@ -527,4 +524,7 @@
   <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">Baixe relatórios em Resiliência a Ransomware</block>
   <block id="4756b9491ac344d3e27adc7e34c8640b" category="paragraph">Para saber mais sobre relatórios, consulte <block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>. Para saber mais sobre recuperação, consulte <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>.</block>
   <block id="c105c16486992d9ad71af50fd3100019" category="paragraph">Para obter mais informações, consulte <block ref="96736731356e89817dd51fb3ef396df7" category="inline-link-macro-rx"></block>.</block>
+  <block id="25c586197cb6f55bfcb4c60401abba6c" category="paragraph">O Ransomware Resilience agora suporta o upload de uma lista JSON de usuários para exclusão dos alertas de comportamento do usuário, além das opções existentes na interface do usuário e em formato CSV.</block>
+  <block id="ecac6e0599f3e07a4eb088d4ffb44a1d" category="section-title">Aprimoramentos na detecção do comportamento do usuário</block>
+  <block id="d3e94cc4397c8143c67e5435f39f1c9d" category="section-title">Aprimoramento da detecção do comportamento do usuário</block>
 </blocks>
