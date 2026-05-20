@@ -143,13 +143,6 @@
   <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">Saiba mais sobre resiliência a ransomware</block>
   <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">Excluir usuários dos alertas</block>
-  <block id="aa3bf76b3589430467bef386eaec9486" category="doc">Novas regiões suportadas no Azure</block>
-  <block id="c1ad65632774d8f35681af3ad68ef48e" category="paragraph">Agora você pode implantar Cloud Volumes ONTAP 9.12.1 GA e versões posteriores em zonas de disponibilidade únicas e múltiplas no Azure nas seguintes regiões. Isso inclui suporte para implantações de nó único e de alta disponibilidade (HA).</block>
-  <block id="ef8436a4447e0d3f8eea6f08056a2a75" category="list-text">Japão West (japanwest)</block>
-  <block id="ca5a8f45e6c8349c7fe815e66ba5c4dd" category="list-text">Indonésia Central (indonesiacentral)</block>
-  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Mapa de Regiões Globais sob Azure</block>
-  <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">Para obter uma lista de todas as regiões, consulte o<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>.</block>
-  <block id="29759b568048f604f84457c1e384b4a3" category="section-title">19 de fevereiro de 2026</block>
   <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="doc">Cargas de trabalho KVM suportadas na General Availability (GA)</block>
   <block id="2c4d488d266d9d0655ce2e1451e05b2d" category="paragraph">O suporte para cargas de trabalho do Kubernetes agora está disponível para o público em geral (GA) no NetApp Backup and Recovery. Esta versão das cargas de trabalho do Kubernetes também introduz os seguintes recursos aprimorados:</block>
   <block id="2329c3692bdf2d2f098db291ec4e9427" category="paragraph">*Suporte a relatórios*: Agora você pode gerar relatórios de atividades de proteção para clusters Kubernetes e aplicativos protegidos pelo NetApp Backup and Recovery.</block>
@@ -422,7 +415,6 @@
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">Nesta versão, as cargas de trabalho do Kubernetes introduzem as seguintes melhorias:</block>
   <block id="fa4bdb2a7b9d92b88314f56020b6233b" category="list-text">*Suporte nativo para proteção de VMs*: Agora você pode criar aplicativos baseados em VMs, permitindo proteger máquinas virtuais da mesma forma que protege qualquer outro aplicativo.</block>
   <block id="26941edb78c4dbe9ef9eecfa96d0effe" category="list-text">*Transformações de recursos*: Agora você pode usar transformações de recursos e modelos de transformação de recursos para adicionar, remover e modificar atributos de recursos durante o processo de restauração.</block>
-  <block id="283ac99a03bae81366bef44dc5d0e7d7" category="list-text">*Atualize o Trident Protect a partir do Backup and Recovery*: Agora você pode atualizar o Trident Protect para um cluster Kubernetes diretamente a partir do Backup and Recovery.</block>
   <block id="2473cfa7d58a8b216d39f3987c07594f" category="list-text">*Visualizar recursos protegidos*: Agora você pode visualizar os recursos incluídos em cada ponto de recuperação de um aplicativo e baixar um relatório JSON detalhado. Isso oferece visibilidade completa dos seus pontos de recuperação e simplifica a conformidade com auditorias.</block>
   <block id="2966006d3447f3363606a7ddf7d88713" category="section-title">05 de maio de 2026</block>
   <block id="08940f555ee07e4993dba0f9d919b955" category="doc">Suporte a cargas de trabalho baseadas em Kubernetes (prévia)</block>
@@ -527,4 +519,8 @@
   <block id="25c586197cb6f55bfcb4c60401abba6c" category="paragraph">O Ransomware Resilience agora suporta o upload de uma lista JSON de usuários para exclusão dos alertas de comportamento do usuário, além das opções existentes na interface do usuário e em formato CSV.</block>
   <block id="ecac6e0599f3e07a4eb088d4ffb44a1d" category="section-title">Aprimoramentos na detecção do comportamento do usuário</block>
   <block id="d3e94cc4397c8143c67e5435f39f1c9d" category="section-title">Aprimoramento da detecção do comportamento do usuário</block>
+  <block id="529ee13269734b9af20d3b6447ab6b9f" category="list-text">*Trident Protect 26.05*: Esta versão inclui Trident Protect 26.05.</block>
+  <block id="54f8a7826ae5101b3374158dadb22dbe" category="list-text">*Atualize Trident Protect a partir do Backup e Recovery*: Se o seu cluster Kubernetes estiver executando Trident Protect 26.05 ou mais recente, agora você pode atualizar Trident Protect diretamente a partir do Backup e Recovery.</block>
+  <block id="482d8dda04ea30da4fa480c529cb09b0" category="list-text">*Trident Protect 26.05.1*: Esta versão inclui Trident Protect 26.05.1.</block>
+  <block id="d0426b89e832dc9c7bd7771552d69499" category="list-text">*Restauração in-place para aplicativos baseados em máquinas virtuais*: agora você pode restaurar aplicativos baseados em máquinas virtuais para o namespace e cluster originais.</block>
 </blocks>
