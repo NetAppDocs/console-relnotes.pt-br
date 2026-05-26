@@ -143,12 +143,6 @@
   <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">Saiba mais sobre resiliência a ransomware</block>
   <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">Excluir usuários dos alertas</block>
-  <block id="5a9e2fbc6e8b2849a76465cd1a86c575" category="doc">Cargas de trabalho KVM suportadas na General Availability (GA)</block>
-  <block id="2c4d488d266d9d0655ce2e1451e05b2d" category="paragraph">O suporte para cargas de trabalho do Kubernetes agora está disponível para o público em geral (GA) no NetApp Backup and Recovery. Esta versão das cargas de trabalho do Kubernetes também introduz os seguintes recursos aprimorados:</block>
-  <block id="2329c3692bdf2d2f098db291ec4e9427" category="paragraph">*Suporte a relatórios*: Agora você pode gerar relatórios de atividades de proteção para clusters Kubernetes e aplicativos protegidos pelo NetApp Backup and Recovery.</block>
-  <block id="8b3c75a910501c009c7e86f190f1825d" category="section-title">23 de fevereiro de 2026</block>
-  <block id="1d30989467a5dda6a77c2158034a190b" category="paragraph">O suporte para cargas de trabalho KVM agora está geralmente disponível (GA) em NetApp Backup and Recovery.</block>
-  <block id="403eb7104337d3b7cb0c9cbd6a28b588" category="section-title">Cargas de trabalho do Kubernetes suportadas em General Availability (GA)</block>
   <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">Cenário</block>
   <block id="004bf6c9a40003140292e97330236c53" category="cell">Ação</block>
   <block id="7227af91d597be9f306654b7f9570871" category="cell">Novas APIs para o agente</block>
@@ -523,4 +517,7 @@
   <block id="482d8dda04ea30da4fa480c529cb09b0" category="list-text">*Trident Protect 26.05.1*: Esta versão inclui Trident Protect 26.05.1.</block>
   <block id="d0426b89e832dc9c7bd7771552d69499" category="list-text">*Restauração in-place para aplicativos baseados em máquinas virtuais*: agora você pode restaurar aplicativos baseados em máquinas virtuais para o namespace e cluster originais.</block>
   <block id="090499247beb18776ed4674afbd7c45d" category="paragraph">NetApp oferece opções de faturamento aprimoradas para suas assinaturas do Cloud Volumes ONTAP na AWS, proporcionando mais controle sobre como você paga pela capacidade do Cloud Volumes ONTAP e pelos serviços de dados da NetApp, como NetApp Backup and Recovery. Anteriormente, todo o uso do Cloud Volumes ONTAP e dos serviços de dados era cobrado em conjunto por meio da listagem NetApp Intelligent Services (NIS) no marketplace da AWS.</block>
+  <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">Crie um grupo de proteção no Ransomware Resilience</block>
+  <block id="afe30c0d6b10a23db7ce0d1907082557" category="paragraph">A Resiliência contra Ransomware agora oferece suporte à criação de grupos de proteção para cargas de trabalho em sistemas Google Cloud NetApp Volumes, permitindo que você organize várias cargas de trabalho sob uma única política para simplificar o gerenciamento. Para mais informações, consulte <block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>.</block>
+  <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">26 de maio de 2026</block>
 </blocks>
