@@ -520,4 +520,8 @@
   <block id="3f8fbfed6e13f7cb7fb11b080bdb9718" category="inline-link-macro">Crie um grupo de proteção no Ransomware Resilience</block>
   <block id="afe30c0d6b10a23db7ce0d1907082557" category="paragraph">A Resiliência contra Ransomware agora oferece suporte à criação de grupos de proteção para cargas de trabalho em sistemas Google Cloud NetApp Volumes, permitindo que você organize várias cargas de trabalho sob uma única política para simplificar o gerenciamento. Para mais informações, consulte <block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>.</block>
   <block id="54ab5224cb7ab20d9d094be05a20cb88" category="section-title">26 de maio de 2026</block>
+  <block id="4f4e942fb2a8e3cbbc7009bb9e99d967" category="doc">Exibição aprimorada de várias atualizações no mesmo dia na linha do tempo da assinatura</block>
+  <block id="9d9d2c4a682ab1170a2378566a9e0af1" category="inline-link-macro">Veja o histórico das suas assinaturas do Keystone</block>
+  <block id="fad09c803865d7a730faa5e2a3f20dc6" category="paragraph">O gráfico da linha do tempo de assinaturas agora exibe um número quando várias atualizações de assinatura de diferentes tipos ocorrem no mesmo dia, em vez de ícones separados. Passe o cursor sobre o número para ver todos os tipos de atualização daquele dia. O relatório baixado inclui uma linha separada para cada atualização, fornecendo um registro completo de todas as alterações. Para saber mais, consulte <block ref="6bdc06544a2a6817dc4209abc6ea98ff" category="inline-link-macro-rx"></block>.</block>
+  <block id="81d0f400f0bffbb1e2341f849b8278b7" category="section-title">25 de maio de 2026</block>
 </blocks>
