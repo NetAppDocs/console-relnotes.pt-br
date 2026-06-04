@@ -1,0 +1,14 @@
+= Atualizações de nome do widget Digital Advisor
+:allow-uri-read: 
+
+
+
+
+=== Atualizações de nome do widget Digital Advisor
+
+Os seguintes recursos do Digital Advisor tiveram seus nomes alterados:
+
+* O recurso Tech Refresh agora se chama System Refresh. Saiba como link:https://docs.netapp.com/us-en/active-iq/evaluate-tech-refresh.html["avaliar uma atualização do sistema"].
+* O recurso de Adição de Capacidade agora se chama expansão de storage. Saiba mais link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Widgets do Digital Advisor"].
+* O recurso de Renovações agora se chama Renovações de Suporte. Saiba mais link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Widgets do Digital Advisor"].
+

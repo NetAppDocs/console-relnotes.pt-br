@@ -30,6 +30,40 @@ Remediação:: O serviço de correção foi removido em 22 de abril de 2024.
 ====
 
 
+== 03 de junho de 2026
+
+
+
+=== Planejamento do ciclo de vida
+
+
+
+==== Atualizações de nomes de recursos de planejamento de ciclo de vida
+
+Os seguintes recursos de planejamento do ciclo de vida tiveram seus nomes alterados:
+
+* O recurso de atualização tecnológica agora se chama *Atualização do sistema*. Saiba como link:../use/tech-refresh.html["avaliar uma atualização do sistema"].
+* O recurso de Adição de Capacidade agora se chama *Expansão de Armazenamento*. Saiba como link:../use/capacity-add.html["expandir armazenamento"].
+* O recurso de Renovação agora se chama *Support Renewals*. Saiba como link:../support/task-support-registration.html["Cadastre-se para suporte"].
+
+
+
+
+=== Consultor digital
+
+
+
+==== Atualizações de nome do widget Digital Advisor
+
+Os seguintes recursos do Digital Advisor tiveram seus nomes alterados:
+
+* O recurso Tech Refresh agora se chama System Refresh. Saiba como link:https://docs.netapp.com/us-en/active-iq/evaluate-tech-refresh.html["avaliar uma atualização do sistema"].
+* O recurso de Adição de Capacidade agora se chama expansão de storage. Saiba mais link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Widgets do Digital Advisor"].
+* O recurso de Renovações agora se chama Renovações de Suporte. Saiba mais link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Widgets do Digital Advisor"].
+
+
+
+
 == 26 de maio de 2026
 
 

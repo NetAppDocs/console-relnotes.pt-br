@@ -118,18 +118,10 @@
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">Estas notas de versão descrevem melhorias recentes no NetApp Console e nos serviços de dados que ele suporta. Links para o conjunto completo de notas de lançamento de cada serviço individual.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">Saiba mais sobre as alterações mais recentes nos recursos e serviços de dados que fazem parte do NetApp Console. Para obter um histórico completo de versões, acesse o conjunto completo de notas de versão de cada serviço individual.</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">Crie um plano de replicação</block>
-  <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">Gerenciador de Implantação na Nuvem</block>
   <block id="558e5aec99d772eb277c493188d3c607" category="section-title">Aprimoramentos de cargas de trabalho da VMware</block>
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">Visão geral das cargas de trabalho de proteção do KVM</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho KVM, consulte<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block> .</block>
-  <block id="ed5b5006125f27aac08e98fe5c365d46" category="inline-link">Google Cloud Infrastructure Manager</block>
-  <block id="66243a4b72870642e35fa6b52e50a63b" category="inline-link">Configurar as implementações existentes do Cloud Volumes ONTAP para o Google Cloud Infrastructure Manager</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">Links relacionados</block>
-  <block id="ccc8cedaac96382fa4e8c01b8e53646d" category="inline-link">NetApp Console Agent 4.2.0 Notas de versão</block>
-  <block id="9039c72d9261ecd88329c5e8d1a4172d" category="list-text"><block ref="9039c72d9261ecd88329c5e8d1a4172d" category="inline-link-rx"></block></block>
-  <block id="6e6cddfac74a82983c3905af5c6e5b98" category="inline-link">Permissões necessárias para o Google Cloud Infrastructure Manager</block>
-  <block id="98244417f1eb666b345ad436d51edece" category="list-text"><block ref="98244417f1eb666b345ad436d51edece" category="inline-link-rx"></block></block>
-  <block id="c9d872b23d54864ab58551a55106a3db" category="section-title">09 de fevereiro de 2026</block>
   <block id="80f498ef50d7bad5da9acf441b502c0f" category="paragraph-title">Aumento do limite para copiar e mover</block>
   <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Aprimoramentos de cargas de trabalho do Kubernetes</block>
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Visão geral da proteção de workloads do Kubernetes</block>
@@ -143,81 +135,8 @@
   <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">Saiba mais sobre resiliência a ransomware</block>
   <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">Excluir usuários dos alertas</block>
-  <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">Cenário</block>
-  <block id="004bf6c9a40003140292e97330236c53" category="cell">Ação</block>
-  <block id="7227af91d597be9f306654b7f9570871" category="cell">Novas APIs para o agente</block>
-  <block id="060f2406e35d76018851fe48ca94d582" category="cell">Novas permissões para o agente</block>
-  <block id="7fcf37c89982b3db8f710c7c0a78df3f" category="cell">Novas APIs do Google Cloud para Cloud Volumes ONTAP</block>
-  <block id="12f8aec1aacb26c22265d9eeef4f1a7a" category="cell">Recursos de documentação</block>
-  <block id="15b890fd729e8bd42b01f29b115cdada" category="list-text">API do Cloud Infrastructure Manager</block>
-  <block id="a4c710688b0bce1852460a0da5685192" category="list-text">API Cloud Quotas</block>
-  <block id="6ecd6a8715f3b8584b0a166952141ee0" category="paragraph">Todas as permissões listadas para a versão Console em:</block>
-  <block id="a578c7a2817a7adad288f8984659cad5" category="inline-link">8 de dezembro de 2025</block>
-  <block id="d3fe1173fb4a2d7b6cb7fc5d5e93b435" category="list-text"><block ref="d3fe1173fb4a2d7b6cb7fc5d5e93b435" category="inline-link-rx"></block></block>
-  <block id="e9239b2f6f0e207f03cce4b6a5a9d9bf" category="list-text"><block ref="e9239b2f6f0e207f03cce4b6a5a9d9bf" category="inline-link-rx"></block></block>
-  <block id="78b63d509629d2b46ecd06bdf9d90717" category="paragraph"><block ref="78b63d509629d2b46ecd06bdf9d90717" category="inline-link-rx"></block></block>
-  <block id="af766153ec7c24e4d448b02bfd0e1ec3" category="cell">Novo agente e nova implementação</block>
-  <block id="133f87cfee7691c59e4aceff51289761" category="inline-link">Crie um agente do Console a partir do Google Cloud</block>
-  <block id="cfdaf06139b734f8230b05e534421bc4" category="list-text"><block ref="cfdaf06139b734f8230b05e534421bc4" category="inline-link-rx"></block></block>
-  <block id="eefb06bb963974fa756fd69b5da77f3d" category="doc">Suporte para Google Infrastructure Manager em implantações no modo privado</block>
-  <block id="8a1d72441a291104845776a8cb5ca0b8" category="paragraph">Cloud Volumes ONTAP 9.16.1 e versões posteriores agora oferecem suporte ao <block ref="d6072c82cbcda01fbac85ce6d2b2ba66" category="inline-link-rx"></block> (IM) em vez do <block ref="15f2e159f639573aa2393f20aa6d5e11" category="inline-link-rx"></block> (DM) para novas implantações em modo privado no Google Cloud. O Google descontinuará o Deployment Manager como serviço de infraestrutura em breve para o mais avançado Infrastructure Manager.</block>
-  <block id="ec39823b2cb6731c93e31551324e6ed7" category="paragraph">A partir de 25 de fevereiro de 2026, Cloud Volumes ONTAP usa Infrastructure Manager para implantações novas e existentes no modo privado. Esta tabela explica os fluxos de trabalho básicos para você:</block>
-  <block id="d8848c7dd607d8a63767f8dcc10bcfc7" category="cell">Agente existente e implantação existente em modo privado</block>
-  <block id="be72cda1fd0978b223bf1c72cd3470fe" category="cell">Atualize para a versão mais recente do agente do NetApp Console baixando o instalador do site de suporte da NetApp e, em seguida, instalando manualmente o agente em seu host, para que ele possa usar as APIs do Infrastructure Manager. Depois disso, converta os sistemas Cloud Volumes ONTAP existentes para usar o Infrastructure Manager.</block>
-  <block id="1b4969e94a4b9494c07d1a3d15d990de" category="list-text">API do Cloud Build</block>
-  <block id="b366c1901726ed94faabaca293b342ab" category="list-text">cloudbuild.workerpools.get</block>
-  <block id="a1594604ead4ac9e883fb7f2565b2dff" category="list-text">\https://cloudbuild.googleapis.com/v1</block>
-  <block id="255359407033996c52ff32fb9e9dedfd" category="list-text">\https://www.googleapis.com/upload/storage/v1</block>
-  <block id="f2be3a212e6f5bb332096881441fa881" category="list-text">\https://config.googleapis.com/v1</block>
-  <block id="887fafea4cfb163759637ed2efcec691" category="cell">Crie um novo agente e implemente um novo sistema Cloud Volumes ONTAP em modo privado.</block>
-  <block id="2977507bb7188d1e96246a14057a3902" category="inline-link">Guia rápido para implantações em modo privado</block>
-  <block id="2d0e6ad25589f8f4affb38c55f4f325f" category="list-text"><block ref="2d0e6ad25589f8f4affb38c55f4f325f" category="inline-link-rx"></block></block>
-  <block id="4caab03d94f5f056dee76ac3abd4066d" category="inline-link">Configuração do Infrastructure Manager para implantações em modo privado</block>
-  <block id="d79d7aeb01a8087d8ac3417a9437a457" category="paragraph">Em implantações em modo privado, você precisa fazer algumas alterações de configuração no Cloud Volumes ONTAP para começar a usar o Infrastructure Manager. Consulte <block ref="a3ca45cd087005e24df23da60619241b" category="inline-link-rx"></block>.</block>
-  <block id="56a5c925d77740ea69d50272863f3f75" category="section-title">26 fevereiro 2026</block>
-  <block id="b7c3f162d94516a17d91ff328463e7b2" category="doc">Lançamento do modo privado (4.4.0)</block>
   <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp site de suporte</block>
-  <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">Uma nova versão em modo privado já está disponível para download em<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block></block>
-  <block id="81ce971f80b475d475c24a4e44ada4e1" category="section-title">O modo privado do BlueXP agora é o modo privado do NetApp Console</block>
-  <block id="9c787f49c95453f81615500fc040c752" category="paragraph">NetApp Console 4.4.0 é o primeiro lançamento do NetApp Console em modo privado.</block>
-  <block id="56ed5396ea479b4ed31e75f97a4377c7" category="paragraph">O NetApp Console, construído sobre a base aprimorada e reestruturada do BlueXP, oferece gerenciamento centralizado de armazenamento NetApp e NetApp Data Services em ambientes locais e em nuvem com nível empresarial—proporcionando insights em tempo real, fluxos de trabalho mais rápidos e administração simplificada, altamente segura e em conformidade.</block>
-  <block id="7aced523efa2e35884ba6dffbc655f83" category="inline-link">Novidades na página do NetApp Console</block>
-  <block id="214ce822f9505ec8f305259fe07864a2" category="paragraph">Saiba mais sobre o novo NetApp Console na <block ref="cad102c2112bf216811c7b6bb8f99baa" category="inline-link-rx"></block>.</block>
-  <block id="0dbaa5b0eedf75058865e2b0994d5a8f" category="paragraph">A versão 4.4.0 inclui atualizações para os seguintes componentes e serviços do NetApp Console.</block>
-  <block id="394b364c6ed61ed167a4f14316ef5ffc" category="cell">Componente ou serviço</block>
-  <block id="2f9dd95401f68032a97298d35b87f433" category="cell">Versão incluída nesta versão</block>
-  <block id="5431c829b8b64da3908e102d64527909" category="cell">Alterações desde a versão anterior do modo privado</block>
-  <block id="e76758412e5a64841b8710e5fb81ab0c" category="cell">Agente do Console</block>
-  <block id="9b4bffa460105781f82b1d463bde8200" category="cell">4.4.0</block>
-  <block id="a0f66fdbde042599d314470228f3ca6d" category="inline-link">Novidades na página do NetApp Console</block>
-  <block id="d9546787b8341bfee8dbbe4f87c60436" category="cell">Acesse o <block ref="9edfdcbb835e82f6dae46ac911dcb157" category="inline-link-rx"></block> e consulte as alterações incluídas para as versões 4.4.0.</block>
-  <block id="be062cdcabbb3055334e8f19b4bdf378" category="cell">Backup e recuperação</block>
-  <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">Novidades na página de NetApp Backup and Recovery</block>
-  <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell">Vá para o<block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>.</block>
-  <block id="5c9335b28e6277ddbe0137f04e5e58a7" category="cell">Classificação</block>
-  <block id="0ab04d2bfcc6d88bde2adee5587eeb44" category="cell">1.5.1 (9 de fevereiro de 2026)</block>
-  <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">Novidades na página de Classificação da NetApp</block>
-  <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">Vá para o<block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>.</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">Os seguintes serviços foram descontinuados:</block>
-  <block id="3acecbd4317d789f549785c17e6afb2c" category="doc">NetApp Status do agente do Console compatível para sistemas de arquivos FSx para ONTAP</block>
-  <block id="5088f4e07e6650891b34cd38ec19877b" category="paragraph">NetApp Console agora exibe o status do agente do Console para sistemas de arquivos FSx for ONTAP em Workloads. O status indica se o agente está em execução e se consegue se comunicar com o sistema de arquivos FSx for ONTAP. Essas informações podem ajudar você a solucionar problemas de conectividade.</block>
-  <block id="4aa1f4ce7ff97e69b143fbe399631234" category="section-title">01 de março de 2026</block>
-  <block id="68874f436c529f1931417d4bdfb1c183" category="cell">5.0.3 (2 de março de 2026)</block>
-  <block id="3006a02699b8df924e1d005be208a0d9" category="doc">Novas colunas na guia Volumes em clusters</block>
-  <block id="c270abc6d843162d4ce7721540f24540" category="inline-link-macro">Veja os ativos associados a uma assinatura Keystone</block>
-  <block id="56ba911e47b6675e519daaae8a0c4ab8" category="inline-link-macro">Visualize os ativos em todas as suas assinaturas do Keystone</block>
-  <block id="0d7094993a6b3f640bb98a53fea4c3fe" category="paragraph">Três novas colunas, *Dados quentes*, *Camada fria (%)* e *Camada quente (%)*, foram adicionadas à guia *Volumes em clusters* em *Ativos*. Para saber mais, consulte <block ref="7a83cbc726dfc64910620370804f995c" category="inline-link-macro-rx"></block> e <block ref="4baf769758bbb5f82afb8a6245e88ae4" category="inline-link-macro-rx"></block>.</block>
-  <block id="c9a8bf8065acc2e0c13bda0c7508bd25" category="section-title">Consumo faturado, não faturado e provisório em picos de demanda na tendência de consumo</block>
-  <block id="c64fb9a67c48390567fbdf3b620843a4" category="inline-link-macro">Visualizar pico acumulado</block>
-  <block id="d2de7b158906998c4520b48e1e885356" category="paragraph">O gráfico de faturamento acumulado de picos na aba *Tendência de consumo* agora exibe o uso de picos faturados, não faturados e provisórios. Para saber mais, consulte <block ref="ac1214b73681d020aa16f3f415bc4e23" category="inline-link-macro-rx"></block>.</block>
-  <block id="96d0cd446eb21b1af6c182f7aae637fc" category="section-title">Melhorias na visualização de monitoring</block>
-  <block id="4195f4a8e15a8ca8892e6bf2c9328dfc" category="paragraph">A visualização *Monitoring* inclui as seguintes atualizações:</block>
-  <block id="fdfe720b9ab3394f0dd5d8f33c28b35e" category="list-text">*Aba de alertas*: A coluna *Alerta* foi renomeada para *Tipo e condição do alerta*. Agora você também pode usar o ícone de reticências ao lado da coluna *Status* para editar um alerta, adicionar uma nota ou visualizar os detalhes do alerta.</block>
-  <block id="358e8af2cd36faf26c9af8949d13a966" category="list-text">*Aba Alert monitors*: A coluna *Condition* foi renomeada para *Monitor type &amp; condition*.</block>
-  <block id="0ebc03672fcf3b001eb123454c829481" category="inline-link-macro">Visualize e gerencie alertas para assinaturas do Keystone</block>
-  <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">Visualize e crie monitores de alerta para assinaturas do Keystone</block>
-  <block id="b9744367609c907fb529ab20aba9b41b" category="paragraph">Para saber mais, consulte <block ref="537df2748cf4cb2e4b656209c1a786f9" category="inline-link-macro-rx"></block> e <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>.</block>
-  <block id="6ddfbfe3d38a813f004cc2f37d2a5866" category="section-title">02 de março de 2026</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">Aprimoramentos nas cargas de trabalho do ONTAP Volumes</block>
   <block id="78b068f24da5a7e17080acceea02e506" category="paragraph">Nesta versão, as cargas de trabalho de ONTAP Volumes introduzem os seguintes recursos aprimorados:</block>
   <block id="61f251cc47dddbc52bddd098d342b6d5" category="list-text">*Restaurar para o local de origem*: agora você pode restaurar arquivos de snapshots locais e snapshots replicados para o local de origem, bem como para um local alternativo.</block>
@@ -525,4 +444,19 @@
   <block id="81d0f400f0bffbb1e2341f849b8278b7" category="section-title">25 de maio de 2026</block>
   <block id="bf294be5c1e56f5593f503af52286773" category="paragraph">A Resiliência contra Ransomware agora oferece suporte à criação de grupos de proteção para cargas de trabalho em sistemas Google Cloud NetApp Volumes, permitindo que você organize várias cargas de trabalho sob uma única política para simplificar o gerenciamento.</block>
   <block id="8d317d4f29fef19dda568fc8ae7b0751" category="paragraph">Para mais informações, consulte <block ref="002b0319872c1627d4b50bdcb04f2ca6" category="inline-link-macro-rx"></block>.</block>
+  <block id="38b5c518869129cfcd4245d3b75831ea" category="doc">Atualizações de nome do widget Digital Advisor</block>
+  <block id="10db272222005cd4785bf41eb8f2d16f" category="paragraph">Os seguintes recursos do Digital Advisor tiveram seus nomes alterados:</block>
+  <block id="c1e03330b4662e637d1bbe6857651076" category="inline-link-macro">avaliar uma atualização do sistema</block>
+  <block id="7e46c4cf133c5a7da9a1738efe1b7df3" category="list-text">O recurso Tech Refresh agora se chama System Refresh. Saiba como <block ref="b9c9fb213cb3859574b8b90c3e01e8f8" category="inline-link-macro-rx"></block>.</block>
+  <block id="ffbdf4857ebb280d918de41e3ecebb17" category="inline-link-macro">Widgets do Digital Advisor</block>
+  <block id="7b68bc21ce78c08210db229203879260" category="list-text">O recurso de Adição de Capacidade agora se chama expansão de storage. Saiba mais <block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>.</block>
+  <block id="6be411ea1de1ddb5d78a1efaf383f88c" category="list-text">O recurso de Renovações agora se chama Renovações de Suporte. Saiba mais <block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>.</block>
+  <block id="02c43db7108a3accce59c81a27ac4ef5" category="doc">Atualizações de nomes de recursos de planejamento de ciclo de vida</block>
+  <block id="4c5232cce8bc78f484d71da8ffcfef7b" category="paragraph">Os seguintes recursos de planejamento do ciclo de vida tiveram seus nomes alterados:</block>
+  <block id="d5ed2e99bd371bcfc460d6572a12add2" category="list-text">O recurso de atualização tecnológica agora se chama *Atualização do sistema*. Saiba como <block ref="433ac4cec3ceaf7ac84bdaec77992d24" category="inline-link-macro-rx"></block>.</block>
+  <block id="dde36ba383e039cbac61a2f920672ee0" category="inline-link-macro">expandir armazenamento</block>
+  <block id="7909728a25fab3130222a99358ae67a5" category="list-text">O recurso de Adição de Capacidade agora se chama *Expansão de Armazenamento*. Saiba como <block ref="09884e6ec96fe38b804dd493528c8e70" category="inline-link-macro-rx"></block>.</block>
+  <block id="0f1f31b4920f5002f5c30d37073cc590" category="inline-link-macro">Cadastre-se para suporte</block>
+  <block id="7cd293fac76115b83fb817b31f0dbdf7" category="list-text">O recurso de Renovação agora se chama *Support Renewals*. Saiba como <block ref="5eb4e7d9f21654c7ba8e676257b3a3cd" category="inline-link-macro-rx"></block>.</block>
+  <block id="47c77878a7175f3cc904ae84821cbc37" category="section-title">03 de junho de 2026</block>
 </blocks>
