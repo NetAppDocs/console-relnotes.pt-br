@@ -391,4 +391,5 @@
   <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*Suporte para storage de nuvem compatível com S3*: NetApp Backup and Recovery para cargas de trabalho de Volumes agora oferece suporte a backup em storage de nuvem compatível com S3.</block>
   <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*Aprimoramentos na restauração de arquivos e pastas para uma máquina virtual convidada*: Agora você pode restaurar arquivos e pastas de um snapshot no storage primário ou secundário para uma máquina virtual Windows convidada. Esse recurso agora é compatível com VMs CIFS e SAN.</block>
   <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">08 de junho de 2026</block>
+  <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">Esta versão do Data Classification inclui melhorias de segurança e otimizações de desempenho.</block>
 </blocks>
