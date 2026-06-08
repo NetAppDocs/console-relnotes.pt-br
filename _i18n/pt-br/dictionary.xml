@@ -117,12 +117,10 @@
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">Administração do NetApp Console</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">Estas notas de versão descrevem melhorias recentes no NetApp Console e nos serviços de dados que ele suporta. Links para o conjunto completo de notas de lançamento de cada serviço individual.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">Saiba mais sobre as alterações mais recentes nos recursos e serviços de dados que fazem parte do NetApp Console. Para obter um histórico completo de versões, acesse o conjunto completo de notas de versão de cada serviço individual.</block>
-  <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">Crie um plano de replicação</block>
   <block id="558e5aec99d772eb277c493188d3c607" category="section-title">Aprimoramentos de cargas de trabalho da VMware</block>
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">Visão geral das cargas de trabalho de proteção do KVM</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho KVM, consulte<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block> .</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">Links relacionados</block>
-  <block id="80f498ef50d7bad5da9acf441b502c0f" category="paragraph-title">Aumento do limite para copiar e mover</block>
   <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Aprimoramentos de cargas de trabalho do Kubernetes</block>
   <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Visão geral da proteção de workloads do Kubernetes</block>
   <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho do Kubernetes, consulte<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>.</block>
@@ -134,70 +132,12 @@
   <block id="8f4e28604a8893d6adb6f9b81569d19b" category="inline-link">Configurações suportadas para Cloud Volumes ONTAP no Google Cloud</block>
   <block id="db3426db4f167ca50d1c89272aefdbe9" category="paragraph"><block ref="db3426db4f167ca50d1c89272aefdbe9" category="inline-link-rx"></block></block>
   <block id="d5d09e7741370854c28c983cfbae51eb" category="inline-link-macro">Saiba mais sobre resiliência a ransomware</block>
-  <block id="0801620ca1af462c0fd534ad95bfa3b0" category="inline-link-macro">Excluir usuários dos alertas</block>
-  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp site de suporte</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">Os seguintes serviços foram descontinuados:</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">Aprimoramentos nas cargas de trabalho do ONTAP Volumes</block>
-  <block id="78b068f24da5a7e17080acceea02e506" category="paragraph">Nesta versão, as cargas de trabalho de ONTAP Volumes introduzem os seguintes recursos aprimorados:</block>
-  <block id="61f251cc47dddbc52bddd098d342b6d5" category="list-text">*Restaurar para o local de origem*: agora você pode restaurar arquivos de snapshots locais e snapshots replicados para o local de origem, bem como para um local alternativo.</block>
-  <block id="b64975edc0e1d4d2b77bbc09821fe6c1" category="list-text">*Detecção de volume por hora*: O Dashboard agora detecta e atualiza novos volumes mais rapidamente.</block>
-  <block id="8f504b1c826d739819c7ea02c4fd893f" category="list-text">*Suporte para dark sites*: Agora você pode baixar o Backup and Recovery para dark sites do<block ref="e2fed6b5af5d107fdef5614adaedfcef" category="inline-link-rx"></block>. No momento, NetApp Backup and Recovery para dark sites suporta apenas workloads de ONTAP Volumes.</block>
-  <block id="ccf9e1de6190057c9e2e1a10c6b8f07f" category="list-text">*Melhorias na compatibilidade com Unicode*: a indexação do catálogo agora lida melhor com caracteres Unicode.</block>
-  <block id="a173f0fc9f4786dd11c96099dd446ec8" category="list-text">*Compatibilidade aprimorada do FlexGroup*: Ao converter um volume ONTAP FlexVol para um volume FlexGroup, agora você pode restaurar backups feitos antes da conversão.</block>
-  <block id="f32d4e838dfc925da7a940c6e55acf8c" category="list-text">*Suporte a múltiplos buckets*: agora você pode proteger os volumes dentro de um sistema com até 6 buckets por sistema em diferentes provedores de nuvem.</block>
-  <block id="e32587f34260a350a3a49e3604fb2a4c" category="inline-link">Visão geral da proteção de cargas de trabalho do ONTAP Volume</block>
-  <block id="db44a854b206d5d90008224f3bb5b2da" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho do ONTAP Volume, consulte <block ref="660ec036763d30562702201a56aaa402" category="inline-link-rx"></block>.</block>
-  <block id="f154c542c430b30dc73d2d3e87fd6f65" category="paragraph">Nesta versão, VMware workloads introduz os seguintes recursos aprimorados:</block>
-  <block id="63eb1b3f5c128e6460c85c7b6e5d2bb9" category="list-text">*Restaurar dados de convidados do armazenamento de objetos*: Agora você pode restaurar arquivos e pastas de convidados do armazenamento de objetos.</block>
-  <block id="7d88c93c0ec65e1bcc3564692a490a5b" category="list-text">*Restauração rápida para VMFS/NFS*: Agora você pode habilitar a opção de restauração rápida ao restaurar para um local alternativo. Quando habilitada, somente metadados (arquivos, LUNs e namespaces) são recuperados do armazenamento de objetos, disponibilizando os volumes mais rapidamente do que em uma restauração completa.</block>
-  <block id="ba95b1986315d65e4bb0f2dcb924f870" category="list-text">*Suporte para Amazon FSx for NetApp ONTAP*: As cargas de trabalho VMware agora suportam sistemas de armazenamento Amazon FSx for NetApp ONTAP executando a versão 9.13.1 ou posterior.</block>
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">Visão geral da proteção de VMware workloads</block>
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho VMware, consulte<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>.</block>
-  <block id="df4bdd45174b09881add6730bdfaf045" category="section-title">09 de março de 2026</block>
-  <block id="b57381f68dbba13b31fa8aa68f6b0b91" category="doc">Excluir um datastore dos planos de replicação</block>
-  <block id="97a6d5c9da6b211dcdf5d581e247e960" category="paragraph">Ao criar um plano de replicação no Disaster, agora você pode excluir datastores específicos da replicação. Para situações em que uma VM está configurar para usar vários datastore, isso permite limitar quais serão replicados.</block>
-  <block id="ec6c483e852913b786ae872f19efd121" category="section-title">Validação de senha removida da senha do vCenter</block>
-  <block id="8cca1120916820e14384f393325831ff" category="paragraph">A Recuperação de Desastres removeu as restrições de senha no vCenter para permitir senhas que contenham espaços.</block>
-  <block id="c0b13507b7c62a7122f6d5ccf83fd444" category="inline-link-macro">Adicione clusters locais e do Amazon Exchange Virtual Server vCenter em NetApp Disaster Recovery</block>
-  <block id="32530c1a1edb0706f8c34b61bf263957" category="paragraph">Para obter mais informações, consulte <block ref="0d43ad8ffb310486762e1912aeac4ebc" category="inline-link-macro-rx"></block>.</block>
-  <block id="d7861bc1dada29d20aea81705aca4684" category="section-title">Novo submenu de plano de replicação</block>
-  <block id="92902e0b7c7f7c58edcfa55410a2eb18" category="paragraph">O recurso de Recuperação de Desastres agora inclui novas opções de menu para acionar atualizações do vCenter a partir do painel do plano de replicação. Você pode acessar o submenu no menu de ações do painel do plano de replicação: selecione **Integridade do Plano** e, em seguida, **Atualizar origem vCenter / Atualizar destino vCenter**.</block>
-  <block id="8bad83affac335130776761407726ea6" category="inline-link-macro">Modificar um plano de replicação</block>
-  <block id="95036acb74478cad3d04125e4993251b" category="paragraph">Para obter mais informações, consulte <block ref="ef769a112a3ec5265cbcfd525103b93a" category="inline-link-macro-rx"></block>.</block>
-  <block id="4c66a9dab829d794eb059ed24f6c0e5b" category="section-title">Descoberta de rede aprimorada</block>
-  <block id="b5cc90986d9652570eab368db96768d2" category="paragraph">Disaster Recovery agora inclui descoberta de rede aprimorada para oferecer suporte a uma gama mais ampla de configurações de rede.</block>
-  <block id="1cc9fa7904bbb11e4569869878e58bbb" category="paragraph-title">Validação de recursos</block>
-  <block id="19458db6dfda018080434d803401d712" category="paragraph">Para garantir a confiabilidade, Data Classification agora valida a memória e os recursos de disco disponíveis durante a verificação, geração de relatórios e ações. Quando o uso de memória excede 95% ou o espaço de disco cai abaixo de 6 GB, Data Classification pausa automaticamente as operações. As operações são retomadas assim que os recursos forem suficientes.</block>
-  <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">Monitore a integridade do Data Classification</block>
-  <block id="0c246fa8aa5b9bb6f56169910551448c" category="paragraph">Para monitorar os recursos do seu sistema, veja <block ref="a35c82bf99053365807ff01dc40bc5d1" category="inline-link-macro-rx"></block>.</block>
-  <block id="427468160760189964c9cf7fcaa52709" category="paragraph">As funções de copiar e mover agora são compatíveis para destinos CIFS. O limite de tamanho por arquivo para ambas as ações aumentou para 1 GB em relação ao limite anterior de 50 MB. Os limites de operação para ambas as ações aumentaram para 1 TB ou 5 milhões de arquivos.</block>
-  <block id="6d965e454a055e436e41408f02aad8e1" category="paragraph-title">Permissões de configuração de integração do Active Directory</block>
-  <block id="a14fc25490ab294bb8fb754cd29f6486" category="paragraph">As alterações nas configurações de integração do Active Directory (AD) na Data Classification agora estão restritas a administradores. Visualizadores não têm mais a capacidade de modificar as configurações do AD.</block>
-  <block id="40abfc355f5aea2697c05cedc7637005" category="inline-link-macro">Funções do serviço de dados</block>
-  <block id="86b37aec2cfdfa690aeb8de2465ae8f4" category="paragraph">Para mais informações sobre a função Classification viewer, consulte <block ref="152b8a96499e0e41ff478a993b579623" category="inline-link-macro-rx"></block>.</block>
-  <block id="262af560e91bb5d3ce2340e565954dbf" category="paragraph-title">Suporte a proxy transparente</block>
-  <block id="9478b45dce4de73855a8e0b13720f895" category="paragraph">A Classificação de Dados agora oferece suporte a configurações de proxy transparente, permitindo uma implantação mais tranquila em ambientes de rede com proxy ou restrições.</block>
-  <block id="365a447377f6e5c0e423f1aee2b9e99f" category="inline-link-macro">Instale NetApp Data Classification em um host Linux sem acesso à internet</block>
-  <block id="89f7afc8a9b178d4b4346f224d8bffc7" category="paragraph">Para obter mais informações sobre a implantação em ambientes restritos, consulte <block ref="6804ab8e5e77245509e3dc550ef5b67d" category="inline-link-macro-rx"></block>.</block>
-  <block id="dd340069cb16665edf781618805f1165" category="doc">Agente do Console 4.5.0</block>
-  <block id="de3b44fa9f294325dd837b3f15773cd6" category="paragraph">A versão 4.5.0 suporta tanto o modo padrão quanto o modo restrito.</block>
   <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">Esta versão do agente do Console inclui melhorias de segurança e correções de bugs, bem como o seguinte novo recurso.</block>
-  <block id="e6aa0876ac72372fe4102974fad02f9e" category="inline-link-macro">Saiba mais sobre como executar verificações de configuração no agente do Console.</block>
-  <block id="2bdd9842a1d8845c8d1b9f13695c4ac5" category="inline-link-macro">Saiba mais sobre como atribuir funções do Keystone a usuários parceiros.</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">Para obter mais informações, consulte <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>.</block>
-  <block id="f1997d5dfd164e5a0380ec3b9fe07b89" category="doc">Excluir usuários em massa dos alertas de comportamento do usuário</block>
-  <block id="0255e4883b8e158de2dac4173dac190a" category="paragraph">Para obter mais informações, consulte <block ref="dfd47d5e016db97d5fa8c5e4a7bd25f8" category="inline-link-macro-rx"></block>.</block>
-  <block id="fcd457ee097f566ef709e77f46015c87" category="paragraph">Ransomware Resilience aprimorou a compreensão do comportamento do usuário ao adicionar alertas por e-mail e incluir eventos de comportamento do usuário nos dados de eventos SIEM compatíveis (AWS Security Hub, Microsoft Sentinel e Splunk Cloud). Esses aprimoramentos fornecem informações mais precisas sobre o monitoramento de segurança e conformidade.</block>
-  <block id="5d8eeee45929294781013d6d152aae8a" category="inline-link-macro">Conecte NetApp Ransomware Resilience a um SIEM</block>
-  <block id="ffe0756ca1f78d7e15e127b325f96178" category="paragraph">Para obter mais informações, consulte <block ref="372c79e94d2824fc0323cc318a30717d" category="inline-link-macro-rx"></block>.</block>
-  <block id="3204a863a3a1a57abe7546af70eb77cf" category="doc">Capacidade de gerenciar as configurações de proxy do agente do NetApp Console para Cloud Volumes ONTAP</block>
-  <block id="a51be83082fba5b4dcf135a536ea8b1d" category="paragraph">Agora você pode gerenciar as configurações de proxy no agente do NetApp Console para Cloud Volumes ONTAP, mesmo se perder a conexão ou se o proxy estiver configurado incorretamente. Anteriormente, se o agente do Console não conseguisse se conectar ao Cloud Volumes ONTAP por 20 minutos, ele sobrescrevia suas configurações de proxy manuais com as configurações padrão. Isso causava falhas de comunicação, incluindo problemas com mensagens AutoSupport. Para manter suas configurações de proxy para sistemas existentes, execute a seguinte chamada de API:</block>
-  <block id="2ed7e2686c6c63422cc2a66168ff6a41" category="paragraph"><block ref="f4868aca388daf10284f58112e13f2bd" prefix="" category="inline-code"></block></block>
-  <block id="2bfe294417f6af6fb18d7ac186551586" category="paragraph">Inclua o seguinte parâmetro no corpo da solicitação:</block>
-  <block id="7e6627b4e37aede8d2d720694c07915e" category="paragraph">O modo padrão é standard, o que significa que o agente do Console sobrescreve suas configurações de proxy com as configurações padrão caso não consiga se conectar ao Cloud Volumes ONTAP por 20 minutos.</block>
-  <block id="7bfa46b18158f588f3fb87cc98bc501b" category="inline-link">Configurar parâmetros modificáveis do NetApp Console</block>
-  <block id="0383a3079d971b2242c6d61352ea3ab4" category="paragraph"><block ref="0383a3079d971b2242c6d61352ea3ab4" category="inline-link-rx"></block></block>
-  <block id="34df2c4da19b4e31f0349125e9cabfc7" category="section-title">10 de março de 2026</block>
   <block id="70c542a285cfdf5cc22587e58fc3fcbb" category="doc">Playbooks do SOAR para Microsoft Sentinel e Splunk</block>
   <block id="11759e65f10609550e1a85679db960a9" category="inline-link-macro">Microsoft Sentinel</block>
   <block id="2f9304fe9b427489507405bef9a0bb9f" category="inline-link-macro">Splunk</block>
@@ -205,15 +145,9 @@
   <block id="b8b94feeaf531f391629f42d138991ba" category="paragraph">Para mais informações, consulte <block ref="ea7002ba1a528c89bfc86119082f1178" category="inline-link-macro-rx"></block>.</block>
   <block id="462a6e98fbd2a13cda63645b676477e3" category="section-title">12 de março de 2026</block>
   <block id="cb4ae29d8762239c8dfdfc76bdb65d37" category="paragraph">O Ransomware Resilience agora oferece playbooks de orquestração, automação e resposta de segurança (SOAR) para <block ref="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="inline-link-macro-rx"></block> e <block ref="4655146bfbabab7fd679c2d1ca7a8d15" category="inline-link-macro-rx"></block>. Os playbooks facilitam o gerenciamento de resposta a ameaças, automatizando tarefas de teste e esforços essenciais de resposta a ransomware, incluindo a criação de snapshots e a desativação de um volume.</block>
-  <block id="4ccc6bc65ccfbf776471461699df7790" category="inline-link-macro">Copiar, mover e excluir dados</block>
-  <block id="26f19c45862fe8f967db0b3b7d289ad3" category="paragraph">Para mais informações, consulte <block ref="151ab796904ad3ebe669fb675d8fec0a" category="inline-link-macro-rx"></block>.</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">Nesta versão, VMware workloads apresenta as seguintes melhorias:</block>
   <block id="c951c234678bc7ac8d60ec274364552c" category="paragraph">*Suporte à consistência de VM por nível de agendamento*: Agora você pode habilitar backups consistentes com a VM e com o aplicativo para níveis de agendamento específicos ao configurar políticas de proteção para cargas de trabalho VMware. Os níveis anual, mensal e semanal são suportados.</block>
   <block id="69b1a964078d5301a2aa9822cb2304f2" category="section-title">16 de março de 2026</block>
-  <block id="05ae2f7ed42f24ad34227986da264aae" category="paragraph-title">Suporte para RHEL 9.7</block>
-  <block id="3864a6ab3937a10a6f13bfa0f593150c" category="paragraph">A Data Classification adicionou o Red Hat Enterprise Linux v9.7 para instalação manual local, incluindo implantações em ambientes de segurança restrita.</block>
-  <block id="900e4148b2c0433fc2c6d0435cf489cd" category="paragraph">Os seguintes sistemas operacionais requerem o uso do mecanismo de contêiner Podman e exigem Data Classification versão 1.30 ou superior: Red Hat Enterprise Linux versão 8.8, 8.10, 9.0, 9.1, 9.2, 9.3, 9.4, 9.5, 9.6 e 9.7.</block>
-  <block id="855f6640322147511d2bad1c3ef67a01" category="paragraph">Para obter detalhes, consulte <block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>.</block>
   <block id="0fd3e1f73fc71151c33e67909039dd88" category="paragraph">Nesta versão, as cargas de trabalho do Oracle Database introduzem a seguinte melhoria:</block>
   <block id="e242e6f8581d6d11d04b2c80d7a16519" category="inline-link">Descubra cargas de trabalho do Oracle Database</block>
   <block id="b77d45fa1e71e6bf913df1f7680aa70c" category="list-text">*Suporte a hosts em cluster*: Agora você pode descobrir e proteger bancos de dados Oracle Real Application Clusters (RAC) que usam Oracle Automatic Storage Management (ASM) e são implantados usando VMDK em sistemas de arquivos VMFS. Para mais informações, consulte <block ref="d0dab0542f96585a18cc2e536da75fd6" category="inline-link-rx"></block>.</block>
@@ -243,9 +177,6 @@
   <block id="4a8a0c3493007142356e2bab5b977e96" category="inline-link-macro">Configurações suportadas para Disaster Recovery</block>
   <block id="fd6fb30ddd2582b6a9be2fbd297066cd" category="paragraph">Para obter mais informações sobre o suporte ao GCVE, consulte <block ref="e93ab8cb254bacf15604af8d15ae8da4" category="inline-link-macro-rx"></block>.</block>
   <block id="403f4a170e2d1c03d329e0f0dd8d1b84" category="section-title">13 de abril de 2026</block>
-  <block id="eddcacabf97ccd7e1dee4ec808dd25fd" category="paragraph-title">Suporte para verificação de configuração das portas necessárias</block>
-  <block id="cb33727456248b735e49b29eeb0872ab" category="paragraph">Você pode validar se as portas necessárias para o agente do Console estão abertas usando verificações de configuração. Você pode realizar verificações de configuração a partir do Console ou do console de manutenção do agente. <block ref="7af92084a09bd75adeb2599696166bd3" category="inline-link-macro-rx"></block></block>
-  <block id="ddce4978cfd5d98adb618dcf416c6735" category="paragraph">Você pode atribuir funções do Keystone a usuários parceiros para permitir que esses usuários gerenciem recursos do Keystone em uma organização parceira. <block ref="0cfd89aa5faa36e757947073b4868cee" category="inline-link-macro-rx"></block></block>
   <block id="15ddb6291e652b3c0316a7b15db5331f" category="doc">Agente do Console 4.6.0</block>
   <block id="fae382d7132035be0e5ef52e52a74b43" category="paragraph">A versão 4.6.0 suporta tanto o modo padrão quanto o modo restrito.</block>
   <block id="2eb56c59e41feaf4292cee22bac918e8" category="paragraph-title">Suporte para verificações de configuração do espaço de disco necessário</block>
@@ -428,8 +359,6 @@
   <block id="6a43554be5f7f046255a806f0d7cbba9" category="inline-link-macro">Baixe relatórios em Resiliência a Ransomware</block>
   <block id="4756b9491ac344d3e27adc7e34c8640b" category="paragraph">Para saber mais sobre relatórios, consulte <block ref="225fa9dfe1003c8a72e52db2e5a89a50" category="inline-link-macro-rx"></block>. Para saber mais sobre recuperação, consulte <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>.</block>
   <block id="c105c16486992d9ad71af50fd3100019" category="paragraph">Para obter mais informações, consulte <block ref="96736731356e89817dd51fb3ef396df7" category="inline-link-macro-rx"></block>.</block>
-  <block id="25c586197cb6f55bfcb4c60401abba6c" category="paragraph">O Ransomware Resilience agora suporta o upload de uma lista JSON de usuários para exclusão dos alertas de comportamento do usuário, além das opções existentes na interface do usuário e em formato CSV.</block>
-  <block id="ecac6e0599f3e07a4eb088d4ffb44a1d" category="section-title">Aprimoramentos na detecção do comportamento do usuário</block>
   <block id="d3e94cc4397c8143c67e5435f39f1c9d" category="section-title">Aprimoramento da detecção do comportamento do usuário</block>
   <block id="529ee13269734b9af20d3b6447ab6b9f" category="list-text">*Trident Protect 26.05*: Esta versão inclui Trident Protect 26.05.</block>
   <block id="54f8a7826ae5101b3374158dadb22dbe" category="list-text">*Atualize Trident Protect a partir do Backup e Recovery*: Se o seu cluster Kubernetes estiver executando Trident Protect 26.05 ou mais recente, agora você pode atualizar Trident Protect diretamente a partir do Backup e Recovery.</block>
@@ -459,4 +388,7 @@
   <block id="0f1f31b4920f5002f5c30d37073cc590" category="inline-link-macro">Cadastre-se para suporte</block>
   <block id="7cd293fac76115b83fb817b31f0dbdf7" category="list-text">O recurso de Renovação agora se chama *Support Renewals*. Saiba como <block ref="5eb4e7d9f21654c7ba8e676257b3a3cd" category="inline-link-macro-rx"></block>.</block>
   <block id="47c77878a7175f3cc904ae84821cbc37" category="section-title">03 de junho de 2026</block>
+  <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*Suporte para storage de nuvem compatível com S3*: NetApp Backup and Recovery para cargas de trabalho de Volumes agora oferece suporte a backup em storage de nuvem compatível com S3.</block>
+  <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*Aprimoramentos na restauração de arquivos e pastas para uma máquina virtual convidada*: Agora você pode restaurar arquivos e pastas de um snapshot no storage primário ou secundário para uma máquina virtual Windows convidada. Esse recurso agora é compatível com VMs CIFS e SAN.</block>
+  <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">08 de junho de 2026</block>
 </blocks>
