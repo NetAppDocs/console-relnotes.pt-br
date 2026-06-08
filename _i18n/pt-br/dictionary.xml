@@ -221,8 +221,6 @@
   <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">Conecte Ransomware Resilience a um SIEM</block>
   <block id="dbdca0e081ed0b247153e35ce9b1c298" category="paragraph">Para obter mais informações, consulte <block ref="d02df671c233387bf6b644be94acfdf7" category="inline-link-macro-rx"></block>.</block>
   <block id="7ee4b3a8392885d95b1b7c9f5a6c99e5" category="paragraph">As informações sobre eventos de violação de dados agora são armazenadas por 13 meses após um incidente, permitindo um período mais longo de registro para suas necessidades de relatórios.</block>
-  <block id="f31838bfd1a4d7d1cc348bb0e79249aa" category="inline-link-macro">Saiba mais sobre detecção de atividade do usuário</block>
-  <block id="787e93d4c2f472a6434cd13d74f3f4d4" category="paragraph">Para obter mais informações, consulte <block ref="1a6935dbce91cdb72e61e2f8c1313b36" category="inline-link-macro-rx"></block>.</block>
   <block id="d5affa88c9505737da2bd460b6fd43bb" category="doc">Suporte aprimorado do Cloud Volumes ONTAP com VMs do Google Cloud C3</block>
   <block id="0c095222c728afb1d3c25c10e5f27e3c" category="paragraph">Cloud Volumes ONTAP agora oferece suporte aprimorado para as VMs da série C3 do Google Cloud, possibilitando os seguintes recursos adicionais:</block>
   <block id="f0de228b367386d27d7b8cbf65c47859" category="list-text">Em suas implementações do Cloud Volumes ONTAP, você pode alternar entre diferentes tipos de instância dentro da família C3.</block>
@@ -392,4 +390,14 @@
   <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*Aprimoramentos na restauração de arquivos e pastas para uma máquina virtual convidada*: Agora você pode restaurar arquivos e pastas de um snapshot no storage primário ou secundário para uma máquina virtual Windows convidada. Esse recurso agora é compatível com VMs CIFS e SAN.</block>
   <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">08 de junho de 2026</block>
   <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">Esta versão do Data Classification inclui melhorias de segurança e otimizações de desempenho.</block>
+  <block id="4b77ea6c402cb5104fd06a61c7376030" category="inline-link-macro">Aprenda sobre detecção de comportamento do usuário</block>
+  <block id="85780f52607b54dbe81ff2c46d981a17" category="paragraph">Para obter mais informações, consulte <block ref="371ae1c35fd8f1482622c079d0f009f9" category="inline-link-macro-rx"></block>.</block>
+  <block id="ad047b692e58386490130db85fe198fd" category="doc">Maior flexibilidade para estratégias de proteção</block>
+  <block id="0492ddae19933de338f553ff06833c6f" category="paragraph">A Resiliência contra Ransomware agora oferece mais flexibilidade na escolha de estratégias de detecção de ransomware. Anteriormente, todas as estratégias de proteção contra ransomware precisavam incluir a detecção de criptografia. Agora, você pode ativar uma estratégia de proteção contra ransomware com apenas a detecção do comportamento do usuário.</block>
+  <block id="7238c31678a241cb872ee9d18f1e46a2" category="paragraph">As estratégias de proteção ainda podem incluir tanto a detecção de criptografia _quanto_ a detecção de comportamento suspeito do usuário. O bloqueio de extensões de arquivo também pode ser adicionado a qualquer estratégia de proteção.</block>
+  <block id="bd1924893d8fb00ed3c326b7af6243b5" category="paragraph">Se você desativar parte da estratégia de proteção para uma política existente, quaisquer alertas existentes criados na versão anterior da política só poderão ser marcados como "Resolvidos" e não como "Descartados". Por exemplo, se você tinha uma estratégia de proteção que incluía detecção de criptografia e comportamento suspeito do usuário, mas desativou a detecção de criptografia, você só poderá resolver um alerta de criptografia existente para essa carga de trabalho.</block>
+  <block id="54a418aa76c7e9afaa77a58a34a3d3ed" category="inline-link-macro">Proteja cargas de trabalho com estratégias de proteção NetApp Ransomware Resilience</block>
+  <block id="2b7a103134591ddcc36191e5b569a29b" category="paragraph">Para obter mais informações, consulte <block ref="5b0b8f72704979749944145d24f2c6be" category="inline-link-macro-rx"></block>.</block>
+  <block id="eac1000048fff271adb3d0d010dd86f5" category="section-title">Aprimoramentos do playbook SOAR</block>
+  <block id="993b3419e78327c12451169533b8d701" category="paragraph">Os playbooks SOAR de Resiliência a Ransomware agora fornecem etapas de remediação após você bloquear um usuário ou desativar um volume. Agora você pode reativar um volume e desbloquear um usuário se a ação for considerada não uma ameaça de ransomware.</block>
 </blocks>
