@@ -406,4 +406,32 @@
   <block id="d4f1750ecbae7aeb8e4608c6adadf1b3" category="inline-link">Configurações suportadas para Cloud Volumes ONTAP na AWS</block>
   <block id="2723587cecc87d757adc3d7f42677613" category="paragraph">Para obter mais informações, consulte <block ref="5facb34de99943f35a6951018b8a6bef" category="inline-link-rx"></block>.</block>
   <block id="ee679c5a83450dd8f0c139cea8a1cc40" category="doc">Suporte para novas instâncias EC2 para Cloud Volumes ONTAP na AWS</block>
+  <block id="332fe49e1772f15dfec47321d1f86499" category="doc">Atualizações do Kubernetes</block>
+  <block id="c0471f20c72304b23fb6eb762ed470b8" category="paragraph">A Recuperação de Desastres introduziu as seguintes alterações para cargas de trabalho baseadas em Kubernetes:</block>
+  <block id="b1f52bc1b1d4ff2b36103a44b4128f19" category="section-title">Teste o suporte a failover para cargas de trabalho do Kubernetes</block>
+  <block id="7e284075cd571fe0081cd386d1d3493c" category="paragraph">O recurso de Recuperação de Desastres agora oferece suporte ao teste do processo de failover para cargas de trabalho do Kubernetes. Testar o failover permite validar os planos de recuperação de desastres. Ao concluir o teste, você pode limpar o failover de teste para que o sistema limpe automaticamente os recursos de teste, reduzindo a sobrecarga e garantindo a consistência do seu ambiente.</block>
+  <block id="ec841432c6696238519b70833f9640bb" category="inline-link-macro">Teste o processo de failover</block>
+  <block id="6031837c36096c58788ef48c962f6ff8" category="paragraph">Para mais informações, consulte <block ref="a8818044286b10a3ca635d0b39faff78" category="inline-link-macro-rx"></block>.</block>
+  <block id="9be7f1264301a801add3868ed7829904" category="section-title">Falhas de teste programadas</block>
+  <block id="2cb1fc25b0b81893e3832eea3384812d" category="paragraph">Agora você pode automatizar os testes de recuperação de desastres agendando failovers de teste. Você pode definir agendamentos para failovers de teste recorrentes para validar continuamente os planos de recuperação sem intervenção manual, ajudando a manter a confiança nos objetivos de recuperação e a atender aos requisitos de conformidade.</block>
+  <block id="07851e0287e57a794c18de627c09e0e7" category="inline-link-macro">Gerenciar planos de replicação</block>
+  <block id="35bd874c9b191a5ec4ef2620bcba1d01" category="paragraph">Para mais informações, consulte <block ref="5e1f430868dd2493a6125e8cf919005e" category="inline-link-macro-rx"></block>.</block>
+  <block id="61a19574e3bdebdbc07d7daaaf8f76e1" category="section-title">Descoberta agendada de cargas de trabalho do Kubernetes</block>
+  <block id="d45fce8600e6e092745f48fddf5cd172" category="paragraph">Com a descoberta agendada, você pode controlar a frequência com que o Disaster Recovery verifica novas cargas de trabalho do Kubernetes. Você pode configurar os intervalos de descoberta para alinhar com sua cadência operacional, reduzindo a sobrecarga desnecessária do sistema enquanto garante que novas cargas de trabalho sejam detectadas e protegidas em tempo hábil.</block>
+  <block id="d5500e4522bde3536eb21086a6278cb6" category="inline-link-macro">Personalize o cronograma de descoberta</block>
+  <block id="58b54ef9bb1184e1a76831a4c8532cdf" category="paragraph">Para mais informações, consulte <block ref="00c64813bfb7d5f31a94dc7f7401aec7" category="inline-link-macro-rx"></block>.</block>
+  <block id="49bc059dcf19f0a0115deba3b42c6932" category="section-title">Atualizações da VMware</block>
+  <block id="239000f59be4987b700a238e8ca4cbac" category="section-title">Proteção para datastores vazios</block>
+  <block id="9a870179d2b3e04319fde1e2148bdde1" category="inline-link-macro">informações de mapeamento</block>
+  <block id="386068b3c8ab30655c493a434548a956" category="paragraph">A Recuperação de Desastres agora permite configurar a proteção para armazenamentos de dados que não contêm máquinas virtuais (VMs). Quaisquer VMs adicionadas posteriormente ao armazenamento de dados são detectadas automaticamente pela Recuperação de Desastres, momento em que você precisa fornecer <block ref="96f22499fac7fb5ec06f64e20472e919" category="inline-link-macro-rx"></block>.</block>
+  <block id="8ea79c5d84513219216b19fc3aa62033" category="inline-link-macro">Failover para um local remoto</block>
+  <block id="fcf6f6ded14457afdca64680218d849c" category="paragraph">Ao adicionar um datastore vazio a um plano de proteção, você deve remover o datastore do plano de proteção antes de executar um failover ou executar um failover forçado. Para mais informações, consulte <block ref="a16180f75826879573c72d14ccfccc18" category="inline-link-macro-rx"></block>.</block>
+  <block id="2d2e356e77ef22acf218ffb017d91233" category="section-title">Restaurar armazenamentos de dados previamente excluídos para um plano de proteção</block>
+  <block id="1453aa4dc117cbab5d75827143b273ea" category="paragraph">Os armazenamentos de dados que antes eram excluídos da proteção agora podem ser reincluídos. Essa melhoria proporciona maior flexibilidade no gerenciamento e na atualização das suas configurações de recuperação de desastres ao longo do tempo.</block>
+  <block id="e111b7436e71ef6b7b99d4ab60693716" category="inline-link-macro">Gerenciar sites, grupos de recursos e planos de replicação</block>
+  <block id="0f76cabceee2286086c65391269ec324" category="paragraph">Para mais informações, consulte <block ref="37d0eb884ec50ead320898709eb6d605" category="inline-link-macro-rx"></block>.</block>
+  <block id="05c185480595feac79a02ae4a685fcc6" category="section-title">Failover mais rápido para datastores baseados em VMFS</block>
+  <block id="e63830ec714a620621135f51c7c84114" category="paragraph">A Recuperação de Desastres aprimorou o desempenho de failover para datastores baseados em VMFS. As operações de reescaneamento do Host Bus Adapter (HBA) e montagem do datastore agora são executadas em paralelo, reduzindo os tempos gerais de failover e minimizando o tempo de inatividade durante eventos de recuperação.</block>
+  <block id="69aa1f50c340d05c0f749dc51b5d5737" category="inline-link-macro">Fail over com recuperação de desastres</block>
+  <block id="bda5d94c4f296d65baa89f57187dafbd" category="paragraph">Para obter mais informações sobre failover, consulte <block ref="6f81e5aa1c9b02c34c5ec309d5755115" category="inline-link-macro-rx"></block>.</block>
 </blocks>
