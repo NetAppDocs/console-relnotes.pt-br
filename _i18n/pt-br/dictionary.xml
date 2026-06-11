@@ -138,13 +138,8 @@
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho VMware, consulte<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>.</block>
   <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">Esta versão do agente do Console inclui melhorias de segurança e correções de bugs, bem como o seguinte novo recurso.</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">Para obter mais informações, consulte <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>.</block>
-  <block id="70c542a285cfdf5cc22587e58fc3fcbb" category="doc">Playbooks do SOAR para Microsoft Sentinel e Splunk</block>
-  <block id="11759e65f10609550e1a85679db960a9" category="inline-link-macro">Microsoft Sentinel</block>
-  <block id="2f9304fe9b427489507405bef9a0bb9f" category="inline-link-macro">Splunk</block>
   <block id="c75f115758f26a9b54a9d51601b66cf9" category="inline-link-macro">Integrar playbooks SOAR</block>
   <block id="b8b94feeaf531f391629f42d138991ba" category="paragraph">Para mais informações, consulte <block ref="ea7002ba1a528c89bfc86119082f1178" category="inline-link-macro-rx"></block>.</block>
-  <block id="462a6e98fbd2a13cda63645b676477e3" category="section-title">12 de março de 2026</block>
-  <block id="cb4ae29d8762239c8dfdfc76bdb65d37" category="paragraph">O Ransomware Resilience agora oferece playbooks de orquestração, automação e resposta de segurança (SOAR) para <block ref="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="inline-link-macro-rx"></block> e <block ref="4655146bfbabab7fd679c2d1ca7a8d15" category="inline-link-macro-rx"></block>. Os playbooks facilitam o gerenciamento de resposta a ameaças, automatizando tarefas de teste e esforços essenciais de resposta a ransomware, incluindo a criação de snapshots e a desativação de um volume.</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">Nesta versão, VMware workloads apresenta as seguintes melhorias:</block>
   <block id="c951c234678bc7ac8d60ec274364552c" category="paragraph">*Suporte à consistência de VM por nível de agendamento*: Agora você pode habilitar backups consistentes com a VM e com o aplicativo para níveis de agendamento específicos ao configurar políticas de proteção para cargas de trabalho VMware. Os níveis anual, mensal e semanal são suportados.</block>
   <block id="69b1a964078d5301a2aa9822cb2304f2" category="section-title">16 de março de 2026</block>
@@ -434,4 +429,9 @@
   <block id="e63830ec714a620621135f51c7c84114" category="paragraph">A Recuperação de Desastres aprimorou o desempenho de failover para datastores baseados em VMFS. As operações de reescaneamento do Host Bus Adapter (HBA) e montagem do datastore agora são executadas em paralelo, reduzindo os tempos gerais de failover e minimizando o tempo de inatividade durante eventos de recuperação.</block>
   <block id="69aa1f50c340d05c0f749dc51b5d5737" category="inline-link-macro">Fail over com recuperação de desastres</block>
   <block id="bda5d94c4f296d65baa89f57187dafbd" category="paragraph">Para obter mais informações sobre failover, consulte <block ref="6f81e5aa1c9b02c34c5ec309d5755115" category="inline-link-macro-rx"></block>.</block>
+  <block id="f1e8426ee8789bca46b26081b788d901" category="doc">Suporte para uma nova região do Azure no Cloud Volumes ONTAP</block>
+  <block id="58c64fbe360d29edfbfa0f1e30f23980" category="paragraph">Agora você pode implantar Cloud Volumes ONTAP 9.12.1 GA e versões posteriores em zonas de disponibilidade únicas e múltiplas no Azure na região Malaysia West (malaysiawest). Isso inclui suporte para implantações de nó único e de alta disponibilidade (HA).</block>
+  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Mapa de Regiões Globais sob Azure</block>
+  <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">Para obter uma lista de todas as regiões, consulte o<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>.</block>
+  <block id="13a1b8a317b4b6dbe05a3757a911ea12" category="section-title">11 de junho de 2026</block>
 </blocks>
