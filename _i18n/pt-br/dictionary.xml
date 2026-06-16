@@ -441,4 +441,23 @@
   <block id="11cb5552207ff0aa19a1682353b76f93" category="list-text">*Os grupos de proteção agora usam o agendamento de fuso horário do host*: Os grupos de proteção agora usam o fuso horário do host Hyper-V. Os grupos de proteção criados antes da introdução do agendamento de fuso horário do host continuam usando o horário configurado anteriormente (normalmente UTC). Para atualizar esses grupos de proteção para usar o fuso horário do host Hyper-V, você deve recriar os agendamentos. Consulte <block ref="d7b709a60ba856948f2de1f387e47906" category="inline-link-rx"></block> para mais informações.</block>
   <block id="fa3a5087c48da1a523ef45fa2253ea19" category="inline-link">Crie e gerencie grupos de proteção para cargas de trabalho VMware</block>
   <block id="327e5e3e392a7cf832926cb52870097c" category="list-text">*Os grupos de proteção agora usam o agendamento pelo fuso horário do host*: Os grupos de proteção agora usam o fuso horário do servidor VMware vCenter que os hospeda. Os grupos de proteção criados antes da introdução do agendamento pelo fuso horário do host continuam a ser executados no fuso horário configurado anteriormente (normalmente UTC). Para usar o fuso horário do vCenter, você deve recriar os agendamentos. Consulte <block ref="5181f9a713551c0880da1b785cb2e8f3" category="inline-link-rx"></block> para mais informações.</block>
+  <block id="b39dc14a008a29a5ead42173a9e0c598" category="doc">Lançamento do modo privado (4.7.0)</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp site de suporte</block>
+  <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">Uma nova versão em modo privado já está disponível para download em<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block></block>
+  <block id="2c0d034db2b48e2c24de792e5f537a36" category="paragraph">A versão 4.7.0 inclui atualizações para os seguintes componentes e serviços do NetApp Console.</block>
+  <block id="394b364c6ed61ed167a4f14316ef5ffc" category="cell">Componente ou serviço</block>
+  <block id="2f9dd95401f68032a97298d35b87f433" category="cell">Versão incluída nesta versão</block>
+  <block id="5431c829b8b64da3908e102d64527909" category="cell">Alterações desde a versão anterior do modo privado</block>
+  <block id="e76758412e5a64841b8710e5fb81ab0c" category="cell">Agente do Console</block>
+  <block id="d794a9cd24f47c508609ee13d758511f" category="cell">4.7.0</block>
+  <block id="a0f66fdbde042599d314470228f3ca6d" category="inline-link">Novidades na página do NetApp Console</block>
+  <block id="59daf18c0a626a4e9dde08f3ce934dba" category="cell">Acesse o <block ref="96a354291689d74da1dc3c76f5332e6f" category="inline-link-rx"></block> e consulte as alterações incluídas para as versões 4.7.0.</block>
+  <block id="cc6088539286339733631d73fb51774b" category="cell">NetApp Backup e recuperação</block>
+  <block id="225461e659003503fb35b495b5008e09" category="cell">5.4.0 (08 de junho de 2026)</block>
+  <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">Novidades na página de NetApp Backup and Recovery</block>
+  <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell">Vá para o<block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>.</block>
+  <block id="91d5470ff0de1d64ddb0c8c3bef0b246" category="cell">NetApp Data Classification</block>
+  <block id="dec411cd5f201e22bcbd7d9f4569efcc" category="cell">1.54.0 (11 de maio de 2026)</block>
+  <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">Novidades na página de Classificação da NetApp</block>
+  <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">Vá para o<block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>.</block>
 </blocks>
