@@ -1,0 +1,37 @@
+= Verificação de integridade GraphQL: migração e melhorias na precisão dos dados
+:allow-uri-read: 
+
+
+
+
+=== Verificação de integridade GraphQL: migração e melhorias na precisão dos dados
+
+O módulo de Verificação de Saúde foi aprimorado com maior precisão de dados e recomendações de versão alinhadas aos padrões atuais. Como parte desta versão, ele foi migrado da Public API para GraphQL, proporcionando melhor desempenho, consultas flexíveis e suporte a longo prazo.
+
+
+
+==== Software recomendado
+
+As melhorias recomendadas de software no módulo de Verificação de Saúde agora fornecem dados mais precisos e consistentes.
+
+* A contagem de prateleiras e unidades na exibição de firmware atual mostra os valores precisos por sistema e não inclui mais a contagem de pares HA.
+* As recomendações de versão mínima e mais recente agora são calculadas no nível do cluster com base na versão efetiva do cluster, em conformidade com os padrões atuais. Anteriormente, essas recomendações eram calculadas no nível do nó.
+
+
+
+
+==== AutoSupport dependência de dados
+
+Devido a melhorias no sistema interno, as visualizações de adoção do AutoSupport e de software recomendado dependem dos dados mais recentes do AutoSupport. Isso pode afetar sua visualização atual das seguintes maneiras:
+
+[cols="30,70"]
+|===
+| Cenário | Sistemas afetados 
+
+
+| Nenhum dado exibido | Sistemas que não enviaram um AutoSupport desde outubro de 2025 
+
+
+| Valores desatualizados | Sistemas que não enviaram um AutoSupport nos últimos 30 dias 
+|===
+Execute novamente o procedimento AutoSupport nos sistemas afetados listados acima para restaurar os dados atuais nas visualizações de Verificação de Integridade.

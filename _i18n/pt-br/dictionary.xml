@@ -138,29 +138,8 @@
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho VMware, consulte<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>.</block>
   <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">Esta versão do agente do Console inclui melhorias de segurança e correções de bugs, bem como o seguinte novo recurso.</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">Para obter mais informações, consulte <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>.</block>
-  <block id="c75f115758f26a9b54a9d51601b66cf9" category="inline-link-macro">Integrar playbooks SOAR</block>
-  <block id="b8b94feeaf531f391629f42d138991ba" category="paragraph">Para mais informações, consulte <block ref="ea7002ba1a528c89bfc86119082f1178" category="inline-link-macro-rx"></block>.</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">Nesta versão, VMware workloads apresenta as seguintes melhorias:</block>
-  <block id="0fd3e1f73fc71151c33e67909039dd88" category="paragraph">Nesta versão, as cargas de trabalho do Oracle Database introduzem a seguinte melhoria:</block>
-  <block id="e242e6f8581d6d11d04b2c80d7a16519" category="inline-link">Descubra cargas de trabalho do Oracle Database</block>
-  <block id="b77d45fa1e71e6bf913df1f7680aa70c" category="list-text">*Suporte a hosts em cluster*: Agora você pode descobrir e proteger bancos de dados Oracle Real Application Clusters (RAC) que usam Oracle Automatic Storage Management (ASM) e são implantados usando VMDK em sistemas de arquivos VMFS. Para mais informações, consulte <block ref="d0dab0542f96585a18cc2e536da75fd6" category="inline-link-rx"></block>.</block>
-  <block id="cb7dc55d43e841bfb3cf4e114d10c93d" category="inline-link">Configurar um banco de dados Oracle</block>
-  <block id="11bf1aa4a1c990ba08edcb69e7bd16a5" category="list-text">*Suporte ao catálogo RMAN*: Agora você pode configurar o Backup e Recovery para armazenar metadados de proteção no catálogo de recuperação do RMAN, o que proporciona redundância e retenção de longo prazo caso o arquivo de controle de destino seja perdido. Para mais informações, consulte <block ref="c357671575c77250cb0b189fb7b1b3b4" category="inline-link-rx"></block>.</block>
-  <block id="d8fdc2681cdec613a02ac551c44a6e8c" category="section-title">31 de março de 2026</block>
-  <block id="18515b3c335f09237bc0721c0cb72b94" category="doc">Acima da capacidade máxima no gráfico de consumo histórico</block>
-  <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">Veja as tendências de consumo das suas assinaturas Keystone</block>
-  <block id="ccb30c6d28628d4a2488596de7e2891b" category="paragraph">O gráfico de consumo histórico na aba *Tendência de consumo* agora destaca o uso que excede o limite de pico. Para saber mais, consulte <block ref="06dd3a9283773166a29e1b7ff4424218" category="inline-link-macro-rx"></block>.</block>
-  <block id="b3dc9240b9d14158cfa1e8c9f006c4cc" category="section-title">Previsão de utilização da capacidade</block>
   <block id="d91e86bb82b2e269900865aa75c2f6b1" category="inline-link-macro">Veja os dados de previsão</block>
-  <block id="0794ebef867392ddd8fde9d8acc33d95" category="paragraph">Você pode usar a opção *Previsão* na visualização *Consumo histórico* da guia *Tendência de consumo* para projetar o uso da capacidade nos próximos 120 dias a partir da data atual. Para saber mais, consulte <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>.</block>
-  <block id="3cad4604b833d612cf60efacf78eba67" category="section-title">ID de rastreamento na exportação de assinaturas</block>
-  <block id="7c8889a3dbf6564af66cd90c8d50ab99" category="paragraph">O relatório de assinaturas baixado da página *Assinaturas* agora inclui o *ID de rastreamento* nos dados de nível de serviço de desempenho, tanto no formato Excel quanto no CSV.</block>
-  <block id="4f5116f256021abd73dfaa4f95b17237" category="section-title">Atualizações de visibilidade da coluna na página de assinaturas</block>
-  <block id="ff8ca3704c3bbdb74c1650666c3657bb" category="paragraph">Na página *Assinaturas*, a coluna *Keystone version* agora está oculta por padrão, e a coluna *Linked subscriptions* aparece somente quando assinaturas vinculadas estão disponíveis.</block>
-  <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">30 de março de 2026</block>
-  <block id="ed300adca180c1e33d800707367434a6" category="doc">Playbook SOAR para Google SecOps</block>
-  <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
-  <block id="d0c1ba6e120f697911d5bd92a51f0322" category="paragraph">O Ransomware Resilience agora oferece um playbook de orquestração, automação e resposta de segurança (SOAR) para <block ref="d942356c034f7ad3c314a5fae7d11e1d" category="inline-link-macro-rx"></block>. O playbook facilita o gerenciamento de respostas a ameaças, automatiza tarefas e testes e oferece suporte a esforços essenciais de resposta a ransomware, incluindo a criação de snapshots e a desativação de um volume.</block>
   <block id="5701a00214d8cf532eb05ab4390dd83c" category="doc">O suporte do Google Cloud VMware Engine (GCVE) agora está disponível para o público em geral (GA)</block>
   <block id="17eb3abfef8b1a9f92707a05bb82cb53" category="paragraph">NetApp Disaster Recovery para GCVE agora está disponível para o público em geral (GA). Com o suporte GA, Disaster Recovery para GCVE agora oferece suporte a:</block>
   <block id="6f9e9024f518a369b5759d900694f8b3" category="list-text">*Snapshots gerenciados pela plataforma:* Gerencie backups e políticas de retenção de forma integrada por meio do ONTAP ou do Google Cloud Platform (GCP).</block>
@@ -460,4 +439,20 @@
   <block id="dec411cd5f201e22bcbd7d9f4569efcc" category="cell">1.54.0 (11 de maio de 2026)</block>
   <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">Novidades na página de Classificação da NetApp</block>
   <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">Vá para o<block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>.</block>
+  <block id="c0c5b8053b5fc36370065438a354e1bf" category="doc">Verificação de integridade GraphQL: migração e melhorias na precisão dos dados</block>
+  <block id="a91b61567eb0a4298ef58eeb9f9c29bf" category="paragraph">O módulo de Verificação de Saúde foi aprimorado com maior precisão de dados e recomendações de versão alinhadas aos padrões atuais. Como parte desta versão, ele foi migrado da Public API para GraphQL, proporcionando melhor desempenho, consultas flexíveis e suporte a longo prazo.</block>
+  <block id="d6493900927657728256c0c09c4e62d3" category="section-title">Software recomendado</block>
+  <block id="62d94d8f05c78645a78c9aa2a5a0656e" category="paragraph">As melhorias recomendadas de software no módulo de Verificação de Saúde agora fornecem dados mais precisos e consistentes.</block>
+  <block id="519ef0af74847ba658e0e372af62c2d9" category="list-text">A contagem de prateleiras e unidades na exibição de firmware atual mostra os valores precisos por sistema e não inclui mais a contagem de pares HA.</block>
+  <block id="f3ecf83f5405b8c9ae015216ab98b6ef" category="list-text">As recomendações de versão mínima e mais recente agora são calculadas no nível do cluster com base na versão efetiva do cluster, em conformidade com os padrões atuais. Anteriormente, essas recomendações eram calculadas no nível do nó.</block>
+  <block id="b6bdc044bc2fc474a21f0bb38c36e848" category="section-title">AutoSupport dependência de dados</block>
+  <block id="21703a68dc34fb690cd63eab5b8673d3" category="paragraph">Devido a melhorias no sistema interno, as visualizações de adoção do AutoSupport e de software recomendado dependem dos dados mais recentes do AutoSupport. Isso pode afetar sua visualização atual das seguintes maneiras:</block>
+  <block id="54861efdd06fc309e1c9a420feff98eb" category="cell">Cenário</block>
+  <block id="3a3c1f7cef221775b106f2d32f9f8542" category="cell">Sistemas afetados</block>
+  <block id="8df497acd9705cbe06a50764942ed68a" category="cell">Nenhum dado exibido</block>
+  <block id="c3dac7d16903ae7e8c7256657c5c94f0" category="cell">Sistemas que não enviaram um AutoSupport desde outubro de 2025</block>
+  <block id="30b12656a9029663eea37f6a804f28a4" category="cell">Valores desatualizados</block>
+  <block id="e20432694f9004583c0756c875ad9910" category="cell">Sistemas que não enviaram um AutoSupport nos últimos 30 dias</block>
+  <block id="17666cbe1713f97c57ab98489a603022" category="paragraph">Execute novamente o procedimento AutoSupport nos sistemas afetados listados acima para restaurar os dados atuais nas visualizações de Verificação de Integridade.</block>
+  <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">29 de junho de 2026</block>
 </blocks>
