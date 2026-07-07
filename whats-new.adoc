@@ -30,6 +30,22 @@ Remediação:: O serviço de correção foi removido em 22 de abril de 2024.
 ====
 
 
+== 07 de julho de 2026
+
+
+
+=== Resiliência ao Ransomware
+
+
+
+==== Excluir caminhos de arquivos dos alertas de comportamento do usuário
+
+O Ransomware Resilience permite excluir caminhos de arquivo específicos dos alertas de monitoramento de comportamento do usuário. Você pode excluir caminhos de arquivo se souber que eles não representam risco ou se estiver realizando operações em arquivos em um volume que possam acionar alertas.
+
+Para obter mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-users-manage.html["Excluir caminhos de arquivos dos alertas"^].
+
+
+
 == 29 de junho de 2026
 
 
