@@ -478,4 +478,7 @@
   <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">Excluir caminhos de arquivos dos alertas</block>
   <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">07 de julho de 2026</block>
   <block id="5f2a57952e65084ab1bcb535d4662440" category="paragraph">Para mais informações, consulte <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>.</block>
+  <block id="cc77cf98baa64437ba1852257c81c7a1" category="doc">Agente do Console 4.8.0</block>
+  <block id="c352b7fbc4bc73fdf6c2e56c32996413" category="paragraph">A versão 4.8.0 suporta tanto o modo padrão quanto o modo restrito.</block>
+  <block id="179021adb01b0c7bf08f12ed1f7e4cea" category="paragraph">Esta versão inclui melhorias de segurança e correções de erros.</block>
 </blocks>
