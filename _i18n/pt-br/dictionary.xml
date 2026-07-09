@@ -351,11 +351,8 @@
   <block id="6be411ea1de1ddb5d78a1efaf383f88c" category="list-text">O recurso de Renovações agora se chama Renovações de Suporte. Saiba mais <block ref="234ea1b0eb074989e74237a3dff18337" category="inline-link-macro-rx"></block>.</block>
   <block id="02c43db7108a3accce59c81a27ac4ef5" category="doc">Atualizações de nomes de recursos de planejamento de ciclo de vida</block>
   <block id="4c5232cce8bc78f484d71da8ffcfef7b" category="paragraph">Os seguintes recursos de planejamento do ciclo de vida tiveram seus nomes alterados:</block>
-  <block id="d5ed2e99bd371bcfc460d6572a12add2" category="list-text">O recurso de atualização tecnológica agora se chama *Atualização do sistema*. Saiba como <block ref="433ac4cec3ceaf7ac84bdaec77992d24" category="inline-link-macro-rx"></block>.</block>
   <block id="dde36ba383e039cbac61a2f920672ee0" category="inline-link-macro">expandir armazenamento</block>
-  <block id="7909728a25fab3130222a99358ae67a5" category="list-text">O recurso de Adição de Capacidade agora se chama *Expansão de Armazenamento*. Saiba como <block ref="09884e6ec96fe38b804dd493528c8e70" category="inline-link-macro-rx"></block>.</block>
   <block id="0f1f31b4920f5002f5c30d37073cc590" category="inline-link-macro">Cadastre-se para suporte</block>
-  <block id="7cd293fac76115b83fb817b31f0dbdf7" category="list-text">O recurso de Renovação agora se chama *Support Renewals*. Saiba como <block ref="5eb4e7d9f21654c7ba8e676257b3a3cd" category="inline-link-macro-rx"></block>.</block>
   <block id="47c77878a7175f3cc904ae84821cbc37" category="section-title">03 de junho de 2026</block>
   <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*Suporte para storage de nuvem compatível com S3*: NetApp Backup and Recovery para cargas de trabalho de Volumes agora oferece suporte a backup em storage de nuvem compatível com S3.</block>
   <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*Aprimoramentos na restauração de arquivos e pastas para uma máquina virtual convidada*: Agora você pode restaurar arquivos e pastas de um snapshot no storage primário ou secundário para uma máquina virtual Windows convidada. Esse recurso agora é compatível com VMs CIFS e SAN.</block>
@@ -481,4 +478,7 @@
   <block id="cc77cf98baa64437ba1852257c81c7a1" category="doc">Agente do Console 4.8.0</block>
   <block id="c352b7fbc4bc73fdf6c2e56c32996413" category="paragraph">A versão 4.8.0 suporta tanto o modo padrão quanto o modo restrito.</block>
   <block id="179021adb01b0c7bf08f12ed1f7e4cea" category="paragraph">Esta versão inclui melhorias de segurança e correções de erros.</block>
+  <block id="32846264266c0647221942c075bdc06f" category="list-text">O recurso de atualização tecnológica agora se chama *Atualização do sistema*. Saiba como <block ref="0992661cdfbc250579dfee7583af372b" category="inline-link-rx"></block>.</block>
+  <block id="e3df23ea52f04543b64192a1e358a186" category="list-text">O recurso de Adição de Capacidade agora se chama *Expansão de Armazenamento*. Saiba como <block ref="6d1deb53b91708fe3765ff162dd599c6" category="inline-link-rx"></block>.</block>
+  <block id="d6d364aab071b2f59e7a2103a3f70fc3" category="list-text">O recurso de Renovação agora se chama *Support Renewals*. Saiba como <block ref="80301498cb8d291152f0aa65080b783f" category="inline-link-rx"></block>.</block>
 </blocks>
