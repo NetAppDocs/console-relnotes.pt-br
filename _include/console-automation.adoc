@@ -4,4 +4,5 @@
 
 
 
+[[automation-catalog]]
 === Catálogo de Automação

@@ -18,6 +18,7 @@ Veja o conjunto completo de notas de versão para recursos do NetApp Console e s
 
 
 
+[[administration]]
 == Administração
 
 * https://docs.netapp.com/us-en/console-setup-admin/whats-new.html["Configuração e administração"^]
@@ -31,6 +32,7 @@ Veja o conjunto completo de notas de versão para recursos do NetApp Console e s
 
 
 
+[[storage]]
 == Armazenar
 
 * https://docs.netapp.com/us-en/storage-management-fsx-ontap/whats-new.html["Amazon FSx para ONTAP"^]
@@ -48,6 +50,7 @@ Veja o conjunto completo de notas de versão para recursos do NetApp Console e s
 
 
 
+[[storage-as-a-service]]
 == Armazenamento como serviço
 
 * https://docs.netapp.com/us-en/keystone-staas/whats-new.html["Keystone"^]
@@ -55,6 +58,7 @@ Veja o conjunto completo de notas de versão para recursos do NetApp Console e s
 
 
 
+[[data-services]]
 == Serviços de dados
 
 * https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["Backup e Recuperação"^]

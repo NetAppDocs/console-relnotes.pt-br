@@ -4,6 +4,7 @@
 
 
 
+[[health-check-graphql-migration-and-data-accuracy-improvements]]
 === Verificação de integridade GraphQL: migração e melhorias na precisão dos dados
 
 O módulo de Verificação de Saúde foi aprimorado com maior precisão de dados e recomendações de versão alinhadas aos padrões atuais. Como parte desta versão, ele foi migrado da Public API para GraphQL, proporcionando melhor desempenho, consultas flexíveis e suporte a longo prazo.

@@ -4,6 +4,7 @@
 
 
 
+[[lifecycle-planning-feature-name-updates]]
 === Atualizações de nomes de recursos de planejamento de ciclo de vida
 
 Os seguintes recursos de planejamento do ciclo de vida tiveram seus nomes alterados:
