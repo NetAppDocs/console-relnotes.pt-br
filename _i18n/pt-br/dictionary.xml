@@ -468,4 +468,11 @@
   <block id="38231d7ab948e14954505c434dbc3406" category="inline-link">Funções de acesso do Cloud Volumes ONTAP no NetApp Console</block>
   <block id="ad25b993a54c0c353ed1957e95a74d22" category="list-text"><block ref="ad25b993a54c0c353ed1957e95a74d22" category="inline-link-rx"></block></block>
   <block id="658eb72da44348bf013db3a71420c2be" category="section-title">14 de julho de 2026</block>
+  <block id="b52a1b50313551938bf7b6520c957f67" category="doc">Agente do Console 4.9.0</block>
+  <block id="8643cb7b1a266632b3ce870a592c9aed" category="paragraph">A versão 4.9.0 suporta tanto o modo padrão quanto o modo restrito.</block>
+  <block id="148954cf851ed4aa263eb6cd90ea3000" category="paragraph-title">Suporte para controle de acesso baseado em funções para Cloud Volumes ONTAP</block>
+  <block id="bfc35791f70b3b115636ea79999bc1e3" category="paragraph">O console oferece suporte ao controle de acesso baseado em funções para Cloud Volumes ONTAP.</block>
+  <block id="a849f909985995e89c42154f270a1245" category="inline-link-macro">Saiba mais sobre o controle de acesso baseado em funções para Cloud Volumes ONTAP</block>
+  <block id="ea256e0ef091d570fc3443bfdb29b124" category="paragraph"><block ref="8c5db5921f383526df21d84d3b1bfd83" category="inline-link-macro-rx"></block>.</block>
+  <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">15 de julho de 2026</block>
 </blocks>
