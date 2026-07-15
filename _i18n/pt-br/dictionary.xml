@@ -477,4 +477,5 @@
   <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">15 de julho de 2026</block>
   <block id="7c33460ede710e45d063c1062b0cacba" category="doc">Remoção da carga de trabalho GenAI das Cargas de Trabalho no NetApp Console</block>
   <block id="ef8dda25d49364e8cb6cea8ce87a605c" category="paragraph">A carga de trabalho GenAI foi removida de Cargas de Trabalho no NetApp Console.</block>
+  <block id="59ff3234d92baf85ab9719aa478962eb" category="paragraph">*Suporte aprimorado para múltiplos buckets*: A partir do ONTAP 9.19.1 e versões mais recentes, agora você pode proteger os volumes dentro de um sistema com até 100 buckets por sistema em diferentes provedores de nuvem.</block>
 </blocks>
