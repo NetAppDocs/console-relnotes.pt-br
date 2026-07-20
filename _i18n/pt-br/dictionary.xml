@@ -147,8 +147,6 @@
   <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">Recupere cargas de trabalho com uma restauração limpa</block>
   <block id="c81c8aac6cfb1c5f690b914eda6a69fd" category="inline-link-macro">Conecte Ransomware Resilience a um SIEM</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">Nesta versão, VMware workloads apresenta a seguinte melhoria:</block>
-  <block id="4f06e500210ecec059ecf486106df9e6" category="list-text">*ASA r2 suporte a SAN*: As cargas de trabalho do VMware agora oferecem suporte à proteção de VMs em datastores VMFS hospedados em ambientes NetApp ASA r2 somente SAN.</block>
-  <block id="6dba6d956d3e495df0c0575cd1b23218" category="section-title">20 de abril de 2026</block>
   <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">Rótulo de capacidade provisionada renomeado</block>
   <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">A etiqueta *Capacidade provisionada* foi renomeada para *Capacidade de volume provisionada*. A etiqueta atualizada também é refletida nos relatórios CSV e Excel relacionados.</block>
   <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">Alternância de previsão para rajada acumulada</block>
@@ -481,4 +479,28 @@
   <block id="fca26b0431792befd32dc54e69c74dc4" category="paragraph">Nesta versão de backup e recuperação, agora você pode proteger as cargas de trabalho dentro de um sistema com até 100 buckets por sistema em diferentes provedores de nuvem.</block>
   <block id="d41c5b540be0c3c679bd7d5c99b06670" category="inline-link">Saiba mais sobre NetApp Backup and Recovery</block>
   <block id="9bf2c1ebc9be74ae2e995a0a4dab1fec" category="paragraph">Para obter detalhes sobre NetApp Backup and Recovery, consulte <block ref="a026c5bec08ff7bb5b963e48c0daa63e" category="inline-link-rx"></block>.</block>
+  <block id="63a331b4a7ef8ade5f4d0df6929fdd39" category="doc">Apresentando a integração simplificada do Cloud Volumes ONTAP a partir do AWS Marketplace</block>
+  <block id="3c7e14792d1bfe3f0ac2972bb2b2b283" category="paragraph">NetApp introduz um fluxo de integração simplificado para Cloud Volumes ONTAP a partir do AWS Marketplace, reduzindo etapas manuais e atritos na integração.</block>
+  <block id="07de933840f509439b88a42c1b5a81f8" category="paragraph">Anteriormente, a implantação do Cloud Volumes ONTAP a partir do AWS Marketplace exigia navegar por várias telas e configurar manualmente funções, políticas e credenciais. Isso tornava a integração lenta e propensa a erros.</block>
+  <block id="7b0a4d96333ac82141b9bf7031a4427c" category="paragraph">O novo fluxo de integração simplifica sua transição de uma assinatura do marketplace para um ambiente Cloud Volumes ONTAP totalmente operacional, com os seguintes recursos:</block>
+  <block id="d8a801d58e75e021f2941c09a13ac4cc" category="list-text">Assinatura da listagem dedicada do Cloud Volumes ONTAP no AWS Marketplace: você assina a listagem independente do Cloud Volumes ONTAP no AWS Marketplace, adquire uma assinatura e configura sua conta AWS (caso ainda não possua uma).</block>
+  <block id="2beff62713d0ca26e8bbeb26d118da72" category="list-text">Caminho guiado no NetApp Console: Você configura sua conta no NetApp Console, e o Console automaticamente integra você à jornada de implantação, exibindo o caminho guiado no lado direito. Caso você precise sair do Console, poderá retomar a jornada guiada posteriormente.</block>
+  <block id="3545b8b6c97019ee16382e1e9f1566d6" category="list-text">Associando sua assinatura: você pode associar sua assinatura automaticamente ao Console, evitando as etapas manuais de vinculá-la você mesmo.</block>
+  <block id="7fe500a5c571cd7ec037fadddeb65e6d" category="list-text">Implantação do agente do console com configuração de credenciais da AWS: você pode criar automaticamente as funções da AWS necessárias. O processo implanta uma pilha CloudFormation na sua conta da AWS com as funções e políticas necessárias para sua revisão e, em seguida, as associa ao NetApp Console, eliminando a configuração manual do IAM. Em seguida, você continua com a configuração do agente, rede e configurações do grupo de segurança para iniciar a implantação do agente.</block>
+  <block id="1dc23a84b7e2b375289ce6857c758408" category="list-text">Implante um novo sistema Cloud Volumes ONTAP na AWS: você acessa diretamente o <block ref="956eaa6186169471a13345860cad0757" prefix=" " category="inline-code"></block> assistente para uma implantação do Cloud Volumes ONTAP mais rápida e simplificada.</block>
+  <block id="5308f0957f4f665b7b8a7a70e7f26dbb" category="inline-link">Implante Cloud Volumes ONTAP com a criação rápida</block>
+  <block id="92818173e0caa5fc0e16c368b850e85b" category="list-text"><block ref="92818173e0caa5fc0e16c368b850e85b" category="inline-link-rx"></block></block>
+  <block id="45155a6d96a264e24647f30ebb774e4f" category="list-text"><block ref="45155a6d96a264e24647f30ebb774e4f" category="inline-link-rx"></block></block>
+  <block id="e8f7f517a7c22ec0466a4d916c974b67" category="section-title">Análise de configuração bem arquitetada para Cloud Volumes ONTAP no Azure</block>
+  <block id="8579a865aaeb9e025994731e2e5b4b7b" category="paragraph">O NetApp Console agora oferece suporte à análise de configuração bem arquitetada para sistemas Cloud Volumes ONTAP em execução no Microsoft Azure. O Console analisa suas implantações diariamente e fornece um status de arquitetura bem arquitetada, insights e recomendações para ajudar você a manter sistemas alinhados com as melhores práticas da NetApp e a estrutura well-architected.</block>
+  <block id="7be0ecfd06a37dfa6ce465eeee7e76b0" category="paragraph">O painel de controle bem estruturado exibe o número total de sistemas analisados e categoriza seus recursos por configuração e nível de gravidade. Se você é um administrador do sistema, pode visualizar recomendações para qualquer problema de configuração na sua organização diretamente do painel do Console e baixar um relatório CSV com todas as recomendações. As configurações são categorizadas de acordo com:</block>
+  <block id="d1288590d0a85a5033a8db4112eab3bf" category="list-text">*Confiabilidade*: Garante que as cargas de trabalho operem de forma correta e consistente, mesmo em caso de interrupções.</block>
+  <block id="f9a9871ceb0b0b6106ac0c3761f8ccd5" category="list-text">*Segurança*: Protege dados, sistemas e ativos por meio de avaliações e mitigação de riscos.</block>
+  <block id="3e21d0873324d070ffd9f5112b99ce4d" category="list-text">*Excelência operacional*: Otimiza a arquitetura para maximizar o valor do negócio.</block>
+  <block id="886863730bd12cb56f89bdf0ee2221be" category="list-text">*Otimização de custos*: reduz e otimiza custos para gerar maior valor para o negócio.</block>
+  <block id="109cdb23e41e8df9e7f4319a28a800c9" category="inline-link">Análise de configuração para Cloud Volumes ONTAP</block>
+  <block id="30e75dda73d152784f441d20f2d17069" category="list-text"><block ref="30e75dda73d152784f441d20f2d17069" category="inline-link-rx"></block></block>
+  <block id="5bff0e2ec30fb9a44ab23683ebe9af90" category="inline-link">Implementar configurações de sistema bem arquitetadas</block>
+  <block id="fae0b0bdb2210aacd56925bf63411bc1" category="list-text"><block ref="fae0b0bdb2210aacd56925bf63411bc1" category="inline-link-rx"></block></block>
+  <block id="ac750267020c9b3c0e32de825d9b57fc" category="section-title">20 de julho de 2026</block>
 </blocks>
