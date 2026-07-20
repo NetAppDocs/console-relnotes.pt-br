@@ -1,0 +1,8 @@
+= Painel de controle bem arquitetado
+:allow-uri-read: 
+
+
+
+
+[[well-architected-dashboard]]
+=== Painel de controle bem arquitetado
