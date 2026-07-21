@@ -1,0 +1,12 @@
+= Aviso de descontinuação do Wellness Review
+:allow-uri-read: 
+
+
+
+
+[[deprecation-notice-for-wellness-review]]
+=== Aviso de descontinuação do Wellness Review
+
+O recurso Wellness Review foi descontinuado e não está mais disponível no Digital Advisor a partir de julho de 2026.
+
+Para dúvidas ou para compartilhar comentários, envie um e-mail para mailto:ng-activeiq-feedback@netapp.com[entre em contato com a equipe do Active IQ].

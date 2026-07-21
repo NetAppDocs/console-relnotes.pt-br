@@ -146,6 +146,19 @@ A carga de trabalho GenAI foi removida de Cargas de Trabalho no NetApp Console.
 
 
 
+[[digital-advisor]]
+=== Consultor digital
+
+
+
+==== Aviso de descontinuação do Wellness Review
+
+O recurso Wellness Review foi descontinuado e não está mais disponível no Digital Advisor a partir de julho de 2026.
+
+Para dúvidas ou para compartilhar comentários, envie um e-mail para mailto:ng-activeiq-feedback@netapp.com[entre em contato com a equipe do Active IQ].
+
+
+
 [[14-july-2026]]
 == 14 de julho de 2026
 
