@@ -514,10 +514,10 @@
   <block id="95be701b55d8162269ca03772d2761bc" category="section-title">Crie suas próprias regras personalizadas</block>
   <block id="6b0f72e83c27494413b50e62a79dac44" category="paragraph">Escreva regras personalizadas em linguagem simples para garantir que seus sistemas sigam os padrões da sua organização e as melhores práticas da NetApp. Teste as regras com uma simulação e, em seguida, agende a execução delas em todos os seus ambientes.</block>
   <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link">Saiba mais sobre regras personalizadas</block>
-  <block id="9bd966d21188bc73353090c821e40934" category="paragraph"><block ref="9bd966d21188bc73353090c821e40934" category="inline-link-rx"></block></block>
   <block id="12959707639320f789d4bb4fbba777f1" category="inline-link">Implemente configurações de sistema Cloud Volumes ONTAP bem arquitetadas</block>
   <block id="e8227a8388a93064d0bbb4e13f50ff6e" category="list-text"><block ref="e8227a8388a93064d0bbb4e13f50ff6e" category="inline-link-rx"></block></block>
   <block id="3cf43920c00fe2ea8865c490f81428d4" category="doc">Aviso de descontinuação do Wellness Review</block>
   <block id="b5b841825c6795b46db86f189bb6b292" category="paragraph">O recurso Wellness Review foi descontinuado e não está mais disponível no Digital Advisor a partir de julho de 2026.</block>
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">Para dúvidas ou para compartilhar comentários, envie um e-mail para mailto:ng-activeiq-feedback@netapp.com[entre em contato com a equipe do Active IQ].</block>
+  <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
 </blocks>
