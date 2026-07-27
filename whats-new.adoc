@@ -1133,27 +1133,3 @@ Nesta versão, as cargas de trabalho do Kubernetes introduzem as seguintes melho
 
 
 Para obter detalhes sobre como proteger cargas de trabalho do Kubernetes, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Visão geral da proteção de workloads do Kubernetes"].
-
-
-
-[[27-april-2026]]
-== 27 de abril de 2026
-
-
-
-[[keystone]]
-=== Keystone
-
-Novos aprimoramentos no painel do Keystone no NetApp Console:
-
-
-
-==== Rótulo de capacidade provisionada renomeado
-
-A etiqueta *Capacidade provisionada* foi renomeada para *Capacidade de volume provisionada*. A etiqueta atualizada também é refletida nos relatórios CSV e Excel relacionados.
-
-
-
-==== Alternância de previsão para rajada acumulada
-
-Agora você pode usar a opção *Previsão* na visualização *Consumo acumulado* da guia *Tendência de consumo* para projetar o uso acumulado de burst para os próximos 120 dias a partir da data atual. Para saber mais, consulte https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["Veja os dados de previsão"].
