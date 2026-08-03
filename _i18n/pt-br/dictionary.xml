@@ -585,4 +585,17 @@
   <block id="cda40a00113c322adbbd074032606bfe" category="paragraph"><block ref="cda40a00113c322adbbd074032606bfe" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">03 de agosto de 2026</block>
   <block id="62ff0d9db122207756fd73342a3eb3ad" category="paragraph">NetApp Backup and Recovery agora oferece suporte à proteção das cargas de trabalho em um sistema com até 100 buckets em diferentes provedores de nuvem. ONTAP 9.19.1 ou posterior é necessário para oferecer suporte a mais de 6 buckets por sistema.</block>
+  <block id="aafe22f0aac02cfc773f108471a387c4" category="doc">Integração do Cloud Volumes ONTAP com o Microsoft OneLake</block>
+  <block id="41aa5ef466861e25c87ddbb36de43edd" category="inline-link">Microsoft OneLake</block>
+  <block id="293c823b8d8e2da1959829a580b33c90" category="inline-link">Microsoft Fabric</block>
+  <block id="4d664b02ce777c1e4699e94fd7d34ae7" category="inline-link">ONTAP S3 multi-protocolo</block>
+  <block id="401d011b2377a7c64751160aa39ff55c" category="paragraph">Cloud Volumes ONTAP agora oferece suporte à integração com<block ref="7296f85da7d270a15e9565051e07602b" category="inline-link-rx"></block> em prévia pública. Você pode integrar Cloud Volumes ONTAP com<block ref="df6d917e247d0878fc8f4ddd737f9ab2" category="inline-link-rx"></block> usando<block ref="7296f85da7d270a15e9565051e07602b" category="inline-link-rx"></block> para disponibilizar os dados NAS existentes do Cloud Volumes ONTAP para os serviços de análise e IA da Microsoft, como Power BI, Azure AI Search, OpenAI e Microsoft Copilot. A integração não requer movimentação de dados nem duplicação. A integração usa<block ref="f8b4f97863c52739a61ab36e880c3d99" category="inline-link-rx"></block> acesso para conectar Cloud Volumes ONTAP a um Microsoft Fabric lakehouse existente.</block>
+  <block id="26ce65cbc7dbbe0f87186b28ea7c57b8" category="list-title">Artigos e recursos relacionados:</block>
+  <block id="a66621d27a6944c58e46d1f565b22143" category="inline-link">NetApp blog: Otimize IA e análises com Microsoft OneLake e NetApp Cloud Volumes ONTAP</block>
+  <block id="2b4194522887509da7c9b51c70067cea" category="list-text"><block ref="ada46b265e2235c5ece497b9f3c94b84" category="inline-link-rx"></block></block>
+  <block id="ecbaa51ea44293a13a4eb6ca8d26d642" category="inline-link">Integre sistemas Cloud Volumes ONTAP com a Microsoft OneLake para IA e análise</block>
+  <block id="3dad4d1eeaf9a01a63764a9bd6deee29" category="list-text"><block ref="3dad4d1eeaf9a01a63764a9bd6deee29" category="inline-link-rx"></block></block>
+  <block id="a4bbb449ad6bcfc9df369b041d7730ed" category="inline-link">Integração do Cloud Volumes ONTAP com a Microsoft OneLake - Resumo técnico</block>
+  <block id="4271db1842db28d08bc52fe3025bc7b1" category="list-text"><block ref="4271db1842db28d08bc52fe3025bc7b1" category="inline-link-rx"></block></block>
+  <block id="37c159a88b5bcfaeea126c1581ba5f53" category="list-text"><block ref="37c159a88b5bcfaeea126c1581ba5f53" category="inline-link-macro-rx"></block></block>
 </blocks>
