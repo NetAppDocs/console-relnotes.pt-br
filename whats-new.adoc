@@ -1144,28 +1144,3 @@ Para obter mais informações, consulte link:https://docs.netapp.com/us-en/data-
 O Ransomware Resilience agora oferece suporte ao bloqueio de usuários individuais com Google SecOps e playbooks do Splunk SOAR. Com essa adição, você pode automatizar o bloqueio de usuários quando o Ransomware Resilience detectar atividades suspeitas de usuários, como uma violação de dados ou exclusão em massa de dados.
 
 link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/reference-soar.html["Integre um playbook SOAR"^].
-
-
-
-[[05-may-2026]]
-== 05 de maio de 2026
-
-
-
-[[backup-and-recovery]]
-=== Backup e Recuperação
-
-
-
-==== Aprimoramentos de cargas de trabalho do Kubernetes
-
-Nesta versão, as cargas de trabalho do Kubernetes introduzem as seguintes melhorias:
-
-* *Trident Protect 26.05*: Esta versão inclui Trident Protect 26.05.
-* *Atualize Trident Protect a partir do Backup e Recovery*: Se o seu cluster Kubernetes estiver executando Trident Protect 26.05 ou mais recente, agora você pode atualizar Trident Protect diretamente a partir do Backup e Recovery.
-* *Suporte nativo para proteção de VMs*: Agora você pode criar aplicativos baseados em VMs, permitindo proteger máquinas virtuais da mesma forma que protege qualquer outro aplicativo.
-* *Transformações de recursos*: Agora você pode usar transformações de recursos e modelos de transformação de recursos para adicionar, remover e modificar atributos de recursos durante o processo de restauração.
-* *Visualizar recursos protegidos*: Agora você pode visualizar os recursos incluídos em cada ponto de recuperação de um aplicativo e baixar um relatório JSON detalhado. Isso oferece visibilidade completa dos seus pontos de recuperação e simplifica a conformidade com auditorias.
-
-
-Para obter detalhes sobre como proteger cargas de trabalho do Kubernetes, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Visão geral da proteção de workloads do Kubernetes"].
