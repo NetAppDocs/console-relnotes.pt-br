@@ -548,13 +548,12 @@
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">Nesta versão, VMware workloads apresenta as seguintes melhorias:</block>
   <block id="1a83c2d5d73015e6e971eff46d37e9d8" category="list-text">*Suporte para restauração em local alternativo para VMs SAN*: Agora você pode restaurar backups de VMs baseadas em SAN para um local alternativo.</block>
   <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*Suporte para exclusão de vários backups*: Agora você pode excluir vários backups de uma só vez.</block>
-  <block id="3338619eac8377287ea3a8f33c958b54" category="section-title">Aprimoramentos nas cargas de trabalho do Oracle Database</block>
-  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">Nesta versão, as cargas de trabalho do Oracle Database introduzem as seguintes melhorias:</block>
-  <block id="7ac62e0d250037c318f5fcf102e2e700" category="list-text">*Restauração e clonagem de banco de dados plugável (PDB)*: o serviço Backup and Recovery for NetApp Console agora suporta a restauração e a clonagem de bancos de dados plugáveis.</block>
-  <block id="3e4addf457cac6e6f2f337996275bb1f" category="inline-link">Visão geral da proteção de cargas de trabalho do Oracle Database</block>
-  <block id="89a7d3742e536d3e468bf485545ed9fb" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho do Oracle Database, consulte <block ref="dca8e6f6588b72be45d0f60d74204461" category="inline-link-rx"></block>.</block>
   <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*Suporte prévio para recursos isolados da internet*: Se você estiver executando o NetApp Backup and Recovery em uma implantação local do NetApp Console, você pode descobrir, proteger e restaurar recursos do Kubernetes isolados da internet. Este recurso está em prévia para este lançamento.</block>
   <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">Nesta versão, as cargas de trabalho do ONTAP Volumes introduzem as seguintes melhorias:</block>
   <block id="a33b2a8cf6a943c4ae96728143fee277" category="list-text">*Priorizar tarefas de restauração em relação aos backups*: Agora você pode priorizar tarefas de restauração em relação às tarefas de backup ao restaurar máquinas virtuais ou arquivos.</block>
   <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*Descubra os sistemas ONTAP e volumes sem ativar o NetApp Backup and Recovery*: Agora você pode descobrir sistemas e volumes sem ativar o NetApp Backup and Recovery.</block>
+  <block id="a03ddc03cf03c3c53151794c95579535" category="doc">Aba de digitalizações ativas para aprimorar o gerenciamento de digitalizações</block>
+  <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">A Classificação de Dados agora oferece uma aba *Verificações Ativas* no menu Configuração, proporcionando uma experiência aprimorada para o gerenciamento de verificações. A aba Verificações Ativas fornece uma visão geral de todos os volumes que você ativou para verificação, com filtros familiares para classificar seus recursos. A aba também oferece uma localização central para priorizar verificações, pausar verificações e revisar erros.</block>
+  <block id="3a5a93243a84be3819139aaa12091950" category="inline-link-macro">Gerenciar verificações</block>
+  <block id="4654bf4010ded28801b1ead2622546bd" category="paragraph">Para mais informações, consulte <block ref="baaf78fc7ed88d18ef7a900963d01435" category="inline-link-macro-rx"></block>.</block>
 </blocks>
