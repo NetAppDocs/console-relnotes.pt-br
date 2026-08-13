@@ -30,6 +30,36 @@ Remediação:: O serviço de correção foi removido em 22 de abril de 2024.
 ====
 
 
+[[13-august-2026]]
+== 13 de agosto de 2026
+
+
+
+[[console-setup-and-administration]]
+=== Configuração e administração do console
+
+
+
+==== Agente do Console 4.10.0
+
+A versão 4.10.0 suporta tanto o modo padrão quanto o modo restrito.
+
+Esta versão do agente do Console inclui melhorias de segurança e correções de erros.
+
+
+
+===== Capacidade de resposta e confiabilidade aprimoradas do Cloud Mediator
+
+O serviço agora processa as atualizações de status de cluster com mais eficiência, reduzindo timeouts intermitentes e tempo de inatividade, além de fortalecer a mediação automática de failover não planejado para relacionamentos SMaS.
+
+
+
+==== Administração do NetApp Console
+
+NetApp Console 4.10.0 inclui correções de segurança e de erros.
+
+
+
 [[10-august-2026]]
 == 10 de agosto de 2026
 
