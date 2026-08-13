@@ -133,8 +133,6 @@
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">Para obter detalhes sobre como proteger as cargas de trabalho do ONTAP Volumes, consulte <block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>.</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Aprimoramentos nas cargas de trabalho do Hyper-V</block>
   <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">Nesta versão, as cargas de trabalho do Hyper-V introduzem as seguintes melhorias:</block>
-  <block id="57a29df96f4bdf53f80c56b739785313" category="inline-link">Visão geral da proteção de cargas de trabalho do Hyper-V</block>
-  <block id="f7bc6e5577bf047a5f192d548391185c" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho do Hyper-V, consulte<block ref="8b99e6e4e6dfd30b0b16292fe5edfbd4" category="inline-link-rx"></block>.</block>
   <block id="508a286442ccdd0f0c8a02ce355b62db" category="inline-link-macro">Recupere cargas de trabalho com uma restauração limpa</block>
   <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">Nesta versão, VMware workloads apresenta a seguinte melhoria:</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">Melhorias gerais</block>
@@ -565,4 +563,6 @@
   <block id="61a1f03c40b54edaef7c992ca33db97f" category="doc">Excluir um coletor de dados</block>
   <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">O Ransomware Resilience agora permite excluir um coletor de dados. O coletor de dados é criado automaticamente quando você ativa a detecção de atividade do usuário em cargas de trabalho; se o coletor de dados ficar obsoleto, agora você pode excluí-lo manualmente.</block>
   <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">Para mais informações, consulte <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>.</block>
+  <block id="34f4f1cc663f1412cfa7b75fadb675a3" category="inline-link">Fluxo de trabalho de proteção do Hyper-V com o NetApp Backup and Recovery</block>
+  <block id="dd6b96618d7cbd8e19555b4b7f193bc9" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho do Hyper-V, consulte<block ref="5c7098f7c6a9321b2b214c22a678e5ae" category="inline-link-rx"></block>.</block>
 </blocks>
