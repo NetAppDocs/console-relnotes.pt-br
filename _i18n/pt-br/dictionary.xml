@@ -562,4 +562,7 @@
   <block id="d04e4287a3b42a9890f48390e8193dc1" category="paragraph">O serviço agora processa as atualizações de status de cluster com mais eficiência, reduzindo timeouts intermitentes e tempo de inatividade, além de fortalecer a mediação automática de failover não planejado para relacionamentos SMaS.</block>
   <block id="8e185da70c606c7dcf3a854773e5a5fd" category="paragraph">NetApp Console 4.10.0 inclui correções de segurança e de erros.</block>
   <block id="01b8b50c6af6a26d04385207f4b3c02e" category="section-title">13 de agosto de 2026</block>
+  <block id="61a1f03c40b54edaef7c992ca33db97f" category="doc">Excluir um coletor de dados</block>
+  <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">O Ransomware Resilience agora permite excluir um coletor de dados. O coletor de dados é criado automaticamente quando você ativa a detecção de atividade do usuário em cargas de trabalho; se o coletor de dados ficar obsoleto, agora você pode excluí-lo manualmente.</block>
+  <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">Para mais informações, consulte <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>.</block>
 </blocks>

@@ -60,6 +60,19 @@ NetApp Console 4.10.0 inclui correções de segurança e de erros.
 
 
 
+[[ransomware-resilience]]
+=== Resiliência ao Ransomware
+
+
+
+==== Excluir um coletor de dados
+
+O Ransomware Resilience agora permite excluir um coletor de dados. O coletor de dados é criado automaticamente quando você ativa a detecção de atividade do usuário em cargas de trabalho; se o coletor de dados ficar obsoleto, agora você pode excluí-lo manualmente.
+
+Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#delete-a-data-collector["Excluir um coletor de dados"^].
+
+
+
 [[10-august-2026]]
 == 10 de agosto de 2026
 
