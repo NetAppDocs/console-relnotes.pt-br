@@ -565,4 +565,7 @@
   <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">Para mais informações, consulte <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>.</block>
   <block id="34f4f1cc663f1412cfa7b75fadb675a3" category="inline-link">Fluxo de trabalho de proteção do Hyper-V com o NetApp Backup and Recovery</block>
   <block id="dd6b96618d7cbd8e19555b4b7f193bc9" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho do Hyper-V, consulte<block ref="5c7098f7c6a9321b2b214c22a678e5ae" category="inline-link-rx"></block>.</block>
+  <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Aviso de descontinuação para o Config Drift</block>
+  <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">O recurso Config Drift será descontinuado no Digital Advisor em setembro de 2026.</block>
+  <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">12 de agosto de 2026</block>
 </blocks>
