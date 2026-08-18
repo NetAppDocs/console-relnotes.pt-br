@@ -424,7 +424,6 @@
   <block id="90c6a30d04a39029a6e718b3311fb6ab" category="inline-link-macro">Desativar um sistema SIEM</block>
   <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">Para obter mais informações, consulte <block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>.</block>
   <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">27 de julho de 2026</block>
-  <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">Nomes de configuração atualizados para FSx para ONTAP no painel de controle bem projetado</block>
   <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">A tabela a seguir lista os nomes de configuração antigos e seus respectivos nomes de configuração novos no painel de controle bem arquitetado.</block>
   <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">Nome da configuração antiga</block>
   <block id="12d6467c8f43573f715aed485545d3e9" category="cell">Novo nome de configuração</block>
@@ -572,7 +571,8 @@
   <block id="1629fd97bdf4fe6ac821be71ca871779" category="paragraph">O painel de controle bem estruturado no NetApp Console está disponível para Amazon FSx for NetApp ONTAP.</block>
   <block id="5b7d5195e94ffd4ac888acf6fbbccf7e" category="inline-link-macro">Saiba mais sobre a análise de configuração do Amazon FSx for NetApp ONTAP</block>
   <block id="587f2f386400c1dc23a9fd0e1cd944c2" category="list-text"><block ref="587f2f386400c1dc23a9fd0e1cd944c2" category="inline-link-macro-rx"></block></block>
-  <block id="1fe3fd4de61717821aa57d32ae5f7acb" category="paragraph">O painel bem arquitetado no NetApp Console agora inclui novos nomes de configuração de storage para FSx for ONTAP.</block>
   <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">Problemas bem arquitetados exibidos na página de Sistemas da NetApp Console</block>
   <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">As notificações para problemas de arquitetura bem definida estão disponíveis para o Cloud Volumes ONTAP no Microsoft Azure na página Sistemas de gerenciamento de storage no NetApp Console. Esse recurso ajuda você a identificar rapidamente problemas de configuração em seus sistemas Cloud Volumes ONTAP no Azure e a navegar até o painel de arquitetura bem definida de cargas de trabalho a partir da notificação.</block>
+  <block id="33f99db970bd78e039b488318b97f37e" category="section-title">Nomes de configuração atualizados no painel de controle bem arquitetado</block>
+  <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">O painel bem arquitetado no NetApp Console agora inclui novos nomes de configuração de storage.</block>
 </blocks>
