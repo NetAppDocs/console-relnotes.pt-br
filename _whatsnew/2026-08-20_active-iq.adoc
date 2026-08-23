@@ -1,0 +1,15 @@
+= Apresentando o Value Insights
+:allow-uri-read: 
+
+
+
+
+[[introducing-value-insights]]
+=== Apresentando o Value Insights
+
+O recurso Value Insights consolida informações gerais sobre saúde, economia, estabilidade e segurança dos sistemas ONTAP. Você pode usar essas informações para melhorar a saúde e o desempenho do sistema por meio de uma visão contínua e baseada em dados do seu ambiente ONTAP.
+
+
+NOTE: O Value Insights está disponível apenas para sistemas ONTAP.
+
+Saiba mais sobre link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Value Insights"].
