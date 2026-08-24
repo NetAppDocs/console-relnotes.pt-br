@@ -1222,21 +1222,3 @@ Os seguintes recursos do Digital Advisor tiveram seus nomes alterados:
 * O recurso de Adição de Capacidade agora se chama expansão de storage. Saiba mais link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Widgets do Digital Advisor"].
 * O recurso de Renovações agora se chama Renovações de Suporte. Saiba mais link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Widgets do Digital Advisor"].
 
-
-
-
-[[26-may-2026]]
-== 26 de maio de 2026
-
-
-
-[[ransomware-resilience]]
-=== Resiliência ao Ransomware
-
-
-
-==== Suporte do Google Cloud NetApp Volumes (prévia)
-
-A Resiliência contra Ransomware agora oferece suporte à criação de grupos de proteção para cargas de trabalho em sistemas Google Cloud NetApp Volumes, permitindo que você organize várias cargas de trabalho sob uma única política para simplificar o gerenciamento.
-
-Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-protection-group.html["Crie um grupo de proteção no Ransomware Resilience"^].
