@@ -580,4 +580,13 @@
   <block id="aa1680de6fa426cea529c4dfecdc015e" category="doc">Entrega de eventos SIEM por meio do agente do Console</block>
   <block id="64cbd2542074b8251a3a9a4207763f2a" category="paragraph">A Resiliência contra Ransomware agora oferece suporte ao envio de eventos SIEM por meio do agente do Console, além da opção já existente de envio de eventos pelo NetApp Console.</block>
   <block id="bb6efadd7c4367d935879bb3d0cb1872" category="paragraph">Ao entregar eventos SIEM por meio do agente do Console, você pode manter a entrega de eventos SIEM dentro dos limites da sua rede. Isso simplifica a implantação em ambientes locais com listas de permissão de endereços IP restritivas e pode se alinhar melhor aos controles de segurança existentes. Para usar essa opção, certifique-se de que o agente do Console consiga resolver e se conectar ao seu endpoint SIEM na porta necessária por meio de qualquer firewall ou proxy.</block>
+  <block id="e10cb273323f88df11fadb5507d738a0" category="doc">Gerenciamento de snapshots aprimorado do SnapMirror</block>
+  <block id="f0503ae9f824deb7b1d7d923eccde6cf" category="paragraph">Agora você pode acionar o failover usando o snapshot mais recente, que é o método preferido quando você não está criando um novo snapshot.</block>
+  <block id="904ad73a93f80a63956690821d3e7583" category="paragraph">Ao selecionar uma linha de base de snapshot específica, os snapshots de transferência do SnapMirror ficam ocultos por padrão. Isso ocorre porque eles podem ser excluídos durante um failover, o que impossibilita reproteger a carga de trabalho após o failover devido a um erro de "nenhum snapshot comum encontrado". Você ainda pode usar esses snapshots, mas precisará concluir uma confirmação adicional para reconhecer o risco.</block>
+  <block id="2652fb9c2d661c6e545a590071ac6a1f" category="inline-link-macro">Alternar para um local remoto</block>
+  <block id="b55121c9a6dfee22377b715103e30d54" category="paragraph">Para obter mais informações, consulte <block ref="0659d04a54310aa1f4f7b2818a7e8b7d" category="inline-link-macro-rx"></block>.</block>
+  <block id="e2725f83c9b13c105b305f08c1ae5aa3" category="section-title">Outras melhorias</block>
+  <block id="c228cd16d1f14f9ba8606b879f59e931" category="list-text">Pequenas melhorias foram feitas para aumentar a resiliência do fluxo de trabalho de failover de teste.</block>
+  <block id="afb89ab075bef1d8e9fa1a1124a73a26" category="list-text">Um erro de validação ao adicionar um script foi corrigido.</block>
+  <block id="91b0db938f6511dad8ea423304795a3a" category="section-title">31 de agosto de 2026</block>
 </blocks>
