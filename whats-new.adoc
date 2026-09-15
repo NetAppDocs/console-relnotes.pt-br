@@ -30,6 +30,24 @@ Remediação:: O serviço de correção foi removido em 22 de abril de 2024.
 ====
 
 
+[[14-september-2026]]
+== 14 de setembro de 2026
+
+
+
+[[digital-advisor]]
+=== Consultor digital
+
+
+
+==== Aviso de descontinuação para Máquina Virtual
+
+O recurso de Máquina Virtual será descontinuado no Digital Advisor em outubro de 2026.
+
+Para dúvidas ou para compartilhar comentários, envie um e-mail para mailto:ng-activeiq-feedback@netapp.com[entre em contato com a equipe do Active IQ].
+
+
+
 [[02-september-2026]]
 == 02 de setembro de 2026
 

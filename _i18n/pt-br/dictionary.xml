@@ -127,97 +127,16 @@
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">Aprimoramentos nas cargas de trabalho do ONTAP Volumes</block>
   <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">Visão geral da proteção de VMware workloads</block>
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho VMware, consulte<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>.</block>
-  <block id="db1da6f84847ade23be98a17bc4b5b1e" category="paragraph">Nesta versão, as cargas de trabalho do ONTAP Volumes introduzem a seguinte melhoria:</block>
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">Visão geral das cargas de trabalho do Protect ONTAP Volumes</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">Para obter detalhes sobre como proteger as cargas de trabalho do ONTAP Volumes, consulte <block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>.</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Aprimoramentos nas cargas de trabalho do Hyper-V</block>
-  <block id="5ab87f8d29b60ea3a36ab56b1afa32c3" category="paragraph">Nesta versão, as cargas de trabalho do Hyper-V introduzem as seguintes melhorias:</block>
-  <block id="c7ac12b44e81f24dcab5d6e8675df0a1" category="paragraph">Nesta versão, VMware workloads apresenta a seguinte melhoria:</block>
-  <block id="e4c84482ee4555ae482d96b91322224c" category="doc">Melhorias gerais</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">Nesta versão, as cargas de trabalho do Kubernetes introduzem as seguintes melhorias:</block>
-  <block id="d8c1214f51ea9ce3d7b9e64dd8a16327" category="inline-link-macro">Integre um playbook SOAR</block>
-  <block id="2f82a2e72d177e2d1d65a490cf072506" category="paragraph"><block ref="f63222f2dbc8e79c6867c1aa1bf7ad40" category="inline-link-macro-rx"></block>.</block>
   <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">Faturamento flexível para Cloud Volumes ONTAP e serviços de dados na AWS</block>
-  <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*Suporte para storage de nuvem compatível com S3*: NetApp Backup and Recovery para cargas de trabalho de Volumes agora oferece suporte a backup em storage de nuvem compatível com S3.</block>
-  <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*Aprimoramentos na restauração de arquivos e pastas para uma máquina virtual convidada*: Agora você pode restaurar arquivos e pastas de um snapshot no storage primário ou secundário para uma máquina virtual Windows convidada. Esse recurso agora é compatível com VMs CIFS e SAN.</block>
-  <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">08 de junho de 2026</block>
-  <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">Esta versão do Data Classification inclui melhorias de segurança e otimizações de desempenho.</block>
-  <block id="ad047b692e58386490130db85fe198fd" category="doc">Maior flexibilidade para estratégias de proteção</block>
-  <block id="0492ddae19933de338f553ff06833c6f" category="paragraph">A Resiliência contra Ransomware agora oferece mais flexibilidade na escolha de estratégias de detecção de ransomware. Anteriormente, todas as estratégias de proteção contra ransomware precisavam incluir a detecção de criptografia. Agora, você pode ativar uma estratégia de proteção contra ransomware com apenas a detecção do comportamento do usuário.</block>
-  <block id="7238c31678a241cb872ee9d18f1e46a2" category="paragraph">As estratégias de proteção ainda podem incluir tanto a detecção de criptografia _quanto_ a detecção de comportamento suspeito do usuário. O bloqueio de extensões de arquivo também pode ser adicionado a qualquer estratégia de proteção.</block>
-  <block id="bd1924893d8fb00ed3c326b7af6243b5" category="paragraph">Se você desativar parte da estratégia de proteção para uma política existente, quaisquer alertas existentes criados na versão anterior da política só poderão ser marcados como "Resolvidos" e não como "Descartados". Por exemplo, se você tinha uma estratégia de proteção que incluía detecção de criptografia e comportamento suspeito do usuário, mas desativou a detecção de criptografia, você só poderá resolver um alerta de criptografia existente para essa carga de trabalho.</block>
-  <block id="54a418aa76c7e9afaa77a58a34a3d3ed" category="inline-link-macro">Proteja cargas de trabalho com estratégias de proteção NetApp Ransomware Resilience</block>
-  <block id="2b7a103134591ddcc36191e5b569a29b" category="paragraph">Para obter mais informações, consulte <block ref="5b0b8f72704979749944145d24f2c6be" category="inline-link-macro-rx"></block>.</block>
-  <block id="eac1000048fff271adb3d0d010dd86f5" category="section-title">Aprimoramentos do playbook SOAR</block>
-  <block id="993b3419e78327c12451169533b8d701" category="paragraph">Os playbooks SOAR de Resiliência a Ransomware agora fornecem etapas de remediação após você bloquear um usuário ou desativar um volume. Agora você pode reativar um volume e desbloquear um usuário se a ação for considerada não uma ameaça de ransomware.</block>
-  <block id="957b7705b307b4f695a7cdb201c42bcb" category="paragraph">Cloud Volumes ONTAP 9.16.1 e versões posteriores oferecem suporte às famílias de instâncias EC2 M6id e M6idn para implantações novas e existentes de nó único e de alta disponibilidade (HA) na AWS. Essas instâncias de 6ª geração oferecem maior poder de processamento, funcionalidades de rede mais robustas e desempenho superior em comparação com os sistemas de uso geral de 5ª geração.</block>
-  <block id="fa4aff7e4e5120dec944acc145df3c1a" category="list-text">*Instâncias M6id*: Oferecem um equilíbrio entre poder computacional e memória, com armazenamento NVMe local de alta velocidade e baixa latência. Todos os tamanhos de instância M6id suportam Flash Cache. Essas instâncias são ideais para cargas de trabalho como registro de dados e processamento de mídia.</block>
-  <block id="bfe5730fc311788c5b5e63755351140c" category="list-text">*Instâncias M6idn*: Oferecem as mesmas funcionalidades de storage NVMe local que as instâncias M6id. Todos os tamanhos de instância M6idn suportam Flash Cache.</block>
-  <block id="15172b1a76b99972ddc77977722e7eda" category="paragraph">Não recomendamos os tipos de instância menores m6id.xlarge, m6id.2xlarge, m6idn.xlarge e m6idn.2xlarge para cargas de trabalho de alto desempenho ou com uso intensivo de memória. Para essas cargas de trabalho, utilize um tipo de instância com maior contagem de núcleos e mais memória.</block>
-  <block id="d4f1750ecbae7aeb8e4608c6adadf1b3" category="inline-link">Configurações suportadas para Cloud Volumes ONTAP na AWS</block>
-  <block id="2723587cecc87d757adc3d7f42677613" category="paragraph">Para obter mais informações, consulte <block ref="5facb34de99943f35a6951018b8a6bef" category="inline-link-rx"></block>.</block>
-  <block id="ee679c5a83450dd8f0c139cea8a1cc40" category="doc">Suporte para novas instâncias EC2 para Cloud Volumes ONTAP na AWS</block>
   <block id="332fe49e1772f15dfec47321d1f86499" category="doc">Atualizações do Kubernetes</block>
   <block id="c0471f20c72304b23fb6eb762ed470b8" category="paragraph">A Recuperação de Desastres introduziu as seguintes alterações para cargas de trabalho baseadas em Kubernetes:</block>
-  <block id="b1f52bc1b1d4ff2b36103a44b4128f19" category="section-title">Teste o suporte a failover para cargas de trabalho do Kubernetes</block>
-  <block id="7e284075cd571fe0081cd386d1d3493c" category="paragraph">O recurso de Recuperação de Desastres agora oferece suporte ao teste do processo de failover para cargas de trabalho do Kubernetes. Testar o failover permite validar os planos de recuperação de desastres. Ao concluir o teste, você pode limpar o failover de teste para que o sistema limpe automaticamente os recursos de teste, reduzindo a sobrecarga e garantindo a consistência do seu ambiente.</block>
-  <block id="ec841432c6696238519b70833f9640bb" category="inline-link-macro">Teste o processo de failover</block>
-  <block id="6031837c36096c58788ef48c962f6ff8" category="paragraph">Para mais informações, consulte <block ref="a8818044286b10a3ca635d0b39faff78" category="inline-link-macro-rx"></block>.</block>
-  <block id="9be7f1264301a801add3868ed7829904" category="section-title">Falhas de teste programadas</block>
-  <block id="2cb1fc25b0b81893e3832eea3384812d" category="paragraph">Agora você pode automatizar os testes de recuperação de desastres agendando failovers de teste. Você pode definir agendamentos para failovers de teste recorrentes para validar continuamente os planos de recuperação sem intervenção manual, ajudando a manter a confiança nos objetivos de recuperação e a atender aos requisitos de conformidade.</block>
-  <block id="07851e0287e57a794c18de627c09e0e7" category="inline-link-macro">Gerenciar planos de replicação</block>
-  <block id="35bd874c9b191a5ec4ef2620bcba1d01" category="paragraph">Para mais informações, consulte <block ref="5e1f430868dd2493a6125e8cf919005e" category="inline-link-macro-rx"></block>.</block>
-  <block id="61a19574e3bdebdbc07d7daaaf8f76e1" category="section-title">Descoberta agendada de cargas de trabalho do Kubernetes</block>
-  <block id="d45fce8600e6e092745f48fddf5cd172" category="paragraph">Com a descoberta agendada, você pode controlar a frequência com que o Disaster Recovery verifica novas cargas de trabalho do Kubernetes. Você pode configurar os intervalos de descoberta para alinhar com sua cadência operacional, reduzindo a sobrecarga desnecessária do sistema enquanto garante que novas cargas de trabalho sejam detectadas e protegidas em tempo hábil.</block>
-  <block id="d5500e4522bde3536eb21086a6278cb6" category="inline-link-macro">Personalize o cronograma de descoberta</block>
-  <block id="58b54ef9bb1184e1a76831a4c8532cdf" category="paragraph">Para mais informações, consulte <block ref="00c64813bfb7d5f31a94dc7f7401aec7" category="inline-link-macro-rx"></block>.</block>
   <block id="49bc059dcf19f0a0115deba3b42c6932" category="section-title">Atualizações da VMware</block>
-  <block id="239000f59be4987b700a238e8ca4cbac" category="section-title">Proteção para datastores vazios</block>
-  <block id="9a870179d2b3e04319fde1e2148bdde1" category="inline-link-macro">informações de mapeamento</block>
-  <block id="386068b3c8ab30655c493a434548a956" category="paragraph">A Recuperação de Desastres agora permite configurar a proteção para armazenamentos de dados que não contêm máquinas virtuais (VMs). Quaisquer VMs adicionadas posteriormente ao armazenamento de dados são detectadas automaticamente pela Recuperação de Desastres, momento em que você precisa fornecer <block ref="96f22499fac7fb5ec06f64e20472e919" category="inline-link-macro-rx"></block>.</block>
   <block id="8ea79c5d84513219216b19fc3aa62033" category="inline-link-macro">Failover para um local remoto</block>
-  <block id="fcf6f6ded14457afdca64680218d849c" category="paragraph">Ao adicionar um datastore vazio a um plano de proteção, você deve remover o datastore do plano de proteção antes de executar um failover ou executar um failover forçado. Para mais informações, consulte <block ref="a16180f75826879573c72d14ccfccc18" category="inline-link-macro-rx"></block>.</block>
-  <block id="2d2e356e77ef22acf218ffb017d91233" category="section-title">Restaurar armazenamentos de dados previamente excluídos para um plano de proteção</block>
-  <block id="1453aa4dc117cbab5d75827143b273ea" category="paragraph">Os armazenamentos de dados que antes eram excluídos da proteção agora podem ser reincluídos. Essa melhoria proporciona maior flexibilidade no gerenciamento e na atualização das suas configurações de recuperação de desastres ao longo do tempo.</block>
-  <block id="e111b7436e71ef6b7b99d4ab60693716" category="inline-link-macro">Gerenciar sites, grupos de recursos e planos de replicação</block>
-  <block id="0f76cabceee2286086c65391269ec324" category="paragraph">Para mais informações, consulte <block ref="37d0eb884ec50ead320898709eb6d605" category="inline-link-macro-rx"></block>.</block>
-  <block id="05c185480595feac79a02ae4a685fcc6" category="section-title">Failover mais rápido para datastores baseados em VMFS</block>
-  <block id="e63830ec714a620621135f51c7c84114" category="paragraph">A Recuperação de Desastres aprimorou o desempenho de failover para datastores baseados em VMFS. As operações de reescaneamento do Host Bus Adapter (HBA) e montagem do datastore agora são executadas em paralelo, reduzindo os tempos gerais de failover e minimizando o tempo de inatividade durante eventos de recuperação.</block>
-  <block id="69aa1f50c340d05c0f749dc51b5d5737" category="inline-link-macro">Fail over com recuperação de desastres</block>
-  <block id="bda5d94c4f296d65baa89f57187dafbd" category="paragraph">Para obter mais informações sobre failover, consulte <block ref="6f81e5aa1c9b02c34c5ec309d5755115" category="inline-link-macro-rx"></block>.</block>
-  <block id="f1e8426ee8789bca46b26081b788d901" category="doc">Suporte para uma nova região do Azure no Cloud Volumes ONTAP</block>
-  <block id="58c64fbe360d29edfbfa0f1e30f23980" category="paragraph">Agora você pode implantar Cloud Volumes ONTAP 9.12.1 GA e versões posteriores em zonas de disponibilidade únicas e múltiplas no Azure na região Malaysia West (malaysiawest). Isso inclui suporte para implantações de nó único e de alta disponibilidade (HA).</block>
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Mapa de Regiões Globais sob Azure</block>
-  <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">Para obter uma lista de todas as regiões, consulte o<block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>.</block>
-  <block id="13a1b8a317b4b6dbe05a3757a911ea12" category="section-title">11 de junho de 2026</block>
-  <block id="248bbbcb51ef3ddd3bd9dc8e6ef8b5a1" category="list-text">*Trident Protect 26.06*: Esta versão inclui Trident Protect 26.06.</block>
-  <block id="a322829a7429e3dce13d41945775197c" category="list-text">*Ignorar a criação de aplicativos durante a restauração*: Agora você pode ignorar a criação automática de objetos de recursos personalizados de aplicativos durante as operações de restauração. Isso reduz entradas desnecessárias no inventário de aplicativos.</block>
-  <block id="b6e7f9bbbf3d504dc4f264292161745a" category="list-text">*Restaure os persistent volume claims da máquina virtual*: Ao restaurar aplicativos baseados em máquina virtual, agora você pode restaurar persistent volume claims individuais sem restaurar toda a máquina virtual, tornando a recuperação mais rápida quando discos ou volumes específicos são afetados por corrupção ou perda de dados.</block>
-  <block id="bf6f998632908219ca091b00cfa53117" category="list-text">*Aprimoramentos no monitoramento de tarefas*: O monitoramento de tarefas agora oferece maior visibilidade das tarefas de proteção do Kubernetes. Você pode visualizar informações detalhadas sobre o status das tarefas e subtarefas e ver o armazenamento de destino usado por cada uma.</block>
-  <block id="15957f5a10d7c37b0a0a1daa1c46013a" category="section-title">15 de junho de 2026</block>
-  <block id="17eed7efdf891efe01a3f9078fc5227d" category="inline-link">Crie e gerencie grupos de proteção para cargas de trabalho do Hyper-V</block>
-  <block id="11cb5552207ff0aa19a1682353b76f93" category="list-text">*Os grupos de proteção agora usam o agendamento de fuso horário do host*: Os grupos de proteção agora usam o fuso horário do host Hyper-V. Os grupos de proteção criados antes da introdução do agendamento de fuso horário do host continuam usando o horário configurado anteriormente (normalmente UTC). Para atualizar esses grupos de proteção para usar o fuso horário do host Hyper-V, você deve recriar os agendamentos. Consulte <block ref="d7b709a60ba856948f2de1f387e47906" category="inline-link-rx"></block> para mais informações.</block>
-  <block id="fa3a5087c48da1a523ef45fa2253ea19" category="inline-link">Crie e gerencie grupos de proteção para cargas de trabalho VMware</block>
-  <block id="327e5e3e392a7cf832926cb52870097c" category="list-text">*Os grupos de proteção agora usam o agendamento pelo fuso horário do host*: Os grupos de proteção agora usam o fuso horário do servidor VMware vCenter que os hospeda. Os grupos de proteção criados antes da introdução do agendamento pelo fuso horário do host continuam a ser executados no fuso horário configurado anteriormente (normalmente UTC). Para usar o fuso horário do vCenter, você deve recriar os agendamentos. Consulte <block ref="5181f9a713551c0880da1b785cb2e8f3" category="inline-link-rx"></block> para mais informações.</block>
-  <block id="b39dc14a008a29a5ead42173a9e0c598" category="doc">Lançamento do modo privado (4.7.0)</block>
-  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">NetApp site de suporte</block>
-  <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">Uma nova versão em modo privado já está disponível para download em<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block></block>
-  <block id="2c0d034db2b48e2c24de792e5f537a36" category="paragraph">A versão 4.7.0 inclui atualizações para os seguintes componentes e serviços do NetApp Console.</block>
-  <block id="394b364c6ed61ed167a4f14316ef5ffc" category="cell">Componente ou serviço</block>
-  <block id="2f9dd95401f68032a97298d35b87f433" category="cell">Versão incluída nesta versão</block>
-  <block id="5431c829b8b64da3908e102d64527909" category="cell">Alterações desde a versão anterior do modo privado</block>
-  <block id="e76758412e5a64841b8710e5fb81ab0c" category="cell">Agente do Console</block>
-  <block id="d794a9cd24f47c508609ee13d758511f" category="cell">4.7.0</block>
-  <block id="a0f66fdbde042599d314470228f3ca6d" category="inline-link">Novidades na página do NetApp Console</block>
-  <block id="59daf18c0a626a4e9dde08f3ce934dba" category="cell">Acesse o <block ref="96a354291689d74da1dc3c76f5332e6f" category="inline-link-rx"></block> e consulte as alterações incluídas para as versões 4.7.0.</block>
-  <block id="cc6088539286339733631d73fb51774b" category="cell">NetApp Backup e recuperação</block>
-  <block id="225461e659003503fb35b495b5008e09" category="cell">5.4.0 (08 de junho de 2026)</block>
-  <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">Novidades na página de NetApp Backup and Recovery</block>
-  <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell">Vá para o<block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>.</block>
-  <block id="91d5470ff0de1d64ddb0c8c3bef0b246" category="cell">NetApp Data Classification</block>
-  <block id="dec411cd5f201e22bcbd7d9f4569efcc" category="cell">1.54.0 (11 de maio de 2026)</block>
-  <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">Novidades na página de Classificação da NetApp</block>
-  <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">Vá para o<block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>.</block>
   <block id="c0c5b8053b5fc36370065438a354e1bf" category="doc">Verificação de integridade GraphQL: migração e melhorias na precisão dos dados</block>
   <block id="a91b61567eb0a4298ef58eeb9f9c29bf" category="paragraph">O módulo de Verificação de Saúde foi aprimorado com maior precisão de dados e recomendações de versão alinhadas aos padrões atuais. Como parte desta versão, ele foi migrado da Public API para GraphQL, proporcionando melhor desempenho, consultas flexíveis e suporte a longo prazo.</block>
   <block id="d6493900927657728256c0c09c4e62d3" category="section-title">Software recomendado</block>
@@ -254,9 +173,6 @@
   <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">Excluir caminhos de arquivos dos alertas</block>
   <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">07 de julho de 2026</block>
   <block id="5f2a57952e65084ab1bcb535d4662440" category="paragraph">Para mais informações, consulte <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>.</block>
-  <block id="cc77cf98baa64437ba1852257c81c7a1" category="doc">Agente do Console 4.8.0</block>
-  <block id="c352b7fbc4bc73fdf6c2e56c32996413" category="paragraph">A versão 4.8.0 suporta tanto o modo padrão quanto o modo restrito.</block>
-  <block id="179021adb01b0c7bf08f12ed1f7e4cea" category="paragraph">Esta versão inclui melhorias de segurança e correções de erros.</block>
   <block id="d10eadebc0b314becd9cc0f66d6b041c" category="paragraph">Uma nova subguia *Distribuição de licenças* agora está disponível na guia *Proteção avançada de dados (ADP)*, oferecendo visibilidade do uso de licenças ADP em seus clusters parceiros MetroCluster. Para saber mais, consulte<block ref="02535faa6c919b6de457f7dc6857a103" category="inline-link-rx"></block>.</block>
   <block id="7c6b47b84335342a0bf3ff0db6c0648a" category="paragraph">A guia *Volumes em clusters* em *Ativos* agora inclui uma coluna *Status do ARP* que exibe se a Autonomous Ransomware Protection (ARP) está ativada ou desativada para cada volume, oferecendo visibilidade da sua postura de proteção contra ransomware em todos os ativos gerenciados. Para saber mais sobre ARP, consulte <block ref="a49accf015518c5fe1c46dfa42f23f5c" category="inline-link-rx"></block>.</block>
   <block id="86160081a3f709a69c529a9b26266813" category="paragraph">Para saber mais, consulte<block ref="53f3a389a016659ce834d4711c4f49e9" category="inline-link-rx"></block>.</block>
@@ -513,8 +429,6 @@
   <block id="61a1f03c40b54edaef7c992ca33db97f" category="doc">Excluir um coletor de dados</block>
   <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">O Ransomware Resilience agora permite excluir um coletor de dados. O coletor de dados é criado automaticamente quando você ativa a detecção de atividade do usuário em cargas de trabalho; se o coletor de dados ficar obsoleto, agora você pode excluí-lo manualmente.</block>
   <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">Para mais informações, consulte <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>.</block>
-  <block id="34f4f1cc663f1412cfa7b75fadb675a3" category="inline-link">Fluxo de trabalho de proteção do Hyper-V com o NetApp Backup and Recovery</block>
-  <block id="dd6b96618d7cbd8e19555b4b7f193bc9" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho do Hyper-V, consulte<block ref="5c7098f7c6a9321b2b214c22a678e5ae" category="inline-link-rx"></block>.</block>
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Aviso de descontinuação para o Config Drift</block>
   <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">O recurso Config Drift será descontinuado no Digital Advisor em setembro de 2026.</block>
   <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">12 de agosto de 2026</block>
@@ -593,4 +507,7 @@
   <block id="68e1f1aba2e1561ee3226c9bcfef5ee1" category="inline-link">Azure Government Top Secret</block>
   <block id="3a487e075186bbd01e8a952b88b55326" category="list-text"><block ref="3a487e075186bbd01e8a952b88b55326" category="inline-link-rx"></block></block>
   <block id="5e6b403f3ce4af919738fd94fe35d2d0" category="section-title">02 de setembro de 2026</block>
+  <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">Aviso de descontinuação para Máquina Virtual</block>
+  <block id="10433629017cbf8327181fb1ebfec31e" category="paragraph">O recurso de Máquina Virtual será descontinuado no Digital Advisor em outubro de 2026.</block>
+  <block id="84de9715d135be833103283dc9df0296" category="section-title">14 de setembro de 2026</block>
 </blocks>
