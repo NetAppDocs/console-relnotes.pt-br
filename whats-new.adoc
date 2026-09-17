@@ -30,8 +30,62 @@ Remediação:: O serviço de correção foi removido em 22 de abril de 2024.
 ====
 
 
+[[17-september-2026]]
+== 17 de setembro de 2026
+
+
+
+[[console-setup-and-administration]]
+=== Configuração e administração do console
+
+
+
+==== Lançamento do modo privado (4.10.0)
+
+Uma nova versão em modo privado já está disponível para download em https://mysupport.netapp.com/site/downloads["NetApp site de suporte"^]
+
+A versão 4.10.0 inclui atualizações para os seguintes componentes e serviços do NetApp Console.
+
+[cols="3*"]
+|===
+| Componente ou serviço | Versão incluída nesta versão | Alterações desde a versão anterior do modo privado 
+
+
+| Agente do Console | 4.10.0 | Acesse o  https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#2026-08-13.html["Novidades na página do NetApp Console"^] e consulte as alterações incluídas para as versões 4.10.0. 
+
+
+| NetApp Backup e recuperação | 5.6.2 (17 de agosto de 2026) | Vá para o https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["Novidades na página de NetApp Backup and Recovery"^]. 
+
+
+| NetApp Data Classification | 1.546.0 (10 de agosto de 2026) | Vá para o https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["Novidades na página de Classificação da NetApp"^]. 
+|===
+
+
 [[16-september-2026]]
 == 16 de setembro de 2026
+
+
+
+[[console-setup-and-administration]]
+=== Configuração e administração do console
+
+
+
+==== Agente do Console 4.11.0
+
+A versão 4.11.0 suporta tanto o modo padrão quanto o modo restrito.
+
+Esta versão do agente do Console inclui melhorias de segurança e correções de erros.
+
+
+
+==== Administração do NetApp Console
+
+
+
+===== Fluxo de implantação de agente simplificado para assinantes do Cloud Volumes ONTAP no AWS Marketplace
+
+Se você é um novo assinante de um link:https://us-east-1.console.aws.amazon.com/marketplace/search/listing/prodview-yi43o6oz7bf32?sr=0-2&ref_=ucaf&applicationId=AWS-Marketplace-Console["assinatura independente do Cloud Volumes ONTAP no AWS Marketplace"], o NetApp Console agora simplifica a implantação de agentes. Você pode configurar funções, políticas e credenciais da AWS com menos etapas, usar valores padrão automaticamente em uma única página e concluir a configuração mais rapidamente.
 
 
 
