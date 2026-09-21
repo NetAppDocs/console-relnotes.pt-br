@@ -896,7 +896,7 @@ https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["
 
 O Ransomware Resilience agora oferece suporte à configuração de um sistema de gerenciamento de informações e eventos de segurança (SIEM) por meio de webhooks na interface do usuário do Ransomware Resilience. Com webhooks, você pode trazer o sistema SIEM de sua preferência para organizar seu monitoramento de ransomware.
 
-Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["Configurar um sistema SIEM"^].
+Para obter mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem-webhook.html["Configurar um sistema SIEM com webhooks"^].
 
 
 
@@ -1205,7 +1205,7 @@ Para mais informações, consulte link:https://docs.netapp.com/us-en/data-servic
 
 O Ransomware Resilience agora oferece um modelo Azure Resource Manager (ARM) para conexão com o Microsoft Sentinel como um SIEM, oferecendo um método secundário para facilitar a implantação.
 
-Para mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["Conecte-se a um SIEM para detecção e análise de ameaças"^].
+Para obter mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem-sentinel.html["Configure o Microsoft Sentinel SIEM no NetApp Ransomware Resilience"^].
 
 
 
