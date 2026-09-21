@@ -30,6 +30,33 @@ Remediação:: O serviço de correção foi removido em 22 de abril de 2024.
 ====
 
 
+[[21-september-2026]]
+== 21 de setembro de 2026
+
+
+
+[[cloud-volumes-ontap]]
+=== Cloud Volumes ONTAP
+
+
+
+==== Suporte para licenças baseadas em capacidade em implantações em modo privado
+
+Agora você pode implantar o Cloud Volumes ONTAP em modo privado com licenças baseadas em capacidade na AWS, Azure e Google Cloud.
+
+NetApp oferece suporte apenas ao pacote Essentials para o modelo de licenciamento baseado em capacidade no modo privado. Adquira um pacote Essentials BYOL (Bring-Your-Own License) baseado em capacidade da NetApp e atribua-o ao seu sistema durante a implantação. Os primeiros 500 GiB de capacidade consumida não são contabilizados no valor da sua licença. Você pode adquirir pacotes adicionais à medida que suas necessidades de carga de trabalho aumentam.
+
+NetApp recomenda o licenciamento baseado em capacidade para todas as implementações do Cloud Volumes ONTAP em modo privado. Se você já possui implementações em modo privado com licenças baseadas em nós, pode convertê-las para o licenciamento baseado em capacidade adquirindo um pacote Essentials da NetApp. Essa nova funcionalidade de implementação, combinada com a opção de conversão, apoia o plano da NetApp de migrar gradualmente do licenciamento baseado em nós para o licenciamento baseado em capacidade.
+
+.Links relacionados
+* https://review.docs.netapp.com/us-en/storage-management-cloud-volumes-ontap_capacity-license-darkmode/concept-licensing.html["Licenciamento do Cloud Volumes ONTAP"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-license-management.html["Saiba mais sobre o Cloud Volumes ONTAP BYOL"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing.html#end-of-availability-of-node-based-licenses["Fim da disponibilidade de licenças baseadas em nós"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-manage-node-licenses.html["Gerencie licenças baseadas em nós para o Cloud Volumes ONTAP"^]
+
+
+
+
 [[17-september-2026]]
 == 17 de setembro de 2026
 
