@@ -139,15 +139,15 @@ Se você é um novo assinante de um link:https://us-east-1.console.aws.amazon.co
 
 
 
-==== Melhorias gerais em NetApp Backup and Recovery
+==== Melhoria geral em NetApp Backup and Recovery
 
 Nesta versão, as cargas de trabalho KVM, Hyper-V e VMware introduzem a seguinte melhoria:
 
-*Seleção de credencial durante a descoberta do host da máquina virtual*: Ao registrar um host KVM, Hyper-V ou VMware, agora você pode usar a credencial que já adicionou ao NetApp Backup and Recovery.
+*Seleção de credenciais durante a descoberta de hosts de máquinas virtuais*: Ao descobrir um host KVM, Hyper-V ou VMware, agora você pode usar as credenciais que já adicionou ao NetApp Backup and Recovery.
 
 
 
-==== Aprimoramentos nas cargas de trabalho do Hyper-V
+==== Aprimoramento das cargas de trabalho do Hyper-V
 
 Nesta versão, o Hyper-V introduz a seguinte melhoria:
 
