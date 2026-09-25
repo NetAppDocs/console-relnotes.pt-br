@@ -595,4 +595,10 @@
   <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*Seleção de credenciais durante a descoberta de hosts de máquinas virtuais*: Ao descobrir um host KVM, Hyper-V ou VMware, agora você pode usar as credenciais que já adicionou ao NetApp Backup and Recovery.</block>
   <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Aprimoramento das cargas de trabalho do Hyper-V</block>
   <block id="8dbaebd91b282de2115c0933e53cc8b1" category="list-text">*Priorize tarefas de restauração em relação ao backup*: agora você pode priorizar tarefas de restauração em relação às tarefas de backup ao restaurar volumes, arquivos ou pastas.</block>
+  <block id="e90e4fbb2da212df4de8cd0dedc1291b" category="doc">Atualização de conteúdo para o painel Value Insights Dashboard</block>
+  <block id="02f407c4fd4eafd0dfba7d3e2f1c9a87" category="paragraph">Foi publicada uma atualização da documentação do Value Insights Dashboard.</block>
+  <block id="c641b822e0ee57a43b3bdf613042b7de" category="inline-link-macro">como usar o painel Value Insights no Digital Advisor</block>
+  <block id="69c2d83fc66932c35f2cb577e262462c" category="paragraph">Saiba mais sobre <block ref="07588b487aa2f96e10a737d8aa32c275" category="inline-link-macro-rx"></block>.</block>
+  <block id="e42ab0e8d9793691952fb221a6554811" category="paragraph">O recurso Config Drift foi descontinuado e não está mais disponível no Digital Advisor a partir de setembro de 2026.</block>
+  <block id="29ab9f8e858bfc9db154cff0f6b76d83" category="section-title">25 de setembro de 2026</block>
 </blocks>

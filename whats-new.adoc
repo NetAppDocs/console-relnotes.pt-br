@@ -30,6 +30,32 @@ Remediação:: O serviço de correção foi removido em 22 de abril de 2024.
 ====
 
 
+[[25-september-2026]]
+== 25 de setembro de 2026
+
+
+
+[[digital-advisor]]
+=== Consultor digital
+
+
+
+==== Atualização de conteúdo para o painel Value Insights Dashboard
+
+Foi publicada uma atualização da documentação do Value Insights Dashboard.
+
+Saiba mais sobre link:https://kb.netapp.com/data-mgmt/Digital-Advisor-KBs/How_to_use_Value_Insights_Dashboard_in_Digital_Advisor["como usar o painel Value Insights no Digital Advisor"^].
+
+
+
+==== Aviso de descontinuação para o Config Drift
+
+O recurso Config Drift foi descontinuado e não está mais disponível no Digital Advisor a partir de setembro de 2026.
+
+Para dúvidas ou para compartilhar comentários, envie um e-mail para mailto:ng-activeiq-feedback@netapp.com[entre em contato com a equipe do Active IQ].
+
+
+
 [[21-september-2026]]
 == 21 de setembro de 2026
 
