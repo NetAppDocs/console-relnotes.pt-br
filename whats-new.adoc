@@ -30,38 +30,8 @@ Remediação:: O serviço de correção foi removido em 22 de abril de 2024.
 ====
 
 
-[[28-september-2026]]
-== 28 de setembro de 2026
-
-
-
-[[backup-and-recovery]]
-=== Backup e Recuperação
-
-
-
-==== Melhoria geral em NetApp Backup and Recovery
-
-Nesta versão, as cargas de trabalho KVM, Hyper-V e VMware introduzem a seguinte melhoria:
-
-*Suporte à estrutura de controle de acesso baseado em função (RBAC) do Console*: as cargas de trabalho Hyper-V, KVM e VMware agora oferecem suporte à estrutura do Console da NetApp para RBAC, permitindo que você gerencie o acesso a hosts Hyper-V, KVM ou VMware individuais.
-
-https://docs.netapp.com/us-en/data-services-backup-recovery/br-rbac-setup.html["Saiba mais sobre como usar o RBAC no NetApp Backup and Recovery"].
-
-
-
-==== Aprimoramentos de cargas de trabalho da VMware
-
-Nesta versão, VMware workloads apresenta a seguinte melhoria:
-
-*Suporte ao Flex Unified do Google Cloud NetApp Volumes*: o NetApp Backup and Recovery para cargas de trabalho do VMware agora é compatível com o nível de serviço Flex Unified para o Google Cloud NetApp Volumes. O Flex Unified é compatível apenas no modo ONTAP.
-
-Para obter detalhes sobre como proteger cargas de trabalho VMware, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Proteja as cargas de trabalho do VMware com o NetApp Backup and Recovery"].
-
-
-
-[[27-september-2026]]
-== 27 de setembro de 2026
+[[30-september-2026]]
+== 30 de setembro de 2026
 
 
 
@@ -97,6 +67,36 @@ link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-a
 ==== Problemas bem arquitetados exibidos na página de Sistemas da NetApp Console
 
 As notificações para problemas de arquitetura bem projetada estão disponíveis para o Google Cloud NetApp Volumes na página Sistemas de gerenciamento de storage no NetApp Console. Esse recurso ajuda você a identificar rapidamente problemas de configuração em seus sistemas do Google Cloud NetApp Volumes e a navegar até o painel de arquitetura bem projetada de cargas de trabalho a partir da notificação.
+
+
+
+[[28-september-2026]]
+== 28 de setembro de 2026
+
+
+
+[[backup-and-recovery]]
+=== Backup e Recuperação
+
+
+
+==== Melhoria geral em NetApp Backup and Recovery
+
+Nesta versão, as cargas de trabalho KVM, Hyper-V e VMware introduzem a seguinte melhoria:
+
+*Suporte à estrutura de controle de acesso baseado em função (RBAC) do Console*: as cargas de trabalho Hyper-V, KVM e VMware agora oferecem suporte à estrutura do Console da NetApp para RBAC, permitindo que você gerencie o acesso a hosts Hyper-V, KVM ou VMware individuais.
+
+https://docs.netapp.com/us-en/data-services-backup-recovery/br-rbac-setup.html["Saiba mais sobre como usar o RBAC no NetApp Backup and Recovery"].
+
+
+
+==== Aprimoramentos de cargas de trabalho da VMware
+
+Nesta versão, VMware workloads apresenta a seguinte melhoria:
+
+*Suporte ao Flex Unified do Google Cloud NetApp Volumes*: o NetApp Backup and Recovery para cargas de trabalho do VMware agora é compatível com o nível de serviço Flex Unified para o Google Cloud NetApp Volumes. O Flex Unified é compatível apenas no modo ONTAP.
+
+Para obter detalhes sobre como proteger cargas de trabalho VMware, consulte https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Proteja as cargas de trabalho do VMware com o NetApp Backup and Recovery"].
 
 
 
