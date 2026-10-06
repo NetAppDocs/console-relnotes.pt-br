@@ -1,0 +1,12 @@
+= Editar e gerenciar regras personalizadas
+:allow-uri-read: 
+
+
+
+
+[[edit-and-manage-custom-rules]]
+=== Editar e gerenciar regras personalizadas
+
+Agora você pode editar regras personalizadas no catálogo de regras. Você pode atualizar nomes e configurações de regras, revisar alterações no chat, validar edições e excluir regras de que você não precisa mais.
+
+link:https://docs.netapp.com/us-en/console-well-architected/manage-custom-rules.html["Aprenda a gerenciar regras personalizadas"]

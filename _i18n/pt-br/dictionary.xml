@@ -587,4 +587,9 @@
   <block id="b27aa3c0e44a53b3c16b5a2e40086669" category="inline-link">Melhore as configurações do Cloud Volumes ONTAP no Azure usando o Workload Factory</block>
   <block id="f436c99a1822c57781e57709a1694485" category="list-text"><block ref="f436c99a1822c57781e57709a1694485" category="inline-link-rx"></block></block>
   <block id="21b943021728acb873fd80e1597c6721" category="list-text"><block ref="21b943021728acb873fd80e1597c6721" category="inline-link-macro-rx"></block></block>
+  <block id="e7747671a3237b3e54edff6b14b82ec7" category="doc">Editar e gerenciar regras personalizadas</block>
+  <block id="9a28538fc6f24d40e290259e6e4618ef" category="paragraph">Agora você pode editar regras personalizadas no catálogo de regras. Você pode atualizar nomes e configurações de regras, revisar alterações no chat, validar edições e excluir regras de que você não precisa mais.</block>
+  <block id="7df807bf87ff5ba814d9683805deb113" category="inline-link-macro">Aprenda a gerenciar regras personalizadas</block>
+  <block id="cccdb28b7d4bae85993e333d16900a95" category="paragraph"><block ref="cccdb28b7d4bae85993e333d16900a95" category="inline-link-macro-rx"></block></block>
+  <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">04 de outubro de 2026</block>
 </blocks>

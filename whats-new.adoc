@@ -30,6 +30,24 @@ Remediação:: O serviço de correção foi removido em 22 de abril de 2024.
 ====
 
 
+[[04-october-2026]]
+== 04 de outubro de 2026
+
+
+
+[[well-architected-dashboard]]
+=== Painel de controle bem arquitetado
+
+
+
+==== Editar e gerenciar regras personalizadas
+
+Agora você pode editar regras personalizadas no catálogo de regras. Você pode atualizar nomes e configurações de regras, revisar alterações no chat, validar edições e excluir regras de que você não precisa mais.
+
+link:https://docs.netapp.com/us-en/console-well-architected/manage-custom-rules.html["Aprenda a gerenciar regras personalizadas"]
+
+
+
 [[30-september-2026]]
 == 30 de setembro de 2026
 
