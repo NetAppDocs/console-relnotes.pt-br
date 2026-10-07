@@ -593,4 +593,5 @@
   <block id="cccdb28b7d4bae85993e333d16900a95" category="paragraph"><block ref="cccdb28b7d4bae85993e333d16900a95" category="inline-link-macro-rx"></block></block>
   <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">04 de outubro de 2026</block>
   <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Suporte ao Azure Entra ID do Cloud Volumes ONTAP*: agora você pode usar a autenticação do Microsoft Entra ID para configurações de buckets do storage de objetos do Azure se não quiser usar a chave de acesso da conta de armazenamento para a autenticação do Azure. Essa opção é compatível com o Cloud Volumes ONTAP em sistemas do Azure que executam o ONTAP 9.16.1 ou posterior.</block>
+  <block id="82d1d9da33b9c6cae173365156457fff" category="section-title">Aprimoramento das cargas de trabalho da VMware</block>
 </blocks>
