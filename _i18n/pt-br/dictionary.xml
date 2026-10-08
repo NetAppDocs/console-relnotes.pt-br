@@ -594,4 +594,9 @@
   <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">04 de outubro de 2026</block>
   <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Suporte ao Azure Entra ID do Cloud Volumes ONTAP*: agora você pode usar a autenticação do Microsoft Entra ID para configurações de buckets do storage de objetos do Azure se não quiser usar a chave de acesso da conta de armazenamento para a autenticação do Azure. Essa opção é compatível com o Cloud Volumes ONTAP em sistemas do Azure que executam o ONTAP 9.16.1 ou posterior.</block>
   <block id="82d1d9da33b9c6cae173365156457fff" category="section-title">Aprimoramento das cargas de trabalho da VMware</block>
+  <block id="a634d68af0dcef53e5b8e038814f60cc" category="doc">Lançamento inicial do Oracle Cloud Infrastructure NetApp Storage Service for Workload Factory</block>
+  <block id="8ec5e57a8f9316371a1188f5b7603afe" category="paragraph">A versão inicial do OCI NetApp Storage Service (OCI NSS) para o Workload Factory oferece integração, descoberta de sistemas, gerenciamento de credenciais e criação e associação de links. Para solicitar acesso ao OCI NSS, abra um chamado de suporte com a Oracle.</block>
+  <block id="e63ff59d9a78b3ee1929f551e0299980" category="section-title">Documentação do Workload Factory para usuários do NetApp Console</block>
+  <block id="bc5e01fb2f3491722d00201d5965ffaf" category="paragraph">Você pode encontrar documentação detalhada do Workload Factory no NetApp Console, incluindo guias para onboarding, descoberta do sistema, gerenciamento de credenciais e criação e associação de links.</block>
+  <block id="ba7c815c95cbac0acd31d7dafb91c974" category="paragraph">Diretiva não resolvida em &lt;stdin&gt; - include::_include/data-services-workloads.adoc[] :leveloffset: +1</block>
 </blocks>

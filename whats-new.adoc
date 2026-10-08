@@ -86,6 +86,22 @@ link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-a
 
 As notificações para problemas de arquitetura bem projetada estão disponíveis para o Google Cloud NetApp Volumes na página Sistemas de gerenciamento de storage no NetApp Console. Esse recurso ajuda você a identificar rapidamente problemas de configuração em seus sistemas do Google Cloud NetApp Volumes e a navegar até o painel de arquitetura bem projetada de cargas de trabalho a partir da notificação.
 
+Diretiva não resolvida em <stdin> - include::_include/data-services-workloads.adoc[] :leveloffset: +1
+
+
+
+[[initial-release-of-oracle-cloud-infrastructure-netapp-storage-service-for-workload-factory]]
+=== Lançamento inicial do Oracle Cloud Infrastructure NetApp Storage Service for Workload Factory
+
+A versão inicial do OCI NetApp Storage Service (OCI NSS) para o Workload Factory oferece integração, descoberta de sistemas, gerenciamento de credenciais e criação e associação de links. Para solicitar acesso ao OCI NSS, abra um chamado de suporte com a Oracle.
+
+
+
+[[workload-factory-documentation-for-netapp-console-users]]
+=== Documentação do Workload Factory para usuários do NetApp Console
+
+Você pode encontrar documentação detalhada do Workload Factory no NetApp Console, incluindo guias para onboarding, descoberta do sistema, gerenciamento de credenciais e criação e associação de links.
+
 
 
 [[28-september-2026]]
