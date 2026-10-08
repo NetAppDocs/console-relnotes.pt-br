@@ -1,0 +1,8 @@
+= A Workload Factory
+:allow-uri-read: 
+
+
+
+
+[[workload-factory]]
+=== A Workload Factory
