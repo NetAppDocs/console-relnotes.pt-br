@@ -584,4 +584,5 @@
   <block id="d76461728409bdd7d106249c2bbd279c" category="inline-link">Evite interrupções durante a manutenção do Azure para os pares de HA do Cloud Volumes ONTAP</block>
   <block id="d95952cb789c981f49c06e8b4c6698fc" category="paragraph"><block ref="d95952cb789c981f49c06e8b4c6698fc" category="inline-link-rx"></block></block>
   <block id="f535eb1278ad100b4d323539a7942781" category="section-title">14 de outubro de 2026</block>
+  <block id="54ea8878308d39d6d78a01f24a278aa1" category="list-text">*Filtragem personalizada por intervalo de datas do Job Monitor*: agora você pode pesquisar tarefas dos últimos 90 dias selecionando uma data de início e término personalizada em um calendário no Job Monitor.</block>
 </blocks>
