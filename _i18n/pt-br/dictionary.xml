@@ -554,4 +554,34 @@
   <block id="56ba911e47b6675e519daaae8a0c4ab8" category="inline-link">Visualize os ativos em todas as suas assinaturas do Keystone</block>
   <block id="c270abc6d843162d4ce7721540f24540" category="inline-link">Veja os ativos associados a uma assinatura Keystone</block>
   <block id="e411d22d2770471ccb53afad75a6607f" category="paragraph">Você pode visualizar a capacidade física, a capacidade lógica e a eficiência de storage dos clusters do ONTAP e de seus agregados em *Ativos &gt; Clusters e agregados*. Isso está disponível apenas para as assinaturas do Keystone STaaS faturadas com base na capacidade física. Para saber mais, consulte<block ref="7f77c8bd4b401343bdf134614dcbbc54" category="inline-link-rx"></block> e<block ref="e5507f6e8dbcc07ae7ce3bb876484b8a" category="inline-link-rx"></block>.</block>
+  <block id="1f4aec85e2be241e736a55d9da306e72" category="doc">O Cloud Volumes ONTAP 9.19.1 no Azure</block>
+  <block id="38649e84871938dc48da678f8c0225b7" category="paragraph">Agora você pode usar o NetApp Console para implantar e gerenciar a versão de Disponibilidade Geral (GA) do Cloud Volumes ONTAP 9.19.1 no Azure.</block>
+  <block id="55827b1b260053ade23e437507e4d4d6" category="paragraph">O Console oferece suporte ao Cloud Volumes ONTAP 9.19.1 na AWS e no Google Cloud desde agosto de 2026.</block>
+  <block id="baa4551a28b9b9b693078dff3d23a9c8" category="inline-link">Cloud Volumes ONTAP 9.19.1 notas de lançamento</block>
+  <block id="cb7f1191bad9ffa813970eda72e677c3" category="paragraph"><block ref="cb7f1191bad9ffa813970eda72e677c3" category="inline-link-rx"></block></block>
+  <block id="b9a06ca155484f482929cec5f8dd93f2" category="section-title">Criptografia de host do Azure para o Cloud Volumes ONTAP</block>
+  <block id="65c800dc2b98e78e47a93565108209a8" category="paragraph">A partir do Cloud Volumes ONTAP 9.19.1 GA, a criptografia no host do Azure é habilitada por padrão para novas implantações do Azure de nó único e de alta disponibilidade (HA) que atendam aos pré-requisitos. Esse recurso criptografa os dados no servidor físico que hospeda a VM, incluindo o disco efêmero e os caches associados no nível do host, à medida que os dados são gravados no host e lidos dele.</block>
+  <block id="e4d61d3550f13efd53aeff4a22e83ea8" category="paragraph">Antes de implantar o Cloud Volumes ONTAP no Azure, certifique-se de que os seguintes pré-requisitos sejam atendidos:</block>
+  <block id="66661aefda04e7e8fc3b285416a5747c" category="inline-link">Documentação da Microsoft: habilitar criptografia no host</block>
+  <block id="ad0c10652c212a9436d51cb4a4ff84e1" category="list-text">O <block ref="9b5430cc1667a3828b4733b3fceebcc5" prefix=" " category="inline-code"></block>recurso está registrado para sua assinatura do Azure. Consulte<block ref="7a203e9800b2ad6ccab50741b723916c" category="inline-link-rx"></block>.</block>
+  <block id="3ef3dd18f4a36e278227da4d639cfc32" category="inline-link">Documentação da Microsoft: encontrando tamanhos de VM compatíveis</block>
+  <block id="5dd3216d5312f2f7fff26e6602bd3ef4" category="list-text">O tipo de instância de VM selecionado oferece suporte à criptografia no host na sua região do Azure. Consulte<block ref="b937f110917df6a4c55186c37d29a104" category="inline-link-rx"></block>.</block>
+  <block id="8bf4a89637b88a17fe1be4dad5d23488" category="paragraph">Observe estes pontos:</block>
+  <block id="17e143eab5799a1d059d05efff379a05" category="list-text">Nenhuma configuração adicional é necessária.</block>
+  <block id="c8e2d48b465aa8eefb29bd89f3fafcca" category="list-text">Se esses pré-requisitos não forem atendidos, a criptografia no host do Azure não será habilitada para sua implantação do Cloud Volumes ONTAP.</block>
+  <block id="92e84bce8028abc60ccfdbbae1096f14" category="list-text">A criptografia no host aplica-se apenas ao Azure, não à AWS ou ao Google Cloud.</block>
+  <block id="bfb1c810db245ddba60543c21a682b84" category="inline-link">Use o portal do Azure para habilitar a criptografia completamente usando a criptografia no host</block>
+  <block id="8161b03145de9190c8562fdf070323cd" category="paragraph">Documentação da Microsoft:<block ref="67a78f496718d7c7396fe4250a10dd9f" category="inline-link-rx"></block></block>
+  <block id="b1b31149ea36e9ee60b289e49fc26e40" category="section-title">Criptografia de rede de back-end nos clusters do Cloud Volumes ONTAP no Azure e no Google Cloud</block>
+  <block id="78a1c3e822bde3124feccc9a318e3dba" category="paragraph">O Cloud Volumes ONTAP 9.19.1 e versões posteriores oferecem suporte à criptografia de rede do cluster de back-end para configurações de HA no Azure e no Google Cloud.</block>
+  <block id="6ed570b003232171d0ab8a2b1258fe42" category="paragraph">Habilitar a criptografia de rede do cluster pode afetar o desempenho do cluster. Tenha cautela e verifique se o seu ambiente pode acomodar a sobrecarga adicional antes de habilitar esse recurso.</block>
+  <block id="6122269aefde3f6051ca7b61f5bd424e" category="inline-link">Ativar a criptografia de rede de back-end nos clusters do Cloud Volumes ONTAP</block>
+  <block id="cf892fcd6fb8331bf43c890e1ee21ea2" category="paragraph"><block ref="cf892fcd6fb8331bf43c890e1ee21ea2" category="inline-link-rx"></block></block>
+  <block id="1437adf1c59f087364ad88b1856888f6" category="section-title">Capacidade de reduzir interrupções durante a manutenção programada do Azure</block>
+  <block id="103f08fd4ffc655a151d17f40e8c4d04" category="paragraph">Durante a manutenção programada, o Azure pode pausar brevemente uma VM em um par de HA do Cloud Volumes ONTAP. O ONTAP pode interpretar a pausa como uma interrupção do nó e transferir as operações de armazenamento para o nó parceiro, retornando-as quando a VM for retomada (takeover e giveback). Esse processo pode interromper conexões ativas de clientes, mesmo quando não há falha de nó.</block>
+  <block id="7a14f4282238253accfa3c299f8906b1" category="paragraph">Com Cloud Volumes ONTAP 9.19.1 e versões posteriores, você pode habilitar uma configuração opcional que permite que o par de HA continue operando durante um congelamento de manutenção agendada do Azure sem iniciar automaticamente o takeover e o giveback.</block>
+  <block id="a299e856c9d39c1b0322c36f2b4a7fb3" category="admonition">Este recurso está disponível como uma prévia pública com o Cloud Volumes ONTAP 9.19.1.</block>
+  <block id="d76461728409bdd7d106249c2bbd279c" category="inline-link">Evite interrupções durante a manutenção do Azure para os pares de HA do Cloud Volumes ONTAP</block>
+  <block id="d95952cb789c981f49c06e8b4c6698fc" category="paragraph"><block ref="d95952cb789c981f49c06e8b4c6698fc" category="inline-link-rx"></block></block>
+  <block id="f535eb1278ad100b4d323539a7942781" category="section-title">14 de outubro de 2026</block>
 </blocks>
