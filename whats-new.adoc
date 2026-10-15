@@ -30,6 +30,24 @@ Remediação:: O serviço de correção foi removido em 22 de abril de 2024.
 ====
 
 
+[[15-october-2026]]
+== 15 de outubro de 2026
+
+
+
+[[digital-advisor]]
+=== Consultor digital
+
+
+
+==== Suporte para a E-Series e o StorageGRID no Value Insights
+
+O Value Insights agora inclui os sistemas ONTAP, E-Series e StorageGRID nos totais de integridade, risco, risco de segurança e ciclo de vida. Você pode filtrar o painel por plataforma para visualizar detalhes específicos da plataforma. As economias entregues e projetadas continuam disponíveis apenas para sistemas ONTAP.
+
+link:https://docs.netapp.com/us-en/active-iq/concept_value_insights.html["Descubra informações valiosas no Digital Advisor"].
+
+
+
 [[14-october-2026]]
 == 14 de outubro de 2026
 
