@@ -206,61 +206,8 @@ Você pode visualizar a capacidade física, a capacidade lógica e a eficiência
 
 
 
-[[04-october-2026]]
-== 04 de outubro de 2026
-
-
-
-[[well-architected-dashboard]]
-=== Painel de controle bem arquitetado
-
-
-
-==== Editar e gerenciar regras personalizadas
-
-Agora você pode editar regras personalizadas no catálogo de regras. Você pode atualizar nomes e configurações de regras, revisar alterações no chat, validar edições e excluir regras de que você não precisa mais.
-
-link:https://docs.netapp.com/us-en/console-well-architected/manage-custom-rules.html["Aprenda a gerenciar regras personalizadas"]
-
-
-
 [[30-september-2026]]
 == 30 de setembro de 2026
-
-
-
-[[well-architected-dashboard]]
-=== Painel de controle bem arquitetado
-
-
-
-==== Descubra os recursos do Flex Unified no Workload Factory
-
-O Workload Factory agora consegue encontrar os pools de storage e volumes do Google Cloud NetApp Volumes Flex Unified nos modos padrão e ONTAP por meio do endpoint de proxy da API ONTAP. Esses recursos aparecem no inventário e são incluídos nas avaliações e recomendações de arquitetura adequada.
-
-link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Saiba mais sobre a análise de configuração para o Google Cloud NetApp Volumes"]
-
-
-
-==== Acesse os sistemas Flex Unified a partir da tela do NetApp Console Canvas
-
-Agora você pode selecionar *Enter System* para sistemas Google Cloud NetApp Volumes Flex Unified detectados na tela do NetApp Console. Isso abre a página Recursos do sistema selecionado para que você possa visualizar os pools de storage e volumes associados usando o mesmo fluxo de trabalho disponível para sistemas no modo padrão.
-
-link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Saiba mais sobre a análise de configuração para o Google Cloud NetApp Volumes"]
-
-
-
-==== Avaliações bem arquitetadas para recursos do Flex Unified
-
-O painel bem arquitetado agora avalia os pools de storage e volumes do Google Cloud NetApp Volumes Flex Unified quanto à capacidade disponível de SSD, à capacidade disponível de volume e à cobertura da política de snapshot. Os resultados aparecem na experiência bem arquitetada do Google Cloud NetApp Volumes e identificam recursos no modo Default ou no modo ONTAP.
-
-link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Saiba mais sobre a análise de configuração para o Google Cloud NetApp Volumes"]
-
-
-
-==== Problemas bem arquitetados exibidos na página de Sistemas da NetApp Console
-
-As notificações para problemas de arquitetura bem projetada estão disponíveis para o Google Cloud NetApp Volumes na página Sistemas de gerenciamento de storage no NetApp Console. Esse recurso ajuda você a identificar rapidamente problemas de configuração em seus sistemas do Google Cloud NetApp Volumes e a navegar até o painel de arquitetura bem projetada de cargas de trabalho a partir da notificação.
 
 
 
@@ -629,31 +576,6 @@ Para obter mais informações, consulte a documentação do Azure:
 
 
 
-[[well-architected-dashboard]]
-=== Painel de controle bem arquitetado
-
-
-
-==== Avaliação de replicação de dados remota para Cloud Volumes ONTAP
-
-Uma nova avaliação está disponível para verificar se os dados do Cloud Volumes ONTAP estão protegidos com replicação remota. Ela ajuda a garantir que seu plano de proteção de dados siga as melhores práticas para recuperação de desastres e continuidade dos negócios.
-
-link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["Saiba mais sobre a análise de configuração do Cloud Volumes ONTAP"]
-
-
-
-==== Descartar todas as configurações bem arquitetadas
-
-Agora você pode descartar uma configuração recomendada inteira do seu painel de controle. Isso dá a você mais controle sobre quais recomendações e avaliações aparecem para o seu ambiente.
-
-
-
-==== Recomendações de carga de trabalho do banco de dados no painel de controle well-architected
-
-As recomendações para cargas de trabalho de banco de dados usando o FSx para ONTAP agora estão disponíveis no painel de controle bem estruturado no NetApp Console. Você pode ver o status de seus recursos de storage e cargas de trabalho de banco de dados em um só lugar, proporcionando uma visão completa da integridade de sua infraestrutura.
-
-
-
 [[storagegrid]]
 === StorageGRID
 
@@ -756,88 +678,6 @@ Saiba mais sobre link:https://docs.netapp.com/us-en/active-iq/concept_value_insi
 
 [[17-august-2026]]
 == 17 de agosto de 2026
-
-
-
-[[well-architected-dashboard]]
-=== Painel de controle bem arquitetado
-
-
-
-==== Suporte a FSx for ONTAP no painel bem arquitetado no NetApp Console
-
-O painel de controle bem estruturado no NetApp Console está disponível para Amazon FSx for NetApp ONTAP.
-
-link:https://docs.netapp.com/us-en/console-well-architected/fsx/configuration-analysis-fsx.html["Saiba mais sobre a análise de configuração do Amazon FSx for NetApp ONTAP"]
-
-
-
-==== Nomes de configuração atualizados no painel de controle bem arquitetado
-
-O painel bem arquitetado no NetApp Console agora inclui novos nomes de configuração de storage.
-
-A tabela a seguir lista os nomes de configuração antigos e seus respectivos nomes de configuração novos no painel de controle bem arquitetado.
-
-[cols="1,1"]
-|===
-| Nome da configuração antiga | Novo nome de configuração 
-
-
-| Agendar backups de volumes | Backups de volume 
-
-
-| Limite de capacidade do SSD | Espaço livre de capacidade do SSD 
-
-
-| Limite de capacidade de arquivo | Espaço livre na capacidade de arquivos 
-
-
-| Confiabilidade dos dados de retenção a longo prazo | Rótulos de política de replicação 
-
-
-| Snapshots locais programados | Política do Snapshot 
-
-
-| Exclua backups desnecessários | Expiração do backup 
-
-
-| Excluir Snapshots desnecessários | Expiração do Snapshot 
-
-
-| Capacidade subutilizada de SSD | Capacidade SSD superdimensionada 
-
-
-| Dispositivos de bloco inativos | Dispositivos de bloco inativos (LUN) 
-
-
-| Otimize o TCO ao hierarquizar dados frios | Hierarquização de dados frios 
-
-
-| Relatórios de capacidade lógica de volume | Relatórios de capacidade visível para o host 
-
-
-| FlexGroup volumes reequilíbrio | Reequilibrar volumes FlexGroup 
-
-
-| FlexVol reequilíbrio de volumes | Reequilibrar volumes FlexVol 
-
-
-| Modo de gravação do relacionamento de cache | FlexCache modo de escrita 
-
-
-| Otimizar o tamanho do volume de cache | FlexCache tamanho da réplica 
-
-
-| Acesso não autorizado ao volume | Acesso não autorizado ao volume iSCSI 
-
-
-| ARP/AI desativado | Proteção contra ransomware (ARP/AI) 
-|===
-
-
-==== Problemas bem arquitetados exibidos na página de Sistemas da NetApp Console
-
-As notificações para problemas de arquitetura bem definida estão disponíveis para o Cloud Volumes ONTAP no Microsoft Azure na página Sistemas de gerenciamento de storage no NetApp Console. Esse recurso ajuda você a identificar rapidamente problemas de configuração em seus sistemas Cloud Volumes ONTAP no Azure e a navegar até o painel de arquitetura bem definida de cargas de trabalho a partir da notificação.
 
 
 
@@ -950,19 +790,6 @@ Para dúvidas ou para compartilhar comentários, envie um e-mail para mailto:ng-
 
 
 
-[[well-architected-dashboard]]
-=== Painel de controle bem arquitetado
-
-
-
-==== Suporte para o Google Cloud NetApp Volumes no painel bem arquitetado
-
-O painel do NetApp Console agora é compatível com o Google Cloud NetApp Volumes. Os administradores de armazenamento podem visualizar o status de seus pools de armazenamento e configurações, receber recomendações para melhorar a eficiência, o custo, o desempenho, a confiabilidade e a segurança, além de tomar medidas para otimizar as operações e seguir as melhores práticas.
-
-Saiba mais sobre link:https://docs.netapp.com/us-en/console-well-architected/gcnv/configuration-analysis-gcnv.html["Análise de configuração para o Google Cloud NetApp Volumes"].
-
-
-
 [[backup-and-recovery]]
 === Backup e Recuperação
 
@@ -1070,23 +897,6 @@ Diversas melhorias internas foram implementadas para reduzir o consumo geral de 
 
 [[03-august-2026]]
 == 03 de agosto de 2026
-
-
-
-[[well-architected-dashboard]]
-=== Painel de controle bem arquitetado
-
-
-
-==== Corrija, descarte e reative configurações para Cloud Volumes ONTAP no Microsoft Azure
-
-O painel de controle bem estruturado no NetApp Console agora permite que você corrija recomendações de configuração para seus sistemas Cloud Volumes ONTAP.
-
-Você também pode descartar uma ou mais configurações da análise de arquitetura bem estruturada. Isso permite ignorar configurações específicas que não se aplicam ao seu ambiente.
-
-Se você quiser incluir uma configuração descartada posteriormente, poderá reativá-la no painel de controle bem arquitetado. Isso restaura a configuração à análise e permite que você receba recomendações e correções para ela.
-
-link:https://docs.netapp.com/us-en/console-well-architected/cvo/\improve-configurations-cvo.html["Corrija, descarte e reative configurações para Cloud Volumes ONTAP no Microsoft Azure"]
 
 
 
@@ -1202,29 +1012,6 @@ Para obter uma lista de todas as regiões suportadas, consulte o  https://www.ne
 
 [[20-july-2026]]
 == 20 de julho de 2026
-
-
-
-[[well-architected-dashboard]]
-=== Painel de controle bem arquitetado
-
-
-
-==== Apresentando o painel bem arquitetado no NetApp Console
-
-O painel de controle bem-arquitetado no NetApp Console oferece uma visão unificada dos seus sistemas de storage e configurações em todas as contas e regiões. O painel fornece insights e recomendações para ajudar você a alcançar excelência operacional. Você pode visualizar o status bem-arquitetado das suas configurações, problemas de configuração organizados pelos pilares da estrutura bem-arquitetada para o tipo de storage que você usa e uma lista de problemas de configuração e recomendações.
-
-Saiba mais sobre o link:https://docs.netapp.com/us-en/console-well-architected/learn-well-architected-dashboard.html["dashboard bem arquitetado"].
-
-O painel de controle bem estruturado no Console está disponível para link:https://docs.netapp.com/us-en/console-well-architected/cvo/configuration-analysis-cvo.html["O Cloud Volumes ONTAP no Microsoft Azure."]
-
-
-
-==== Crie suas próprias regras personalizadas
-
-Escreva regras personalizadas em linguagem simples para garantir que seus sistemas sigam os padrões da sua organização e as melhores práticas da NetApp. Teste as regras com uma simulação e, em seguida, agende a execução delas em todos os seus ambientes.
-
-https://docs.netapp.com/us-en/console-well-architected/learn-custom-rules.html["Saiba mais sobre regras personalizadas"]
 
 
 
