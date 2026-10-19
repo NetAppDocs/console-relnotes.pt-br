@@ -30,6 +30,26 @@ Remediação:: O serviço de correção foi removido em 22 de abril de 2024.
 ====
 
 
+[[19-october-2026]]
+== 19 de outubro de 2026
+
+
+
+[[backup-and-recovery]]
+=== Backup e Recuperação
+
+
+
+==== Aprimoramento das cargas de trabalho do Oracle Database
+
+Nesta versão, as cargas de trabalho do Oracle Database introduzem a seguinte melhoria:
+
+*Suporte ao Oracle Data Guard*: o NetApp Backup and Recovery agora oferece suporte ao uso de grupos de proteção para proteger bancos de dados primários e de espera que utilizam o Oracle Data Guard para alta disponibilidade.
+
+Para obter detalhes sobre como proteger cargas de trabalho do Oracle Database, consulte  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["Saiba mais sobre como proteger as cargas de trabalho do Oracle Database com NetApp Backup and Recovery"].
+
+
+
 [[15-october-2026]]
 == 15 de outubro de 2026
 
@@ -1007,91 +1027,3 @@ Agora você pode implantar Cloud Volumes ONTAP 9.12.1 GA e versões posteriores 
 
 
 Para obter uma lista de todas as regiões suportadas, consulte o  https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Mapa de Regiões Globais sob Azure"^].
-
-
-
-[[20-july-2026]]
-== 20 de julho de 2026
-
-
-
-[[ransomware-resilience]]
-=== Resiliência ao Ransomware
-
-
-
-==== Configurar SIEM por meio de webhooks
-
-O Ransomware Resilience agora oferece suporte à configuração de um sistema de gerenciamento de informações e eventos de segurança (SIEM) por meio de webhooks na interface do usuário do Ransomware Resilience. Com webhooks, você pode trazer o sistema SIEM de sua preferência para organizar seu monitoramento de ransomware.
-
-Para obter mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem-webhook.html["Configurar um sistema SIEM com webhooks"^].
-
-
-
-==== Alertas por e-mail para respostas automatizadas a eventos de atividade do usuário
-
-O Ransomware Resilience agora envia notificações por e-mail quando respostas automatizadas são acionadas por eventos de atividade do usuário, aumentando a clareza e a visibilidade do Ransomware Resilience e das atividades de ransomware.
-
-Para obter mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-automate-user-activity.html["Automatize as respostas aos alertas de atividade do usuário"^].
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== Apresentando a integração simplificada do Cloud Volumes ONTAP a partir do AWS Marketplace
-
-NetApp introduz um fluxo de integração simplificado para Cloud Volumes ONTAP a partir do AWS Marketplace, reduzindo etapas manuais e atritos na integração.
-
-Anteriormente, a implantação do Cloud Volumes ONTAP a partir do AWS Marketplace exigia navegar por várias telas e configurar manualmente funções, políticas e credenciais. Isso tornava a integração lenta e propensa a erros.
-
-O novo fluxo de integração simplifica sua transição de uma assinatura do marketplace para um ambiente Cloud Volumes ONTAP totalmente operacional, com os seguintes recursos:
-
-. Assinatura da listagem dedicada do Cloud Volumes ONTAP no AWS Marketplace: você assina a listagem independente do Cloud Volumes ONTAP no AWS Marketplace, adquire uma assinatura e configura sua conta AWS (caso ainda não possua uma).
-. Caminho guiado no NetApp Console: Você configura sua conta no NetApp Console, e o Console automaticamente integra você à jornada de implantação, exibindo o caminho guiado no lado direito. Caso você precise sair do Console, poderá retomar a jornada guiada posteriormente.
-. Associando sua assinatura: você pode associar sua assinatura automaticamente ao Console, evitando as etapas manuais de vinculá-la você mesmo.
-. Implantação do agente do console com configuração de credenciais da AWS: você pode criar automaticamente as funções da AWS necessárias. O processo implanta uma pilha CloudFormation na sua conta da AWS com as funções e políticas necessárias para sua revisão e, em seguida, as associa ao NetApp Console, eliminando a configuração manual do IAM. Em seguida, você continua com a configuração do agente, rede e configurações do grupo de segurança para iniciar a implantação do agente.
-. Implante um novo sistema Cloud Volumes ONTAP na AWS: você acessa diretamente o  `Quick create` assistente para uma implantação do Cloud Volumes ONTAP mais rápida e simplificada.
-
-
-.Links relacionados
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-onboard-cvo-aws-marketplace.html["Integre o Cloud Volumes ONTAP a partir do AWS Marketplace"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-quick-deploy-aws.html["Implante o Cloud Volumes ONTAP com a criação rápida na AWS"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws["Faturamento flexível para Cloud Volumes ONTAP e serviços de dados na AWS"^]
-
-
-
-
-==== Análise de configuração bem arquitetada para Cloud Volumes ONTAP no Azure
-
-O NetApp Console agora oferece suporte à análise de configuração bem arquitetada para sistemas Cloud Volumes ONTAP em execução no Microsoft Azure. O Console analisa suas implantações diariamente e fornece um status de arquitetura bem arquitetada, insights e recomendações para ajudar você a manter sistemas alinhados com as melhores práticas da NetApp e a estrutura well-architected.
-
-O painel de controle bem estruturado exibe o número total de sistemas analisados e categoriza seus recursos por configuração e nível de gravidade. Se você é um administrador do sistema, pode visualizar recomendações para qualquer problema de configuração na sua organização diretamente do painel do Console e baixar um relatório CSV com todas as recomendações. As configurações são categorizadas de acordo com:
-
-* *Confiabilidade*: Garante que as cargas de trabalho operem de forma correta e consistente, mesmo em caso de interrupções.
-* *Segurança*: Protege dados, sistemas e ativos por meio de avaliações e mitigação de riscos.
-* *Excelência operacional*: Otimiza a arquitetura para maximizar o valor do negócio.
-* *Otimização de custos*: reduz e otimiza custos para gerar maior valor para o negócio.
-
-
-.Links relacionados
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-configuration-analysis-cvo.html["Análise de configuração para Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-improve-configurations-cvo.html["Melhore as configurações do Cloud Volumes ONTAP no Azure usando o Workload Factory"^]
-
-
-
-
-[[keystone]]
-=== Keystone
-
-Novos aprimoramentos no painel do Keystone no NetApp Console:
-
-
-
-==== Veja o status de expiração da assinatura e de renovação automática
-
-A coluna *Dias até o vencimento da assinatura* na tabela de assinaturas (*Armazenamento > Keystone > Assinaturas*) agora exibe um ícone ao lado da data de vencimento. A cor do ícone indica a proximidade do vencimento quando a renovação automática está desativada: verde (mais de 120 dias), laranja (91 a 120 dias), vermelho (menos de 90 dias) ou cinza (vencida). Para assinaturas com renovação automática ativada, um ícone de renovação automática é exibido, indicando que a assinatura será renovada automaticamente ao final do período atual. O status é somente leitura e reflete os termos do seu contrato. Depois de abrir uma assinatura, esses ícones aparecem no cabeçalho de detalhes da assinatura nas guias *Consumo atual*, *Tendência de consumo*, *Linha do tempo da assinatura* e *Ativos*, fornecendo visibilidade do status de vencimento e renovação enquanto você navega.
-
-Para saber mais, consulte https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["Veja detalhes sobre suas assinaturas Keystone"].
