@@ -285,7 +285,6 @@
   <block id="0005eb91a417f10c94b24edc1e676ea5" category="section-title">Execução de script</block>
   <block id="ad16d4c0c6b04f812d8564ab531bda48" category="paragraph">Agora você pode inserir scripts personalizados no fluxo de trabalho de failover para coordenar a inatividade e a retomada de aplicativos. Esse recurso ajuda a garantir que os aplicativos estejam devidamente preparados antes que um snapshot seja replicado e restaurado adequadamente, para que as operações possam ser retomadas sem problemas após o failover.</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">Crie um plano de replicação</block>
-  <block id="d95a404e2a85810893af45ecfb3ef7b0" category="paragraph">Para aprender como injetar um script personalizado, consulte <block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>.</block>
   <block id="0ac0cf25fb19b7466972d2b8ef97537e" category="section-title">Nova página de cargas de trabalho</block>
   <block id="babaac79e8e47c52ae80323ebd24d838" category="paragraph">O NetApp Disaster Recovery adicionou uma página de Workloads à interface do usuário, fornecendo uma visão abrangente de todos os workloads detectados e seu status de proteção. A página de Workloads permite que você monitore e gerencie seus workloads com mais eficiência.</block>
   <block id="7c969269e165a2fc615e6e844ac581c4" category="inline-link-macro">Analisar o estado de saúde e proteção no NetApp Disaster Recovery</block>
@@ -382,9 +381,7 @@
   <block id="1df7d27de080cb3c4560fbfcb9b950a2" category="inline-link-macro">Documentação do Workload Factory para o NetApp Console</block>
   <block id="865cb26d81d670b59ffd115deff750d1" category="paragraph"><block ref="865cb26d81d670b59ffd115deff750d1" category="inline-link-macro-rx"></block></block>
   <block id="1c335a9c5603264a97d8d84cb6c6faf0" category="doc">Ordem de inicialização opcional para grupos de recursos do Kubernetes</block>
-  <block id="84af32d37767e36e149339ec37e513b1" category="paragraph">O NetApp Disaster Recovery agora oferece suporte à configuração opcional da ordem de inicialização para grupos de recursos em um plano de replicação do Kubernetes, especificando uma ordem de prioridade e um tempo de atraso opcional para os recursos. Essa opção permite inicializar recursos ao mesmo tempo quando necessário e atrasar a inicialização de recursos que dependem de outros, ajudando seus aplicativos a voltar a ficar online de forma estável.</block>
   <block id="f2497ae428eba83b3f39732433d3cb44" category="inline-link-macro">criar um plano de replicação</block>
-  <block id="9e29609c3bbaf3dd61657f73add99007" category="paragraph">Para obter mais informações, consulte <block ref="b368f0a73ce8108f9547ecd0643b331f" category="inline-link-macro-rx"></block>.</block>
   <block id="05316212411905c51cdd49deaf78a58e" category="section-title">Suporte a volume de SnapLock</block>
   <block id="a547512ac8a0a093f138ab19fb5f9c67" category="paragraph">O Disaster Recovery agora oferece suporte a volumes de SnapLock, permitindo que você faça failover de snapshots à prova de adulteração.. Ao realizar o failback com volumes de SnapLock, você deve usar a opção *Take snapshot now* para garantir que o failback seja concluído com sucesso.</block>
   <block id="3ad6e9988864aeae2ef386345946dc6d" category="inline-link-macro">failover</block>
@@ -479,4 +476,7 @@
   <block id="6d572acb72c5f88a011bfcc18bed3f7c" category="paragraph">Para obter detalhes sobre como proteger as cargas de trabalho do ONTAP Volumes, consulte <block ref="24d237f3bd3266db09db22a59e1e6ebf" category="inline-link-rx"></block>.</block>
   <block id="f43f719a34848bc68a0e2e9868d020db" category="paragraph">Nesta versão, o NetApp Backup and Recovery apresenta o seguinte aprimoramento para cargas de trabalho do Oracle Database:</block>
   <block id="98c9ad4f11120c6a90c4a25b439d1228" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho do Oracle Database, consulte <block ref="ce12149fe5cc827258d1b858aab8e2cc" category="inline-link-rx"></block>.</block>
+  <block id="023fdd7fd8d06e7c7bf6c55e574d6ead" category="paragraph">Para aprender como injetar um script personalizado, consulte <block ref="e8c512e3d76c04e8346d8db62cbfb8bc" category="inline-link-macro-rx"></block>.</block>
+  <block id="8ce9f3d5447e1846da5c0990cfe26bd8" category="paragraph">NetApp O NetApp Disaster Recovery agora oferece suporte à configuração opcional da ordem de inicialização para grupos de recursos em um plano de replicação do Kubernetes, especificando uma ordem de prioridade e um tempo de atraso opcional para os recursos. Essa opção permite que você inicialize recursos ao mesmo tempo quando necessário e atrase a inicialização de recursos que dependem de outros, ajudando seus aplicativos a voltar a ficar online de forma íntegra.</block>
+  <block id="a197b951f3d08e836bbbc0aed22564af" category="paragraph">Para obter mais informações, consulte <block ref="87eee90f7be690f06924cc5233d6e914" category="inline-link-macro-rx"></block>.</block>
 </blocks>
