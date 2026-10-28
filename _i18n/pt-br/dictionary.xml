@@ -483,4 +483,7 @@
   <block id="83e64c2d25dbfa60ddb1cde0c1a014af" category="doc">Índice de notas de versão para o NetApp Console</block>
   <block id="424a10335c5c90e5b96111de1934acec" category="doc">AI Data Engine</block>
   <block id="14015aff561b018e4e547f246698e0b4" category="list-text"><block ref="14015aff561b018e4e547f246698e0b4" category="inline-link-rx"></block></block>
+  <block id="08853958e0db62fd50058fd45b355d7a" category="doc">Agente do Console 4.12.0</block>
+  <block id="67b83a9547aaccf9123cbc81823aeda8" category="paragraph">A versão 4.12.0 suporta tanto o modo padrão quanto o modo restrito.</block>
+  <block id="f3826fe13aaaec9b1aee814413e5cc00" category="paragraph">Esta versão inclui melhorias de segurança e correções de erros.</block>
 </blocks>
