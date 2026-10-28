@@ -61,6 +61,7 @@ Veja o conjunto completo de notas de versão para recursos do NetApp Console e s
 [[data-services]]
 == Serviços de dados
 
+* https://docs.netapp.com/us-en/ai-data-engine/release-notes/whats-new.html["AI Data Engine"^]
 * https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["Backup e Recuperação"^]
 * https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["Classificação de Dados"^]
 * https://docs.netapp.com/us-en/data-services-copy-sync/whats-new.html["Copiar e sincronizar"^]
