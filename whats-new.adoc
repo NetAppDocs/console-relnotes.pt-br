@@ -111,7 +111,7 @@ Para obter mais informações, consulte link:https://docs.netapp.com/us-en/data-
 
 
 
-==== Fluxo de trabalho aprimorado para permitir o monitoramento da atividade do usuário
+==== Fluxo de trabalho aprimorado para habilitar o monitoramento da atividade do usuário
 
 O Ransomware Resilience aprimorou o fluxo de trabalho para habilitar o monitoramento da atividade do usuário. Anteriormente, o Ransomware Resilience testava a conexão do coletor de dados sempre que você habilitava uma estratégia de proteção contra ransomware com monitoramento da atividade do usuário em uma carga de trabalho. Com essa atualização, essa verificação agora é ignorada se houver um coletor de dados para a VM de armazenamento e ele estiver no estado "running", acelerando o fluxo de trabalho de proteção.
 
@@ -656,7 +656,7 @@ O NetApp Disaster Recovery também aumentou a resiliência do serviço para tole
 
 
 
-==== Suporte aprimorado para restaurações limpas
+==== Suporte à restauração limpa para comportamento suspeito do usuário e ataques de criptografia baseados em usuários
 
 Agora, restaurações limpas estão disponíveis para recuperação após comportamentos suspeitos do usuário e ataques de criptografia baseados no usuário. Essa melhoria complementa o suporte já existente para ataques baseados em criptografia (entropia). Essa funcionalidade aprimorada permite que você aproveite a abordagem guiada da restauração limpa, identificando os pontos de restauração ideais para minimizar a perda de dados e acelerar a recuperação.
 
