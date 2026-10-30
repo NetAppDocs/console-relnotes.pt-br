@@ -489,4 +489,55 @@
   <block id="ce6934326bbfd4652849311e1ed89fe6" category="paragraph">Nesta versão, o NetApp Backup and Recovery apresenta o seguinte aprimoramento de licenciamento para todas as cargas de trabalho:</block>
   <block id="50913c9499a96938febd19de9c1bf895" category="inline-link">Configure o licenciamento para o NetApp Backup and Recovery</block>
   <block id="83b090108fa1e810d92771b23b7b0267" category="paragraph">Para obter detalhes sobre licenciamento, consulte<block ref="aa1a103ec550203513cdef85cd5672c0" category="inline-link-rx"></block>.</block>
+  <block id="702209553c340514b23674486ae4fd31" category="doc">O AI Data Engine 1.3</block>
+  <block id="dd420b0ebbfd644a3592c8e34b2ff629" category="inline-link">Implantação de nó único do AIDE</block>
+  <block id="bef20353ec71f208058a441ac3075e32" category="paragraph">O AI Data Engine é um serviço de inteligência de metadados, gerenciado por meio do NetApp Console, que analisa seus sistemas conectados, cria um catálogo de metadados e oferece a visibilidade e as ferramentas para otimizar o armazenamento e governar dados em escala. Você pode implantar o AI Data Engine como uma<block ref="142c34bc944087f6618b21ea2656150e" category="inline-link-rx"></block>, ou como uma implantação de vários nós do AIDE, caso seu ambiente exija alta disponibilidade baseada em Kubernetes em grande escala.</block>
+  <block id="b47d2c6bc36912f9c4906cd956ab8801" category="paragraph">O AI Data Engine 1.3 é a primeira versão disponível ao público em geral (GA).</block>
+  <block id="b6fbdf8ef74b308af14cc26bb5cf3d57" category="dlist-title">Implante e conecte seus dados</block>
+  <block id="6efb2debacc503f80d4da744eff0cf0e" category="inline-link">Implante na escala que seu ambiente exige</block>
+  <block id="240f9f6dce8959d1579bafbec08d0a07" category="list-text"><block ref="240f9f6dce8959d1579bafbec08d0a07" category="inline-link-rx"></block></block>
+  <block id="54d59647b1d587275188225d397c3a90" category="inline-link">Saiba mais sobre proxies para o AIDE</block>
+  <block id="dc5d043b5e605fee0d9932e6221d1341" category="list-text">Escolha uma implementação de nó único do AIDE para uma inicialização rápida em uma única VM ou uma implementação multinó do AIDE no seu próprio cluster Kubernetes para alta disponibilidade e maior escalabilidade. Se o seu ambiente exigir um proxy para acessar a internet,<block ref="1fba41490412204ba3e209df7e3a5b18" category="inline-link-rx"></block> faça a implementação com um proxy.</block>
+  <block id="5d4ef326714efe60337e85390babd329" category="inline-link">Inclua seus dados no escopo</block>
+  <block id="cbb5a5204dc3d123ef3e9d16f2e82c40" category="list-text"><block ref="cbb5a5204dc3d123ef3e9d16f2e82c40" category="inline-link-rx"></block></block>
+  <block id="d230737bea58a8428adf7af15944f95e" category="list-text">Conecte compartilhamentos de arquivos, servidores de banco de dados e os sistemas StorageGRID, e escolha quais recursos de dados verificar.</block>
+  <block id="dc3afd3f5177091595345a8d4549347f" category="inline-link">Mantenha a digitalização saudável</block>
+  <block id="7b788817aa65d1a00c5998f98ef08cfb" category="list-text"><block ref="7b788817aa65d1a00c5998f98ef08cfb" category="inline-link-rx"></block></block>
+  <block id="2ee195a4ed58f4d222297b70a61432fb" category="list-text">Monitore a integridade da sua implantação para identificar os problemas que podem interromper a varredura e reúna os detalhes necessários para resolvê-los.</block>
+  <block id="503e5b39e3523e3f785dc860a90339b7" category="dlist-title">Otimize o armazenamento e investigue seus dados</block>
+  <block id="5985e93b91139d269803898603d579a6" category="inline-link">Recuperar capacidade de storage</block>
+  <block id="78d40fa188b264432d9acc14b6e6b1a6" category="list-text"><block ref="78d40fa188b264432d9acc14b6e6b1a6" category="inline-link-rx"></block></block>
+  <block id="28ee8cd4b89e717d7369cec556fc8ecb" category="list-text">Identifique dados frios, obsoletos e duplicados em seus sistemas conectados com base nos limites configurados e veja quais sistemas e proprietários de dados têm as maiores concentrações desses dados.</block>
+  <block id="768437ba03b276a3ec10fbbe8b81a73b" category="inline-link">Defina dados frios e obsoletos para sua organização</block>
+  <block id="cf33f4d67208331a1884a855217b6910" category="list-text"><block ref="cf33f4d67208331a1884a855217b6910" category="inline-link-rx"></block></block>
+  <block id="c7f53c208d84a3ef5f51bc7df079759c" category="list-text">Defina os limites que determinam quais dados são classificados como frios ou obsoletos para corresponder às suas políticas de retenção.</block>
+  <block id="b1a6eb35f4a110688914b03b871eaf51" category="inline-link">Identifique quem contatar em relação aos dados</block>
+  <block id="05ea9642a4f5b9ce56f13fe067b453b2" category="list-text"><block ref="05ea9642a4f5b9ce56f13fe067b453b2" category="inline-link-rx"></block></block>
+  <block id="7a1cad1c9f215254d948360e464d76ff" category="list-text">Identifique, no painel de controle, quais proprietários de dados possuem as maiores concentrações de dados frios, obsoletos ou duplicados. Em seguida, filtre por proprietário ou grupo na visualização de investigação para analisar os resultados e descobrir quem contatar.</block>
+  <block id="48f8775f839e036416f7dc0d633d5f90" category="inline-link">Reduza custos e riscos</block>
+  <block id="862a75ec1e9a5a65a297360dc22b2bc2" category="list-text"><block ref="862a75ec1e9a5a65a297360dc22b2bc2" category="inline-link-rx"></block></block>
+  <block id="847b10ef72a08afa0a7a2bccfc9f722a" category="list-text">Filtre em todos os sistemas conectados por tempo de acesso, data de modificação, data de criação, tamanho do arquivo, status de duplicado e outros critérios para encontrar arquivos que atendam aos objetivos de gerenciamento de dados da sua organização. Aja diretamente nos resultados ou salve os critérios como uma política.</block>
+  <block id="aa06fbb4900808cad7e234eac413020c" category="inline-link">Elimine dados duplicados</block>
+  <block id="b61b383822e3f75988a3bc5303d64e36" category="list-text"><block ref="b61b383822e3f75988a3bc5303d64e36" category="inline-link-rx"></block></block>
+  <block id="b88b83fb304e42378e6634bd65125bc0" category="list-text">Encontre arquivos que possuem cópias duplicadas em seus sistemas conectados. Filtre pelo atributo "Duplicados" ou pelo hash do arquivo para revisar grupos de duplicados e, em seguida, remova as cópias duplicadas.</block>
+  <block id="6a0ea53ac4eb792afc1b4f47bebce855" category="inline-link">Encontre riscos de acesso</block>
+  <block id="9ee8d4cfc51103c18fc1a2ae913d5f55" category="list-text"><block ref="9ee8d4cfc51103c18fc1a2ae913d5f55" category="inline-link-rx"></block></block>
+  <block id="c29b4022a785fd3edc8eacb408d318ae" category="list-text">Identifique os diretórios com permissões abertas para que você possa priorizá-los para uma revisão de permissões.</block>
+  <block id="4a85d1ee07bb8b9d1edfdad83663f695" category="inline-link">Investigar dados estruturados</block>
+  <block id="13bf9647191c08a44d253d11925f720f" category="list-text"><block ref="13bf9647191c08a44d253d11925f720f" category="inline-link-rx"></block></block>
+  <block id="ed29587aa611eb50b7cd9e6c7532cd6b" category="list-text">Encontre tabelas de banco de dados muito grandes ou não utilizadas em todos os seus servidores de banco de dados conectados.</block>
+  <block id="a96561a39a488fd7ab3a0429b8037b51" category="dlist-title">Aja com base nos dados e monitore ao longo do tempo</block>
+  <block id="a82c68dd721dede489a3f3b8e95372d3" category="inline-link">Reduzir os custos de storage</block>
+  <block id="3364b0befdd009cf3911e421130619e8" category="list-text"><block ref="3364b0befdd009cf3911e421130619e8" category="inline-link-rx"></block></block>
+  <block id="e21cfecd675bc598f5df1e37e056a8ec" category="list-text">Aplique as políticas de ciclo de vida dos dados da sua organização copiando e fazendo o arquivamento de arquivos para destinos NFS ou SMB, marcando itens para rastreamento ou excluindo arquivos permanentemente de acordo com seus requisitos de retenção.</block>
+  <block id="d0cec28746f2b1c070ddbca66abadb26" category="inline-link">Monitore continuamente as condições dos dados</block>
+  <block id="bb9cf8ec15fcf3324f1ac0beae0e6103" category="list-text"><block ref="bb9cf8ec15fcf3324f1ac0beae0e6103" category="inline-link-rx"></block></block>
+  <block id="324524f3e5ca24846ad76aa3a39d085c" category="list-text">Salve critérios de filtro como políticas nomeadas para rastrear condições recorrentes de dados ao longo do tempo, como arquivos inativos ou muito grandes, e receba notificações quando a contagem de arquivos afetados mudar.</block>
+  <block id="9da1323a6fdf6f9dd2a01251fd374b38" category="dlist-title">Acesso controlado à IA</block>
+  <block id="7ddef8d1014170776e5690b23704bda9" category="inline-link">Conceda aos clientes de IA acesso governado aos seus metadados</block>
+  <block id="ce4014ce8d04d1a09fa16018842bd557" category="list-text"><block ref="ce4014ce8d04d1a09fa16018842bd557" category="inline-link-rx"></block></block>
+  <block id="e92a557f1e1e53dd1526a17543191ac9" category="list-text">Conecte o Claude Code, o Claude Desktop, o Cursor ou OpenCode ao AI Data Engine por meio do Model Context Protocol (MCP). Habilite as coleções que os clientes de IA podem pesquisar e use os escopos do Microsoft Entra ID para controlar quem pode pesquisar cada coleção. Os clientes de IA podem pesquisar metadados e marcar arquivos com tags.</block>
+  <block id="a39bf4bdcac229739d4368182e65aa6a" category="inline-link">Atribua funções de administrador e visualizador</block>
+  <block id="1a193b347680542aaf42ddc6f7cb9d44" category="list-text"><block ref="1a193b347680542aaf42ddc6f7cb9d44" category="inline-link-rx"></block></block>
+  <block id="05cd97f29840d5823c5d103c71b26a1a" category="list-text">Controle quem pode investigar dados e tomar medidas atribuindo a função de administrador ou visualizador do AI Data Engine aos usuários da sua organização.</block>
 </blocks>
