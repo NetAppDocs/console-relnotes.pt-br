@@ -137,32 +137,6 @@
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">Para mais informações, consulte <block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>.</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">Nó único</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">Alta disponibilidade em múltiplas zonas de disponibilidade usando armazenamento com redundância de zona (ZRS)</block>
-  <block id="25a7621f5136df7ea1f50ee60bab4529" category="section-title">Corrija, descarte e reative configurações para Cloud Volumes ONTAP no Microsoft Azure</block>
-  <block id="3f2d6026e86cfc3a3e872a2f3cd8f989" category="paragraph">O painel de controle bem estruturado no NetApp Console agora permite que você corrija recomendações de configuração para seus sistemas Cloud Volumes ONTAP.</block>
-  <block id="e4eac83bd4922d84fdd323f4afe1066b" category="paragraph">Você também pode descartar uma ou mais configurações da análise de arquitetura bem estruturada. Isso permite ignorar configurações específicas que não se aplicam ao seu ambiente.</block>
-  <block id="d45ddb9ce602eba8b90aee11b1ee25cf" category="paragraph">Se você quiser incluir uma configuração descartada posteriormente, poderá reativá-la no painel de controle bem arquitetado. Isso restaura a configuração à análise e permite que você receba recomendações e correções para ela.</block>
-  <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">03 de agosto de 2026</block>
-  <block id="aafe22f0aac02cfc773f108471a387c4" category="doc">Integração do Cloud Volumes ONTAP com o Microsoft OneLake</block>
-  <block id="41aa5ef466861e25c87ddbb36de43edd" category="inline-link">Microsoft OneLake</block>
-  <block id="293c823b8d8e2da1959829a580b33c90" category="inline-link">Microsoft Fabric</block>
-  <block id="4d664b02ce777c1e4699e94fd7d34ae7" category="inline-link">ONTAP S3 multi-protocolo</block>
-  <block id="26ce65cbc7dbbe0f87186b28ea7c57b8" category="list-title">Artigos e recursos relacionados:</block>
-  <block id="a66621d27a6944c58e46d1f565b22143" category="inline-link">NetApp blog: Otimize IA e análises com Microsoft OneLake e NetApp Cloud Volumes ONTAP</block>
-  <block id="2b4194522887509da7c9b51c70067cea" category="list-text"><block ref="ada46b265e2235c5ece497b9f3c94b84" category="inline-link-rx"></block></block>
-  <block id="ecbaa51ea44293a13a4eb6ca8d26d642" category="inline-link">Integre sistemas Cloud Volumes ONTAP com a Microsoft OneLake para IA e análise</block>
-  <block id="3dad4d1eeaf9a01a63764a9bd6deee29" category="list-text"><block ref="3dad4d1eeaf9a01a63764a9bd6deee29" category="inline-link-rx"></block></block>
-  <block id="a4bbb449ad6bcfc9df369b041d7730ed" category="inline-link">Integração do Cloud Volumes ONTAP com a Microsoft OneLake - Resumo técnico</block>
-  <block id="4271db1842db28d08bc52fe3025bc7b1" category="list-text"><block ref="4271db1842db28d08bc52fe3025bc7b1" category="inline-link-rx"></block></block>
-  <block id="ae5d941662c7f934b5502d0e4416f1af" category="doc">Suporte a SAN para Google Cloud NetApp Volumes (prévia)</block>
-  <block id="6d44daef9f0109d0d9941a1214218bd6" category="paragraph">A Resiliência contra Ransomware agora oferece suporte a cargas de trabalho SAN do Google Cloud NetApp Volumes, permitindo que você detecte ataques de ransomware baseados em criptografia para cargas de trabalho SAN. O suporte para SAN no Google Cloud NetApp Volumes está atualmente em versão prévia.</block>
-  <block id="b49d323c627c43fecd97c8db6ea7f66c" category="inline-link-macro">sistemas suportados</block>
-  <block id="fa83a4a163069ca1ab2dcb9be3c41063" category="inline-link-macro">Armazenamento SAN na resiliência a ransomware</block>
-  <block id="2f244f2c363848263100f25323c23895" category="paragraph">Para obter mais informações, consulte <block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block> e <block ref="740b3aa4325052238b6cf8ff4cb1a868" category="inline-link-macro-rx"></block>.</block>
-  <block id="053cc8d4a507db8f7d33d7c9eb844923" category="section-title">Interface simplificada para bloqueio de usuários</block>
-  <block id="f94e6cd450a12c55223329be07d15575" category="inline-link-macro">detecção de atividade do usuário</block>
-  <block id="16d39f5d27761daa66696ada0758791c" category="paragraph">A Ransomware Resilience agora oferece uma experiência de usuário simplificada para bloquear usuários e gerenciar usuários bloqueados. Com esta atualização, você pode facilmente revisar e modificar quais usuários você bloqueou. Você deve ter configurado <block ref="0a9171a9aac1e029e209b0c543045273" category="inline-link-macro-rx"></block> para bloquear usuários.</block>
-  <block id="21d100db43907eec54cab4e115af7c6b" category="inline-link-macro">Usuários bloqueados gerenciados</block>
-  <block id="9d82773616a9fd5b52190dd3b03a9d0d" category="paragraph">Para obter mais informações, consulte <block ref="c715c16e5dd5464a8f58103938ef0f46" category="inline-link-macro-rx"></block>.</block>
   <block id="63459ccd5f56d025aab8953dda2cac89" category="doc">Painel aprimorado</block>
   <block id="f682318aec1bd156e47f27a6821a89a5" category="paragraph">O painel de controle de NetApp Disaster Recovery foi atualizado com uma experiência aprimorada que oferece uma visão abrangente e imediata de todo o seu ambiente de NetApp Disaster Recovery. O novo painel inclui:</block>
   <block id="9823d8b117c3e7a42545ab50cbf51e42" category="list-text">*Visibilidade unificada das cargas de trabalho* — Monitore as cargas de trabalho do VMware e do Kubernetes juntamente com a integridade da infraestrutura subjacente a partir de um painel único.</block>
@@ -259,7 +233,6 @@
   <block id="5e6b403f3ce4af919738fd94fe35d2d0" category="section-title">02 de setembro de 2026</block>
   <block id="6b0c5ff3fb3e79b447864ea93e74e781" category="doc">Aviso de descontinuação para Máquina Virtual</block>
   <block id="84de9715d135be833103283dc9df0296" category="section-title">14 de setembro de 2026</block>
-  <block id="b476893dc5d9404e756affcf8c5c5abf" category="paragraph">O Cloud Volumes ONTAP agora oferece suporte à integração com <block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block> em versão prévia pública. Você pode integrar o Cloud Volumes ONTAP com <block ref="ed504e51b6e034ace3c2f13f8d46981b" category="inline-link-macro-rx"></block> usando <block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block> para disponibilizar os dados NAS existentes do Cloud Volumes ONTAP para os serviços de análise e IA da Microsoft, como Power BI, Azure AI Search, OpenAI e Microsoft Copilot. A integração não requer movimentação de dados nem duplicação. A integração utiliza o acesso <block ref="aac36380121b9387ae99c37cf81e3144" category="inline-link-macro-rx"></block> para conectar o Cloud Volumes ONTAP a um lakehouse Microsoft Fabric existente.</block>
   <block id="e4c84482ee4555ae482d96b91322224c" category="doc">Melhorias gerais</block>
   <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">Esta versão do Data Classification inclui melhorias de segurança e otimizações de desempenho.</block>
   <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">16 de setembro de 2026</block>
@@ -328,7 +301,6 @@
   <block id="5ac8ab42faf3d93a6c3b6ad39ea1d0cf" category="paragraph">NetApp oferece suporte apenas ao pacote Essentials para o modelo de licenciamento baseado em capacidade no modo privado. Adquira um pacote Essentials BYOL (Bring-Your-Own License) baseado em capacidade da NetApp e atribua-o ao seu sistema durante a implantação. Os primeiros 500 GiB de capacidade consumida não são contabilizados no valor da sua licença. Você pode adquirir pacotes adicionais à medida que suas necessidades de carga de trabalho aumentam.</block>
   <block id="21712c9baed4035cb4259749b4f6b0b5" category="paragraph">NetApp recomenda o licenciamento baseado em capacidade para todas as implementações do Cloud Volumes ONTAP em modo privado. Se você já possui implementações em modo privado com licenças baseadas em nós, pode convertê-las para o licenciamento baseado em capacidade adquirindo um pacote Essentials da NetApp. Essa nova funcionalidade de implementação, combinada com a opção de conversão, apoia o plano da NetApp de migrar gradualmente do licenciamento baseado em nós para o licenciamento baseado em capacidade.</block>
   <block id="0ff1cb70b28d71c56ee0165393cbd500" category="inline-link">Licenciamento do Cloud Volumes ONTAP</block>
-  <block id="659a7e43d06893f1e9ea314bf1e995c0" category="list-text"><block ref="659a7e43d06893f1e9ea314bf1e995c0" category="inline-link-rx"></block></block>
   <block id="98a45c35578305189a0a42309be57c0e" category="inline-link">Saiba mais sobre o Cloud Volumes ONTAP BYOL</block>
   <block id="d9f9f0f56fedf60259b456ffc4e59d78" category="list-text"><block ref="d9f9f0f56fedf60259b456ffc4e59d78" category="inline-link-rx"></block></block>
   <block id="90df487d076cd9295a7192268b4439ee" category="inline-link">Fim da disponibilidade de licenças baseadas em nós</block>
@@ -369,7 +341,6 @@
   <block id="cd4f576093d5ac341dfcb0aaa95386df" category="list-text">*Cancelar tarefas de restauração de volumes*: agora você pode cancelar tarefas de restauração de volumes do ONTAP em andamento na página de monitoramento de tarefas, facilitando o gerenciamento de tarefas de longa duração ou lentas.</block>
   <block id="f280b51545cc9233bf1322ad4aa41fc1" category="list-text">*Relatórios de status de indexação de volumes aprimorados*: o painel Volumes do ONTAP agora relata o status de indexação com mais precisão ao introduzir o <block ref="6136261711c49bf0e8e1dcb22a2c524f" prefix=" " category="inline-code"></block> status para volumes e cópias de snapshot que não são elegíveis para indexação. O <block ref="838534d879f74e7af515a7de57e72b71" prefix=" " category="inline-code"></block> status agora é reservado para volumes que estão aguardando indexação, e os detalhes do volume agora mostram o status de indexação por snapshot com um texto ao passar o mouse que explica por que um volume ou cópia de snapshot não será indexado.</block>
   <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*Suporte ao NetApp AFX*: Agora você pode proteger volumes hospedados em clusters NetApp AFX de 2 e 4 nós.</block>
-  <block id="21b943021728acb873fd80e1597c6721" category="list-text"><block ref="21b943021728acb873fd80e1597c6721" category="inline-link-macro-rx"></block></block>
   <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Suporte ao Azure Entra ID do Cloud Volumes ONTAP*: agora você pode usar a autenticação do Microsoft Entra ID para configurações de buckets do storage de objetos do Azure se não quiser usar a chave de acesso da conta de armazenamento para a autenticação do Azure. Essa opção é compatível com o Cloud Volumes ONTAP em sistemas do Azure que executam o ONTAP 9.16.1 ou posterior.</block>
   <block id="82d1d9da33b9c6cae173365156457fff" category="section-title">Aprimoramento das cargas de trabalho da VMware</block>
   <block id="a634d68af0dcef53e5b8e038814f60cc" category="doc">Lançamento inicial do Oracle Cloud Infrastructure NetApp Storage Service for Workload Factory</block>
@@ -540,4 +511,17 @@
   <block id="a39bf4bdcac229739d4368182e65aa6a" category="inline-link">Atribua funções de administrador e visualizador</block>
   <block id="1a193b347680542aaf42ddc6f7cb9d44" category="list-text"><block ref="1a193b347680542aaf42ddc6f7cb9d44" category="inline-link-rx"></block></block>
   <block id="05cd97f29840d5823c5d103c71b26a1a" category="list-text">Controle quem pode investigar dados e tomar medidas atribuindo a função de administrador ou visualizador do AI Data Engine aos usuários da sua organização.</block>
+  <block id="ba184f13e7bf496f6768b87c5d7acdb0" category="list-text"><block ref="ba184f13e7bf496f6768b87c5d7acdb0" category="inline-link-rx"></block></block>
+  <block id="5a5a491a94e6d556e85e601b24f8d121" category="doc">Orientações para atualizar hotfixes do ONTAP em versões específicas do Cloud Volumes ONTAP</block>
+  <block id="b4891be2934b9e98fc19416ebfae6a18" category="paragraph">O ONTAP lançou os seguintes hotfixes compatíveis com as versões 9.14.1, 9.15.1, 9.16.1, 9.17.1, 9.18.1 e 9.19.1 do Cloud Volumes ONTAP:</block>
+  <block id="e1436b576c97d4ee53df8bdb53230756" category="list-text">9.14.1P18HF1</block>
+  <block id="5050c1a82a49a95d546f16829b500401" category="list-text">9.15.1P20HF1</block>
+  <block id="124b86ef30adb0fa328f15ad507bbe98" category="list-text">9.16.1P16HF1</block>
+  <block id="e64432abe1f57468ee9038ed44c6e0bd" category="list-text">9.17.1P11HF1</block>
+  <block id="d0563c773afdcfb2987438396082bad8" category="list-text">9.18.1P8HF1</block>
+  <block id="d2f816f92f91ab0756cbe4d7ecccbc1c" category="list-text">9.19.1P3HF1</block>
+  <block id="1b798364e278208b0d20b4b1710e6786" category="inline-link">Aviso de Segurança NTAP 20261021-0021</block>
+  <block id="93a6a64e1df6cd0e2f07d8b931635a5f" category="paragraph">Para obter detalhes, consulte <block ref="12c9bbef01f1c6198b57112eba5f4e7e" category="inline-link-rx"></block>.</block>
+  <block id="a2b19abf4eb1b38f190f7260dec9b0ee" category="paragraph">Para os seus sistemas Cloud Volumes ONTAP, você poderá receber uma solicitação na NetApp Console para atualizar para esses hotfixes. No entanto, esses hotfixes são suportados apenas quando a versão do agente do Console é 4.12.0 ou posterior. Se a versão do agente do Console for anterior a 4.12.0, ignore a solicitação.</block>
+  <block id="066f3a9431c48361a10c813b2b187f91" category="section-title">02 de novembro de 2026</block>
 </blocks>
