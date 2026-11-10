@@ -116,18 +116,11 @@
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">Administração do NetApp Console</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">Estas notas de versão descrevem melhorias recentes no NetApp Console e nos serviços de dados que ele suporta. Links para o conjunto completo de notas de lançamento de cada serviço individual.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">Saiba mais sobre as alterações mais recentes nos recursos e serviços de dados que fazem parte do NetApp Console. Para obter um histórico completo de versões, acesse o conjunto completo de notas de versão de cada serviço individual.</block>
-  <block id="558e5aec99d772eb277c493188d3c607" category="section-title">Aprimoramentos de cargas de trabalho da VMware</block>
   <block id="f6bd0d7447ff66cc6b859603a88fbde9" category="list-title">Links relacionados</block>
   <block id="27f6ebf60d74cce9ba572615629e4416" category="doc">Aprimoramentos de cargas de trabalho do Kubernetes</block>
-  <block id="c3c3199204503d3bbd5d4dce7eabf238" category="inline-link">Visão geral da proteção de workloads do Kubernetes</block>
-  <block id="9758775529e1c89dcf89f573edce8344" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho do Kubernetes, consulte<block ref="39b251948c54856304b175e405c21732" category="inline-link-rx"></block>.</block>
   <block id="9c62117ea7b157d383c8d20f426de6ce" category="paragraph">Esta versão do agente do Console inclui melhorias de segurança e correções de erros.</block>
   <block id="61c07cc1696afab7d4a6e7fb667bb166" category="paragraph">Os seguintes serviços foram descontinuados:</block>
   <block id="76c3536921b70f0616becde2e9340a54" category="doc">Aprimoramentos nas cargas de trabalho do ONTAP Volumes</block>
-  <block id="79d4e4bc94bda2b257f4190786069be1" category="inline-link">Visão geral da proteção de VMware workloads</block>
-  <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho VMware, consulte<block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>.</block>
-  <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">Visão geral das cargas de trabalho do Protect ONTAP Volumes</block>
-  <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">Para obter detalhes sobre como proteger as cargas de trabalho do ONTAP Volumes, consulte <block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>.</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Aprimoramentos nas cargas de trabalho do Hyper-V</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">Nesta versão, as cargas de trabalho do Kubernetes introduzem as seguintes melhorias:</block>
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Mapa de Regiões Globais sob Azure</block>
@@ -137,39 +130,6 @@
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">Para mais informações, consulte <block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>.</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">Nó único</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">Alta disponibilidade em múltiplas zonas de disponibilidade usando armazenamento com redundância de zona (ZRS)</block>
-  <block id="63459ccd5f56d025aab8953dda2cac89" category="doc">Painel aprimorado</block>
-  <block id="f682318aec1bd156e47f27a6821a89a5" category="paragraph">O painel de controle de NetApp Disaster Recovery foi atualizado com uma experiência aprimorada que oferece uma visão abrangente e imediata de todo o seu ambiente de NetApp Disaster Recovery. O novo painel inclui:</block>
-  <block id="9823d8b117c3e7a42545ab50cbf51e42" category="list-text">*Visibilidade unificada das cargas de trabalho* — Monitore as cargas de trabalho do VMware e do Kubernetes juntamente com a integridade da infraestrutura subjacente a partir de um painel único.</block>
-  <block id="cb6d28fda9538aed2308a2a41da8fef6" category="list-text">*Detecção proativa de problemas* — O painel agora destaca automaticamente os problemas ambientais, permitindo diagnósticos mais rápidos e reduzindo o tempo de resolução.</block>
-  <block id="4682c01fd7e04d919efdbb898660b551" category="list-text">*Utilização da capacidade* — métricas de capacidade agora são apresentadas diretamente no painel, facilitando a compreensão do consumo de recursos.</block>
-  <block id="d1a664c22b47275444c9a34501c2aac2" category="inline-link-macro">Visualize a integridade dos seus planos do NetApp Disaster Recovery no Dashboard</block>
-  <block id="83ffc188b91ae4a820fc973dcb4f2932" category="paragraph">Para mais informações, consulte <block ref="8f765f2bdeedf185243a86837c41ce64" category="inline-link-macro-rx"></block>.</block>
-  <block id="1b89eeafa349152b4736736033fd9afa" category="section-title">Relatórios aprimorados</block>
-  <block id="0dc7dafa2af4e7002cfea0adec9f9574" category="paragraph">As funcionalidades de geração de relatórios foram ampliadas para fornecer uma visão mais detalhada das atividades de Disaster Recovery em todo o seu ambiente:</block>
-  <block id="7f09e48950606d1acab05c889751f513" category="list-text">Gere relatórios com escopo definido para cargas de trabalho VMware, cargas de trabalho Kubernetes ou ambas, oferecendo a flexibilidade de personalizar os relatórios para seu público.</block>
-  <block id="7a778b01d59bf3ae1ff3f2feb2d289b6" category="list-text">Cada relatório fornece um resumo completo das atividades durante um período específico, garantindo total visibilidade dos eventos em seu ambiente de NetApp Disaster Recovery.</block>
-  <block id="a82244df08ebf8974422f7646e0239a4" category="inline-link-macro">Criar relatórios do NetApp Disaster Recovery</block>
-  <block id="fd5ba3d3711dc4d9c0e25f25fe06d680" category="paragraph">Para mais informações, consulte <block ref="39a309d4a05fe8ce442631f7b813f522" category="inline-link-macro-rx"></block>.</block>
-  <block id="2c06591fa7a638998ecf07caf020e711" category="section-title">Registro de tarefas do usuário</block>
-  <block id="c021095f262d283ec8653a39f95e447d" category="paragraph">O NetApp Disaster Recovery aprimorou a responsabilidade e a auditabilidade das tarefas com o registro de tarefas em nível de usuário. Cada tarefa executada agora registra o usuário que a iniciou, fornecendo uma trilha de auditoria clara para fins de conformidade e solução de problemas. As tarefas acionadas automaticamente pelo NetApp Disaster Recovery são identificadas como "system", facilitando a distinção entre atividades iniciadas pelo usuário e atividades iniciadas pelo serviço.</block>
-  <block id="45b443b335251cfe162de8423d5b2021" category="inline-link-macro">Monitorar trabalhos do NetApp Disaster Recovery</block>
-  <block id="42ed5c1343751a7af21890f24cd3c64e" category="paragraph">Para mais informações, consulte <block ref="40b7771ffeffc9237f3cc63a2ebdb5c0" category="inline-link-macro-rx"></block>.</block>
-  <block id="00d2a24b32e6b20b963007b68cdb131f" category="section-title">Otimização de desempenho e recursos</block>
-  <block id="30f4219e3688914aa51c7df386e1780b" category="paragraph">Diversas melhorias internas foram implementadas para reduzir o consumo geral de recursos do sistema e aumentar o desempenho nas operações de NetApp Disaster Recovery.</block>
-  <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">10 de agosto de 2026</block>
-  <block id="64c0705ecd150a07e521638d5157a4ec" category="doc">Melhorias gerais em NetApp Backup and Recovery</block>
-  <block id="7700d007f970d2c042d61e3551aa039e" category="list-text">*Suporte para implantação local do NetApp Console*: Esta versão do NetApp Backup and Recovery oferece suporte à implantação local do NetApp Console em status de prévia.</block>
-  <block id="ce2f56e5c9015b28eb92d0581ad9a718" category="list-text">*90 dias de retenção de tarefas*: O NetApp Backup and Recovery agora retém as informações das tarefas no Monitor de Tarefas por 90 dias.</block>
-  <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">Nesta versão, VMware workloads apresenta as seguintes melhorias:</block>
-  <block id="1a83c2d5d73015e6e971eff46d37e9d8" category="list-text">*Suporte para restauração em local alternativo para VMs SAN*: Agora você pode restaurar backups de VMs baseadas em SAN para um local alternativo.</block>
-  <block id="b7bfbf5f47aa4163507ae71ed18f8b9f" category="list-text">*Suporte para exclusão de vários backups*: Agora você pode excluir vários backups de uma só vez.</block>
-  <block id="c67660fa166ae58260874bbf6f9c5e4a" category="list-text">*Suporte prévio para recursos isolados da internet*: Se você estiver executando o NetApp Backup and Recovery em uma implantação local do NetApp Console, você pode descobrir, proteger e restaurar recursos do Kubernetes isolados da internet. Este recurso está em prévia para este lançamento.</block>
-  <block id="d1c241263c19a21db56b6d9aaeb83ca1" category="paragraph">Nesta versão, as cargas de trabalho do ONTAP Volumes introduzem as seguintes melhorias:</block>
-  <block id="3c8fad259371a43b707a7a3c64b147f6" category="list-text">*Descubra os sistemas ONTAP e volumes sem ativar o NetApp Backup and Recovery*: Agora você pode descobrir sistemas e volumes sem ativar o NetApp Backup and Recovery.</block>
-  <block id="a03ddc03cf03c3c53151794c95579535" category="doc">Aba de digitalizações ativas para aprimorar o gerenciamento de digitalizações</block>
-  <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">A Classificação de Dados agora oferece uma aba *Verificações Ativas* no menu Configuração, proporcionando uma experiência aprimorada para o gerenciamento de verificações. A aba Verificações Ativas fornece uma visão geral de todos os volumes que você ativou para verificação, com filtros familiares para classificar seus recursos. A aba também oferece uma localização central para priorizar verificações, pausar verificações e revisar erros.</block>
-  <block id="3a5a93243a84be3819139aaa12091950" category="inline-link-macro">Gerenciar verificações</block>
-  <block id="4654bf4010ded28801b1ead2622546bd" category="paragraph">Para mais informações, consulte <block ref="baaf78fc7ed88d18ef7a900963d01435" category="inline-link-macro-rx"></block>.</block>
   <block id="b56346a21533cb3c02f75ab5cc7c59a8" category="doc">Agente do Console 4.10.0</block>
   <block id="e25811fd33a54b98aaedd7e6a9ea664b" category="paragraph">A versão 4.10.0 suporta tanto o modo padrão quanto o modo restrito.</block>
   <block id="657b18a162285732ef5f46d679b05663" category="section-title">Capacidade de resposta e confiabilidade aprimoradas do Cloud Mediator</block>
@@ -180,8 +140,6 @@
   <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">O Ransomware Resilience agora permite excluir um coletor de dados. O coletor de dados é criado automaticamente quando você ativa a detecção de atividade do usuário em cargas de trabalho; se o coletor de dados ficar obsoleto, agora você pode excluí-lo manualmente.</block>
   <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">Para mais informações, consulte <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>.</block>
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Aviso de descontinuação para o Config Drift</block>
-  <block id="8f757d9b6264af1a2e6069cf7b5b18f9" category="paragraph">O recurso Config Drift será descontinuado no Digital Advisor em setembro de 2026.</block>
-  <block id="b79452fa5a06b7ff4261516434074a36" category="section-title">12 de agosto de 2026</block>
   <block id="d649bc1632422c59f70f207f44b9bd46" category="paragraph">Nesta versão, o Hyper-V introduz a seguinte melhoria:</block>
   <block id="f24ced363c199d867c90ec2cb7734252" category="paragraph">*Restaurar backup de storage de objetos para um local alternativo*: Agora você pode restaurar VMs, arquivos e pastas do Hyper-V do storage de objetos para um local de armazenamento alternativo.</block>
   <block id="9836134eb11f1353834ea33101d25681" category="inline-link">Saiba mais sobre como proteger cargas de trabalho do Hyper-V com o NetApp Backup and Recovery</block>
@@ -313,7 +271,6 @@
   <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">Melhoria geral em NetApp Backup and Recovery</block>
   <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*Seleção de credenciais durante a descoberta de hosts de máquinas virtuais*: Ao descobrir um host KVM, Hyper-V ou VMware, agora você pode usar as credenciais que já adicionou ao NetApp Backup and Recovery.</block>
   <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Aprimoramento das cargas de trabalho do Hyper-V</block>
-  <block id="8dbaebd91b282de2115c0933e53cc8b1" category="list-text">*Priorize tarefas de restauração em relação ao backup*: agora você pode priorizar tarefas de restauração em relação às tarefas de backup ao restaurar volumes, arquivos ou pastas.</block>
   <block id="e90e4fbb2da212df4de8cd0dedc1291b" category="doc">Atualização de conteúdo para o painel Value Insights Dashboard</block>
   <block id="02f407c4fd4eafd0dfba7d3e2f1c9a87" category="paragraph">Foi publicada uma atualização da documentação do Value Insights Dashboard.</block>
   <block id="c641b822e0ee57a43b3bdf613042b7de" category="inline-link-macro">como usar o painel Value Insights no Digital Advisor</block>
@@ -622,4 +579,22 @@
   <block id="4581a492524b9d4a93455495044ffad0" category="paragraph"><block ref="4581a492524b9d4a93455495044ffad0" category="inline-link-macro-rx"></block></block>
   <block id="1b8a75c6db4770401061894d73a95376" category="paragraph"><block ref="1b8a75c6db4770401061894d73a95376" category="inline-link-macro-rx"></block></block>
   <block id="3be9bc923ab344b1362da0e2f32cf269" category="paragraph">Saiba mais sobre <block ref="0e3c9bbdb1507a5080848ceb102dc543" category="inline-link-macro-rx"></block> e sobre <block ref="73f0f7c4f472528e2b40184d536eb1a9" category="inline-link-macro-rx"></block>.</block>
+  <block id="da3e6d90947db5a87778a986ff1db5ba" category="section-title">Aprimoramentos do Workload Factory para EDA</block>
+  <block id="0c8274ed6d395bfacc0daf3070e64c0c" category="paragraph">Esses aprimoramentos abrangem detalhes de volume na análise de latência, uma verificação de pressão do sistema de arquivos, pontos de decisão de throughput e a execução da análise de latência novamente.</block>
+  <block id="f65838a0505e6828c4b2c1ae8ce1218d" category="section-title">Visualize os detalhes do volume durante a análise de latência</block>
+  <block id="34649924d5b9e1477b2428d04da725a3" category="paragraph">Você pode ver mais detalhes do volume no Workload Factory enquanto analisa um evento de latência, para ver como o volume está configurado. A página de análise detalhada de latência mostra *Tipo de volume* (RW ou DP) e *Estilo de volume* (FlexVol ou FlexGroup).</block>
+  <block id="7d36db06649fc95af5dde34418ae17ae" category="inline-link-macro">Aprenda a analisar tendências de latência</block>
+  <block id="10686b705e0e365002c272bd2719b69a" category="paragraph"><block ref="10686b705e0e365002c272bd2719b69a" category="inline-link-macro-rx"></block></block>
+  <block id="59d6e00f849e1dd27d91bb4c786299b8" category="section-title">Verifique a pressão do sistema de arquivos para um evento de latência</block>
+  <block id="6f204454acf5d87a64a6daf9900777eb" category="paragraph">No Workload Factory, você pode verificar se a pressão no sistema de arquivos afetou o desempenho quando ocorreu um evento de latência, para decidir se deve investigar o sistema de arquivos. Para um volume com um alerta de latência, você pode visualizar os dados do CloudWatch dos 40 minutos anteriores ao evento e abrir o sistema de arquivos para investigar mais a fundo.</block>
+  <block id="dfa004f6c9736368068fe71bacbee74e" category="inline-link-macro">Saiba mais sobre as verificações de pressão do sistema de arquivos</block>
+  <block id="c6351fb1f8b9c7124503e2dd773f4a6f" category="paragraph"><block ref="c6351fb1f8b9c7124503e2dd773f4a6f" category="inline-link-macro-rx"></block></block>
+  <block id="f8240ccc3d3033d0a4d027c0acb6a2fd" category="section-title">Analise os pontos de decisão de taxa de transferência para EDA</block>
+  <block id="8591045ae6ed3a89acd6e3756c7561dc" category="paragraph">Você pode revisar os pontos de decisão de throughput do cliente no painel EDA Overview para ver quando o Workload Factory recomendou ou aplicou uma alteração de throughput. Passe o cursor sobre um ponto de decisão para ver detalhes, como o SKU atual e o recomendado ou as métricas violadas na janela de tempo.</block>
+  <block id="8f60994adbdba3c89dc164460dbd5fe7" category="inline-link-macro">Aprenda como analisar os pontos de decisão da taxa de transferência</block>
+  <block id="08935aa85ac8d6983a754c391dc22299" category="paragraph"><block ref="08935aa85ac8d6983a754c391dc22299" category="inline-link-macro-rx"></block></block>
+  <block id="afaff13c48c5bdfb3e3a3820005ef966" category="section-title">Execute uma análise de latência novamente</block>
+  <block id="b70ddd63a19670949b4be40fd2900e16" category="paragraph">Você pode executar uma análise de latência novamente no Workload Factory para um volume, para atualizar os resultados depois de investigar ou fazer uma alteração. Selecione *Executar análise novamente* para iniciar uma nova análise e atualizar os resultados.</block>
+  <block id="fcd2af0b46a1f067a85293a63ec8e674" category="inline-link-macro">Aprenda a analisar problemas de latência</block>
+  <block id="5e2edfccf304d8ab47ad0fd4e7d469b9" category="paragraph"><block ref="5e2edfccf304d8ab47ad0fd4e7d469b9" category="inline-link-macro-rx"></block></block>
 </blocks>

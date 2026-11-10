@@ -186,6 +186,45 @@ Agora você pode ver as recomendações de taxa de transferência do cliente e o
 
 
 
+[[workload-factory-for-eda-enhancements]]
+=== Aprimoramentos do Workload Factory para EDA
+
+Esses aprimoramentos abrangem detalhes de volume na análise de latência, uma verificação de pressão do sistema de arquivos, pontos de decisão de throughput e a execução da análise de latência novamente.
+
+
+
+==== Visualize os detalhes do volume durante a análise de latência
+
+Você pode ver mais detalhes do volume no Workload Factory enquanto analisa um evento de latência, para ver como o volume está configurado. A página de análise detalhada de latência mostra *Tipo de volume* (RW ou DP) e *Estilo de volume* (FlexVol ou FlexGroup).
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/task-analyze-latency-trends.html["Aprenda a analisar tendências de latência"]
+
+
+
+==== Verifique a pressão do sistema de arquivos para um evento de latência
+
+No Workload Factory, você pode verificar se a pressão no sistema de arquivos afetou o desempenho quando ocorreu um evento de latência, para decidir se deve investigar o sistema de arquivos. Para um volume com um alerta de latência, você pode visualizar os dados do CloudWatch dos 40 minutos anteriores ao evento e abrir o sistema de arquivos para investigar mais a fundo.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/learn-latency-monitoring.html#file-system-pressure["Saiba mais sobre as verificações de pressão do sistema de arquivos"]
+
+
+
+==== Analise os pontos de decisão de taxa de transferência para EDA
+
+Você pode revisar os pontos de decisão de throughput do cliente no painel EDA Overview para ver quando o Workload Factory recomendou ou aplicou uma alteração de throughput. Passe o cursor sobre um ponto de decisão para ver detalhes, como o SKU atual e o recomendado ou as métricas violadas na janela de tempo.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/task-use-overview-dashboard.html#analyze-capacity-and-throughput-trends-and-decision-points["Aprenda como analisar os pontos de decisão da taxa de transferência"]
+
+
+
+==== Execute uma análise de latência novamente
+
+Você pode executar uma análise de latência novamente no Workload Factory para um volume, para atualizar os resultados depois de investigar ou fazer uma alteração. Selecione *Executar análise novamente* para iniciar uma nova análise e atualizar os resultados.
+
+link:https://docs.netapp.com/us-en/data-services-workloads/fsx-eda/task-analyze-latency-issues.html["Aprenda a analisar problemas de latência"]
+
+
+
 [[google-cloud-netapp-volumes-enhancements]]
 === Aprimoramentos do Google Cloud NetApp Volumes
 
