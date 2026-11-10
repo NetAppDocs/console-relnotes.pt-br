@@ -597,4 +597,11 @@
   <block id="b70ddd63a19670949b4be40fd2900e16" category="paragraph">Você pode executar uma análise de latência novamente no Workload Factory para um volume, para atualizar os resultados depois de investigar ou fazer uma alteração. Selecione *Executar análise novamente* para iniciar uma nova análise e atualizar os resultados.</block>
   <block id="fcd2af0b46a1f067a85293a63ec8e674" category="inline-link-macro">Aprenda a analisar problemas de latência</block>
   <block id="5e2edfccf304d8ab47ad0fd4e7d469b9" category="paragraph"><block ref="5e2edfccf304d8ab47ad0fd4e7d469b9" category="inline-link-macro-rx"></block></block>
+  <block id="e9f11fc9d91bec322284ec741f87191d" category="section-title">Aprimoramentos do Workload Factory para VMware</block>
+  <block id="2296d077680e104e6519a9745c173ece" category="paragraph">Essas melhorias abrangem a calculadora de TCO do Exchange Virtual Server para migrações do VMware.</block>
+  <block id="37460924712e1c37dc5ad9be085001ad" category="section-title">Suporte para instâncias i7i.metal-24xl e i7i.metal-48xl na calculadora de TCO do Exchange Virtual Server</block>
+  <block id="b6c3bb340d0b13e009a53c6c8a2b9219" category="paragraph">A calculadora de TCO do Exchange Virtual Server agora oferece suporte a instâncias EC2 AWS i7i.metal-24xl e i7i.metal-48xl como hosts de cluster. Comparadas às configurações i4i.metal, as instâncias i7i.metal-24xl reduzem o custo inicial do Exchange Virtual Server em cerca de 33% para computação e 25% para armazenamento vSAN.</block>
+  <block id="e50148793a31ae443693925cfda40d91" category="paragraph">A calculadora compara todos os tipos de instância e seleciona automaticamente a opção de menor custo. Uma nova seção de comparação exibe as configurações de host do Exchange Virtual Server lado a lado, facilitando a escolha da melhor configuração para suas necessidades.</block>
+  <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">Calcule a economia estimada para Exchange Virtual Server</block>
+  <block id="536315c4cd9e40b477f48fcc8b1863a7" category="paragraph"><block ref="536315c4cd9e40b477f48fcc8b1863a7" category="inline-link-macro-rx"></block></block>
 </blocks>
