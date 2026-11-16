@@ -30,6 +30,57 @@ Remediação:: O serviço de correção foi removido em 22 de abril de 2024.
 ====
 
 
+[[16-november-2026]]
+== 16 de novembro de 2026
+
+
+
+[[ransomware-resilience]]
+=== Resiliência ao Ransomware
+
+
+
+==== Suporte ao MetroCluster
+
+O Ransomware Resilience agora oferece suporte ao MetroCluster, permitindo proteção, detecção e recuperação contra ransomware para configurações espelhadas do MetroCluster. Ao habilitar a proteção contra ransomware nas configurações do MetroCluster, ambos os sistemas no par do MetroCluster devem ser adicionados ao Console. Quando você descobre e habilita a proteção em um lado do par, ela é habilitada automaticamente no outro lado.
+
+Ao recuperar uma carga de trabalho do MetroCluster após um ataque de ransomware, atualmente só é possível usar uma restauração personalizada.
+
+Para obter mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-discover.html#metrocluster-discovery["Descoberta do MetroCluster"].
+
+
+
+[[09-november-2026]]
+== 09 de novembro de 2026
+
+
+
+[[disaster-recovery]]
+=== Recuperação de desastres
+
+
+
+==== Aprimoramento do monitoramento de tarefas ao executar tarefas novamente
+
+Se você executar novamente determinadas operações com falha, canceladas ou expiradas, o NetApp Disaster Recovery agora registra essas operações como novos trabalhos e identifica o usuário que iniciou a ação. Anteriormente, o NetApp Disaster Recovery listava os novos trabalhos sob o trabalho inicial. Esse aprimoramento cria uma trilha de auditoria mais visível para os trabalhos no NetApp Disaster Recovery, desde que a solicitação não tenha sido redigida. Ele se aplica somente a trabalhos de descoberta, ressincronização, conformidade, proteção, plano de replicação e retenção de backup. As operações de reexecução de failback, failover e migração não são listadas como novos trabalhos. Somente o trabalho mais recente em uma cadeia de reexecução se qualifica, e no máximo uma reexecução pode ser enfileirada atrás de uma em execução.
+
+Para obter mais informações, consulte link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/monitor-jobs.html["Monitorar trabalhos no Disaster Recovery"^].
+
+
+
+[[ransomware-resilience]]
+=== Resiliência ao Ransomware
+
+
+
+==== Gerenciamento de extensões de arquivo bloqueadas
+
+O Ransomware Resilience agora oferece a capacidade de personalizar a lista de extensões de arquivo permitidas ou bloqueadas em uma carga de trabalho quando você ativou a opção de proteção *Bloquear extensões de arquivo suspeitas*. Com essa melhoria, você pode configurar a carga de trabalho para permitir apenas tipos de arquivo específicos na máquina virtual de storage (SVM) ou para bloquear extensões de arquivo específicas. Se você migrar uma carga de trabalho existente usando o FPolicy para bloquear extensões de arquivo suspeitas com o Ransomware Resilience, o sistema usará, por padrão, uma lista de extensões mais refinada, embora você possa personalizá-la. Essa melhoria oferece um controle mais granular sobre a opção de extensão de arquivo e também permite criar listas diferentes para diferentes SVMs.
+
+Para obter mais informações, consulte link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-file-extensions.html["Gerencie extensões de arquivo bloqueadas no Ransomware Resilience"].
+
+
+
 [[02-november-2026]]
 == 02 de novembro de 2026
 
