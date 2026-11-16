@@ -130,35 +130,15 @@
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">Para mais informações, consulte <block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>.</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">Nó único</block>
   <block id="b13ad1c6dffe5af53f8b858c49f7a32c" category="list-text">Alta disponibilidade em múltiplas zonas de disponibilidade usando armazenamento com redundância de zona (ZRS)</block>
-  <block id="b56346a21533cb3c02f75ab5cc7c59a8" category="doc">Agente do Console 4.10.0</block>
-  <block id="e25811fd33a54b98aaedd7e6a9ea664b" category="paragraph">A versão 4.10.0 suporta tanto o modo padrão quanto o modo restrito.</block>
-  <block id="657b18a162285732ef5f46d679b05663" category="section-title">Capacidade de resposta e confiabilidade aprimoradas do Cloud Mediator</block>
-  <block id="d04e4287a3b42a9890f48390e8193dc1" category="paragraph">O serviço agora processa as atualizações de status de cluster com mais eficiência, reduzindo timeouts intermitentes e tempo de inatividade, além de fortalecer a mediação automática de failover não planejado para relacionamentos SMaS.</block>
-  <block id="8e185da70c606c7dcf3a854773e5a5fd" category="paragraph">NetApp Console 4.10.0 inclui correções de segurança e de erros.</block>
-  <block id="01b8b50c6af6a26d04385207f4b3c02e" category="section-title">13 de agosto de 2026</block>
-  <block id="61a1f03c40b54edaef7c992ca33db97f" category="doc">Excluir um coletor de dados</block>
-  <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">O Ransomware Resilience agora permite excluir um coletor de dados. O coletor de dados é criado automaticamente quando você ativa a detecção de atividade do usuário em cargas de trabalho; se o coletor de dados ficar obsoleto, agora você pode excluí-lo manualmente.</block>
-  <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">Para mais informações, consulte <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>.</block>
   <block id="46e6b9972b0e45a05d68f09619af067a" category="doc">Aviso de descontinuação para o Config Drift</block>
   <block id="d649bc1632422c59f70f207f44b9bd46" category="paragraph">Nesta versão, o Hyper-V introduz a seguinte melhoria:</block>
-  <block id="f24ced363c199d867c90ec2cb7734252" category="paragraph">*Restaurar backup de storage de objetos para um local alternativo*: Agora você pode restaurar VMs, arquivos e pastas do Hyper-V do storage de objetos para um local de armazenamento alternativo.</block>
   <block id="9836134eb11f1353834ea33101d25681" category="inline-link">Saiba mais sobre como proteger cargas de trabalho do Hyper-V com o NetApp Backup and Recovery</block>
   <block id="02b4e2b0b1ffdd4b0919e2e3430f47a2" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho do Hyper-V, consulte<block ref="ff9e4811de6c06d1343d50a5a2fb4ef4" category="inline-link-rx"></block>.</block>
-  <block id="d7a71b14f458c01c992ae6ab1d9419fb" category="list-text">*Trident Protect 26.08*: Esta versão inclui Trident Protect 26.08.</block>
-  <block id="a246bba4bc1bf6be5dbc5f0eef6fa916" category="list-text">*Repetições de backup*: Agora você pode habilitar as repetições de backup e configurar o número de tentativas de repetição e os intervalos entre as tentativas como configurações avançadas nas políticas de proteção do Kubernetes.</block>
-  <block id="af4a914ceb04d24e26988f7034d17a6a" category="list-text">*Sucesso parcial do backup*: Agora você pode configurar definições avançadas nas políticas de proteção do Kubernetes para continuar o backup mesmo quando recursos individuais falharem, permitindo que os trabalhos de backup sejam concluídos com sucesso parcial. Isso permite que você restaure os recursos de backup mesmo que alguns recursos falhem durante a operação de backup.</block>
-  <block id="51d0bd2fc2cb031a5bd97ec4521df850" category="list-text">*Backups consistentes com falhas e consistentes com VM*: o serviço Backup and Recovery para o NetApp Console agora permite configurar políticas de proteção que criam backups ou snapshots consistentes com falhas ou consistentes com VM. Você também pode personalizar como os congelamentos de VM são realizados durante a operação de proteção.</block>
-  <block id="f1aeeb7adfac5302d8957879854e8855" category="list-text">*Reconectar o cluster Kubernetes após a alteração do IP do agente do Console*: o serviço de Backup and Recovery para o NetApp Console agora permite que você reconecte um cluster ao seu agente do Console se o endereço IP do agente for alterado.</block>
-  <block id="137aac5acf6a89b5f2b8d01617331ec5" category="list-text">*Migrar cluster para o novo agente do Console*: O serviço NetApp Backup and Recovery para o NetApp Console agora permite que você migre um cluster para um novo agente do Console se o agente original falhar ou for excluído, garantindo proteção ininterrupta do aplicativo.</block>
   <block id="5bac8342d3d15811fd4569a62898855c" category="inline-link">Saiba mais sobre como proteger cargas de trabalho do Kubernetes com NetApp Backup and Recovery</block>
   <block id="9768ac88d7eeb5d6d2192e590de89bb4" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho do Kubernetes, consulte<block ref="1288e5e7d4fc4b4cb3f5e18b91f79147" category="inline-link-rx"></block>.</block>
   <block id="c85cd7cc7711f70f8bc51d35495063e2" category="section-title">Aprimoramento das cargas de trabalho do Oracle Database</block>
-  <block id="1cab61c7413f41fbca96243cd9ae0d06" category="paragraph">Nesta versão, as cargas de trabalho do Oracle Database introduzem as seguintes melhorias:</block>
-  <block id="26d43fe933dfc83c3004371ec611ca0f" category="list-text">*Restauração de Pluggable Database (PDB)*: Agora você pode restaurar pluggable databases (PDBs) e tablespaces de PDBs individuais, incluindo recuperação para um ponto no tempo.</block>
-  <block id="ba1d750ea9570e1e14902f85cdd21fbd" category="list-text">*Clonagem de banco de dados plugável (PDB)*: Agora você pode clonar um único PDB em um banco de dados de contêiner (CDB) de destino existente e, opcionalmente, excluir PDBs ao clonar um banco de dados de contêiner completo.</block>
   <block id="76665439cf119912213e2021a654bd03" category="inline-link">Saiba mais sobre como proteger as cargas de trabalho do Oracle Database com NetApp Backup and Recovery</block>
   <block id="883ef32320e466646eafa77fe6544695" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho do Oracle Database, consulte <block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>.</block>
-  <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">17 de agosto de 2026</block>
   <block id="8f24b7f6865330e0469a323257c15e3e" category="doc">Apresentando o Value Insights</block>
   <block id="6452c5c2797e19754a12693289884cfc" category="paragraph">O recurso Value Insights consolida informações gerais sobre saúde, economia, estabilidade e segurança dos sistemas ONTAP. Você pode usar essas informações para melhorar a saúde e o desempenho do sistema por meio de uma visão contínua e baseada em dados do seu ambiente ONTAP.</block>
   <block id="581e60c850c8a18ee458ccadb49ea628" category="admonition">O Value Insights está disponível apenas para sistemas ONTAP.</block>
@@ -374,11 +354,9 @@
   <block id="b81cecd98ea4b4f80df7b99bd8f7480e" category="paragraph">*Suporte ao Oracle Data Guard*: o NetApp Backup and Recovery agora oferece suporte ao uso de grupos de proteção para proteger bancos de dados primários e de espera que utilizam o Oracle Data Guard para alta disponibilidade.</block>
   <block id="5d3eb6919efa937c33d95e081b5ac2fc" category="section-title">19 de outubro de 2026</block>
   <block id="9c69ebaff6f598ab67f6d1508e967991" category="doc">Configuração aprimorada do ambiente de recuperação isolado</block>
-  <block id="4e23b3af211270de0f48ae9f92705a15" category="paragraph">O Ransomware Resilience agora oferece um fluxo de trabalho aprimorado para a configuração de um ambiente de recuperação isolado. O novo fluxo de trabalho esclarece e simplifica o processo de configuração de um ambiente de recuperação isolado para ambientes em nuvem ou locais.</block>
   <block id="6651425a5192383a0828ba04484a8d4e" category="section-title">O nível de serviço Flex do Google Cloud NetApp Volumes está geralmente disponível</block>
   <block id="70f3cf57a8612bb7c7ed814b764ffe7b" category="paragraph">O suporte ao nível de serviço Flex do Google Cloud NetApp Volumes no Ransomware Resilience agora está disponível para o público em geral (GA).</block>
   <block id="d3b51a13c8511879c5378f17bd12c127" category="section-title">20 de outubro de 2026</block>
-  <block id="dd9dd4a4b292f36f08cee46f9ba3ffa3" category="paragraph">O Ransomware Resilience aprimorou o fluxo de trabalho para habilitar o monitoramento da atividade do usuário. Anteriormente, o Ransomware Resilience testava a conexão do coletor de dados sempre que você habilitava uma estratégia de proteção contra ransomware com monitoramento da atividade do usuário em uma carga de trabalho. Com essa atualização, essa verificação agora é ignorada se houver um coletor de dados para a VM de armazenamento e ele estiver no estado "running", acelerando o fluxo de trabalho de proteção.</block>
   <block id="b79c3e2214dfd55d5e8b57ef1d6ae5bb" category="inline-link-macro">proteger cargas de trabalho</block>
   <block id="d2ebbd36608739936bb939c9de72a23a" category="paragraph">Nesta versão, o NetApp Backup and Recovery apresenta os seguintes aprimoramentos para workloads do Kubernetes:</block>
   <block id="cc7c8e0fe116e37f04e0ad62644d821b" category="list-text">*Trident Protect 26.10*: Esta versão inclui Trident Protect 26.10.</block>
@@ -470,7 +448,6 @@
   <block id="05cd97f29840d5823c5d103c71b26a1a" category="list-text">Controle quem pode investigar dados e tomar medidas atribuindo a função de administrador ou visualizador do AI Data Engine aos usuários da sua organização.</block>
   <block id="ba184f13e7bf496f6768b87c5d7acdb0" category="list-text"><block ref="ba184f13e7bf496f6768b87c5d7acdb0" category="inline-link-rx"></block></block>
   <block id="5a5a491a94e6d556e85e601b24f8d121" category="doc">Orientações para atualizar hotfixes do ONTAP em versões específicas do Cloud Volumes ONTAP</block>
-  <block id="b4891be2934b9e98fc19416ebfae6a18" category="paragraph">O ONTAP lançou os seguintes hotfixes compatíveis com as versões 9.14.1, 9.15.1, 9.16.1, 9.17.1, 9.18.1 e 9.19.1 do Cloud Volumes ONTAP:</block>
   <block id="e1436b576c97d4ee53df8bdb53230756" category="list-text">9.14.1P18HF1</block>
   <block id="5050c1a82a49a95d546f16829b500401" category="list-text">9.15.1P20HF1</block>
   <block id="124b86ef30adb0fa328f15ad507bbe98" category="list-text">9.16.1P16HF1</block>
@@ -604,4 +581,9 @@
   <block id="e50148793a31ae443693925cfda40d91" category="paragraph">A calculadora compara todos os tipos de instância e seleciona automaticamente a opção de menor custo. Uma nova seção de comparação exibe as configurações de host do Exchange Virtual Server lado a lado, facilitando a escolha da melhor configuração para suas necessidades.</block>
   <block id="0665cdd8950328e06e0db9b1e16938d3" category="inline-link-macro">Calcule a economia estimada para Exchange Virtual Server</block>
   <block id="536315c4cd9e40b477f48fcc8b1863a7" category="paragraph"><block ref="536315c4cd9e40b477f48fcc8b1863a7" category="inline-link-macro-rx"></block></block>
+  <block id="6300af874aa7556a00ff5e3e6de2f50c" category="paragraph">A Ransomware Resilience agora oferece um fluxo de trabalho aprimorado de configuração de ambiente de recuperação isolado. O novo fluxo de trabalho esclarece e simplifica o processo de configuração de um ambiente de recuperação isolado para ambientes em nuvem ou locais.</block>
+  <block id="0f2b18916feaea7b0363a50fa6462893" category="paragraph">O Ransomware Resilience aprimorou o fluxo de trabalho para habilitar o monitoramento da atividade do usuário. Anteriormente, o Ransomware Resilience testava a conexão do coletor de dados sempre que você habilitava uma estratégia de proteção contra ransomware com monitoramento da atividade do usuário em uma carga de trabalho. Com essa atualização, o Ransomware Resilience agora ignora essa verificação se um coletor de dados existir para a VM de armazenamento e estiver no estado "em execução", o que acelera o fluxo de trabalho de proteção.</block>
+  <block id="24872a3badce2466861f424f45ddc1df" category="paragraph">O ONTAP lançou as seguintes correções compatíveis com as versões 9.12.1, 9.13.1, 9.14.1, 9.15.1, 9.16.1, 9.17.1, 9.18.1 e 9.19.1 do Cloud Volumes ONTAP:</block>
+  <block id="78008c5260700db5baf4534819697473" category="list-text">9.12.1P20HF1</block>
+  <block id="0a353d36bdabea4b41e087d5e43942fb" category="list-text">9.13.1P21HF1</block>
 </blocks>
