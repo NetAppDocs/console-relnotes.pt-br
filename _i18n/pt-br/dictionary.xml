@@ -590,7 +590,6 @@
   <block id="85aac6cb5b462503919fc861b656a1fa" category="inline-link-macro">Monitorar trabalhos no Disaster Recovery</block>
   <block id="762e29bb52300aa24d22073f79b3d226" category="paragraph">Para obter mais informações, consulte <block ref="23d16b59790b4ad5fc943f7449cf33c5" category="inline-link-macro-rx"></block>.</block>
   <block id="c4d3491ad5baf6cb6ea2a67196542971" category="doc">Gerenciamento de extensões de arquivo bloqueadas</block>
-  <block id="c8e63e51c8e0acaacf08d2ec2d4a9f72" category="paragraph">O Ransomware Resilience agora oferece a capacidade de personalizar a lista de extensões de arquivo permitidas ou bloqueadas em uma carga de trabalho quando você ativou a opção de proteção *Bloquear extensões de arquivo suspeitas*. Com essa melhoria, você pode configurar a carga de trabalho para permitir apenas tipos de arquivo específicos na máquina virtual de storage (SVM) ou para bloquear extensões de arquivo específicas. Se você migrar uma carga de trabalho existente usando o FPolicy para bloquear extensões de arquivo suspeitas com o Ransomware Resilience, o sistema usará, por padrão, uma lista de extensões mais refinada, embora você possa personalizá-la. Essa melhoria oferece um controle mais granular sobre a opção de extensão de arquivo e também permite criar listas diferentes para diferentes SVMs.</block>
   <block id="714e7021c144cf0abe82a4c6f2c4f93e" category="inline-link-macro">Gerencie extensões de arquivo bloqueadas no Ransomware Resilience</block>
   <block id="746947620a1677afde977abf37019b8c" category="paragraph">Para obter mais informações, consulte <block ref="c1197af6ca574421271b30600de07a8f" category="inline-link-macro-rx"></block>.</block>
   <block id="c6afc2a7c10cd55aed74c7ec88063113" category="doc">Suporte ao MetroCluster</block>
@@ -600,4 +599,11 @@
   <block id="adea9837f77c1d23d23d90ecaab16a70" category="paragraph">Para obter mais informações, consulte <block ref="e384f8b7351cc9f72a02208e7b2a1112" category="inline-link-macro-rx"></block>.</block>
   <block id="444d7501b3cc1feab5560e903adad61c" category="section-title">16 de novembro de 2026</block>
   <block id="e370f8f4d5db9e4f93257ac02adddec3" category="section-title">09 de novembro de 2026</block>
+  <block id="9bdb3ee516d1e515bfeeccf1df40576e" category="doc">Agente do Console 4.13.0</block>
+  <block id="d3b38c9d33046f2e3c185918b58a83ca" category="paragraph">A versão 4.13.0 suporta tanto o modo padrão quanto o modo restrito.</block>
+  <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">Esta versão do agente do Console inclui melhorias de segurança e correções de bugs, bem como o seguinte novo recurso.</block>
+  <block id="6ca1b90cd272b2a7ade71c2fc662e45c" category="paragraph-title">Crie a função de implantação da AWS automaticamente ao implantar um agente do Console</block>
+  <block id="d6591183e410cea7db23b6baa5d1dea3" category="inline-link-macro">Aprenda como implantar um agente do Console na AWS a partir do Console</block>
+  <block id="71567bfcfb6d698d6ccd52f047c0bbf4" category="paragraph">Você não precisa mais criar a função do IAM para implantar um agente do Console na AWS antes de começar. O NetApp Console pode criar a função para você. <block ref="64e2803082978c21df13de1f40aff9c6" category="inline-link-macro-rx"></block></block>
+  <block id="d8a7fd7644a3770509948debea790466" category="paragraph">O Ransomware Resilience agora oferece a capacidade de personalizar a lista de extensões de arquivo permitidas ou bloqueadas em uma carga de trabalho quando você ativou a opção de proteção *Bloquear extensões de arquivo suspeitas*. Com essa melhoria, você pode configurar a carga de trabalho para permitir apenas tipos de arquivo específicos na máquina virtual de storage (SVM) ou para bloquear extensões de arquivo específicas. Essa melhoria oferece um controle mais granular sobre a opção de extensão de arquivo e também permite criar listas diferentes para diferentes SVMs.</block>
 </blocks>
