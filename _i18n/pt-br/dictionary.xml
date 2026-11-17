@@ -227,7 +227,6 @@
   <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">Novidades na página de NetApp Backup and Recovery</block>
   <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell">Vá para o<block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>.</block>
   <block id="91d5470ff0de1d64ddb0c8c3bef0b246" category="cell">NetApp Data Classification</block>
-  <block id="669d8c7c23d7c1df9de525a93369bb8f" category="cell">1.546.0 (10 de agosto de 2026)</block>
   <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">Novidades na página de Classificação da NetApp</block>
   <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">Vá para o<block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>.</block>
   <block id="1e464951e7ffdbf5ba8f20ee5038f44f" category="section-title">17 de setembro de 2026</block>
@@ -601,9 +600,15 @@
   <block id="e370f8f4d5db9e4f93257ac02adddec3" category="section-title">09 de novembro de 2026</block>
   <block id="9bdb3ee516d1e515bfeeccf1df40576e" category="doc">Agente do Console 4.13.0</block>
   <block id="d3b38c9d33046f2e3c185918b58a83ca" category="paragraph">A versão 4.13.0 suporta tanto o modo padrão quanto o modo restrito.</block>
-  <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">Esta versão do agente do Console inclui melhorias de segurança e correções de bugs, bem como o seguinte novo recurso.</block>
   <block id="6ca1b90cd272b2a7ade71c2fc662e45c" category="paragraph-title">Crie a função de implantação da AWS automaticamente ao implantar um agente do Console</block>
   <block id="d6591183e410cea7db23b6baa5d1dea3" category="inline-link-macro">Aprenda como implantar um agente do Console na AWS a partir do Console</block>
   <block id="71567bfcfb6d698d6ccd52f047c0bbf4" category="paragraph">Você não precisa mais criar a função do IAM para implantar um agente do Console na AWS antes de começar. O NetApp Console pode criar a função para você. <block ref="64e2803082978c21df13de1f40aff9c6" category="inline-link-macro-rx"></block></block>
   <block id="d8a7fd7644a3770509948debea790466" category="paragraph">O Ransomware Resilience agora oferece a capacidade de personalizar a lista de extensões de arquivo permitidas ou bloqueadas em uma carga de trabalho quando você ativou a opção de proteção *Bloquear extensões de arquivo suspeitas*. Com essa melhoria, você pode configurar a carga de trabalho para permitir apenas tipos de arquivo específicos na máquina virtual de storage (SVM) ou para bloquear extensões de arquivo específicas. Essa melhoria oferece um controle mais granular sobre a opção de extensão de arquivo e também permite criar listas diferentes para diferentes SVMs.</block>
+  <block id="daa04540ede89ebe21aa75e4bb91c101" category="cell">1.56.0 (10 de agosto de 2026)</block>
+  <block id="d68cd763bb6443bb6e7c8aa2306f8ef4" category="paragraph">Esta versão do agente do Console inclui melhorias de segurança e correções de bugs, além do seguinte novo recurso. Ao atualizar um agente do Console implantado pelo vCenter para a versão 4.13.0 usando uma ISO, certifique-se de reiniciar a máquina virtual após a conclusão da atualização. A VM pode reiniciar automaticamente.</block>
+  <block id="fb37b2b6fa74940a30d42aec5c20c8f5" category="paragraph">Esta versão inclui melhorias de segurança e correções de erros bem como o seguinte novo recurso.</block>
+  <block id="d2033ec1ec99f494b181d63a27d56e2d" category="section-title">Atribua a função de colaborador do Cloud Volumes ONTAP</block>
+  <block id="a849f909985995e89c42154f270a1245" category="inline-link-macro">Saiba mais sobre o controle de acesso baseado em funções para Cloud Volumes ONTAP</block>
+  <block id="cd27e9569393bf08fe35ccdf2583e61b" category="paragraph">Agora você pode atribuir a função de colaborador do Cloud Volumes ONTAP para dar aos membros amplo acesso ao gerenciamento de sistemas Cloud Volumes ONTAP sem permitir que eles excluam sistemas, volumes, agregados ou relações de replicação. <block ref="8c5db5921f383526df21d84d3b1bfd83" category="inline-link-macro-rx"></block>.</block>
+  <block id="3cc38715797be469f39edd81c803bf02" category="section-title">17 de novembro de 2026</block>
 </blocks>
