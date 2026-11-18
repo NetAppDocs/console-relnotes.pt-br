@@ -640,4 +640,9 @@
   <block id="90354e46cc101991e55370e682628f58" category="inline-link">Implante o Cloud Volumes ONTAP usando a listagem independente no AWS Marketplace</block>
   <block id="464804aa8527c7a5675dd4c8d2b5f2b5" category="paragraph"><block ref="70563190697b86d4b7fef9663334a2c7" category="inline-link-rx"></block> <block ref="2d3a44ea7e8ca99b971ec5f419723d79" category="inline-link-rx"></block></block>
   <block id="bc2dc85706f0ec1cefd21d3f849eb1e9" category="section-title">18 de novembro de 2026</block>
+  <block id="78ba94be34b62da6b3c55ab6428c64de" category="paragraph">Nesta versão, o NetApp Backup and Recovery apresenta o seguinte aprimoramento para cargas de trabalho do Hyper-V:</block>
+  <block id="5a17a39de31b7b5832a689a22a0960d3" category="paragraph">*Melhorias no suporte ao NetApp MetroCluster*: o NetApp Backup and Recovery agora oferece suporte à proteção de hosts Hyper-V em uma configuração de NetApp MetroCluster antes e depois de operações de switchover ou switchback.</block>
+  <block id="3df1770bd78ab7f279534a4bc01e8279" category="inline-link">Descubra e gerencie as cargas de trabalho do Hyper-V</block>
+  <block id="3cb8f9712223b09ad73c450e0af0ea64" category="paragraph">Para obter mais informações sobre como proteger hosts Hyper-V em uma configuração NetApp MetroCluster, consulte<block ref="665a91254fa4402bbc204875b0e6bd92" category="inline-link-rx"></block>.</block>
+  <block id="844ae54d758df29e7d829704e13ec279" category="paragraph">Para obter detalhes sobre como proteger cargas de trabalho do Hyper-V, consulte<block ref="ae9a446e0ed2e2ae49be41b424784f6c" category="inline-link-rx"></block>.</block>
 </blocks>
