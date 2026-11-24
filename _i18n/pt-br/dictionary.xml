@@ -642,4 +642,12 @@
   <block id="e32f3db58cd6a52e42519a253337192b" category="list-text">*Mais detalhes ao selecionar um volume de origem*: a lista de volumes agora exibe o tipo de volume, o estilo do volume, o tipo de SnapLock, a proteção existente e a integridade da proteção. A coluna Proteção existente está mais ampla, permitindo visualizar todos os indicadores de proteção (snapshot, replicação e backup).</block>
   <block id="da6b444d508815a1ee28ad87ca1663f9" category="list-text">*Suporte para proteger volumes hospedados em regiões do Azure na China*: agora você pode fazer backup de volumes ONTAP no Armazenamento de Blobs do Azure no Azure China (21Vianet). Esse suporte se aplica tanto ao Cloud Volumes ONTAP quanto aos sistemas ONTAP locais. As regiões do Azure Comercial e do Azure Governamental permanecem inalteradas.</block>
   <block id="915ff3f4971afffdc671ac4bb1e52630" category="section-title">23 de novembro de 2026</block>
+  <block id="5a910ff91567ebb4e0ae85635837c5a8" category="doc">Suporte para as regiões Denmark East e India South Central no Azure</block>
+  <block id="b9433802e6e744b5cc84b87da127cf0e" category="paragraph">Agora você pode implantar o Cloud Volumes ONTAP 9.12.1 GA e versões posteriores nas regiões Denmark East (denmarkeast) e India South Central (indiasouthcentral) no Azure. Os seguintes tipos de implantação são suportados:</block>
+  <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">Nó único</block>
+  <block id="f06295aec82b8045d499f988d711565d" category="list-text">HA em uma única zona de disponibilidade usando armazenamento com redundância local (LRS)</block>
+  <block id="893f7f9c4326ccc9db9efcafead22429" category="list-text">HA em várias zonas de disponibilidade usando armazenamento com redundância de zona (ZRS), somente para India South Central</block>
+  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Mapa de Regiões Globais sob Azure</block>
+  <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">Para obter uma lista de todas as regiões suportadas, consulte o <block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>.</block>
+  <block id="1d13d5e4cee76a1ac900dd9c56640ddb" category="section-title">24 de novembro de 2026</block>
 </blocks>
