@@ -650,4 +650,60 @@
   <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">Para obter uma lista de todas as regiões suportadas, consulte o <block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>.</block>
   <block id="1d13d5e4cee76a1ac900dd9c56640ddb" category="section-title">24 de novembro de 2026</block>
   <block id="d708ba996885d5ea1c1b9727bc557415" category="paragraph"><block ref="d708ba996885d5ea1c1b9727bc557415" category="inline-link-macro-rx"></block></block>
+  <block id="e84199af3f0a22cf508c7275319c9d81" category="section-title">Associe vários sistemas de arquivos do FSx for ONTAP a um link</block>
+  <block id="9618a351b6032a7e1eee8e331d0dc5d5" category="paragraph">Agora você pode associar vários sistemas de arquivos do FSx for ONTAP a um link novo ou existente em um único fluxo de trabalho, em vez de repetir a associação para cada sistema de arquivos. Você pode autenticar o link inserindo as credenciais do ONTAP para cada sistema de arquivos ou aplicando as mesmas credenciais a vários sistemas de arquivos.</block>
+  <block id="6015cd2e9e5bc5b037ad456163cc26cb" category="inline-link-macro">Saiba mais sobre links</block>
+  <block id="e726e73c171e193dfab137a6f5ae9729" category="paragraph"><block ref="e726e73c171e193dfab137a6f5ae9729" category="inline-link-macro-rx"></block></block>
+  <block id="3ccacb3236a6f36f11b2ec0009544b17" category="section-title">Novas recomendações para serviços de nomes de máquinas virtuais de storage</block>
+  <block id="fbdd6100f23f5a660b5abe28fcb2b09f" category="paragraph">O Workload Factory agora inclui as seguintes recomendações para serviços de nomes de VM de storage na análise well-architected:</block>
+  <block id="d64be06adb6d10ab66b9f6b94ca50fcf" category="paragraph">*Redundância de servidores DNS e LDAP*: recomenda-se pelo menos dois servidores DNS nas VMs de armazenamento que usam DNS e pelo menos dois servidores LDAP nas VMs de armazenamento que usam LDAP. A falha de um único servidor pode bloquear a resolução de nomes, a autenticação de domínio ou o acesso NFS.</block>
+  <block id="7f937176bc96624307a21211c6e363b9" category="section-title">Aprimoramentos do explorador de volumes</block>
+  <block id="82f9746d20f9c112b999254d96f68c35" category="section-title">Novas colunas da tabela do explorador de volumes</block>
+  <block id="429fbe2106af89a7f2c8096eed7d6005" category="paragraph">A tabela do Volumes explorer inclui as seguintes novas colunas:</block>
+  <block id="4bfa3a7e5aa20511dfdbd772b20d7cad" category="list-text">*Tamanho lógico utilizado*: mostra o espaço que os clientes veem como utilizado, antes das economias de eficiência de storage. Esta coluna aparece por padrão.</block>
+  <block id="1ebe3707797c8e132ba981865e779a06" category="list-text">*caminho de ligação*: mostra o caminho de ligação de um volume.</block>
+  <block id="2313bb4965c4cdefc333eae5dc9f873b" category="section-title">Gerenciar pontos de montagem</block>
+  <block id="c8974a5aa184bb4bdb929cece2bd9485" category="paragraph">Agora você pode gerenciar onde os volumes são montados em um namespace de VM de storage diretamente do Volumes explorer. Selecione *Gerenciar pontos de montagem* no menu *Avançado* de um volume para ver o namespace da VM de storage como uma árvore e, em seguida, montar, desmontar ou alterar o caminho de junção do volume. O Workload Factory verifica as dependências antes de desmontar um volume. Você não pode desmontar um volume que tenha outros volumes montados sob ele, e recebe um aviso quando o volume tem compartilhamentos SMB.</block>
+  <block id="fc67722d0e110f79ff44ed37368e589c" category="section-title">Caminhos de ligação aninhados para novos volumes</block>
+  <block id="69fc90af1c9281568bdf45e9799d57d6" category="paragraph">Ao criar um volume, agora você pode inserir um caminho de ligação aninhado, como<block ref="6ec7d50bc22104cd5628a14f3ea325a4" prefix=" " category="inline-code"></block>, na seção *Configuração avançada*.</block>
+  <block id="7fbf47e0030156e11689a191784df599" category="inline-link-macro">Aprenda a criar um volume</block>
+  <block id="456a99e04a7966867f92671f26d5cae0" category="paragraph"><block ref="456a99e04a7966867f92671f26d5cae0" category="inline-link-macro-rx"></block></block>
+  <block id="5faee5c8e33b5f0b156646e83f976d83" category="section-title">Personalize uma configuração bem arquitetada como uma regra personalizada</block>
+  <block id="995825c99ed4c299f1660557f6451c42" category="paragraph">Você pode iniciar uma regra personalizada a partir de uma configuração bem arquitetada para aplicar seu próprio limite ou escopo, enquanto a prática recomendada original permanece em vigor. O Workload Factory abre as Custom rules com um prompt editável baseado nessa configuração. A regra começa como um rascunho, e sua descrição informa em qual configuração ela se baseia.</block>
+  <block id="257f9926a8593f0cf9caa117626fcd6f" category="inline-link-macro">Aprenda como personalizar uma configuração bem arquitetada</block>
+  <block id="0a6fec7ae9e3a960c14178276b4396d1" category="paragraph"><block ref="0a6fec7ae9e3a960c14178276b4396d1" category="inline-link-macro-rx"></block></block>
+  <block id="4fa9c0bce2f1b45a04656d29fbfbb564" category="section-title">Receba notificações para execuções agendadas de regras personalizadas</block>
+  <block id="2235dc711ef4c2f3e5167506ffcef41c" category="paragraph">Ative as notificações para uma regra personalizada agendada para obter resultados sem precisar fazer login no Workload Factory. Você pode receber notificações após cada execução agendada ou somente quando uma execução falhar ou for parcialmente bem-sucedida. As notificações são enviadas pelos canais que você já configurou. Testes manuais não enviam notificações.</block>
+  <block id="a57798fee8a8f5fabef775d76f9c1531" category="inline-link-macro">Aprenda como receber notificações para regras personalizadas agendadas</block>
+  <block id="1aefdba9453f7e3a411594f57b9b7cef" category="paragraph"><block ref="1aefdba9453f7e3a411594f57b9b7cef" category="inline-link-macro-rx"></block></block>
+  <block id="1d5dc0231f3cc52e6923384e6e4e293e" category="paragraph">Essas melhorias abrangem painéis personalizados e outras tarefas administrativas no Workload Factory.</block>
+  <block id="81a9f96e5c919c4cddd5e8baf33bc31f" category="section-title">Edite o título e a descrição personalizados do painel</block>
+  <block id="e2c2437b93fb3b379ae799b9c5ec87b7" category="paragraph">Você pode editar o título e a descrição de um painel personalizado no catálogo de painéis ou na visualização do painel para mantê-los precisos conforme o painel mudar. Ambos os campos são obrigatórios, e dois painéis podem ter o mesmo título.</block>
+  <block id="d030448981400ac2939566a8b11f10ec" category="inline-link-macro">Aprenda a gerenciar painéis personalizados</block>
+  <block id="db4eac5f22ce7e5cbfc31bd6ca4ed7e8" category="paragraph"><block ref="db4eac5f22ce7e5cbfc31bd6ca4ed7e8" category="inline-link-macro-rx"></block></block>
+  <block id="dda69a53945d5e78eb0be6205ad77948" category="paragraph">Essas melhorias abrangem a análise automática por IA para volumes monitorados, explicações mais claras sobre as causas raiz na análise por IA e por quanto tempo os resultados da análise de latência são mantidos.</block>
+  <block id="d27242d4c09d8c87514da12ce13686cf" category="section-title">Monitore os volumes para análise automática por IA</block>
+  <block id="68eb2bcf977ad1777848c2763968bf76" category="paragraph">Você pode marcar volumes para análise automática por IA quando um problema de latência for detectado. Os resultados da análise são salvos por 72 horas e incluídos em e-mails de notificação, para que você possa verificar a causa sem precisar executar a análise manualmente.</block>
+  <block id="1e2beb43d53ce6e7e78ce598ad680f34" category="inline-link-macro">Aprenda a analisar problemas de latência</block>
+  <block id="7ab17ff19aa466bc8531cc7568dea5a6" category="paragraph"><block ref="13291cb64cb4778475d22fb041bce2e0" category="inline-link-macro-rx"></block>.</block>
+  <block id="7c957c99db335692d391818317e98469" category="section-title">Explicações mais claras sobre as causas raiz na análise de IA</block>
+  <block id="5d5ae6579cd363d7050ca9ed9dc36998" category="paragraph">Use a análise de IA para obter uma explicação mais clara do que pode ter causado um evento de latência. A análise verifica problemas relacionados ao FlexCache, pools de capacidade e sistemas de arquivos, bem como limites de throughput e IOPS, alto uso de SSD, saturação de gravação e outros volumes que usam os mesmos recursos.</block>
+  <block id="d8b3a98e16ebd6e698fb6c48570112ff" category="section-title">Resultados da análise de latência mantidos por 72 horas</block>
+  <block id="d880e6876de7da75b637df83143f9c3e" category="paragraph">Os resultados da análise de latência agora estão disponíveis na interface por 72 horas, em vez de 24 horas, permitindo que você revise uma análise anterior de um volume.</block>
+  <block id="8c93aeeae4ab46e42ef19364a7dbaa6c" category="paragraph">Essas melhorias abrangem a exclusão de pool de storage, a abertura do inventário do pool de storage a partir de um sistema, a adição de um sistema entre regiões e o gerenciamento de um sistema a partir do painel direito.</block>
+  <block id="69e1bc44aa452878b78f550b1157f17f" category="section-title">Excluir um pool de storage</block>
+  <block id="8f7df204e470ff814e16ada222cfd4fa" category="paragraph">Você pode excluir um pool de storage do Google Cloud NetApp Volumes que não tenha volumes e esteja com o status Ready ou Error. A exclusão não pode ser desfeita. Se a exclusão falhar, o pool permanecerá no inventário e o erro estará no Tracker.</block>
+  <block id="cf1fecfd25a257b4ef20c0ed95f07e3c" category="inline-link-macro">Aprenda como excluir um pool de storage</block>
+  <block id="9398f8b40217b965231fdcd4332786c7" category="paragraph"><block ref="9398f8b40217b965231fdcd4332786c7" category="inline-link-macro-rx"></block></block>
+  <block id="f414c370e39e4064ccb2c0276e677ef1" category="section-title">Abra o inventário do pool de storage a partir de um sistema</block>
+  <block id="fb042f4fef17c0635a4ffba674613c27" category="paragraph">*Inserir sistema* em um sistema Google Cloud NetApp Volumes abre o inventário do pool de storage no Workload Factory, com o projeto, as credenciais e a região desse sistema já selecionados. Um sistema que abrange todas as regiões é aberto com todas as regiões selecionadas.</block>
+  <block id="4462344106e22700fb8a40d1f2d42478" category="inline-link-macro">Aprenda como visualizar pools de storage</block>
+  <block id="87d8c8b6b1b6d61f129dd9175c8964a9" category="paragraph"><block ref="87d8c8b6b1b6d61f129dd9175c8964a9" category="inline-link-macro-rx"></block></block>
+  <block id="9dc46a144f1a0e6482d6121e2e30f08d" category="section-title">Adicionar um sistema em todas as regiões</block>
+  <block id="faa635f68227860e333316c339d2a5c6" category="paragraph">Ao adicionar um sistema do Google Cloud NetApp Volumes, a região é opcional e, por padrão, inclui todas as regiões. O Workload Factory descobre pools de storage em todas as regiões para as credenciais que você seleciona. Uma região selecionada define o que o sistema mostra na tela e o que o Compliance e o DRaaS usam. Isso não limita a descoberta.</block>
+  <block id="0dd4224dfebbf9a0e09ca374f38a0ee8" category="inline-link-macro">Aprenda como adicionar um sistema</block>
+  <block id="8192d65972817c5c908ef9d3d21cee6f" category="paragraph"><block ref="8192d65972817c5c908ef9d3d21cee6f" category="inline-link-macro-rx"></block></block>
+  <block id="31e995fabcf8533b601702a3403d2a1c" category="section-title">Gerencie um sistema no painel à direita</block>
+  <block id="ae836161166cd65fe60409dc6cb172a7" category="paragraph">O painel direito de um sistema Google Cloud NetApp Volumes permite que você visualize seus volumes e acesse o sistema a partir do NetApp Console.</block>
+  <block id="5fd02484bbe1124b48ec6e3c36e522cb" category="section-title">26 de novembro de 2026</block>
 </blocks>
